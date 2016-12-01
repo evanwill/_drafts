@@ -18,7 +18,7 @@ I got it to work using these steps on Ubuntu:
     - Under Wi-Fi Security tab select/add these options:
       - Security: WPA & WPA2 Enterprise
       - Authentication: Protected EAP (PEAP)
-      - CA Certificate: AddTrustExternalCARoot.cer (click the directory icon, navigate to the location of the certificates you unzipped, and select AddTrustExternalCARoot.cer. Adding the other is not necessary)
+      - CA Certificate: Root-USERTrust.crt (click the directory icon, navigate to the location of the certificates you unzipped, and select Root-USERTrust.crt. Adding the other is not necessary)
       - PEAP version: Automatic
       - Inner authentication: MSCHAPv2
       - Username: [your vandal web id]
