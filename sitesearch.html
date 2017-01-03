@@ -1,0 +1,16 @@
+<form id="siteSearch">
+                    <label for="search"></label>
+                    <input id="search" name="search" type="text" placeholder="Google Search">
+                    <i class="fa fa-search"></i>
+                </form>
+                <script>
+                $(function(){
+                    $('#siteSearch').submit(function(e) {
+                        e.preventDefault();
+                        keyword = $('#search').val();
+                        url = 'https://www.google.com/search?q=site%3evanwill.github.io+' + keyword;
+                        location.href = url;
+                    })
+                })
+                </script>
+                
