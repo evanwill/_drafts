@@ -1,0 +1,25 @@
+# Blog settings
+permalink: /_drafts/:title
+
+# My variables
+title: _drafts
+description: digital rough frame carpentry, a blog of snippets and notes to get things started.
+google_verification: null
+
+
+# File management
+exclude: ["README.md"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
