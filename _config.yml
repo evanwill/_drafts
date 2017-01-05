@@ -10,6 +10,13 @@ google_verification: null
 # File management
 exclude: ["README.md"]
 
+# Collections
+#collections: 
+#  - notes
+
+collections:
+  notes:
+    output: true
 
 # Sass
 sass:
