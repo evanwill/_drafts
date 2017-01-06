@@ -1,33 +1,40 @@
-# Handy Raspberry Pi Commands
+---
+title: Handy Raspberry Pi Commands
+layout: post
+tags: rpi, linux
+date: 2016-01-05
+---
+
+cheat sheet of tips mainly for headless RPI 
 
 ## First time set up
 
 default password for “pi” is “raspberry”
 
 First time set up:
-```sudo raspi-config```
+`sudo raspi-config`
 
 update everything:
-```sudo apt-get update && sudo apt-get upgrade```
+`sudo apt-get update && sudo apt-get upgrade`
 
 ## General
 
 start GUI:
-```startx ```
+`startx `
 
 shut down:
-```sudo shutdown -h now```
+`sudo shutdown -h now`
 
 ## SSH
 
 ssh into the pi:
-```ssh pi@ip.address```
+`ssh pi@ip.address`
 
 copy files to pi:
-```scp filename pi@ip.address:~/destination/foldername/```
+`scp filename pi@ip.address:~/destination/foldername/`
 
 copy files From pi:
-```scp pi@ip.address:~/source/file /destination/directory/```
+`scp pi@ip.address:~/source/file /destination/directory/`
 
 ## VNC - desktop sharing
 
@@ -35,23 +42,23 @@ install VNC:
 https://www.raspberrypi.org/documentation/remote-access/vnc/
 
 start a vnc server:
-```vncserver :0 -geometry 800x600 -depth 16```
+`vncserver :0 -geometry 800x600 -depth 16`
 
 stop:
-```vncserver -kill :0```
+`vncserver -kill :0`
 
 ## Networking
 
 check network config and get ip address:
-```ifconfig ```
+`ifconfig `
 
 edit config:
-```sudo nano /etc/network/interfaces```
+`sudo nano /etc/network/interfaces`
 
 ## Startup
 
 edit startup:
-```sudo nano /etc/rc.local```
+`sudo nano /etc/rc.local`
 
 ## Mount USB drive
 
@@ -72,4 +79,3 @@ See eLinux RPiconfig for full info [about config.txt](http://elinux.org/RPiconfi
 3. Open `/boot/config.txt` in an editor.
 4. Uncomment the line `hdmi_safe=1`
 5. save
-

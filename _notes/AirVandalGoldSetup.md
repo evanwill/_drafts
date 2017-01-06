@@ -1,9 +1,9 @@
 ---
 title: Connect to AirVandalGold wifi on Linux
 layout: post
+tags: linux, wifi, uidaho 
+date: 2016-12-01
 ---
-
-# Connect to AirVandalGold wifi on Linux
 
 There is no automatic set up utility or documentation for University of Idaho's AirVandalGold wifi network for Linux users. 
 

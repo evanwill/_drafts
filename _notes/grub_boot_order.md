@@ -1,6 +1,11 @@
-How to update Grub boot order on multi boot system
-==================================================
+---
+title: Update Grub boot order on multi boot system
+layout: post
+tags: Linux
+date: 2016-10-05
+---
 
+If you dual boot Windows and Linux, you will probably want to change the default boot order at some point. 
 When logged into Ubuntu, open terminal:
 
 `sudo nano /etc/default/grub`

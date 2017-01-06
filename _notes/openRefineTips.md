@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 Handy OpenRefine Functions to Remember
 ======================================
 

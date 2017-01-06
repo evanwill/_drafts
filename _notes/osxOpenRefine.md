@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 # Install OpenRefine on Mac
 
 Mac seems to have a few issues when trying to install OpenRefine.

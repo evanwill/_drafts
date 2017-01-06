@@ -4,15 +4,12 @@ permalink: /_drafts/:title
 # My variables
 title: _drafts
 description: digital rough frame carpentry, a blog of snippets and notes to get things started.
+keywords: digital humanities, tutorial, snippets, code, linux
 google_verification: null
 
 
 # File management
 exclude: ["README.md"]
-
-# Collections
-#collections: 
-#  - notes
 
 collections:
   notes:

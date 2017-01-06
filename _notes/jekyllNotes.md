@@ -1,27 +1,32 @@
-# Using Jekyll on Windows 
+
+title: Using Jekyll on Windows
+layout: post
+tags: jekyll, windows, staticgen
+date: 2016-10-03
+
 
 ## Static Gen background links:
 
-- [StaticGen directory](https://www.staticgen.com/about)
+- lists: [StaticGen directory](https://www.staticgen.com/about) or [Static Site Generators](https://staticsitegenerators.net/)
 - "Why Static Website Generators Are The Next Big Thing" [Smashing magazine](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/)
 - [Jekyll documentation, intro](https://jekyllrb.com/docs/home/)
 
 ## Install on Windows 7 
 
-Jekyll does not official support Windows, however it is cross platform (they just don't officially write windows documentation or check for bugs). 
+Jekyll does not officially support Windows, however it is cross platform (they just don't officially write windows documentation or check for bugs). 
 There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it is out of date. Not everything mentioned is required any more.
 
-Here are the steps I took to get it running on Windows 7:
+Here are the steps I took to get it running on Windows 7 or 10:
 
 1. Get Ruby installed:
-  - Download [RubyInstaller](http://rubyinstaller.org/downloads/), a installer package for windows. I used the 32 bit version, since there are potential issues with the 64bit version.
+  - Download [RubyInstaller](http://rubyinstaller.org/downloads/), a installer package for windows.
   - Run RubyInstaller, all the defaults should be fine.
-  - Download the Ruby Development Kit from the [RubyInstaller](http://rubyinstaller.org/downloads/) page. If you installed Ruby 32 bit, get DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe. Documentation is on [GitHub](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
-  - Click on the Dev Kit to unzip (its a self extracting package), put it in a permanent location, such as C:\rubyDevKit\
-  - Open a command prompt and `cd` to the Dev Kit directory, then type the commands `ruby dk.rb init` and `ruby dk.rb install` to connect to your Ruby instance.
+  - Download the Ruby Development Kit from the [RubyInstaller](http://rubyinstaller.org/downloads/) page. If you installed Ruby 32 bit, get `DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe`. Documentation is on [GitHub](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
+  - Click on the Dev Kit to unzip (its a self extracting package), put it in a permanent location, such as `C:\rubyDevKit\`
+  - Open a command prompt in the Dev Kit directory, then type the command `ruby dk.rb init`, then `ruby dk.rb install` to connect to your Ruby instance.
 
 2. Install Jekyll:
-  - Open a command prompt, then type `gem install jekyll` (gem is similar to Python's pip)
+  - Open a command prompt, then type `gem install jekyll` (gem is Ruby's installer, similar to Python's pip)
   - Done!
 
 3. Use Jekyll:
@@ -53,5 +58,3 @@ Here are the steps I took to get it running on Windows 7:
 
 - http://themes.jekyllrc.org/
 - http://jekyllthemes.org/
-
-

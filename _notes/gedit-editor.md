@@ -1,8 +1,14 @@
-# Gedit tips
+---
+title: Gedit tips
+layout: post
+tags: linux, editor, text
+date: 2016-12-29
+---
 
 [Gedit](https://wiki.gnome.org/Apps/Gedit) is the default text editor for Gnome and Ubuntu (where its called "Text Editor"). 
-When you first use it, it seems a very basic and not very interesting or useful editor, basically like classic Notepad. 
+Opened with default options it seems a very basic and not very interesting or useful editor, basically like classic Notepad. 
 However, dig a little deeper, and its a great and powerful text editor. 
+
 Here is some tips to set it up with everything you expect from a good code editor:
 
 1. Default look: open `Edit` > `Preferences`. 
@@ -15,4 +21,3 @@ Here is some tips to set it up with everything you expect from a good code edito
 4. More plugins: Gedit ships with a series of [standard plugins](https://wiki.gnome.org/Apps/Gedit/ShippedPlugins) that extend functionality. However, its easy to get a few more from your software repository. On Ubuntu, install some extras with `sudo apt-get install gedit-plugins`. Then head to `Edit` > `Preferences` > Plugins tab to see the new functionality you can enable. Personally, in addition to the standards I enable "Bracket Completion", "Find in Files", "Git", "Join/Split Lines", "Smart Spaces", and "Text Size".
 
 This will get Gedit the functionality you might expect from a code focused editor, while still remaining a lean, easy-to-use, handy app. 
-

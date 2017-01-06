@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 # Writing in Markdown
 
 Markdown is a quick and simple way to write formatted documents in plaintext.

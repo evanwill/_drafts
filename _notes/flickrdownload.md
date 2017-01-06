@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 # Need to download metadata from flickr?
 
 You can bulk download stuff from flickr very easily now (which is a great feature), by going to Camera Roll, selecting things, and clicking download.
@@ -16,7 +22,7 @@ Linux has one good option, but set up takes forever if you have lots of photos,
 
 ## Exiftool
 
-You want `exiftool`, nothing else consitantly works to look at metadata. 
+You want `exiftool`, nothing else consistently works to look at metadata. 
 
 - Download the complete version, http://www.sno.phy.queensu.ca/~phil/exiftool/
 - extract the files

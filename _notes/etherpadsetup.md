@@ -1,4 +1,9 @@
-# How to set up Etherpad in a cloud VM
+---
+title: How to set up Etherpad on a cloud VM
+layout: post
+tags: cloud, tool
+date: 2016-06-01
+---
 
 Set up an Ubuntu server, then follow these directions to get an instance of Etherpad up and running!
 For full documentation check out the [Etherpad-lite wiki](https://github.com/ether/etherpad-lite/wiki).
@@ -124,5 +129,5 @@ bin/run.sh
 ```
 
 Then type `ctrl+a` and `d`. The process will detach from your terminal and continue running. 
-Etherpad is ready!
+Basic Etherpad is ready!
 

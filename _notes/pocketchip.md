@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 # PocketCHIP stuff
 
 ## Utility

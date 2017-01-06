@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 # Things to do when you get a new lenovo computer
 
 1. Uninstall everything from Lenovo! Its all sketchy bloatware and you don't need any of it at all. Win 10 has everything you need.

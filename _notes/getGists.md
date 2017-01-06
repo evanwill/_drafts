@@ -1,8 +1,14 @@
-# Download your Gists
+---
+title: Download your GitHub Gists
+layout: post
+tags: github, ruby
+date: 2016-11-01
+---
 
 I like [GitHub Gists](https://gist.github.com/) a lot. 
 Very handy service! When I start a digital odd job, I like to take notes in Gists, because otherwise I will forget what I did. Gists is a handy memory aid.
-However, I realized Gists isn't the easiest place to find things. So this blog was born. Random thoughts and notes-to-self about how to do digital odd jobs. Much of it is half baked or wacky work arounds. but it might help you get something done. At the least it helps me remember and acts as a handy personal reference source! 
+
+However, I realized Gists isn't the easiest place to find things. So this blog was born. Random thoughts and notes-to-self about how to do digital odd jobs. Much of it is half baked or wacky work arounds. but it might help you get something done. At the least it helps me remember and acts as a handy personal reference source. 
 
 To start up this blog I wanted to grab all my previous Gists. [GitHub API](https://developer.github.com/v3/) makes this fairly easy for public content. Just choose a language that can download stuff and create files, and you can write up a script. 
 

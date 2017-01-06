@@ -1,4 +1,9 @@
-# Use Jekyll Deploy command
+---
+title: Use Jekyll Deploy command
+layout: post
+tags: jekyll
+date: 2016-11-05
+---
 
 [`jekyll-deploy`](https://github.com/vwochnik/jekyll-deploy) adds a new jekyll command, accessed on the command line as `jekyll deploy`. 
 It allows you to add a custom config to quickly deploy the site after build to a different destination. 

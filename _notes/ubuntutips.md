@@ -1,3 +1,9 @@
+---
+title:
+layout: post
+tags:
+---
+
 # Ubuntu tips
 
 Ubuntu is great, but here are some tips to fix some issues that I regularly encounter.
