@@ -1,10 +1,8 @@
 ---
-title:
+title: Visual Studio Code Notes
 layout: post
 tags:
 ---
-
-# Visual Studio Code Notes
 
 Code is a nice open source text editor from microsoft, https://code.visualstudio.com 
 

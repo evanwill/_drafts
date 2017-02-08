@@ -1,10 +1,8 @@
 ---
-title:
+title: Writing in Markdown
 layout: post
 tags:
 ---
-
-# Writing in Markdown
 
 Markdown is a quick and simple way to write formatted documents in plaintext.
 It is easy to read as plaintext, but is designed to convert to HTML for easy web publishing.

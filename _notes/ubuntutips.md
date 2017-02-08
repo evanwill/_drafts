@@ -1,10 +1,8 @@
 ---
-title:
+title: Ubuntu tips
 layout: post
 tags:
 ---
-
-# Ubuntu tips
 
 Ubuntu is great, but here are some tips to fix some issues that I regularly encounter.
 
@@ -14,9 +12,9 @@ Ubuntu is great, but here are some tips to fix some issues that I regularly enco
 - GIMP, Inkscape
 - Calibre, if you have ebooks, this helps you manage them.
 - VLC, get a better video player right away. 
-- Caffine, turns off screen save / lock so that your screen doesn't turn off while you are watching youtube!
+- Caffeine, turns off screen save / lock so that your screen doesn't turn off while you are watching youtube!
 - Text editor (Atom or MS Code)
-- Python distro, Anaconda
+- Python distro Anaconda
 
 ## Tweak settings
 

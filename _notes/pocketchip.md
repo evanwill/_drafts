@@ -1,14 +1,12 @@
 ---
-title:
+title: PocketCHIP stuff
 layout: post
 tags:
 ---
 
-# PocketCHIP stuff
-
 ## Utility
 
-build in calculator: `xcalc`
+built in calculator: `xcalc`
 
 use the built in browser: `surf http://google.com` (need help, `man surf`)
 
@@ -34,24 +32,29 @@ http://blog.nextthing.co/customize-the-hell-out-of-your-pocketc-h-i-p-install-do
 
 ## Fun terminal stuff
 
+Watch star wars in ASCII:
+
 `sudo apt-get install telnet`
 
 `telnet towel.blinkenlights.nl`
 
+Get lots of games:
+
 `sudo apt-get install bsdgames`
 
-bsdgames: 
-adventure, arithmetic, atc, backgammon, battlestar, bcd, boggle, caesar, canfield, countmail, cribbage, dab, go-fish, gomoku, hack, hangman, hunt, mille, monop, morse, number, pig, phantasia, pom, ppt, primes, quiz, random, rain, robots, rot13, sail, snake, tetris, trek, wargames, worm, worms, wump, wtf 
+bsdgames includes: 
+adventure, arithmetic, atc, backgammon, battlestar, bcd, boggle, caesar, canfield, countmail, cribbage, dab, go-fish, gomoku, hack, hangman, hunt, mille, monop, morse, number, pig, phantasia, pom, ppt, primes, quiz, random, rain, robots, rot13, sail, snake, tetris, trek, wargames, worm, worms, wump, wtf.
+Play bsdgames by typing the name on the terminal.  
 
-sudo apt-get install ninvaders
+`sudo apt-get install ninvaders`
 
-sudo apt-get install nethack 
+`sudo apt-get install nethack` 
 
-sudo apt-get install 2048-cli 
+`sudo apt-get install 2048-cli` 
 
-sudo apt-get install moon-buggy 
+`sudo apt-get install moon-buggy` 
 
-sudo apt-get install robotfindskitten
+`sudo apt-get install robotfindskitten`
 
 ## rouge-like
 
@@ -63,7 +66,7 @@ http://www.adom.de/home/downloads.html
 
 ## Emulators
 
-`apt-get install visualboyadvance` Then type vba to run it. Vba [rom location] to run the game.
+`apt-get install visualboyadvance` Then type `vba` to run it. Vba [rom location] to run the game.
 
 vice: http://www.rift.dk/blog/run-vice-on-your-pocketchip
 

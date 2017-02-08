@@ -2,10 +2,14 @@
 layout: about
 ---
 
-Hello, my name is Evan Will. 
+_Drafts is digital rough frame carpentry, a blog of snippets and notes to get things started.
 
-# What do you do?
-I make website and stuff.
+Basically, _Drafts is my blog of gists. 
 
-# What programming languages do you use?
-When making websites I like using Javascript and Sass. I also like Python and making linux scripts.
+I write gists to remind myself about little tips and tricks.
+This blog gathers them all together so I can find them easier.
+Its a memory tool. 
+
+_Drafts is built using [Jekyll](https://jekyllrb.com/), on [GitHub Pages](https://pages.github.com/).
+
+License is cc-by-sa [evan will](https://github.com/evanwill). 

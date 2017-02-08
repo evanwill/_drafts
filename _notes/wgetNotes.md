@@ -1,11 +1,8 @@
 ---
-title:
+title: wget notes
 layout: post
 tags:
 ---
-
-wget
-====
 
 Wget is a handy commandline utility for grabbing stuff off the web. 
 It is built into most UNIX systems. 
