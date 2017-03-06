@@ -1,9 +1,9 @@
-
+---
 title: Using Jekyll on Windows
 layout: post
 tags: jekyll, windows, staticgen
 date: 2016-10-03
-
+---
 
 ## Static Gen background links:
 
@@ -46,7 +46,7 @@ Here are the steps I took to get it running on Windows 7 or 10:
 ## A tour of the project directory
 
 - `testsite` (the top level contains pages that will become top level pages. Edit the overall site settings in `_config.yml`. Changes to `_config.yml` are not automatically refreshed during `jekyll serve`, you have to stop the server and restart.)
-  - `_includes` These are modular chunks of your pages which can be called into a page layout by Liquid. For example `{% include head.html %}` in a page layout would add the include `head.html` from the `_includes` directory.
+  - `_includes` These are modular chunks of your pages which can be called into a page layout by Liquid. For example `{% raw %}{% include head.html %}{% end raw %}` in a page layout would add the include `head.html` from the `_includes` directory.
   - `_layouts` These are basic templates for complete web pages. They are constructed out of includes. The layouts are called by files that have content to add the template structure.
   - `_posts` This directory contains blog posts. We are more likely to use a `_collections` directory for similar automated treatment of standardized content pages.
   - `_sass` This contains the modular `.scss` files that will be pulled into your main css for the site. All normal CSS is valid SCSS, but Sass adds many helpful functions and programatic features which are compiled into regular CSS automatically. 

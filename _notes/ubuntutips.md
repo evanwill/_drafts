@@ -2,6 +2,7 @@
 title: Ubuntu tips
 layout: post
 tags:
+date: 2017-01-02
 ---
 
 Ubuntu is great, but here are some tips to fix some issues that I regularly encounter.

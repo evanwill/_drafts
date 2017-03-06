@@ -1,11 +1,17 @@
-# Intro to the Command Line
+---
+title: Intro to the Command Line
+layout: post
+tags: cli, shell
+date: 2017-03-04
+---
 
-Does command line interface (CLI), REPL, terminal, console, or shell sound scary? Don't worry, we'll learn about the basic computer interface that gives you super powers! If you want to work with Raspberry Pi, Linux, or many programming languages you need a basic familiarity with the CLI. This MILL-Mini will demystify the terminal so you can use it to get things done.
+> Does command line interface (CLI), REPL, terminal, console, or shell sound scary? Don't worry, we'll learn about the basic computer interface that gives you super powers! If you want to work with Raspberry Pi, Linux, or many programming languages you need a basic familiarity with the CLI. This MILL-Mini will demystify the terminal so you can use it to get things done.
 
 ## What is the Shell?
 
-Terminal, console, cmd, command-line, or Bash: you will hear it called many things, but ultimately the **Shell** is just a program on your computer like any other application. 
-Its job is to act as a **command shell**, taking input from the user, ordering the computer's operating system (OS) to execute the instructions, and returning outputs.
+The command line is a text-based interface for efficiently getting stuff done. 
+It's often called the shell, terminal, console, cmd, or Bash, but ultimately the **Shell** is just a program on your computer like any other application. 
+Its job is to act as a **command shell**, taking input from the user, ordering the computer's operating system (OS) to execute the instructions, and returning the outputs.
 
 Since the 1980's the most common way to interact with a computer is via the **graphical user interface** (GUI), i.e. the windows, icons, and pointers of a desktop environment.
 Technically this is a shell.
@@ -21,15 +27,16 @@ This means:
 
 Note that the shell does not execute commands itself. 
 It calls on hundreds of other applications in the OS to get things done. 
-It's the most basic way to interface with your computer short of re-writing it!
+It's the most basic way to interface with your computer short of re-wiring it!
 
 ## Which Shell?
 
-There is actually a lot of shells out there! 
-Most OS come with one as a standard application.
-On modern Windows CMD or PowerShell are normally available.
+There are actually a lot of shells out there! 
+Most OS come with one as a standard application. 
+On Windows, CMD or PowerShell are normally available.
 These use a syntax and set of applications unique to Windows systems. 
-However, the most popular and commonly used is the Unix shell **Bash** (Bourne Again SHell) which is standard on Linux and Mac OS.
+
+However, the most popular and commonly used is the Unix shell **Bash** ([Bourne Again SHell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))) which is standard on Linux and Mac OS.
 Even if you are a Windows user, learning Bash will open up a powerful set of tools on your personal machine, in addition to familiarizing you with the standard remote interface used on almost all servers and super computers.
 If you want to control a Raspberry Pi or virtual machine in the cloud, you will need to use the Bash Shell.
 
@@ -37,14 +44,14 @@ There are several options to add a UNIX style shell to Windows:
 
 - Git Bash: installing [Git for Windows](https://git-for-windows.github.io/) adds the Git Bash shell. It comes with many of the standard UNIX applications.
 - [Cygwin](https://www.cygwin.com/): provides a package of open source tools compiled for Windows that add functionality similar to the Linux shell.
+- [MobaXterm](http://mobaxterm.mobatek.net/): a non-opensource emulator similar to Cygwin with quite a bit of functionality and an optional paid version.
 - [Bash on Windows Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
 
 The window that hosts the text based CLI is often called a **terminal emulator**. 
 Most people use the default that comes with the OS, but if you want to get fancy, there are a surprising number of options out there!
-Check out [Guake](http://guake-project.org/), [Hyper](https://hyper.is/), or [ConEmu](https://conemu.github.io/)(Windows). 
+Check out [Guake](http://guake-project.org/), [Hyper](https://hyper.is/), or [ConEmu](https://conemu.github.io/)(Windows).
 
-
-## Navigating 
+## Navigate 
 
 Start up your terminal and type `pwd`.
 
@@ -54,13 +61,14 @@ That's where we are right now!
 The string `/home/dog` is a file path representing our current location in the file system, just like navigating the folders in the GUI explorer.
 Typically, on Unix systems the `/` is the root directory.
 All other directories are organized below it.
+(*note:* the Windows alternatives such as Git Bash locate the home directories in a "fake" root that is usually inside the application directory, not the actual Windows file system root. For example, on Git Bash `cd /` will bring you to something like `C:\Program Files\Git\mingw64\` not `C:\`.)
 
 - `ls` (listing)
 - `ls -a` (`-a` is a flag, it adds an option to the command, in this case to show all files including hidden ones)
 - `ls --help` (you can use `--help` with almost any command!)
 - `cd Desktop` (change directory)
 - `cd ..`
-- tab complete!!
+- Save typing with `tab` complete and up arrow for command history!!
 - `ctrl+shift+C` / `ctrl+shift+V`
 
 ## Work with files
@@ -90,14 +98,17 @@ Play with it:
 - `rm -i test2.txt` ("remove", be careful there is no recycle bin!)
 - wildcards `?` and `*`, try `grep -i "hello" *.txt`
 
-## Running Programs
+## Run Programs
 
-- `nano test3.txt`
-- `curl http://www.lib.uidaho.edu/`
-- `python`
-- `links2 http://www.lib.uidaho.edu/`
+Many programs run interactively inside the terminal (*note: many not be available in Windows alternatives*):
 
-## Having Fun
+- `nano test3.txt` [text editor in the terminal]
+- `python` [running another REPL system in the terminal]
+- `curl http://www.lib.uidaho.edu/` [utility to get URLs in terminal]
+
+## Have Fun
+
+A good way to get familiar with the commandline is with some fun and games! These demos install amusing programs (*note: demos based on Ubuntu. Only available on Linux or Bash on Windows Subsystem*)
 
 Train:
 

@@ -2,6 +2,7 @@
 title: UnLenovo
 layout: post
 tags:
+date: 2016-03-15
 ---
 
 ## Things to do when you get a new lenovo computer

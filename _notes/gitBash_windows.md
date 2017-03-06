@@ -2,6 +2,7 @@
 title: Add more to Git Bash on Windows
 layout: post
 tags: windows, linux, bash
+date: 2016-05-26
 ---
 
 [Git for Windows](https://git-for-windows.github.io/) comes bundled with the "Git Bash" terminal which is incredibly handy for unix-like commands on a windows machine.

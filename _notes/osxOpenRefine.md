@@ -1,10 +1,9 @@
 ---
-title:
+title: Install OpenRefine on Mac
 layout: post
 tags:
+date: 2016-05-01
 ---
-
-# Install OpenRefine on Mac
 
 Mac seems to have a few issues when trying to install OpenRefine.
 The official instructions are on the [OpenRefine wiki](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions#mac-osx), 

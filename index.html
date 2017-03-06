@@ -14,13 +14,38 @@ layout: default
 </div>
 <div class="blog">
     <h1>Notes:</h1>
-    <ul>
+
+    <div id="noteslist">
+
+    <!-- class="search" automagically makes an input a search field. -->
+    <input class="search" placeholder="Search" />
+    <!-- class="sort" automagically makes an element a sort buttons. The date-sort value decides what to sort by. -->
+    <button class="sort" data-sort="title">title</button>
+    <button class="sort" data-sort="date">date</button>
+    <button class="sort" data-sort="tags">tags</button>
+
+
+    <!-- Child elements of container with class="list" becomes list items -->
+    <ul class="list">
         {% for post in site.notes %}
         <li>
-            <!--<span class="date">{{ post.date | date: '%Y %b %d' }}</span> - --><a href="{{ post.url }}">{{ post.title }}</a>
-            <!-- <li>tags?</li>-->
-            <!-- add sort via list.js -->
+            <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="tags">{{ post.tags }}</p>
+            <p class="date">{{ post.date }}</p>
         </li>
         {% endfor %}
     </ul>
+
+    </div>
+
 </div>
+
+<!-- add list.js http://www.listjs.com/ @javve -->
+<script src="assets/js/list.min.js"></script>
+<script> 
+    var options = {
+        valueNames: [ 'title', 'date', 'tags' ]
+    };
+
+    var userList = new List('noteslist', options);
+</script>

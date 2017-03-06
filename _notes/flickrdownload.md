@@ -1,14 +1,13 @@
 ---
-title:
+title: Download metadata from flickr
 layout: post
 tags:
+date: 2016-02-30
 ---
 
-# Need to download metadata from flickr?
-
 You can bulk download stuff from flickr very easily now (which is a great feature), by going to Camera Roll, selecting things, and clicking download.
-Or you can bulk download your sets/albums now as well. 
-This is handy, but it doesnt export any metadata you added to the photos in the system. 
+Or you can bulk download your sets/albums now as well by visiting the set/album and clicking the download button. 
+This is handy, but it doesn't export any metadata you added to the photos in the system. 
 
 Unfortunately, I found none of the apps are very stable.
 The most recent and least broken apps are:

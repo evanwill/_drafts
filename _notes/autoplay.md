@@ -2,6 +2,7 @@
 title: Disable Autoplay
 layout: post
 tags:
+date: 2016-02-30
 ---
 
 Autoplay video ads and content are amazingly annoying. 

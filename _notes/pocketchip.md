@@ -2,6 +2,7 @@
 title: PocketCHIP stuff
 layout: post
 tags:
+date: 2016-06-01
 ---
 
 ## Utility

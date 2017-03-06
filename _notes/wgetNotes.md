@@ -2,6 +2,7 @@
 title: wget notes
 layout: post
 tags:
+date: 2016-01-15
 ---
 
 Wget is a handy commandline utility for grabbing stuff off the web. 
@@ -12,16 +13,14 @@ Another handy windows option is [MobaXterm](http://mobaxterm.mobatek.net/).
 
 Check all the commands by typing `wget --help` in your terminal.
 
-Download files from a list
---------------------------
+## Download files from a list
 
 Create a plain text list of urls you want to download. 
 Use the `-i` option to pass that list to wget.
 
 `wget -i download-file-list.txt`
 
-Download all files of a type from a domain
-------------------------------------------
+## Download all files of a type from a domain
 
 Use the `-r` and `-A` options.
 For example, download all PDFs:
@@ -30,7 +29,10 @@ For example, download all PDFs:
 
 limit to file type: `--accept html`
 
-
-check dead links:
+## Check dead links
 
 `wget --spider -o test.log -e robots=off -w 5 --random-wait --mirror --page-requisites --no-parent http://www.example.com`
+
+## Fully mirror a site 
+
+`wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --wait=2 http://example.org`

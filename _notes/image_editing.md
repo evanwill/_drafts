@@ -2,6 +2,7 @@
 title: Open image editing
 layout: post
 tags:
+date: 2016-02-30
 ---
 
 # Open image editing
