@@ -1,7 +1,7 @@
 ---
 title: template
 layout: post
-tags: drafts
+tags: [sample post, code, drafts]
 date: 2015-12-10
 ---
 

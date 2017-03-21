@@ -1,16 +1,14 @@
-# Blog settings
-permalink: /_drafts/:title
+# jekyll config 
+# style partly based on K i k o - p l u s   https://aweekj.github.io/Kiko-plus/
 
-# My variables
+# basic
 title: _drafts
 description: digital rough frame carpentry, a blog of snippets and notes to get things started.
 keywords: digital humanities, tutorial, snippets, code, linux
-author: Evan Will 
-google_verification: null
+author: evanwill 
 
-
-# File management
-exclude: ["README.md"]
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://evanwill.github.io/_drafts"
 
 collections:
   notes:
@@ -21,10 +19,8 @@ sass:
   style: :compressed
   sass_dir: _sass
 
-
 # Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-highlighter: rouge
+

@@ -1,21 +1,24 @@
 ---
 layout: default
 ---
-
 <div class="post">
-	<div class="post__back">
-    	<a href="/">&lt;-- home</a>
-    </div>
-    <div class="post__title">
-    	<h1>{{ page.title }}</h1>
-    </div>
-    <div class="post__date">
-    	<p>{{ page.date | date: '%B %-d, %Y' }}</p>
-    </div>
-    <div class="post__meta">
-    	<p>{{ tags_content }}</p>
-    </div>
-    <div class="post__content"?>
-        {{ content }}
-    </div>
+  <div class="post-title">{{ page.title }}</div>
+  <span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
+  <div class="post-tag">
+    <ul>
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}/tags#{{ tag }}">
+          <span>{{ tag }}</span>
+        </a>
+      </li>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  {{ content }}
+
 </div>

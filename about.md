@@ -1,5 +1,7 @@
 ---
-layout: about
+title: About
+layout: default
+permalink: /about/
 ---
 
 _Drafts is digital rough frame carpentry, a blog of snippets and notes to get things started.
@@ -12,4 +14,4 @@ Its a memory tool.
 
 _Drafts is built using [Jekyll](https://jekyllrb.com/), on [GitHub Pages](https://pages.github.com/).
 
-License is cc-by-sa [evan will](https://github.com/evanwill). 
+License is cc-by-sa [evan will](https://github.com/evanwill).

@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Page Does Not Exist...
-permalink: /404.html
 ---
-
-<p><a class="post__back" href="/">&lt;-- back</a></p>
-<br>
-<p>Sorry this page does not exist...</p>
+<header>
+  <h1 class="header-small">
+    <a href="{{ site.baseurl }}">{{ site.name }}</a>
+  </h1>
+</header>
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <span>Sorry, but the page you were trying to view does not exist.</span>
+</div>
