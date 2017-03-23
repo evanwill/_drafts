@@ -10,29 +10,31 @@ body {
   padding: 0;
 }
 
-.content-container {
+.container {
   max-width: 48rem;
-  padding: 0 1rem 5rem 1rem;
+  //padding: 0 1rem 5rem 1rem;
   margin-left:  auto;
   margin-right: auto;
+  border-top: 3px solid $oc-gray-6;
 
   @media (max-width: 48rem){
-    padding: 2rem 1.3rem;
+    padding: 0 2rem 1.3rem;
   }
 }
 
 /* Header */
 .header {
-  border-top: 2px solid $oc-gray-6;
+  padding: 1rem 1rem 0 1rem;
   border-bottom: 1px solid $oc-gray-6;
 }
 .header-title {
-    font-size: 2.25em;
+    font-size: 50px;
     line-height: 1.2em;
     font-weight: 600;
     border:none;
     float:left;
     padding: 0;
+    margin: .25rem 0;
     a {
       color: $base-color;
       &:hover,
@@ -47,14 +49,21 @@ body {
       color: $oc-gray-7;
       text-transform: lowercase;
       margin-right: .3rem;
+      font-size: 20px;
       &:hover,
       &:focus {
         color: $oc-gray-7;
         text-decoration: none;
+        background-color: $background-over-color;
       }
     }
 }
-
+.content {
+  padding: 1rem 1rem 0 1rem;
+}
+.browse {
+  margin-bottom: 1rem;
+}
 /*--------------
   Page
   -------------- */
@@ -62,7 +71,7 @@ body {
 .page {
   &-title {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 2.25em;
     line-height: 1.2em;
     font-weight: 600;
