@@ -1,33 +1,34 @@
 ---
 layout: default
+title: browse
 ---
-<div>
-  <h2 class="page-title">Browse:</h2>
-  <div id="archiveList" class="archive-list">
+<h2 class="page-title">Browse:</h2>
+<div id="archiveList" class="archive-list">
 
-    <div class="browse">
-      <input class="search" placeholder="Search" />
-      <button class="sort" data-sort="title">title</button>
-      <button class="sort" data-sort="date">date</button>
-      <button class="sort" data-sort="tags">tags</button>
-    </div>
+  <div class="browse">
+    <input class="search" placeholder=" Search" />
+    <button class="sort" data-sort="title">title</button>
+    <button class="sort" data-sort="date">date</button>
+    <button class="sort" data-sort="tags">tags</button>
+  </div>
 
-    <!-- Child elements of container with class="list" becomes list items -->
-    <div class="listjs">
-      {% for post in site.notes %}
-      <div class="archive-list-post">
-        <a href="{{ post.url | prepend: site.url }}">  
-        <span class="title archive-list-post-title">
-          {{ post.title }}
-        </span>
-        <span class="date archive-list-post-date">
-          <time>| {{ post.date | date: "%Y-%m-%d" }} | </time>
-        </span>
-        <span class="tags">{{ post.tags | join: ', ' }}</span>
-        </a>
-      </div>
-      {% endfor %}
+  <div class="listjs">
+    {% for post in site.notes %}
+    <div class="archive-list-post">
+      <a href="{{ post.url | prepend: site.url }}">  
+      <span class="title archive-list-post-title">
+        {{ post.title }}
+      </span>
+      <span class="date archive-list-post-date">
+        <time>| {{ post.date | date: "%Y-%m-%d" }} | </time>
+      </span>
+      <span class="tags">{{ post.tags | join: ', ' }}</span>
+      </a>
     </div>
+    {% endfor %}
+  </div>
+
+</div>
 <!-- add list.js http://www.listjs.com/ @javve -->
 <script src="{{ site.url }}/js/list.min.js"></script>
 <script> 

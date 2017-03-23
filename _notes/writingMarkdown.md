@@ -1,7 +1,7 @@
 ---
 title: Writing in Markdown
 layout: post
-tags:
+tags: [dh, tools]
 date: 2016-05-20
 ---
 

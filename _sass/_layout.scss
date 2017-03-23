@@ -1,22 +1,8 @@
-* { box-sizing: border-box; }
-html {
-  font-family: $base-font;
-  font-size: $base-font-size;
-  line-height: 1.6;
-}
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   max-width: 48rem;
-  //padding: 0 1rem 5rem 1rem;
   margin-left:  auto;
   margin-right: auto;
   border-top: 3px solid $oc-gray-6;
-
   @media (max-width: 48rem){
     padding: 0 2rem 1.3rem;
   }
@@ -30,7 +16,7 @@ body {
 .header-title {
     font-size: 50px;
     line-height: 1.2em;
-    font-weight: 600;
+    font-weight: 700;
     border:none;
     float:left;
     padding: 0;
@@ -40,6 +26,7 @@ body {
       &:hover,
       &:focus {
         text-decoration: none;
+        background-color: $background-over-color;
       }
     }
 }
@@ -58,16 +45,10 @@ body {
       }
     }
 }
+/* content */
 .content {
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
-.browse {
-  margin-bottom: 1rem;
-}
-/*--------------
-  Page
-  -------------- */
-
 .page {
   &-title {
     margin-top: 0;
@@ -77,13 +58,7 @@ body {
     font-weight: 600;
   }
 }
-
-
-/*--------------
-  Post
-  -------------- */
 .post {
-
   &-title {
     margin-top: 0rem;
     margin-bottom: 0.3rem;
@@ -136,17 +111,9 @@ body {
       }
     }
   }
-
-  &-disqus {
-    margin-top: 4rem;
-  }
-
 }
 
-/*--------------
-  Post list
-  -------------- */
-
+/* 
 .list {
   &-post {
     padding: 4% 2%;
@@ -219,11 +186,9 @@ body {
     }
   }
 }
+*/
 
-
-/*--------------
-  Tags
-  -------------- */
+/* Tags */
 .tag {
   &-index {
     ul {
@@ -291,11 +256,17 @@ body {
   }
 }
 
-/*--------------
-  Archive
-  -------------- */
+/* index browse */
+.search {
+  background-color: $background-color;
+  border: solid 1px $text-color;
+  border-radius: 2px;
+  font-size: 20px;
+}
+.browse {
+  margin-bottom: 1rem;
+}
 .archive {
-  //ul { list-style: none; }
   &-list {
     &-post {
       padding: 0.1rem;
@@ -304,7 +275,6 @@ body {
           background-color: $background-over-color;
           border-color: transparent;
       }
-      //li { list-style: none; }
       ul { list-style-type: none; }
 
       a {
@@ -329,21 +299,64 @@ body {
     }
   }
 }
-
-
-/*--------------
-  Footer
-  -------------- */
+.sort { 
+  cursor: pointer;
+  background-color: $background-color;
+  border: solid 1px $text-color;
+  border-radius: 2px;
+  font-size: 20px;
+  color: $oc-gray-7;
+  margin-top: 5px;
+  &:focus {
+    outline:none;
+  }
+  &:after {
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+  }
+  &.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    content:"";
+    position: relative;
+    top:4px;
+    right:-5px;
+  }
+  &.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    content:"";
+    position: relative;
+    top:-4px;
+    right:-5px;
+  }
+}
+/* Footer */
 .footer {
   text-align: center;
-  font-size: .75rem;
-
+  font-size: .85rem;
+  border-top: 1px solid $oc-gray-6;
+  padding: 1rem 0 1.25rem;
   &-link {
-    margin: .2rem;
-
-    a {
-      color: $base-color;
-      margin: 4px;
+    color: $base-color;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      background-color: $background-over-color;
     }
   }
 }

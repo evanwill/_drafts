@@ -1,9 +1,30 @@
-/* Post Typography */
 
-/*--------------
-  Body
-  -------------- */
+$base-color: $oc-gray-8;
+$base-lighten-color: $oc-gray-6;
 
+$background-color: $oc-white;
+$background-over-color: $oc-gray-1;
+
+$text-color: $oc-gray-8;
+$link-color: $oc-blue-8;
+$code-color: $oc-indigo-9;
+$code-background-color: $oc-gray-1;
+$table-border-color: $oc-gray-2;
+$table-background-color: $oc-gray-1;
+
+$divider-color: $oc-gray-1;
+
+* { box-sizing: border-box; }
+html {
+  font-family: $base-font;
+  font-size: $base-font-size;
+  line-height: 1.6;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: $base-font;
   font-size: $base-font-size;
@@ -20,12 +41,10 @@ body {
   }
 }
 
-/*--------------
-  Link
-  -------------- */
 a {
   color: $link-color;
   text-decoration: none;
+  border-radius:5px;
 
   &:hover,
   &:focus {
@@ -33,10 +52,6 @@ a {
   }
 }
 
-
-/*--------------
-  Header
-  -------------- */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
@@ -46,38 +61,27 @@ h1 {
   padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2em;
-  border-bottom: 1px solid #eee;
 }
-
 h2 {
   padding-top: 0.3em;
   padding-bottom: 0;
   font-size: 1.75em;
   line-height: 1.225em;
-  //border-bottom: 1px solid #eee;
 }
-
 h3 { 
   font-size: 1.5em; 
   line-height: 1.43em;
 }
-
 h4 { 
   font-size: 1.25em;
 }
-
 h5 { 
   font-size: 1em; 
 }
-
 h6 { 
   font-size: 1em;
   color: $oc-gray-6; 
 }
-
-/*--------------
-  Body Text
-  -------------- */
 
 p {
   color: $text-color;
@@ -88,7 +92,6 @@ p {
 /*--------------
   Lists
   -------------- */
-
 //  Reset list
 ol, 
 ul,
@@ -98,7 +101,6 @@ dl {
   list-style: none;
   list-style-image: none;
 }
-
 //  Positioning Bullets
 ol, 
 ul {
@@ -113,7 +115,6 @@ ul {
     }
   }
 }
-
 // Restyle <ul>
 ul {
   > li:before {
@@ -124,7 +125,6 @@ ul {
     line-height: $ul-bullets-font-line-height;
   }
 }
-
 // Restyle <ol>
 ol {
   counter-reset: section;
@@ -138,7 +138,6 @@ ol {
     line-height: $ol-bullets-font-line-height;
   }
 }
-
 //  Refine Spacing
 ol, 
 ul {
@@ -152,7 +151,6 @@ ul {
     }
   }
 }
-
 li {
   > ol,
   > ul {
@@ -162,7 +160,6 @@ li {
     }
   }
 }
-
 dt {
   float: left;
   width: $dt-width;
@@ -177,7 +174,6 @@ dt {
     width: 120px;
   }
 }
-
 dd {
   margin-left: $dd-position;
   margin-bottom: $li-bottom-space;
@@ -186,10 +182,6 @@ dd {
     margin-left: 140px;
   }
 }
-
-/*--------------
-  
-  -------------- */
 
 hr {
   border: 0;
@@ -301,35 +293,6 @@ pre code {
 
 .highlight pre {
   margin-bottom: 0;
-}
-
-/*--------------
-  gist
-  -------------- */
-
-.gist .gist-file {
-  font-family: $code-gist-font;
-}
-
-.gist .markdown-body {
-  padding: 15px;
-}
-
-.gist pre {
-  padding: 0;
-  background-color: transparent;
-}
-
-.gist .gist-file .gist-data {
-  font-size: .8rem !important;
-  line-height: 1.4;
-}
-
-.gist code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border-radius: 0;
 }
 
 /*--------------
