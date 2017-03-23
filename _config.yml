@@ -15,9 +15,9 @@ collections:
     output: true
 
 # Sass
-sass:
-  style: :compressed
-  sass_dir: _sass
+# sass:
+#  style: :compressed
+#  sass_dir: _sass
 
 # Markdown
 markdown: kramdown
