@@ -8,7 +8,7 @@ keywords: digital humanities, tutorial, snippets, code, linux
 author: evanwill 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://evanwill.github.io/_drafts"
+url: "https://evanwill.github.io/_drafts"
 
 collections:
   notes:
