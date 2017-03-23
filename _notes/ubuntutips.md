@@ -1,7 +1,7 @@
 ---
 title: Ubuntu tips
 layout: post
-tags:
+tags: [linux]
 date: 2017-01-02
 ---
 

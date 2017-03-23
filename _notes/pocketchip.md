@@ -1,7 +1,7 @@
 ---
 title: PocketCHIP stuff
 layout: post
-tags:
+tags: [fun,pocketchip]
 date: 2016-06-01
 ---
 

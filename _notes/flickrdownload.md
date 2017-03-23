@@ -1,7 +1,7 @@
 ---
 title: Download metadata from flickr
 layout: post
-tags:
+tags: [flickr]
 date: 2016-02-30
 ---
 

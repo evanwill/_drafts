@@ -1,11 +1,9 @@
 ---
 title: Open image editing
 layout: post
-tags:
+tags: [images,open]
 date: 2016-02-30
 ---
-
-# Open image editing
 
 Need to edit some photos? Need an alternative to absurdly expensive and user unfriendly commercial image software (i.e. photoshop)?
 

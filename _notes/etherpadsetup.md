@@ -1,7 +1,7 @@
 ---
-title: How to set up Etherpad on a cloud VM
+title: How to setup Etherpad on a cloud VM
 layout: post
-tags: cloud, tool
+tags: [cloud, tool]
 date: 2016-06-01
 ---
 

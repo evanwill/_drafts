@@ -1,13 +1,13 @@
 ---
-title: Set up Jupyter Notebook with Py 2, 3, and R
+title: Setup Jupyter with Py 2, 3, and R
 layout: post
-tags: Python, R 
+tags: [python, R]
 date: 2016-06-06
 ---
 
 [Jupyter Notebook](http://jupyter.org/) is a great tool for teaching code and exploratory, iterative coding.
 It was originally developed for Python, but it now supports a variety of [kernels](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages). 
-Notebook becomes even more useful with both Python 2 and 3 installed (in case you ever have to run some legacy code). And you may as well at R while your at it!
+Notebook becomes even more useful with both Python 2 and 3 installed (in case you ever have to run some legacy code). And you may as well at R while you're at it!
 
 First, Jupyter and I suggest you install Python 3 via [Anaconda](https://www.continuum.io/downloads). Conda gives you a huge package of scientific Python libraries pre-installed (including Jupyter), plus some very handy management and virtual environment tools. 
 Once you install Anaconda Python 3, you already have Jupyter with the IPython3 kernel. 

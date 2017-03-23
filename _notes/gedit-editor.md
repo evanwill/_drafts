@@ -1,7 +1,7 @@
 ---
 title: Gedit tips
 layout: post
-tags: linux, editor, text
+tags: [linux, editor, text]
 date: 2016-12-29
 ---
 

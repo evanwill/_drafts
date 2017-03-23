@@ -1,7 +1,7 @@
 ---
 title: Kids Apps on Linux 
 layout: post
-tags: linux, kids, fun
+tags: [linux, kids, fun]
 date: 2017-03-04
 ---
 

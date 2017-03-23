@@ -1,7 +1,7 @@
 ---
 title: Handy OpenRefine Functions to Remember
 layout: post
-tags: OpenRefine, data, tools
+tags: [openrefine, data, tools]
 date: 2016-06-01
 ---
 
@@ -29,4 +29,27 @@ To get multiple values from the same key, combine with `forEach()`.
 For example, to extract all the keywords from a cell with the JSON
 `{'language': 'en', 'keywords': [{'text': 'dogs', 'relevance': 0.979292}, {'text': 'muffins', 'relevance': 0.977987}, {'text': 'cats', 'relevance': 0.969001}, {'text': 'idaho', 'relevance': 0.967973}] }`,
 transform with `forEach(value.parseJson().keywords,v,v.text).join("; ")`, resulting in the new cell value of `dogs; muffins; cats; idaho`.
+
+## String + Array functions
+
+A powerful way to interact with large strings (such as the text of poems or web scrape) is to turn them into arrays, then use array functions to manipulate. 
+Create an array from any string by using the `split(value, expression)` function. The expression is the character or pattern you want to split the string up on, often a new line or a deliminator in a list. For example:
+
+`split(value, /\n/)`
+
+Once the cell is an array, it can be rearranged and sliced in many ways with [array functions]((https://github.com/OpenRefine/OpenRefine/wiki/GREL-Array-Functions). Next, reconstitute the string by using `join()` on the array. For example, if we had a list of tags like "dogs; cats; muffins" we could put them in alphabetic order:
+
+`sort(split(value, "; ")).join("; ")`
+
+Remove the first line of a poem:
+
+`slice(split(value, /\n/),1).join("\n")`
+
+Remove the last two lines:
+
+`slice(split(value, /\n/),-2).join("\n")`
+
+Or trim the white space for each value:
+
+`forEach(split(value, /\n/),e,e.trim()).join("\n")`
 

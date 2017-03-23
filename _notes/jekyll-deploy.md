@@ -1,7 +1,7 @@
 ---
 title: Use Jekyll Deploy command
 layout: post
-tags: jekyll
+tags: [jekyll]
 date: 2016-11-05
 ---
 

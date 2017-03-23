@@ -1,7 +1,7 @@
 ---
 title: Add more to Git Bash on Windows
 layout: post
-tags: windows, linux, bash
+tags: [windows, linux, bash]
 date: 2016-05-26
 ---
 
@@ -21,6 +21,7 @@ Here are some to add:
 
 - Download the lastest wget binary for windows from https://eternallybored.org/misc/wget/ (they are available as a zip with documentation, or just an exe)
 - If you downloaded the zip, extract all (if windows built in zip utility gives an error, use [7-zip](http://www.7-zip.org/)).
+- Rename the file `wget64.exe` to `wget.exe` if necessary. 
 - Move `wget.exe` to your `Git\mingw64\bin\`
 
 ## make

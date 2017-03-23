@@ -1,7 +1,7 @@
 ---
 title: Install OpenRefine on Mac
 layout: post
-tags:
+tags: [openrefine]
 date: 2016-05-01
 ---
 

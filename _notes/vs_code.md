@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Code Notes
 layout: post
-tags:
+tags: [tools,editor]
 date: 2016-03-20
 ---
 
@@ -9,11 +9,11 @@ Code is a nice open source text editor from microsoft, https://code.visualstudio
 
 Docs, https://code.visualstudio.com/Docs
 
-Here are my notes-to-self about cool stuff:
+Here are my notes-to-self about stuff:
 
 ## Enable word wrap
 
-Go to File > Preferences > User Settings, then add `{ "editor.wrappingColumn": 0,
+Go to File > Preferences > Settings, then add `{ "editor.wordWrap": "on",
 }` to the `settings.json` on the right side.
 
 ## Markdown

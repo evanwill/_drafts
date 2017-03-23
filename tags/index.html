@@ -4,7 +4,7 @@ title: Tags
 permalink: /tags/
 ---
 <!-- http://stackoverflow.com/questions/36958975/listing-jekyll-collection-pages-by-tags -->
-
+<!--
 {% capture site_tags %}
 {% for tag in site.tags %}
 {{ tag | first }}{% unless forloop.last %},{% endunless %}
@@ -12,22 +12,17 @@ permalink: /tags/
 {% endcapture %}
 
 {% assign tags_list = site_tags | split:',' | sort %}
+-->
 
-{% assign noteTags = "" %}
-{% for note in site.notes %}
-{% assign new = note.tags | join:", " %}
-{% assign noteTags = noteTags | append: new | join:", " %}
-{% endfor %}
-
-<p>{{ noteTags | join:", " }} poop</p>
-<!--
 {% capture site_tags %}
 {% for note in site.notes %}
-{{ note.tags | split:',' }}
+{{ note.tags | join:", " }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% endcapture %}
 
-{% assign tags_list = site_tags | split:',' | sort %}-->
+<p> {{ site_tags }}</p>
+
+{% assign tags_list = site_tags | split:',' | sort %}
 
 <div class="tag-index">
   <ul>

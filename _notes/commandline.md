@@ -1,11 +1,11 @@
 ---
 title: Intro to the Command Line
 layout: post
-tags: cli, shell
+tags: [cli, shell]
 date: 2017-03-04
 ---
 
-> Does command line interface (CLI), REPL, terminal, console, or shell sound scary? Don't worry, we'll learn about the basic computer interface that gives you super powers! If you want to work with Raspberry Pi, Linux, or many programming languages you need a basic familiarity with the CLI. This MILL-Mini will demystify the terminal so you can use it to get things done.
+> Mini-workshop: Does command line interface (CLI), REPL, terminal, console, or shell sound scary? Don't worry, we'll learn about the basic computer interface that gives you super powers! If you want to work with Raspberry Pi, Linux, or many programming languages you need a basic familiarity with the CLI. This MILL-Mini will demystify the terminal so you can use it to get things done.
 
 ## What is the Shell?
 
@@ -43,7 +43,7 @@ If you want to control a Raspberry Pi or virtual machine in the cloud, you will 
 There are several options to add a UNIX style shell to Windows:
 
 - Git Bash: installing [Git for Windows](https://git-for-windows.github.io/) adds the Git Bash shell. It comes with many of the standard UNIX applications.
-- [Cygwin](https://www.cygwin.com/): provides a package of open source tools compiled for Windows that add functionality similar to the Linux shell.
+- [Cygwin](https://www.cygwin.com/): provides a package of open source tools compiled for Windows that add functionality similar to the Linux shell (a gist with [more info](https://gist.github.com/evanwill/28d2f0a8ea49f58dbc05ae43a65a944c)).
 - [MobaXterm](http://mobaxterm.mobatek.net/): a non-opensource emulator similar to Cygwin with quite a bit of functionality and an optional paid version.
 - [Bash on Windows Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
 
@@ -56,12 +56,12 @@ Check out [Guake](http://guake-project.org/), [Hyper](https://hyper.is/), or [Co
 Start up your terminal and type `pwd`.
 
 This command asks the shell to "print working directory".
-The shell should give you some out put, like `/home/dog`.
+The shell should give you some out put, like `/home/username`.
 That's where we are right now!
-The string `/home/dog` is a file path representing our current location in the file system, just like navigating the folders in the GUI explorer.
+The string `/home/username` is a file path representing our current location in the file system, just like navigating the folders in the GUI explorer.
 Typically, on Unix systems the `/` is the root directory.
 All other directories are organized below it.
-(*note:* the Windows alternatives such as Git Bash locate the home directories in a "fake" root that is usually inside the application directory, not the actual Windows file system root. For example, on Git Bash `cd /` will bring you to something like `C:\Program Files\Git\mingw64\` not `C:\`.)
+(*note:* when using Git Bash on Windows, `cd ~` should bring you to your Windows user directory, such as `C:\Users\username`. However, the Windows alternatives locate the `/` directories in a "fake" root directory, not the actual Windows file system root. For example, on Git Bash `cd /` will bring you to something like `C:\Program Files\Git\mingw64\` not `C:\`. Cygwin and MobaXterm also place the "home" directory inside the fake root. For example, when using Cygwin, `cd ~` the `pwd` will say `/home/username`, but will actually be located in the Windows `C:\cygwin\home\username`.)
 
 - `ls` (listing)
 - `ls -a` (`-a` is a flag, it adds an option to the command, in this case to show all files including hidden ones)
@@ -139,4 +139,3 @@ Or watch Star Wars: `telnet towel.blinkenlights.nl`
 - [Shell lesson](http://swcarpentry.github.io/shell-novice/) from Software Carpentry
 - [The Linux Command Line](http://linuxcommand.org/tlcl.php) by William Shotts
 - [10 command-line tools for data analysis in Linux](https://opensource.com/article/17/2/command-line-tools-data-analysis-linux) by Jason Baker
-

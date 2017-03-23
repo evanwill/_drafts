@@ -1,7 +1,7 @@
 ---
 title: wget notes
 layout: post
-tags:
+tags: [tools, web]
 date: 2016-01-15
 ---
 

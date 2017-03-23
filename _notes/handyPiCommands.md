@@ -1,7 +1,7 @@
 ---
 title: Handy Raspberry Pi Commands
 layout: post
-tags: rpi, linux
+tags: [rpi, linux]
 date: 2016-01-05
 ---
 

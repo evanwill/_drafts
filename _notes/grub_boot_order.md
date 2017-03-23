@@ -1,7 +1,7 @@
 ---
 title: Update Grub boot order on multi boot system
 layout: post
-tags: Linux
+tags: [linux]
 date: 2016-10-05
 ---
 

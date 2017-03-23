@@ -1,7 +1,7 @@
 ---
 title: Use Git locally to collaborate
 layout: post
-tags: git 
+tags: [git]
 date: 2016-09-30
 ---
 

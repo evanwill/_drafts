@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<div> <!--class="archive">-->
-
-  <h2>Notes:</h2>
+<div>
+  <h2 class="page-title">Browse:</h2>
   <div id="archiveList" class="archive-list">
 
     <!-- class="search" automagically makes an input a search field. -->
@@ -24,7 +23,7 @@ layout: default
         <span class="date archive-list-post-date">
           <time>| {{ post.date | date: "%Y-%m-%d" }} | </time>
         </span>
-        <span class="tags">{{ post.tags }}</span>
+        <span class="tags">{{ post.tags | join: ', ' }}</span>
         </a>
       </div>
       {% endfor %}

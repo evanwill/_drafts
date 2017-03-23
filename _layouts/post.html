@@ -2,9 +2,9 @@
 layout: default
 ---
 <div class="post">
-  <div class="post-title">{{ page.title }}</div>
+  <h2 class="post-title">{{ page.title }}</h2>
   <span class="post-date">
-    <time>{{ page.date | date_to_string }}</time>
+    <time>[last update: {{ page.date | date_to_string }}]</time>
   </span>
   <div class="post-tag">
     <ul>
