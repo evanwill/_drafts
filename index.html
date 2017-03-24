@@ -13,7 +13,7 @@ title: browse
   </div>
 
   <div class="listjs">
-    {% for post in site.notes %}
+    {% for post in site.notes reversed %}
     <div class="archive-list-post">
       <a href="{{ post.url | prepend: site.url }}">  
       <span class="title archive-list-post-title">
