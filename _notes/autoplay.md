@@ -25,5 +25,5 @@ Most HTML5 videos set to autoplay should now be blocked! The only problem is tha
 ## Chromium / Chrome
 
 - add [Disable HTML5 Autoplay](https://chrome.google.com/webstore/detail/disable-html5-autoplay/efdhoaajjjgckpbkoglidkeendpkolai) plugin. Unforturnately, this plugin is not actively developed (check news at the [repository](https://github.com/Eloston/disable-html5-autoplay)). There is some hints that the functionality will move to [uBlock Origin](https://github.com/gorhill/uBlock).
-
+- be sure to enable tab muting (available by default in Firefox): paste `chrome://flags/#enable-tab-audio-muting` into the address bar. Click `Enable` to toggle the feature on. Now you can click on the little speaker icon on any tab to mute the audio.
 
