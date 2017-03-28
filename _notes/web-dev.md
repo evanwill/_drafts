@@ -22,5 +22,5 @@ Colors:
 Accessibility:
 - [ARL web accessibility toolkit](http://accessibility.arl.org/standards-best-practices/)
 - [Usability.gov](http://www.usability.gov/what-and-why/accessibility.html)
-- Chrome [Accessibility Developer Tools] (https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
+- Chrome [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
 - [WAVE tool](http://wave.webaim.org/)
