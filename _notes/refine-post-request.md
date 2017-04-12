@@ -44,5 +44,7 @@ d = f.read()
 return d
 ```
 
+If the API returns errors, try using GREL `value.escape('xml')` on the text first.
+
 The official [Refine Jython documentation](https://github.com/OpenRefine/OpenRefine/wiki/Jython) is pretty sparse.
 Refine Jython includes the standard libraries, but others can be adding using a [work around](https://github.com/OpenRefine/OpenRefine/wiki/Extending-Jython-with-pypi-modules).
