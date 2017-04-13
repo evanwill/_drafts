@@ -39,12 +39,36 @@ import urllib2, urllib
 url = 'http://text-processing.com/api/sentiment/'
 data = urllib.urlencode({'text': value})
 req = urllib2.Request(url,data)
-f = urllib2.urlopen(req)
-d = f.read()
-return d
+post = urllib2.urlopen(req)
+return post.read()
 ```
 
-If the API returns errors, try using GREL `value.escape('xml')` on the text first.
+In most cases urlencode is not necessary, and in the tiny Refine expression window it is more pragmatic to write it in a compressed form:
+
+```
+import urllib2
+url = 'http://text-processing.com/api/sentiment/'
+return urllib2.urlopen(url,"text="+value).read()
+```
+
+If the API returns errors, try using GREL `value.escape('xml')` on the text first. 
+And write a script that has error handling, like:
+
+```
+import urllib2, urllib
+url = "http://text-processing.com/api/sentiment/"
+data = urllib.urlencode({"text": value})
+req = urllib2.Request(url,data)
+try:
+    post = urllib2.urlopen(req)
+except urllib2.URLError as e:
+    if hasattr(e, "reason"):
+        return "Failed: ", e.reason
+    elif hasattr(e, "code"):
+        return "Error code: ", e.code
+else:
+    return post.read()
+```
 
 The official [Refine Jython documentation](https://github.com/OpenRefine/OpenRefine/wiki/Jython) is pretty sparse.
 Refine Jython includes the standard libraries, but others can be adding using a [work around](https://github.com/OpenRefine/OpenRefine/wiki/Extending-Jython-with-pypi-modules).
