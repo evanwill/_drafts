@@ -25,8 +25,10 @@ There are thousands to choose from, each with different philosophies, strengths,
 
 ## Why Linux?
 
-Linux is [Free Software](https://www.gnu.org/philosophy/free-sw.en.html), meaning cost-free and freely licensed, giving you **freedom**!
+Linux is [Free Software](https://www.gnu.org/philosophy/free-sw.en.html), meaning cost-free and freely licensed, giving you **freedom** (as in [freeeeeedoooom](https://youtu.be/n9D7oeM3zd8)!
 You can control, inspect, modify, copy, and share the OS. 
+But for most users, that is not necessarily the most compelling reason to use Linux. 
+Instead they just appreciate a solid, powerful, and user-friendly OS.
 Linux provides security, privacy, stability/reliability, customization, and cost benefits, in addition to access to a vast ecosystem of open-source applications and services. 
 Linux runs most web servers, super computers, and single board computers. 
 So if you want to use a VM in the cloud, do high performance computing, or tinker with a Raspberry Pi at home, it's helpful to know Linux.
@@ -34,7 +36,7 @@ But it also makes a great OS for your personal computer!
 Thus, there are many practical *and* ideological reasons to use Free and Open software.
 
 > Bloatware, adware, viruses, oh my! 
-> Many people are sick of the greedy commercial practices of Windows, Apple, and PC manufacturers that put user security and privacy at risk.
+> Many people are sick of the shady commercial practices of Windows, Apple, and PC manufacturers that put user security and privacy at risk.
 > Propriety OS limit your rights and control as a user.
 > Linux distros are viable alternatives!
 
@@ -42,14 +44,15 @@ Thus, there are many practical *and* ideological reasons to use Free and Open so
 
 Surf [Distrowatch](https://distrowatch.com/) to browse the latest distro news!
 Part of the fun of getting started with Linux is choosing a distro, but it can also be very overwhelming.
-Most desktop distros are a package of technical low-level stuff, plus a desktop and selection of basic applications.
+Most distros are a package of technical low-level stuff, plus a desktop and selection of basic applications.
+Many are focused on running servers, others on desktop users.
 Here are some things to consider:
 
-- Out-of-the-box experience. Do you want it to just work or are you willing to spend time customizing it? Do you want all the applications pre-installed or minimalist?
-- Installer! Older Linux distros were hard to install--Ubuntu really changed that, but some installers are friendlier than others.
-- Dual booting options. Do you want to keep windows? Some installers make it easy.
-- Repositories. Some distros have huge repos of applications, making installing new software secure and easy. Some are more up-to-date than others. Others are more DIY.
-- Hardware support. Some distros support a huge range of legacy hardware. Others have better support for the newest hardware.
+- Out-of-the-box experience. Do you want it to just work or are you willing to spend time customizing it? Do you want all the applications pre-installed or minimalist (Arch)?
+- Installer! Older Linux distros were hard to install--Ubuntu really changed that, but some installers are still friendlier than others.
+- Dual booting options. Do you want to keep windows? Some installers make it easy (Ubuntu).
+- Repositories. Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others. Others are more DIY (Arch).
+- Hardware support. Some distros support a huge range of legacy hardware. Others have better support for the newest hardware (look for newest kernel version).
 - Current vs LTS (long term support). Do you want to install an OS that will be supported for a LONG time that you won't have to upgrade or do you want the latest-and-greatest?
 - Rolling release vs. fixed release. Rolling release distros have a continuos stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require an large upgrade every so often.
 - Ecosystem. Do you use a Linux server at work? Choose a distro from the same family to make life easier.
@@ -59,8 +62,9 @@ But check out the Appendix at the bottom for MORE suggestions!
 
 ## Desktop Environment
 
-The Desktop environment (DE) is the graphical interface you will be staring at all day.
-It is separate from the core of the distro and can usually be installed independently.
+The desktop environment (DE) is the graphical interface you will be staring at all day.
+Unlike windows, mac, or chrome, with Linux you have a choice of desktops.
+It is separate from the core of the distro and can be installed independently.
 In fact you can [install more than one](https://www.linux.com/news/5-linux-desktop-environments-rise-2017)!
 Things to consider:
 - Weight. How graphics heavy is it. If you have an old computer or low spec hardware, go light!
@@ -86,9 +90,11 @@ Major desktops:
 ## Try and Install
 
 The best way to learn Linux is to try it. 
+When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. However, if you are interested in running Linux or other open OS, you will most likely have to install it yourself.
 Modern Linux distros are generally released as an ISO disk image, often called a “live cd” or “live usb”. 
 This means you can download an ISO, burn it to a USB stick, and then boot up into the desktop without actually installing or changing your hard drive!
 Give it a try, with these [instructions](https://evanwill.github.io/_drafts/notes/burn-iso.html).
+
 Or you install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
 
 Once you try it out, install it!
@@ -110,7 +116,7 @@ Here are a few things slightly different from Windows:
 
 ## Major distro families
 
-[Debian](https://www.debian.org/) boring, stable distro with extensive repositories that is the base of MANY other distros
+[Debian](https://www.debian.org/) boring, stable distro with extensive repositories that is the base of MANY other distros. Uses `apt` configuration and `.deb` packages.
 - [Ubuntu](https://www.ubuntu.com/) developed by Canonical based in the UK, it is the most popular desktop linux, very beginner friendly
     - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours)
     - [KDE Neon](https://neon.kde.org/) cutting edge KDE on Ubuntu base
@@ -120,7 +126,7 @@ Here are a few things slightly different from Windows:
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi, unique Pixel desktop
 - [Tails](https://tails.boum.org/index.en.html) privacy focused distro
 
-[Fedora](https://getfedora.org/)
+[Fedora](https://getfedora.org/). Uses `yum` configuration and `.rpm` packages.
 - [RedHat](https://www.redhat.com/) USA based non-free enterprise Linux
     - [CentOS](https://www.centos.org/) free RedHat
 - [Fedora Spins](https://spins.fedoraproject.org/)
