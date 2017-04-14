@@ -51,13 +51,13 @@ url = 'http://text-processing.com/api/sentiment/'
 return urllib2.urlopen(url,"text="+value).read()
 ```
 
-If the API returns errors, try using GREL `value.escape('xml')` on the text first. 
+If the API returns errors, try using GREL trim whitespace, GREL `escape()` / `unescape()`, or Jython `encode("utf-8")`
 And write a script that has error handling, like:
 
 ```
 import urllib2, urllib
 url = "http://text-processing.com/api/sentiment/"
-data = urllib.urlencode({"text": value})
+data = urllib.urlencode({"text": value.encode("utf-8")})
 req = urllib2.Request(url,data)
 try:
     post = urllib2.urlopen(req)
@@ -67,7 +67,8 @@ except urllib2.URLError as e:
     elif hasattr(e, "code"):
         return "Error code: ", e.code
 else:
-    return post.read()
+    response = post.read()
+    return response
 ```
 
 The official [Refine Jython documentation](https://github.com/OpenRefine/OpenRefine/wiki/Jython) is pretty sparse.

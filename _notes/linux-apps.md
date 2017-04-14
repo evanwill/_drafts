@@ -7,7 +7,7 @@ date: 2017-02-02
 
 ## Text Editors
 
-- [Gedit](https://evanwill.github.io/_drafts/notes/gedit-editor.html), 
+- [Gedit](https://evanwill.github.io/_drafts/notes/gedit-editor.html) 
 - [Atom](https://atom.io/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [notepadqq](http://notepadqq.altervista.org/wp/), linux notepad++ clone

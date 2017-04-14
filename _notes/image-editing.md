@@ -1,7 +1,7 @@
 ---
 title: Open image editing
 layout: post
-tags: [images,open]
+tags: [images, open]
 date: 2016-02-30
 ---
 
