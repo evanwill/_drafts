@@ -87,15 +87,16 @@ Major desktops:
 > You might hear about GTK vs. Qt applications and themes.
 > Gnome uses GTK and KDE uses Qt, so applications based on the non-native tool kit won't style correctly.
 
-## Try and Install
+## Try and Install!
 
 The best way to learn Linux is to try it. 
-When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. However, if you are interested in running Linux or other open OS, you will most likely have to install it yourself.
-Modern Linux distros are generally released as an ISO disk image, often called a “live cd” or “live usb”. 
+When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. 
+However, if you are interested in running Linux or other open OS, you will have to install it yourself.
+Modern Linux distros are released as an ISO disk image, often called a “live cd” or “live usb”. 
 This means you can download an ISO, burn it to a USB stick, and then boot up into the desktop without actually installing or changing your hard drive!
 Give it a try, with these [instructions](https://evanwill.github.io/_drafts/notes/burn-iso.html).
 
-Or you install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
+Or you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
 
 Once you try it out, install it!
 Most installers are graphical and friendly.
@@ -105,12 +106,12 @@ Most installers are graphical and friendly.
 If you have ever used a computer, almost everything will be familiar! No big deal.
 Here are a few things slightly different from Windows:
 
-- User accounts and passwords
-- File system, home directory
-- Updates
-- Software center
-- Terminal, command line is really handy! See this [mini-workshop](https://evanwill.github.io/_drafts/notes/commandline.html).
-- UIdaho, connecting to AirVandalGold requires some extra steps, see [my instructions](https://evanwill.github.io/_drafts/notes/airvandalgold-setup.html).
+- User accounts and passwords. You are always logged in as a user and require a password to make any changes to the system (Windows tends to hide this).
+- File system, home directory. Linux uses a different file system that Windows can't read and is presented differently. On Window the root is the drive letter `C:\`. Linux presents all drives as a unified file system, with the root at `/` and your user directory at `/home/username` (Linux doesn't use Windows back slashes `\`).
+- Updates. Updates are pushed out very regularly by most distros keeping you secure and fixing bugs. The updates cover the OS and all installed applications. First the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software are downloaded. There is usually an updater application, you may need to start it manually.
+- Software center. Applications can be easily and securely installed from your distro's repository. There is usually an GUI app to find and manage your software.
+- Terminal. Command line is really handy! See this [mini-workshop](https://evanwill.github.io/_drafts/notes/commandline.html).
+- UIdaho wifi. Connecting to AirVandalGold requires some extra steps, see [my instructions](https://evanwill.github.io/_drafts/notes/airvandalgold-setup.html).
 
 # Appendix
 
