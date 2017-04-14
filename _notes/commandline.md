@@ -1,7 +1,7 @@
 ---
 title: Intro to the Command Line
 layout: post
-tags: [cli, shell]
+tags: [cli, shell, workshop]
 date: 2017-03-04
 ---
 

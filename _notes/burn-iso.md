@@ -1,7 +1,7 @@
 ---
 title: Burn SD or USB for Raspberry Pi and more!
 layout: post
-tags: [usb, linux, rpi]
+tags: [linux, rpi, workshop]
 date: 2017-01-27
 ---
 

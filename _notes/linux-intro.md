@@ -1,14 +1,31 @@
 ---
 title: Introduction to Linux!
 layout: post
-tags: [linux, mini-workshop]
+tags: [linux, workshop]
 date: 2017-04-13
 ---
 
+> MILL-Mini workshop:
+>
 > Want to get started with Raspberry Pi or Linux on your laptop? This workshop will introduce the most popular operating system in the world! Although most people are more familiar with Windows or Mac, Linux OS runs the vast majority of web servers, super computers, smartphones (Android), TVs, and other electronic devices. You can also use desktop versions for free on your laptop or home computer!
 > Come get an introduction to free and open source operating systems, and see desktop versions of Linux in action on Raspberry Pi and laptops. We will get oriented to the basics of the desktop and learn how to install it on a computer.
 
 Why Linux?
+https://en.wikipedia.org/wiki/Linux
+https://opensource.com/resources/what-is-linux
+Linux is a family of operating systems (OS).
+An OS is made up of a many components, basically:
+- Bootloader: starts the low level processes necessary to boot an OS. [GRUB](https://www.gnu.org/software/grub/)
+- Kernel: manages the hardware and low level software components. = [Linux](https://www.kernel.org/)
+- Shell: text command line interface
+- Desktop environment: graphical interface 
+- Applications: individual programs run inside the desktop 
+
+Linux is usually shipped as a complete package of components called a distribution.
+There are thousands to choose from, with different philosophies and strengths.
+
+[Free Software](https://www.gnu.org/philosophy/free-sw.en.html)
+security, privacy, cost, customization, ecosystem, stability/reliability, freedom, ideals,
 
 Choose a distribution:
 - Rolling release vs. Fixed release
@@ -79,8 +96,9 @@ paper
 
 Linux distros are generally released as an ISO, often called a “live cd” or “live usb” meaning it can boot from the install media.
 Burn a LiveUSB or SD
-
 https://evanwill.github.io/_drafts/notes/burn-iso.html
+
+user accounts
 
 education linux:
 
