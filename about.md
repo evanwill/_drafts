@@ -13,3 +13,12 @@ It's a memory tool.
 `_drafts` is built using [Jekyll](https://jekyllrb.com/), on [GitHub Pages](https://pages.github.com/).
 
 License is <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" title="license">cc-by-sa</a> [evan will](https://github.com/evanwill).
+
+Some of my other sites:
+- [#PastyAware](https://evanwill.github.io/pastyAware/)
+- [get-git](https://uidaholib.github.io/get-git/)
+- [hello-arduino](https://evanwill.github.io/hello-arduino/)
+- [clean-your-data](https://evanwill.github.io/clean-your-data/)
+- [p5tests](https://evanwill.github.io/p5tests/index.html)
+- [poem choice](https://uidaholib.github.io/poemchoice/)
+- [poemBot](https://github.com/evanwill/poemBot)
