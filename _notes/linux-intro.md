@@ -25,7 +25,7 @@ There are thousands to choose from, each with different philosophies, strengths,
 
 ## Why Linux?
 
-Linux is [Free Software](https://www.gnu.org/philosophy/free-sw.en.html), meaning cost-free and freely licensed, giving you **freedom** (as in [freeeeeedoooom](https://youtu.be/n9D7oeM3zd8)!
+Linux is [Free Software](https://www.gnu.org/philosophy/free-sw.en.html), meaning cost-free and freely licensed, giving you **freedom** (as in [freeeeeedoooom](https://youtu.be/n9D7oeM3zd8))!
 You can control, inspect, modify, copy, and share the OS. 
 But for most users, that is not necessarily the most compelling reason to use Linux. 
 Instead they just appreciate a solid, powerful, and user-friendly OS.
