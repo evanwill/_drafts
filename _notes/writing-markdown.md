@@ -6,13 +6,13 @@ date: 2016-05-20
 ---
 
 Markdown is a quick and simple way to write formatted documents in plaintext.
-It is easy to read as plaintext, but is designed to convert to HTML for easy web publishing.
-Writing in plaintext rather than proprietary formats such as Word has many advantages:
+It is intuitive and easy to read, but is designed to convert to HTML for easy web publishing.
+Writing in plaintext rather than [proprietary](https://www.gnu.org/proprietary/proprietary.en.html) formats such as Word has many advantages:
 
 - simple - don't waste time in complex and frustrating formatting in Word that will be deleted by publishers anyway. This keeps your distractions to a minimum.
-- sharable - any device can open and read plaintext.
+- sharable - any device can open and read plaintext, no special software needed, unlike Word.
 - preservable - markdown is plaintext which is easy for digital preservation, unlike Word.
-- version controllable - you can use the full power of Git or other version control systems.
+- version controllable - you can use the full power of Git or other version control systems, unlike Word.
 
 ## GitHub Markdown 
 
@@ -30,7 +30,7 @@ Here are some tutorials:
 You can write markdown in any application that supports plaintext, i.e. a text editor. 
 Many text editors have plugins or features to make it easier with previews of your document. 
 However, there are also applications devoted specifically to writing in Markdown:
-
-- [Typora](https://www.typora.io/) - live preview writing focused slick new app. 
+ 
 - [Remarkable](https://remarkableapp.github.io/index.html) - code / preview split screen.
 - [Dillinger](http://dillinger.io/) - in browser, nothing to install.
+- [Typora](https://www.typora.io/) - live preview writing focused slick new app.

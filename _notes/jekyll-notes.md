@@ -16,6 +16,8 @@ date: 2016-10-03
 Jekyll does not officially support Windows, however it is cross platform (they just don't officially write windows documentation or check for bugs). 
 There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it is out of date. Not everything mentioned is required any more.
 
+> For more complete install info, and other platforms see [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/0-prep.html).
+
 Here are the steps I took to get it running on Windows 7 or 10:
 
 1. Get Ruby installed:
@@ -26,7 +28,7 @@ Here are the steps I took to get it running on Windows 7 or 10:
   - Open a command prompt in the Dev Kit directory, then type the command `ruby dk.rb init`, then `ruby dk.rb install` to connect to your Ruby instance.
 
 2. Install Jekyll:
-  - Open a command prompt, then type `gem install jekyll` (gem is Ruby's installer, similar to Python's pip)
+  - Open a command prompt, then type `gem install jekyll bundler` (gem is Ruby's installer, similar to Python's pip)
   - Done!
 
 3. Use Jekyll:
