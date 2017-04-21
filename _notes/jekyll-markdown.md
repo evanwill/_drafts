@@ -23,6 +23,19 @@ The trick to fix this is that the code block has to line up with the first chara
 
 E.g., this works:
 
+`````
+1. one
+	- nest
+	- nest
+	  
+	  ```
+	  code
+	  block
+	  ```
+	- more list
+2. two
+`````
+
 1. one
 	- nest
 	- nest
@@ -35,6 +48,19 @@ E.g., this works:
 2. two
 
 but this doesn't:
+
+`````
+1. one
+	- nest
+	- nest
+	  
+	```
+	code
+	block
+	```
+	- more list
+2. two
+`````
 
 1. one
 	- nest
