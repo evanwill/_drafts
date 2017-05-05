@@ -35,8 +35,18 @@ For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac Text
 However, more advanced code editors often have plugins or features to make it easier with previews of your document.
 Checkout [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/).
 
-If you want a more fully featured visual writing environment, there are also applications devoted specifically to writing in Markdown:
+If you want a more fully featured visual writing environment, there are also applications devoted specifically to writing in Markdown. 
+These apps will have previews, GUI controls, and automatic export options. 
+Check out:
  
 - [Remarkable](https://remarkableapp.github.io/index.html) - code / preview split screen.
 - [Dillinger](http://dillinger.io/) - in browser, nothing to install.
 - [Typora](https://www.typora.io/) - live preview writing focused slick new app.
+
+## Rendering Markdown
+
+Markdown is human readable as plaintext--it is intuitive like writing an email. 
+However, it is designed to render to HTML. 
+Markdown compiliers are built in to many applications to generate formatted versions from HTML to .docx.
+
+One option is [Pandoc](http://pandoc.org/), which is designed to translate between many formats and generate new output versions, such as PDFs (via [LaTex](https://www.latex-project.org/about/)). Check this [Sustainable Authorship in Plain Text](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) tutorial.
