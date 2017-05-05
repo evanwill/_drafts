@@ -42,7 +42,7 @@ There is two basic workflows to collaborate on a GitHub repository:
     - Add collaborators via email or GitHub name.
     - Collaborator will need to accept the invite.
     - Clone the repo to your local machine.
-    - Now you all have equal control over the repo content: `push`, `pull`, `merge`, etc.
+    - Now you all have equal control over the repo content: `push`, `pull`, `merge`, etc. Using feature [branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) may be helpful to organize your work.
 2. Fork and Pull Request (more complex, centralized control, typical of bigger projects)
     - Navigate to your partner's repo on GitHub.
     - Click "Fork" in upper right.
@@ -52,6 +52,7 @@ There is two basic workflows to collaborate on a GitHub repository:
     - Create a message saying exactly what changes you made and why.
     - The original repo will now have a PR that collaborators can view and comment on. Only the owner can accept the request and merge it.
 
+See GitHub Help [About Pull requests](https://help.github.com/articles/about-pull-requests/) for more options.
 Note: it is best to create small, targeted commits when collaborating.
 Each commit should do one specific thing making it easier for others to understand your work and navigate the history if necessary.
 PR's should include only one change so they can be merged in as a module--don't combine several unrelated commits since the owner may not want to merge all of them. 
