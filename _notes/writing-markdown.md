@@ -27,9 +27,15 @@ Here are some tutorials:
 
 ## Markdown editors
 
-You can write markdown in any application that supports plaintext, i.e. a text editor. 
-Many text editors have plugins or features to make it easier with previews of your document. 
-However, there are also applications devoted specifically to writing in Markdown:
+Markdown is plaintext, it's sort of like source code for your document. 
+You can write it in any application that supports plain text, i.e. a text editor.
+When working with code you should have a good text editor. 
+ 
+For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient (*note:* you can use Windows Notepad, but it does not handle UTF-8 encoding or UNIX line endings that are standard for most cross platform applications).
+However, more advanced code editors often have plugins or features to make it easier with previews of your document.
+Checkout [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/).
+
+If you want a more fully featured visual writing environment, there are also applications devoted specifically to writing in Markdown:
  
 - [Remarkable](https://remarkableapp.github.io/index.html) - code / preview split screen.
 - [Dillinger](http://dillinger.io/) - in browser, nothing to install.
