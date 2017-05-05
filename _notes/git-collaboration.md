@@ -1,5 +1,5 @@
 ---
-title: Quick Git for Collaboration Intro
+title: Git for Collaboration Intro
 layout: post
 tags: [git, workshop]
 date: 2017-05-05
