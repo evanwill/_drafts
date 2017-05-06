@@ -10,6 +10,7 @@ Quick local server:
 
 Browser support:
 - [Can I Use](http://caniuse.com/)
+- [CSS font stack](http://www.cssfontstack.com/)
 
 Google tests:
 - [Page Speed](https://developers.google.com/speed/pagespeed/insights/)

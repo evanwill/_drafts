@@ -5,9 +5,9 @@ tags: [github]
 date: 2017-05-06
 ---
 
-A GitHub organization is a useful tool to collaborate with a group and ensure longevity in situations with members may more on from a project or lab. 
-GitHub organizations are NOT a separate account or profile, but are a group of users. 
-One or more persons can be the Owner with full admin control over the org.
+A GitHub organization is a useful tool to collaborate with a group and ensure continuity in situations with members may move on from a project or lab. 
+GitHub organizations are NOT a separate account or profile, but are a group of users, i.e. you can't log in as an Org. 
+One or more persons can be the Owner with full admin control over the org including managing members.
 
 To start an organization, click the plus sign icon on the upper right of the GitHub menu bar and select "Create organization". 
 Give your org a good name, preferably with no spaces, since this will be used for your page and URLs.
