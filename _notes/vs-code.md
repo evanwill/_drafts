@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Code Notes
 layout: post
-tags: [tools,editor]
+tags: [tools, editor]
 date: 2016-03-20
 ---
 

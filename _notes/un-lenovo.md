@@ -1,7 +1,7 @@
 ---
 title: UnLenovo
 layout: post
-tags: [tips]
+tags: [tips, windows]
 date: 2016-03-15
 ---
 

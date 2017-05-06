@@ -49,7 +49,7 @@ There are several options to add a UNIX style shell to Windows:
 
 The window that hosts the text based CLI is often called a **terminal emulator**. 
 Most people use the default that comes with the OS, but if you want to get fancy, there are a surprising number of options out there!
-Check out [Guake](http://guake-project.org/), [Hyper](https://hyper.is/), or [ConEmu](https://conemu.github.io/)(Windows).
+Check out [Guake](http://guake-project.org/), [Hyper](https://hyper.is/), [ConEmu](https://conemu.github.io/)(Windows), [Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html)(Windows).
 
 ## Navigate 
 

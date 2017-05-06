@@ -5,6 +5,8 @@ tags: [viz]
 date: 2017-05-06
 ---
 
+> Resources from "Data Viz 101: Concepts and Tools" workshop 2015-10-14
+
 # Background
 
 ![Charles Joseph Minard’s Map (1869)](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
