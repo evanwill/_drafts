@@ -5,7 +5,7 @@ tags: [viz]
 date: 2017-05-06
 ---
 
-> Resources from "Data Viz 101: Concepts and Tools" workshop 2015-10-14
+> Resources from "[Data Viz 101: Concepts and Tools](http://www.lib.uidaho.edu/services/workshops/resources/UIdaho_DataViz101_workshop.pdf)" workshop 2015-10-14
 
 # Background
 

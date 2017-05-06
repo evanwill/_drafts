@@ -1,5 +1,5 @@
 ---
-title: handy web dev tools
+title: Handy web dev tools
 layout: post
 tags: [web]
 date: 2017-03-20

@@ -1,7 +1,7 @@
 ---
 title: Using Cygwin
 layout: post
-tags: [cli, shell, windows]
+tags: [shell, windows]
 date: 2017-03-09
 ---
 

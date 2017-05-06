@@ -1,7 +1,7 @@
 ---
 title: Using Cmdr
 layout: post
-tags: [cli, shell, windows]
+tags: [shell, windows]
 date: 2017-05-06
 ---
 

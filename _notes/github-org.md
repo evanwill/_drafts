@@ -25,7 +25,7 @@ Accounts in your Org have one of two roles:
 Your Org can create Teams.
 Set up teams to manage groups with access to specific repositories.
 
-# Education discount
+## Education discount
 
 Visit the [GitHub Education page](https://education.github.com/) to learn about current discounts. 
 In general, they grant free private repositories to non-profit, educational organizations for teaching purposes. 
