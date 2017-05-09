@@ -9,7 +9,7 @@ date: 2016-02-18
 
 ## Text Analysis?
    
-= is a messy term that encompasses many interconnected processes such as text data collection, cleaning, parsing, summary, visualization. 
+= a messy term that encompasses many interconnected processes such as text data collection, cleaning, parsing, summary, visualization. 
 Also known as [text mining](https://en.wikipedia.org/wiki/Text_mining). 
 
 Examples: Text Annotation, [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing), [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis)
