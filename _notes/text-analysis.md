@@ -27,6 +27,10 @@ Voyant Tools (suite of online text visualization tools. Stéfan Sinclair & Geoff
 - [Voyant web app](http://voyant-tools.org/)
 - [Voyant docs](http://docs.voyant-tools.org/)
 
+Wordseer (suite of tools run on local server)
+- [repository](https://github.com/Wordseer/wordseer)
+- [docs](http://wordseer.berkeley.edu/)
+
 TokenX ("a text visualization, analysis, and play tool". Brian Pytlik Zillig, U of Nebraska Libraries)
 - [TokenX web app](http://tokenx.unl.edu/tokenx/index.html)
 
@@ -71,8 +75,8 @@ Ngrams
 Hathi Trust [Research Center Portal](https://sharc.hathitrust.org/) (big text data)
 
 Twitter analysis
-- Healey & Ramaswamy, "Visualizing Twitter Sentiment" (2013), http://www.csc.ncsu.edu/faculty/healey/tweet_viz/ 
-- Clement Levallois, "Umigon: sentiment analysis on Tweets based on terms lists and heuristics" (2013), http://www.umigon.com/ 
+- Healey & Ramaswamy, ["Visualizing Twitter Sentiment" (2013)](http://www.csc.ncsu.edu/faculty/healey/tweet_viz/) 
+- Clement Levallois, ["Umigon: sentiment analysis on Tweets based on terms lists and heuristics" (2013)](http://www.umigon.com/)
 - now everyone is doing it! [Twitter interactive](https://interactive.twitter.com/)
 
 ## Explore Text with Programming
@@ -83,8 +87,8 @@ Python
 - Learn: [NLTK Book](http://www.nltk.org/book/) (Steven Bird, Ewan Klein, and Edward Loperm, designed to teach text analysis)
 
 R
-- Distribution: R, https://cran.rstudio.com/ 
-- IDE: RStudio,https://www.rstudio.com/products/rstudio-desktop/ 
+- Distribution: [R](https://cran.rstudio.com/)
+- IDE: [RStudio](https://www.rstudio.com/products/rstudio-desktop/)
 - Learn: [Text analysis with R for students of literature](http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/), Matthew L Jockers (New York : Springer-Verlag, 2014).
 
 Bash Shell 
@@ -95,7 +99,7 @@ Bash Shell
 ## Tool Catalogs / Directories
 
 - [DIRT](http://dirtdirectory.org/) (Digital Research Tools)
-- [TAPoR3](http://tapor-test.artsrn.ualberta.ca/home) ("Discover research tools for studying text")
+- [TAPoR3](http://tapor.ca/home) ("Discover research tools for studying text")
 - [DH Commons](http://dhcommons.org/) (good place to find example projects)
 
 > **Caution**:
