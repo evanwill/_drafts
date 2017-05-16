@@ -47,7 +47,7 @@ Check out:
 
 Markdown is human readable as plaintext--it is intuitive like writing an email. 
 However, it is designed to render to HTML. 
-Markdown compilers are built in to many applications to generate formatted versions from HTML to .docx.
+Markdown compilers are built in to many applications to generate formatted versions such as HTML, .docx, or PDF.
 
 One option is [Pandoc](http://pandoc.org/), a command line utility to translate between many formats and generate new output versions, such as PDFs (via [LaTex](https://www.latex-project.org/about/)). 
 Check this [Sustainable Authorship in Plain Text](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) tutorial.
