@@ -52,7 +52,7 @@ There is two basic workflows to collaborate on a GitHub repository:
     - Create a message saying exactly what changes you made and why.
     - The original repo will now have a PR that collaborators can view and comment on. Only the owner can accept the request and merge it.
 
-See GitHub Help [About Pull requests](https://help.github.com/articles/about-pull-requests/) for more options.
+See GitHub Help [Fork a Repo](Reynolds Journalism Institute) and [About Pull requests](https://help.github.com/articles/about-pull-requests/) for more options.
 
 *Note:* it is best to create small, targeted commits when collaborating.
 Each commit should do one specific thing making it easier for others to understand your work and navigate the history if necessary.
