@@ -29,3 +29,7 @@ To Sync your fork from the original repository is two steps:
 - [GitHub Classroom](https://classroom.github.com/)
 - [Why you should use GitHub: Lessons for the classroom and newsroom](http://www.storybench.org/use-github-lessons-classroom-newsroom/)
 - [GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+
+## GitHub
+
+- use Emoji in GitHub markdown, see [Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
