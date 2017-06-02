@@ -10,7 +10,7 @@ date: 2017-05-06
 
 In the `cmder` directory, double click `Cmder.exe` to get started.
 Windows might give some warning about programs downloaded from the internet that you have to Okay to run.
-ConEmu (the terminal emulator) might also suggest you download a newer version, click "Cancel".
+ConEmu (the terminal emulator) might also suggest you download a newer version, click "Cancel" to ignore (or the first download option to automatically install the update).
 Pin the icon to the taskbar to make starting it easier.
 
 By default Cmdr opens with the standard Windows `cmd.exe` shell, but you can open other shells in a new tab by clicking the drop down next to the plus icon in the lower right. 
