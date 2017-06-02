@@ -1,5 +1,5 @@
 ---
-title: Kill Unresponsive Apps on Terminal 
+title: Kill Unresponsive Apps using Terminal 
 layout: post
 tags: [linux]
 date: 2017-05-30
