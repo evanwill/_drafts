@@ -5,7 +5,7 @@ layout: page
 
 `_drafts` is digital rough frame carpentry, a blog of snippets and notes to get things started.
 
-Basically, `_drafts` is a list of gists. 
+Basically, `_drafts` is a list of [gists](https://gist.github.com/). 
 I write gists to remind myself about little tips and tricks.
 This site gathers them together so I can find them.
 It's a memory tool. 
