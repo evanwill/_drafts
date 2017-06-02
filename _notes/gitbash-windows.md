@@ -1,7 +1,7 @@
 ---
 title: Add more to Git Bash on Windows
 layout: post
-tags: [windows, linux, bash]
+tags: [windows, linux, shell]
 date: 2016-05-26
 ---
 
@@ -15,18 +15,22 @@ If you are missing a utility, such as wget, track down a binary for windows and 
 Sometimes the windows binary have funny prefixes, so you should rename the `.exe` file to the standard name.
 Since `bin` is on the PATH, it will be automatically available to Git Bash.
 
-Here are some to add:
+*Note:* some utilities will not work with Git Bash's mintty terminal, for example Nano. 
+The Git-for-Windows team is focused on supporting Git, not a full UNIX terminal environment.
+If you are interested in more complete package, check my notes on [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) or [Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html).
 
-## wget 
+Here are some utilities to add:
 
-- Download the lastest wget binary for windows from https://eternallybored.org/misc/wget/ (they are available as a zip with documentation, or just an exe)
+## Wget 
+
+- Download the lastest wget binary for windows from [eternallybored](https://eternallybored.org/misc/wget/) (they are available as a zip with documentation, or just an exe)
 - If you downloaded the zip, extract all (if windows built in zip utility gives an error, use [7-zip](http://www.7-zip.org/)).
 - Rename the file `wget64.exe` to `wget.exe` if necessary. 
 - Move `wget.exe` to your `Git\mingw64\bin\`
 
 ## make
 
-- Go to ezwinports, https://sourceforge.net/projects/ezwinports/files/
+- Go to [ezwinports](https://sourceforge.net/projects/ezwinports/files/)
 - Download `make-4.1-2-without-guile-w32-bin.zip` (get the version without guile)
 - Extract zip
 - Copy the contents to your `Git\mingw64\` merging the folders, but do NOT overwrite/replace any existing files. 
