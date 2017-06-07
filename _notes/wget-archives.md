@@ -5,7 +5,7 @@ tags: [workshop, tools]
 date: 2017-06-07
 ---
 
-> Mini intro to Wget for archivists
+> Mini intro to practical Wget for archivists
 
 ## What's in a URL?
 
@@ -34,7 +34,7 @@ For example, some information is not fetched until a button click, links are wri
 
 In a web archive features such as search bar, streaming media, widget embeds, and complex JS won't work (or will introduce context anomalies). ([example](https://web.archive.org/web/20150628225214/http://www.lib.uidaho.edu/))
 
-[Webrecorder](https://webrecorder.io/) is a tool used to capture features that require user interaction, but this requires actually surfing everything you want to harvest.
+[Webrecorder](https://webrecorder.io/) is a tool used to capture features that require user interaction, but this requires actually surfing everything you want to harvest. (example use case, [Transparent Idaho](http://transparent.idaho.gov/Pages/transhome.aspx))
 
 ## Dynamic requests issues 
 
@@ -45,13 +45,13 @@ Look at <https://www.uidaho.edu/> , notice that the hyperlinks on page look like
 Rather than a static HTML document, the links are a dynamic request to "active server page extended" script, which creates the page <https://www.uidaho.edu/academics> (which is not academics.html or academics/index.html).
 
 This causes problems for a web archive, since we harvest the resulting static HTML, not the aspx script. 
-The file https://www.uidaho.edu/academics.aspx will not be in the web archive, but the document is captured as https://www.uidaho.edu/academics . ([example](https://web.archive.org/web/20160302145114/http://www.uidaho.edu/))
+The file "www.uidaho.edu/academics.aspx" will not be in the web archive, but the document is captured as "www.uidaho.edu/academics". ([example](https://web.archive.org/web/20160302145114/http://www.uidaho.edu/))
 
 ## Wget Prep
 
 [Wget](https://www.gnu.org/software/wget/) is a handy [Free](https://www.gnu.org/philosophy/free-sw.en.html) command line tool to robustly retrieve documents from the web.
 It is a standard utility on Linux. 
-On Windows, I suggest setting up a Bash terminal with Wget, for example Cmdr as outlined in [Using Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html).
+On Windows, I suggest setting up a Bash terminal with Wget, for example Cmdr as outlined in [Using Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html) (this is handy because it is a portable application, just unzip and use).
 
 See: [Intro to the Command Line](https://evanwill.github.io/_drafts/notes/commandline.html)
 
@@ -79,17 +79,18 @@ A crawl can be limited to a specific file type using the `--accept` option. For 
 
 `wget --recursive --accept=pdf http://site-with-pdfs.com/`
 
-When using `--recursive`, add `--no-parent` or `--level=NUMBER` to limit your crawl:
+When using `--recursive`, add `--no-parent`, `--level=NUMBER`, or `--domains=LIST` to limit your crawl:
 
 `wget -r -np -Apdf http://www.lib.uidaho.edu/services/workshops/resources/`
+
+Correctly **scoping** your crawl is important, spend time exploring the hierarchy of the site to ensure you will capture what you want, but not download the entire internet... 
 
 To get an entire web site, use the `--mirror` and `--page-requisites` arguments.
 This will recursively crawl the domain and collect everything needed to reproduce the site. 
 Adding `--convert-links` will rewrite the internal links to work offline if desired.
+It is important to add `--wait=SECONDS` and `--random-wait` to avoid bothering servers (you are unlikely to overload them, but they are likely to block you).
 
 `wget -mpk --wait=5 --random-wait https://example.com`
-
-It is important to add `--wait=SECONDS` and `--random-wait` to avoid bothering servers (you are unlikely to over load them, but they are likely to block you).
 
 ## Archival Wget with WARC
 
@@ -100,18 +101,28 @@ One WARC can contain all the pages gathered during a web harvest.
 In addition to HTML documents, it can contain binary content such as images.
 
 Wget can create a WARC for any crawl simply by adding the flag `--warc-file="filename"` to the command. 
-Wget will harvest the site assets as normal, but additionally create a WARC compressed as a `.gz` file. 
+Wget will harvest the site assets as normal, but additionally create a WARC compressed as a [gzip](https://en.wikipedia.org/wiki/Gzip) file (`.gz`). 
 For larger sites it’s a good idea to add `--warc-max-size=1G` to limit the max size of each WARC so they don’t get too big.
 
 If the server refuses to give content to wget’s default user agent (sometimes identified as a robot), you can send a different one, like `--user-agent=Mozilla`.
 Occasionally it may be necessary to ignore ["robots.txt"](https://en.wikipedia.org/wiki/Robots_exclusion_standard) for archival purposes. 
-Add `-e robots=off` to the command.
+Add `--execute robots=off` to the command.
 
-`wget --mirror --page-requisites --wait=2 --random-wait --no-parent --trust-server-names --warc-file="test-archive" https://www.uidaho.edu/admissions/visit-idaho/plan-your-visit`
+Test example: 
+
+```
+wget --mirror --page-requisites --wait=2 --random-wait --no-parent --trust-server-names --warc-file="test-archive" https://www.uidaho.edu/admissions/visit-idaho/plan-your-visit`
+```
+
+More complete example:
+
+```
+wget -mpkE --span-hosts --domains=example.com,www.example.com,sub.example.com --warc-file="test-archive" --warc-max-size=1G --warc-cdx --user-agent=Mozilla -e robots=off --wait=2 --random-wait http://www.example.com`
+```
 
 ## Playback
 
-[Webrecorder Player](https://github.com/webrecorder/webrecorderplayer-electron)
+See [Webrecorder Player](https://github.com/webrecorder/webrecorderplayer-electron) (actively developed desktop app created by [Webrecorder](https://webrecorder.io/) / [Rhizome](https://rhizome.org/))
 
 ## Workflow questions
 
@@ -130,6 +141,7 @@ Add `-e robots=off` to the command.
 - Maureen Pennock, "Web-Archiving", *DPC Technology Watch Report* 13 (2013), <http://www.dpconline.org/docman/technology-watch-reports/865-dpctw13-01-pdf/file>
 - Jinfang Niu, "An Overview of Web Archiving", DLib 18, 3/4 (2012), [doi:10.1045/march2012-niu1](http://www.dlib.org/dlib/march12/niu/03niu1.html).
 - ["Archivability"](https://library.stanford.edu/projects/web-archiving/archivability), Stanford Libraries
+- [Oldweb.today](http://oldweb.today/)
 
 Collection Development Policy examples:
 - Columbia University Libraries, ["Web Resources Collection Program"](https://library.columbia.edu/bts/web_resources_collection/policies.html)
@@ -140,7 +152,7 @@ Collection Development Policy examples:
 Tools:
 - [Web Curator Tool](https://github.com/DIA-NZ/webcurator)
 - [NetarchiveSuite](https://github.com/netarchivesuite/netarchivesuite) ([vagrant](https://sbforge.org/display/NASDOC/Quickstart+with+Vagrant), package to manage harvesting developed by The Royal Danish Library)
-- [WAIL](https://github.com/machawk1/wail), [repo](http://machawk1.github.io/wail/) (GUI interface to work with Heritrix and OpenWayback, buggy in my experience)
+- [WAIL](https://github.com/machawk1/wail) (GUI interface to work with Heritrix and OpenWayback, buggy in my experience, [repo](http://machawk1.github.io/wail/))
 - [WARCreate](http://warcreate.com/) (Chrome plugin for one off WARC creation)
 - [Wpull](https://github.com/chfoo/wpull) and [grab-site](https://github.com/ludios/grab-site) (archival focused Wget alternative in development)
 
