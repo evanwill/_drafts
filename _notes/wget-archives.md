@@ -111,13 +111,13 @@ Add `--execute robots=off` to the command.
 Test example: 
 
 ```
-wget --mirror --page-requisites --wait=2 --random-wait --no-parent --trust-server-names --warc-file="test-archive" https://www.uidaho.edu/admissions/visit-idaho/plan-your-visit`
+wget --mirror --page-requisites --wait=2 --random-wait --no-parent --trust-server-names --warc-file="test-archive" https://www.uidaho.edu/admissions/visit-idaho/plan-your-visit
 ```
 
 More complete example:
 
 ```
-wget -mpkE --span-hosts --domains=example.com,www.example.com,sub.example.com --warc-file="test-archive" --warc-max-size=1G --warc-cdx --user-agent=Mozilla -e robots=off --wait=2 --random-wait http://www.example.com`
+wget -mpkE --span-hosts --domains=example.com,www.example.com,sub.example.com --warc-file="test-archive" --warc-max-size=1G --warc-cdx --user-agent=Mozilla -e robots=off --wait=2 --random-wait http://www.example.com
 ```
 
 ## Playback
