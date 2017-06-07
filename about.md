@@ -23,3 +23,4 @@ Some of my other sites:
 - [p5tests](https://evanwill.github.io/p5tests/index.html)
 - [poem choice](https://uidaholib.github.io/poemchoice/)
 - [poemBot](https://github.com/evanwill/poemBot)
+- [Digital Aladore](https://digitalaladore.wordpress.com/)
