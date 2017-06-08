@@ -6,9 +6,9 @@ date: 2017-03-09
 ---
 
 [Cygwin](https://cygwin.com/index.html) is a project that adds Unix style terminal to Windows. 
-It includes hundreds of Unix commandline utilities built and packaged to function natively on Windows. 
-It includes more functionality than Git Bash (included with [Git for Windows](https://git-for-windows.github.io/)), is open-source (unlike [MobaXterm](http://mobaxterm.mobatek.net/)), and has a package system to install utilities (unlike [Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html)). 
-If you are currently using Git Bash on Windows, you may want to move to Cygwin if you would like Nano Editor, Wget, and GNU Make. 
+It includes hundreds of Unix command line utilities built and packaged to function natively on Windows. 
+It includes more functionality than Git Bash (included with [Git for Windows](https://git-for-windows.github.io/)), is open-source (unlike [MobaXterm](http://mobaxterm.mobatek.net/)), and has a package system to install utilities (unlike [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html)). 
+If you are currently using Git Bash on Windows, you may want to move to Cygwin if you would like Nano Editor, Wget, and GNU Make (plus old school terminal games!). 
 
 ## Install Cygwin 
 

@@ -41,7 +41,7 @@ In a web archive features such as search bar, streaming media, widget embeds, an
 UIdaho uses the [CMS](https://en.wikipedia.org/wiki/Content_management_system) platform [sitecore](http://www.sitecore.net/). 
 This is a database driven dynamic site written using ASP.NET (?, check their [SiteCore demo site](http://habitat.demo.sitecore.net/)).
 
-Look at <https://www.uidaho.edu/> , notice that the hyperlinks on page look like <https://www.uidaho.edu/academics.aspx> .
+Look at <https://www.uidaho.edu/>, notice that the hyperlinks on page look like <https://www.uidaho.edu/academics.aspx>.
 Rather than a static HTML document, the links are a dynamic request to "active server page extended" script, which creates the page <https://www.uidaho.edu/academics> (which is not academics.html or academics/index.html).
 
 This causes problems for a web archive, since we harvest the resulting static HTML, not the aspx script. 
@@ -51,7 +51,7 @@ The file "www.uidaho.edu/academics.aspx" will not be in the web archive, but the
 
 [Wget](https://www.gnu.org/software/wget/) is a handy [Free](https://www.gnu.org/philosophy/free-sw.en.html) command line tool to robustly retrieve documents from the web.
 It is a standard utility on Linux. 
-On Windows, I suggest setting up a Bash terminal with Wget, for example Cmdr as outlined in [Using Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html) (this is handy because it is a portable application, just unzip and use).
+On Windows, I suggest setting up a Bash terminal with Wget, for example Cmder as outlined in [Using Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html) (this is handy because it is a portable application, just unzip and use).
 
 See: [Intro to the Command Line](https://evanwill.github.io/_drafts/notes/commandline.html)
 
@@ -81,7 +81,7 @@ A crawl can be limited to a specific file type using the `--accept` option. For 
 
 When using `--recursive`, add `--no-parent`, `--level=NUMBER`, or `--domains=LIST` to limit your crawl:
 
-`wget -r -np -Apdf http://www.lib.uidaho.edu/services/workshops/resources/`
+`wget -r -np -Apdf http://site-with-pdfs.com/services/workshops/resources/`
 
 Correctly **scoping** your crawl is important, spend time exploring the hierarchy of the site to ensure you will capture what you want, but not download the entire internet... 
 
@@ -111,7 +111,7 @@ Add `--execute robots=off` to the command.
 Test example: 
 
 ```
-wget --mirror --page-requisites --wait=2 --random-wait --no-parent --trust-server-names --warc-file="test-archive" https://www.uidaho.edu/admissions/visit-idaho/plan-your-visit
+wget --mirror --page-requisites --wait=2 --random-wait --no-parent --trust-server-names --warc-file="test-archive" http://www.example.com/path/sometopic/
 ```
 
 More complete example:

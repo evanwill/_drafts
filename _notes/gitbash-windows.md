@@ -17,7 +17,7 @@ Since `bin` is on the PATH, it will be automatically available to Git Bash.
 
 *Note:* some utilities will not work with Git Bash's mintty terminal, for example Nano. 
 The Git-for-Windows team is focused on supporting Git, not a full UNIX terminal environment.
-If you are interested in more complete package, check my notes on [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) or [Cmdr](https://evanwill.github.io/_drafts/notes/cmdr.html).
+If you are interested in more complete package, check my notes on [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) or [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html).
 
 Here are some utilities to add:
 
