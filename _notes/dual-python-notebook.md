@@ -14,7 +14,7 @@ And you may as well add [R](https://www.r-project.org/) while you're at it!
 
 First, [Jupyter project](http://jupyter.org/install.html) and I suggest you install Python 3 via the [Anaconda](https://www.continuum.io/downloads) distribution. 
 Conda gives you a huge package of scientific Python libraries pre-installed, plus some very handy management and virtual environment tools. 
-Once you install [Anaconda Python 3]((https://www.continuum.io/downloads), you automagically have Jupyter with the IPython3 kernel ready to go. 
+Once you install [Anaconda Python 3](https://www.continuum.io/downloads), you automagically have Jupyter with the IPython3 kernel ready to go. 
 
 If you already have Anaconda installed, be sure to update before adding the additional kernels, using `conda update conda`.
 
@@ -33,7 +33,7 @@ Second, add the Python 2 kernel using a [virtual environment](https://conda.io/d
 Third, we add [R via Conda](https://docs.continuum.io/anaconda/r_language). 
 Conda R-essentials includes a bunch of popular R packages, including the Notebook IRKernel.
 
-1. open a terminal and install R and R-essentials: `conda install -c r r-essentials`
+Simply open a terminal and install R and R-essentials: `conda install -c r r-essentials`
 
 ## Start Notebook
 
