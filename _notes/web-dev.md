@@ -25,6 +25,7 @@ Accessibility:
 - [Usability.gov](http://www.usability.gov/what-and-why/accessibility.html)
 - Chrome [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
 - [WAVE tool](http://wave.webaim.org/)
+- W3C [Easy Checks](https://www.w3.org/WAI/eval/preliminary) documentation
 
 Free images:
 - [Unsplash](https://unsplash.com/)
