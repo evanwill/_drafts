@@ -120,9 +120,24 @@ More complete example:
 wget -mpkE --span-hosts --domains=example.com,www.example.com,sub.example.com --warc-file="test-archive" --warc-max-size=1G --warc-cdx --user-agent=Mozilla -e robots=off --wait=2 --random-wait http://www.example.com
 ```
 
+More examples in use:
+
+```
+wget -mpkE -np --trust-server-names --warc-max-size=1G --warc-file="test-archive" --warc-cdx --wait=1 --random-wait https://www.example.com/path/news/newsletter
+```
+
+Limit using `--include-directories=` (instead of `--no-parent`), be sure to include all directories for page requisites:
+
+```
+wget -mpkE --trust-server-names -I /~,/css,/fonts,/Images,/Scripts,/path/news/newsletters --warc-max-size=1G --warc-file="test-archive" --warc-cdx --wait=0.5 https://www.example.com/path/news/newsletters/
+```
+
 ## Playback
 
-See [Webrecorder Player](https://github.com/webrecorder/webrecorderplayer-electron) (actively developed desktop app created by [Webrecorder](https://webrecorder.io/) / [Rhizome](https://rhizome.org/))
+Options: 
+- [Webrecorder Player](https://github.com/webrecorder/webrecorderplayer-electron) (actively developed desktop app created by [Webrecorder](https://webrecorder.io/) / [Rhizome](https://rhizome.org/). Currently seems extremely slow and buggy on some computers when using warc not created by Webrecorder.)
+- [Webarchive Player](https://github.com/ikreymer/webarchiveplayer) (not actively developed, but still works. simple desktop app)
+- [pywb](https://github.com/ikreymer/pywb) ("Python WayBack" Python package. Lots of features using wb-manager commandline utility. Can serve and manages multiple warc files in a collection.)
 
 ## Workflow questions
 
