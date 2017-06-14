@@ -12,28 +12,30 @@ permalink: /tags/
 {% endcapture %}
 
 {% assign tags_list = site_tags | split:',' | sort %}
--->
 
+-->
 {% capture site_tags %}
 {% for note in site.notes %}
 {{ note.tags | join:", " }}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% endcapture %}
 
-<p> {{ site_tags }}</p>
+{% assign tags_list = site_tags | downcase | split:',' | sort %}
+
+<p>{{ tags_list | uniq | join:", " }}</p>
+
 <h2>Coming soon-ish</h2>
 
-{% assign tags_list = site_tags | split:',' | sort %}
-
+<!--
 <div class="tag-index">
   <ul>
-    {% for item in (0..site.tags.size) %}
+    {% for item in (0..tags_list.size) %}
     {% unless forloop.last %}
       {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
       <li>
         <a href="#{{ this_tag }}">
           <span>{{ this_tag }}</span>
-          <span class="count">{{ site.tags[this_tag].size }}</span>
+          <span class="count">{{ tags_list[this_tag].size }}</span>
         </a>
       </li>
     {% endunless %}
@@ -41,7 +43,7 @@ permalink: /tags/
   </ul>
 </div>
 
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+{% for item in (0..tags_list.size) %}{% unless forloop.last %}
   {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
   <article>
 
@@ -49,7 +51,7 @@ permalink: /tags/
     {{ this_tag }}
   </div>
     <ul>
-    {% for post in site.tags[this_tag] %}
+    {% for post in tags_list[this_tag] %}
     {% if post.title != null %}
       <li class="tag-post">
         {% if post.link %}
@@ -66,3 +68,4 @@ permalink: /tags/
   </article>
 {% endunless %}
 {% endfor %}
+-->
