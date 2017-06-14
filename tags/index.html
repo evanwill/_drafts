@@ -14,28 +14,28 @@ permalink: /tags/
 {% assign tags_list = site_tags | split:',' | sort %}
 
 -->
-{% capture site_tags %}
+{% assign site_tags = "" | split: "," %}
 {% for note in site.notes %}
-{{ note.tags | join:", " }}{% unless forloop.last %},{% endunless %}
+  {% for t in note.tags %}
+    {% assign td = t | downcase %}
+    {% assign site_tags = site_tags | push: td %}
+  {% endfor %}
 {% endfor %}
-{% endcapture %}
 
-{% assign tags_list = site_tags | downcase | split:',' | sort %}
-
-<p>{{ tags_list | uniq | join:", " }}</p>
+<p> {{ site_tags | uniq | sort | join:", " }}</p>
 
 <h2>Coming soon-ish</h2>
 
 <!--
 <div class="tag-index">
   <ul>
-    {% for item in (0..tags_list.size) %}
+    {% for item in (0..site_tags.size) %}
     {% unless forloop.last %}
-      {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+      {% capture this_tag %}{{ site_tags[item] | strip_newlines }}{% endcapture %}
       <li>
         <a href="#{{ this_tag }}">
           <span>{{ this_tag }}</span>
-          <span class="count">{{ tags_list[this_tag].size }}</span>
+          <span class="count">{{ site_tags[this_tag].size }}</span>
         </a>
       </li>
     {% endunless %}
