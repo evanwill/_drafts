@@ -34,7 +34,7 @@ Installation and choosing packages can be simplified by using the command line.
 Open Windows `cmd` command prompt in the directory containing `setup-x86_64.exe`.
 Enter the command: 
 
-`setup-x86_64.exe -q -P git,make,wget,openssh,openssl,ninvaders,sl,fortune-mod,ctris`
+`setup-x86_64.exe -q -P nano,wget,git,chere,make,openssh,openssl,ninvaders,sl,fortune-mod,ctris`
 
 The `-P` option allows you to list the extra packages you would like installed. 
 Get the package names from the [full package list](https://cygwin.com/packages/package_list.html) and separate each with a comma. 
@@ -47,13 +47,22 @@ Your current packages and configurations will be saved, but everything will be u
 
 ## Using Cygwin
 
-The installer should put a shortcut on your desktop. Click it to start the terminal (this starts `cygwin64/bin/mintty.exe`, if you double click `cygwin64/Cygwin.bat` you will start in the awful Windows `cmd.exe` terminal instead). 
+The installer should put a shortcut on your desktop. 
+Click it to start the terminal (this starts `cygwin64/bin/mintty.exe`, if you double click `cygwin64/Cygwin.bat` you will start in the awful Windows `cmd.exe` terminal instead). 
 
-First, your `/` root directory is `C:\cygwin64`. 
+It is important to know that the file system is a bit wonky via the Cygwin shell. 
+According to Cygwin, your `/` root directory is `C:\cygwin64`. 
 Cygwin creates a home directory inside this root.  
-This means that `cd ~` then `pwd` will read `/home/username`, but it is not your Windows user directory.
+This means that `cd ~` then `pwd` will read `/home/username`, but it is *NOT* your Windows user directory.
 Instead it is `C:\cygwin64\home\username`, your user directory in Cygwin's root.
 
 To access your normal Windows file system use `/cygdrive/`. 
 For example `cd /cygdrive/c` will bring you to `C:\`.
 Thus, your normal Windows user directory will typically be at `cd /cygdrive/c/Users/username`.
+
+To make life a bit easier, use the `chere` package to add a Windows context menu item (i.e. add "Bash Prompt Here" option when you right click on any folder).
+To configure, right click on your Cygwin terminal shortcut (on desktop or in start menu) and choose "Run as administrator". 
+Then type the command: `chere -i -t mintty`.
+This adds the default terminal to your context menu as "Bash Prompt Here". 
+The option can be uninstalled via Windows Control Panel like a program.
+To see the full options check `chere --help`. 
