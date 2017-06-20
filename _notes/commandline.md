@@ -117,7 +117,8 @@ Many programs run interactively inside the terminal (*note: these don't work wel
 
 ## Have Fun
 
-A good way to get familiar with the commandline is with some fun and games! These demos install amusing programs (*note: demos based on Ubuntu. Only available on Linux or Bash on Windows Subsystem. However, most can be found in Cygwin packages.*)
+A good way to get familiar with the commandline is with some fun and games! 
+These demos install amusing programs (*note: demos based on Ubuntu. Only available on Linux or Bash on Windows Subsystem. However, most can be found in Cygwin packages.*)
 
 Train:
 

@@ -51,7 +51,7 @@ The file "www.uidaho.edu/academics.aspx" will not be in the web archive, but the
 
 [Wget](https://www.gnu.org/software/wget/) is a handy [Free](https://www.gnu.org/philosophy/free-sw.en.html) command line tool to robustly retrieve documents from the web.
 It is a standard utility on Linux. 
-On Windows, I suggest setting up a Bash terminal with Wget, for example Cmder as outlined in [Using Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html) (this is handy because it is a portable application, just unzip and use).
+On Windows, I suggest setting up a Bash terminal with Wget, for example Cygwin as outlined in [Using Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) (*note: I previously suggested [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html) as a handy portable option. However, we have discovered some bugs when creating WARC files with Wget on Cmder.*).
 
 See: [Intro to the Command Line](https://evanwill.github.io/_drafts/notes/commandline.html)
 

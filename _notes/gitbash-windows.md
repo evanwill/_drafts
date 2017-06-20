@@ -28,6 +28,8 @@ Here are some utilities to add:
 - Rename the file `wget64.exe` to `wget.exe` if necessary. 
 - Move `wget.exe` to your `Git\mingw64\bin\`
 
+*Note: I have noticed some bugs when using Wget on Git Bash to create WARC files. For more complex use of Wget, consider [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) instead.*
+
 ## make
 
 - Go to [ezwinports](https://sourceforge.net/projects/ezwinports/files/)

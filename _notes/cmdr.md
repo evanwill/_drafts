@@ -5,7 +5,13 @@ tags: [shell, windows]
 date: 2017-05-06
 ---
 
-[Cmder](http://cmder.net/) is a fully featured terminal emulator for Windows that can host a variety of shells, including Git for Windows Git Bash (comes bundled with the full version). 
+[Cmder](http://cmder.net/) is a fully featured terminal emulator for Windows that can host a variety of shells, including Git for Windows Git Bash (which comes bundled with the full version). 
+It is handy because it is full portable--simply unzip and start using it.
+Once you configure Cmder, you can even copy the directory to a USB and use/share your fully customized version.
+This is great for workshops.
+
+## "Install"
+
 [Download](http://cmder.net/) the **full** version and unzip to a permanent location (such as `C:\`).
 
 In the `cmder` directory, double click `Cmder.exe` to get started.
@@ -22,7 +28,7 @@ On Bash, your drive letters will be translated to UNIX-like paths. For example, 
 
 Similar to [Git Bash](https://evanwill.github.io/_drafts/notes/gitbash-windows.html), binaries for standard utilities can be placed the `bin` directory to add functionality.
 Anything in the `bin` will be on the PATH, i.e. you can use it directly on the command line. 
-Sometimes the Windows binaries have funny prefixes, so you should rename the `.exe` file to the standard name.
+Sometimes the Windows binaries have funny filenames, so you should rename the `.exe` file to the standard name.
 
 ## Add Nano editor 
 
@@ -31,10 +37,14 @@ Get the Nano binary from Nano [win32-support](https://www.nano-editor.org/dist/w
 You just need the `.exe` file, which is named `nano-git-0d9a7347243.exe` (as of this writing).
 Download it, rename the file to `nano.exe`, and copy to the Cmder `bin` directory.
 
+Now, Nano editor can be started from the Bash shell using a command such as `nano test.txt`.
+
 ## Add Wget
 
 Download the Windows binary from one of the options listed at [Wget FAQ](http://wget.addictivecode.org/FrequentlyAskedQuestions.html#download) (for example, from [eternallybored wget64.exe](https://eternallybored.org/misc/wget/current/wget64.exe).
 Rename the file to `wget.exe`, and copy to the Cmder `bin`.
+
+*Note: I have noticed some bugs when using Wget on Cmder to create WARC files. For more complex use of Wget, consider [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) instead.*
 
 ## Add Ubuntu Bash shell
 
