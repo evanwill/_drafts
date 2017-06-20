@@ -1,7 +1,7 @@
 ---
 title: Git for Collaboration Intro
 layout: post
-tags: [git, workshop]
+tags: [git, github, workshop]
 date: 2017-05-05
 ---
 

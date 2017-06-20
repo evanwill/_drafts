@@ -1,7 +1,7 @@
 ---
 title: Pi Py Poetry, Pi Day Remix
 layout: post
-tags: [python, pi, dh]
+tags: [python, rpi, dh]
 date: 2016-03-14
 ---
 

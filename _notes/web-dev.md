@@ -1,7 +1,7 @@
 ---
 title: Handy web dev tools
 layout: post
-tags: [web]
+tags: [web, tips]
 date: 2017-03-20
 ---
 

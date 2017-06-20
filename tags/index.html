@@ -3,69 +3,45 @@ layout: page
 title: Tags
 permalink: /tags/
 ---
-<!-- http://stackoverflow.com/questions/36958975/listing-jekyll-collection-pages-by-tags -->
-<!--
-{% capture site_tags %}
-{% for tag in site.tags %}
-{{ tag | first }}{% unless forloop.last %},{% endunless %}
-{% endfor %}
-{% endcapture %}
 
-{% assign tags_list = site_tags | split:',' | sort %}
-
--->
 {% assign site_tags = "" | split: "," %}
 {% for note in site.notes %}
   {% for t in note.tags %}
-    {% assign td = t | downcase %}
-    {% assign site_tags = site_tags | push: td %}
+    {% if t != "samplepost" %}
+      {% assign site_tags = site_tags | push: t %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
+{% assign unique_tags = site_tags | uniq | sort %}
 
-<p> {{ site_tags | uniq | sort | join:", " }}</p>
-
-<h2>Coming soon-ish</h2>
-
-<!--
 <div class="tag-index">
   <ul>
-    {% for item in (0..site_tags.size) %}
-    {% unless forloop.last %}
-      {% capture this_tag %}{{ site_tags[item] | strip_newlines }}{% endcapture %}
-      <li>
-        <a href="#{{ this_tag }}">
-          <span>{{ this_tag }}</span>
-          <span class="count">{{ site_tags[this_tag].size }}</span>
-        </a>
-      </li>
-    {% endunless %}
-    {% endfor %}
+  {% for tag in unique_tags %}
+    <li><a href="#{{ tag }}">
+      <span>{{ tag }}</span> 
+      {% assign count = "" | split: "," %}
+      {% for st in site_tags %}
+        {% if st == tag %}
+          {% assign count = count | push: st %}
+        {% endif %}
+      {% endfor %}
+      <span class="count">{{ count.size | inspect }}</span>
+    </a></li>
+  {% endfor %}
   </ul>
 </div>
 
-{% for item in (0..tags_list.size) %}{% unless forloop.last %}
-  {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-  <article>
-
-  <div class="tag-title" id="{{ this_tag }}">
-    {{ this_tag }}
-  </div>
-    <ul>
-    {% for post in tags_list[this_tag] %}
-    {% if post.title != null %}
-      <li class="tag-post">
-        {% if post.link %}
-        <a href="{{ post.link }}">
-        {% else %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
-        {% endif %}  
-          <span class="tag-post-title">{{ post.title }}</span>
-        </a>
-      </li>
-    {% endif %}
+{% for item in unique_tags %}
+<div class="tag-title" id="{{ item }}">
+  {{ item }}
+</div>
+<ul>
+  {% for note in site.notes %}
+    {% for nt in note.tags %}
+      {% if nt == item %}
+      <li class="tag-post"><a href="{{ note.url | prepend: site.url }}"><span class="tag-post-title">{{ note.title }}</span></a></li>
+      {% endif %}
     {% endfor %}
-    </ul>
-  </article>
-{% endunless %}
+  {% endfor %}
+</ul>
 {% endfor %}
--->

@@ -1,7 +1,7 @@
 ---
 title: Add more to Git Bash on Windows
 layout: post
-tags: [windows, linux, shell]
+tags: [windows, shell]
 date: 2016-05-26
 ---
 

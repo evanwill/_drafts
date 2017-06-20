@@ -1,7 +1,7 @@
 ---
 title: Transfer iPhone to Linux
 layout: post
-tags: [linux, ftp]
+tags: [linux, tips]
 date: 2017-03-26
 ---
 

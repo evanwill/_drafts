@@ -1,7 +1,7 @@
 ---
 title: Git notes
 layout: post
-tags: [git]
+tags: [git, github]
 date: 2017-05-01
 ---
 

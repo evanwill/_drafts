@@ -1,7 +1,7 @@
 ---
 title: Text Analysis Notes
 layout: post
-tags: [DH, tools]
+tags: [dh, tools]
 date: 2016-02-18
 ---
 
