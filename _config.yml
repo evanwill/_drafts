@@ -1,5 +1,6 @@
 # jekyll config 
-# style partly based on K i k o - p l u s   https://aweekj.github.io/Kiko-plus/
+# theme partly based: 
+# Kiko-plus https://aweekj.github.io/Kiko-plus/ and Minima https://github.com/jekyll/minima
 
 # basic
 title: _drafts
@@ -7,20 +8,13 @@ description: digital rough frame carpentry, a blog of snippets and notes to get 
 keywords: digital humanities, tutorial, snippets, code, linux
 author: evanwill 
 
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evanwill.github.io/_drafts"
 
 collections:
   notes:
     output: true
 
-# Sass
-# sass:
-#  style: :compressed
-#  sass_dir: _sass
-
 # Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-

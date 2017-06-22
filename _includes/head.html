@@ -4,13 +4,13 @@
   <title>{{ site.title }} | {{ page.title }}</title>
   <meta http-equiv="Content-Language" content="en-us" >
   <meta name="author" content="{{ site.author }}" >
-  <meta name="keywords" content="{{ site.keywords}}" >
+  <meta name="keywords" content="{{ site.keywords }}" >
   <meta name="description" content="{{ site.description }}">
-  <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
   
   <link rel="stylesheet" href="{{ site.url }}/css/main.css" type="text/css">
 
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.url }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ site.url }}/feed.xml" />
 
   {% include google-analytics.html %}
 
