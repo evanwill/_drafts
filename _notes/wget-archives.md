@@ -150,6 +150,7 @@ Options:
 ## Reference:
 
 - ArchiveTeam, ["Wget with WARC output"](http://www.archiveteam.org/index.php?title=Wget_with_WARC_output).
+- IIPC [Awesome Web Archiving](https://github.com/iipc/awesome-web-archiving).
 - [IIPC overview](http://www.netpreserve.org/web-archiving/overview).
 - Corey Davis, "Archiving the Web: A Case Study from the University of Victoria", *code4lib* 26 (2014), <http://journal.code4lib.org/articles/10015>.
 - Adrian Brown, *Archiving websites : a practical guide for information management professionals* (2006). <http://search.lib.uidaho.edu/UID:everything:CP71127753580001451>
