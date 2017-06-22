@@ -71,7 +71,7 @@ All other directories are organized below it.
 Take a look around:
 - `ls` ("listing")
 - `ls -a` (`-a` is a flag, it adds an option to the command, in this case to show all files including hidden ones. There is often a short and long version, `-a` or `--all`)
-- `ls --help` (you can use `--help` with almost any command!)
+- `ls --help` (you can use `--help` with almost any command! Linux also has a built in manual, try `man ls`)
 - `cd Desktop` ("change directory")
 - `cd ..` (back one level)
 - Save typing with `tab` complete and up arrow for command history!!
@@ -135,6 +135,12 @@ Wise cow:
 - `fortune | cowsay` (pipes `|` send output to another command)
 - `cowsay -l`
 - `fortune | cowsay -f dragon`
+
+Banners:
+
+- `sudo apt-get install figlet`
+- `figlet Command Line!`
+- `figlet -f slant Command Line!` (more font `-f` options: slant, shadow, small, smslant, smshadow, big, digital, bubble, script, smscript, lean, block, mini, banner)
 
 Classic games:
 
