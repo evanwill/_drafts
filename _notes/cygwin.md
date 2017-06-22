@@ -15,22 +15,14 @@ If you are currently using Git Bash on Windows, you may want to move to Cygwin i
 Download the current installation utility from the [Cygwin site](https://cygwin.com/install.html). 
 I suggest the 64-bit version, `setup-x86_64.exe`.
 Once the file downloads, move it to a sensible permanent location as the utility is used to update and make changes to your install. 
-For example, move it to `C:\cygwin64` (by default Cygwin uses `C:\cygwin64` as its root directory).
+For example, move it to `C:\cygwin-stuff` (by default Cygwin uses `C:\cygwin64` as its root directory).
 
-### Graphical installer 
-
-Double click the `setup-x86_64.exe` to use the graphical installer.
-
-- choose Download Source: "install from Internet"
-- Select Root Install Directory: the folder selected in this step with become your fake Unix style root directory `/`. The default is `C:\cygwin64`, which should work for most users. Do not change it to an existing system directory! All Cygwin files will be located in this root, so you will risk over writing existing files or causing incompatibilities. 
-- Select Local Package Directory: this folder will be for package downloads. I usually change it to a new directory in the same location as `setup-x86_64.exe`.
-- Internet connection: use default unless you have a proxy.
-- Download Site: choose a mirror to download from. Any should work. 
-- Select Packages: This is where you can add additional packages beyond the default install. Select "Full" from the "View" drop down menu, then search to find useful packages. Click on "Skip" to mark the utility for installation. The list is not very user friendly, but poke around until you mark off everything you need.
+To get started quickly, simply double click `setup-x86_64.exe` to use the graphical installer.
+However, the awkward interface makes finding and selecting packages very difficult. 
+I suggest starting on the command line, which greatly simplifies getting what you want / need.
 
 ### Command line installer
 
-Installation and choosing packages can be simplified by using the command line. 
 Open Windows `cmd` command prompt in the directory containing `setup-x86_64.exe`.
 Enter the command: 
 
@@ -40,12 +32,26 @@ setup-x86_64.exe -q -P nano,wget,git,chere,make,openssh,openssl,ninvaders,sl,for
 
 The `-P` option allows you to list the extra packages you would like installed. 
 Get the package names from the [full package list](https://cygwin.com/packages/package_list.html) and separate each with a comma. 
-Check the installer's full [list of CLI options](https://cygwin.com/faq/faq.html#faq.setup.cli) to customize the command.
+
+The command above will start the Cygwin graphical installer with the listed packages selected in addition to the core utilities.
+Since all the necessary options are not specified, the GUI will ask you a few more questions
+(check the full [list of CLI options](https://cygwin.com/faq/faq.html#faq.setup.cli) if you want streamline further).
+
+### Graphical installer 
+
+The installer will ask about these options:
+
+- Choose Download Source: "install from Internet"
+- Select Root Install Directory: the folder selected in this step with become your fake Unix style root directory `/`. The default is `C:\cygwin64`, which should work for most users. Do not change it to an existing system directory! All Cygwin files will be located in this root, so you will risk over writing existing files or causing incompatibilities. 
+- Select Local Package Directory: this folder will be for package downloads. I usually change it to a new directory in the same location as `setup-x86_64.exe`.
+- Internet connection: use default unless you have a proxy.
+- Download Site: choose a mirror to download from. Any should work. 
+- Select Packages: This is where you can add additional packages beyond the default install--if you started with the command line options above, everything you need is already selected. Otherwise, select "Full" from the "View" drop down menu, then search to find useful packages. Click on "Skip" to mark the utility for installation. The list is not very user friendly, but poke around until you mark off everything you need.
 
 ### Update 
 
 To update or install new packages, run `setup-x86_64.exe` again.
-Your current packages and configurations will be saved, but everything will be updated.
+Your current packages and configurations will be saved, but everything will be updated to the latest versions.
 
 # Using Cygwin
 
