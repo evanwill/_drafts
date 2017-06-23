@@ -1,15 +1,15 @@
 ---
 title: Sonnet Thing
 layout: post
-tags: [dh]
+tags: [dh,js,poem]
 date: 2017-06-22
 ---
 
 <div id="poem"></div>
 <br>
-<button id="new">new one</button>
+<button id="new" class="buttons">new poem</button>
 
-> Sonnet Thing takes the text from Shakespeare's [Sonnets](http://www.gutenberg.org/ebooks/1105), chops each line in half, shuffles it all, and spits out a new poem. 
+> Sonnet Thing uses JS to take the text from Shakespeare's [Sonnets](http://www.gutenberg.org/ebooks/1105), chop each line in half, shuffle it all, and spit out a new poem. 
 > Each "sonnet" has 14 lines, reconstituted from halves. 
 > White space and blank lines are included for the sake of variety.
 

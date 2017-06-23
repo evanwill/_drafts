@@ -299,6 +299,17 @@
     }
   }
 }
+.buttons {
+  cursor: pointer;
+  background-color: $code-background-color;
+  border: solid 1px $text-color;
+  border-radius: 2px;
+  font-size: 20px;
+  margin-top: 5px;
+  &:focus {
+    outline:none;
+  }  
+}
 .sort { 
   cursor: pointer;
   background-color: $background-color;
