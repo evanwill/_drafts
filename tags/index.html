@@ -25,7 +25,7 @@ permalink: /tags/
           {% assign count = count | push: st %}
         {% endif %}
       {% endfor %}
-      <span class="count">{{ count.size | inspect }}</span>
+      <span class="count">{{ count.size }}</span>
     </a></li>
   {% endfor %}
   </ul>

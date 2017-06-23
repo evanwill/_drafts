@@ -1,13 +1,13 @@
 ---
 title: Pi Py Poetry, Pi Day Remix
 layout: post
-tags: [python, rpi, dh]
+tags: [python, dh]
 date: 2016-03-14
 ---
 
 Its 3:14 on 3/14 (2016)! Time for some Vandal Poem of the Day ([VPOD](http://poetry.lib.uidaho.edu/index.php/about/)) poetry remix using OpenRefine and Python. 
 
-First, I grabbed all of the poems from VPOD at http://poetry.lib.uidaho.edu/
+First, I grabbed all of the poems from [VPOD](http://poetry.lib.uidaho.edu/).
 
 Then I parsed it all using OpenRefine. 
 
