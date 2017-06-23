@@ -19,8 +19,8 @@ title: browse
       <span class="title archive-list-post-title">
         {{ post.title }}
       </span>
-      <span class="date archive-list-post-date">
-        <time>| {{ post.date | date: "%Y-%m-%d" }} | </time>
+      <span class="date archive-list-post-date"> | 
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time> | 
       </span>
       <span class="tags">{{ post.tags | join: ', ' }}</span>
       </a>
