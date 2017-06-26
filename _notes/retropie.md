@@ -28,22 +28,22 @@ Suggested:
 ## Start RetroPie
 
 1. Put your SD into the RPI, plug the HDMI into a TV, and connect USB controllers.
-2. Plug in the RPI and watch it boot
-3. Follow on screen instructions to configure game pads
+2. Plug in the RPI and watch it boot.
+3. Follow on screen instructions to configure game pads.
 
-After configuring the pads, you will see a menu, but no games will show up--because you haven't added any yet... 
+After configuring the pads, you will see a menu, but no games will show up, because you haven't added any yet... 
 
 *(personally I don't bother connecting to wifi, but you could)*
 
 ## Add ROMS
 
-There are a few methods to get ROMs on your RetroPie, but the most fool proof way seems via USB:
-1. Get a USB drive with enough space to hold all your ROMs, preferably one that has a LED indicator light on it.
-2. Format the USB stick
-3. Create a single folder named `retropie` on the USB stick
-4. Plug the USB stick into your RetroPie, watch the busy indicator light and wait for it to stop flashing
-5. Unplug the USB stick from RetroPie, and plug it back into your computer. 
-6. Copy your ROMs into the correct folders in the directory structure set up by the RetroPie (i.e. inside `retropie/roms`... )
+There are a few methods to get ROMs on your RetroPie, but the most foolproof way seems via USB:
+1. Get a USB drive with enough space to hold all your ROMs, preferably one that has a LED indicator light.
+2. Format the USB stick.
+3. Create a single folder named `retropie` on the USB stick.
+4. Plug the USB stick into your RetroPie, watch the busy indicator light and wait for it to stop flashing.
+5. Unplug the USB stick from RetroPie (no need to "eject", just pull it out), and plug it back into your computer. 
+6. Copy your ROMs into the correct folders in the directory structure set up by the RetroPie (i.e. inside `retropie/roms`... keep in mind the folders are named after the international model names, so don't necessarily match USA console names.)
 7. Plug the USB stick back into the RetroPie, watch the indicator light and wait for it to stop flashing--this may take awhile depending on how many ROMs you are adding!
 8. Restart the RetroPie via the menu system (access by clicking "Select + Start" on a game pad. Do not shut down your RPI by simply unplugging if possible, this has the potential to permanently corrupt your SD. When you give the shutdown command, wait for the screen to go blank and the green light on the RPI to stop blinking.)
 
