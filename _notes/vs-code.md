@@ -7,30 +7,25 @@ date: 2017-06-30
 
 [Code](https://code.visualstudio.com) is a nice open source text editor from microsoft ([docs](https://code.visualstudio.com/Docs)).
 It is light weight compared to most traditional IDE, yet fully featured and efficient.
-I find it perfect for working on web projects, such as using Jekyll.
+I find it perfect for working on web projects (i.e. *Open Folder* not a file), such as using Jekyll, with Git nicely integrated.
 In the past I used [Atom](https://atom.io/), but Code seems quicker and less clunky.
+
+To configure the editor you override the default settings by writing new values into a `settings.json` file.
+Go to *File* > *Preferences* > *Settings* (or Ctrl+,), and add the new name + value pairs in the JSON brackets `{ }` on the right. 
 
 Here are my notes-to-self about stuff:
 
 ## Enable word wrap
 
-Go to File > Preferences > Settings, then add `{ "editor.wordWrap": "on",
-}` to the `settings.json` on the right side.
-
-## Markdown
-
-click `Ctrl+Shift+V` to preview file.
-
-## Spell check
-
-Search in the Extensions, there are several spell check options available.
+Add `"editor.wordWrap": "on"` to `settings.json`.
 
 ## Integrated terminal
 
 Access a nice terminal without leaving the editor by typing Ctrl + \` (control + backtick).
 This is extremely handy when developing Jekyll projects, since you can `jekyll s` and have the output easily visible while you are editing.
+I also use it for any non-routine Git activity, since the built in GUI client is only good for basic `git add/commit/push` equivalents.
 
-On Windows the default terminal is horrible old cmd. 
+The terminal is very straight forward on Linux or Mac, but on Windows the default terminal is horrible old cmd. 
 You can change it by overriding the setting `"terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe"`.
 
 For example, to use Git Bash, look in Git's `bin` directory in the program files (on Win 10 this should be `C:\Program Files\Git\bin` or something more complicated on Win 7 like `C:\Users\username\AppData\Local\Programs\Git\bin`). 
@@ -38,6 +33,14 @@ In your settings replace the cmd path with the full path to `bash.exe`, and esca
 e.g.  `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"`.
 
 (note: shortcuts to Git Bash terminal on your desktop and start menu will point to `C:\Program Files\Git\git-bash.exe`, the MinTTY terminal. If you use that app, Code will open a new external terminal. To use Git Bash on the built in terminal make sure you are pointing to the `bin\bash.exe`). 
+
+## Markdown
+
+Click `Ctrl+Shift+V` to preview rendered file.
+
+## Spell check
+
+Search in the Extensions, there are several spell check options available.
 
 ## HTML
 

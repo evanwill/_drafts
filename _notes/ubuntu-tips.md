@@ -18,9 +18,9 @@ Ubuntu is great, but here are some essentials and tips to fix some issues that I
 - Python: Ubuntu comes with a system Python version installed. If you want to work with Python, its a good idea to install a more up-to-date version for your user account. I suggest [Anaconda](https://www.continuum.io/downloads), a scientific Python distribution with comes packages with everything you need, including iPython and Jupyter Notebook. Then [set up Jupyter](https://evanwill.github.io/_drafts/notes/dual-python-notebook.html) with Py 2, 3, and R.
 - Git: `sudo apt-get install git` do it!
 - Image editing: GIMP. If you use raw images, check out Darktable as well.
-- Vector drawing: Inkscape.
+- Vector drawing: Inkscape or Vectr.
 - Ebook manager: Calibre, if you have ebooks, this helps you manage them and connect with reading devices. It also has great built in editing and conversion tools.
-- KeePassX for passwords.
+- KeePass2 or KeePassX for passwords.
 
 ## Tweak settings
 
@@ -28,7 +28,8 @@ Open the Settings app:
 - Appearance > Behavior > set options to Show the menus in the window's title bar and Always displayed.
 - Screen Display > set the Scale if everything looks tiny on your High DPI screen. Start with this setting before tweaking other scaling options. 
 - Use Unity Tweak to customize everything else...
-- If you like the night time color shift, check out Redshift.
+
+If you like the night time color shift, check out Redshift.
 
 ## Mouse doesn't seem quite right
 
@@ -43,4 +44,3 @@ If you notice your machine heating up, check you system monitor and `stop` gvsd-
 There is 100 fixes available online, but all are sort of sketchy and odd. 
 The best option: install samaba, `sudo apt-get install samba`. 
 It seems Ubuntu doesn't have the full package, and once you install it, the bug seems to go away.
-
