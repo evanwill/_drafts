@@ -19,7 +19,10 @@ For example:
 
 `pandoc -o output.pdf input.md`
 
-You can pass various LaTex variables to Pandoc using the `-V` variable flag (see docs for all [LaTex variable options](http://pandoc.org/MANUAL.html#variables-for-latex)).
+For writing your content Pandoc supports an extended version of [markdown syntax](http://pandoc.org/MANUAL.html#pandocs-markdown) with many enhancements such as footnotes and tables (similar to GitHub Flavor Markdown). 
+If you include a [YAML metadata block](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block) at the top of your file, the standard fields will be translated into LaTex elements (title, date, author, etc).
+
+To tweak your PDF layout / typesetting, you can pass LaTex variables to Pandoc using the `-V` variable flag (see docs for all [LaTex variable options](http://pandoc.org/MANUAL.html#variables-for-latex)).
 If you know LaTex, you can get fancy right away and use existing templates.
 However, you can also use a few very simple options to spruce up the defaults.
 For example, the default margin is very large, so you might want to use:
