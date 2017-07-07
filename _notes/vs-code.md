@@ -42,6 +42,14 @@ Click `Ctrl+Shift+V` to preview rendered file.
 
 Search in the Extensions, there are several spell check options available.
 
+## Arduino
+
+If you have Arduino IDE installed on your system, you add similar functionality to Code.
+Search in the Extensions for Arduino from Microsoft. 
+Click install, it will have to reload a couple times to install everything. 
+Now when you open a `.ino` sketch, you will have options at the bottom of the window to select your board and port.
+More info [vscode-arduino](https://github.com/Microsoft/vscode-arduino).
+
 ## HTML
 
 Emmet snippet expansion: write the abbreviation and press `tab` ([Emmet Cheatsheet](http://docs.emmet.io/cheat-sheet/)).
