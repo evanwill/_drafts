@@ -156,8 +156,9 @@ Options:
 - Adrian Brown, *Archiving websites : a practical guide for information management professionals* (2006). <http://search.lib.uidaho.edu/UID:everything:CP71127753580001451>
 - Maureen Pennock, "Web-Archiving", *DPC Technology Watch Report* 13 (2013), <http://www.dpconline.org/docman/technology-watch-reports/865-dpctw13-01-pdf/file>
 - Jinfang Niu, "An Overview of Web Archiving", DLib 18, 3/4 (2012), [doi:10.1045/march2012-niu1](http://www.dlib.org/dlib/march12/niu/03niu1.html).
-- ["Archivability"](https://library.stanford.edu/projects/web-archiving/archivability), Stanford Libraries
-- [Oldweb.today](http://oldweb.today/)
+- ["Archivability"](https://library.stanford.edu/projects/web-archiving/archivability) guide, Stanford Libraries
+- [ArchiveReady](http://archiveready.com/) (test sites for archivability)
+- [Oldweb.today](http://oldweb.today/) (surf web archives in emulated historic web browsers)
 
 Collection Development Policy examples:
 - Columbia University Libraries, ["Web Resources Collection Program"](https://library.columbia.edu/bts/web_resources_collection/policies.html)
