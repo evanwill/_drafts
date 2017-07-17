@@ -15,7 +15,7 @@ Older versions of Java are automatically disabled by OS X.
 It's best to go to the [Java page](https://www.java.com/en/) and just download and install the most up-to-date version for Mac.
 If you try the rest of this install process and Refine still doesn't work, you may need the [legacy Java from Apple](https://support.apple.com/kb/DL1572?locale=en_US).
 
-2. **Download** the latest OpenRefine `.dmg` version (as of this post `openrefine-mac-2.7-rc.2.dmg`) from the [Releases page](https://github.com/OpenRefine/OpenRefine/releases).
+2. **Download** the latest OpenRefine `.dmg` version (as of this post `openrefine-mac-2.7.dmg`) from the [Releases page](https://github.com/OpenRefine/OpenRefine/releases).
 
 3. **Install** by opening the `.dmg` and dragging the OpenRefine icon into the Applications folder icon. 
 Older versions of OS X might prompt an error message: "Google Refine is damaged and can't be opened". 
@@ -27,6 +27,6 @@ Recent versions of macOS may give you a warning at this point saying "OpenRefine
 Go to *System Preferences* > *Security & Privacy* > *General* tab, and look under *Allow apps downloaded from*. It should say something about "OpenRefine" was blocked, click the *Open Anyway* button.
 OpenRefine icon should appear in your dock, and a browser window should automatically open. 
 *However*, sometimes a browser window does not automatically open.
-Then manually navigate to http://localhost:3333/ or http://127.0.0.1:3333/ to find the Refine interface.
+Then manually navigate to <http://localhost:3333/> or <http://127.0.0.1:3333/> to find the Refine interface.
 
 5. **Shutdown** by clicking the OpenRefine icon in the dock and then typing `Command-Q`.
