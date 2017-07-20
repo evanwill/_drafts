@@ -1,15 +1,26 @@
-# jekyll config 
-# theme partly based: 
+# jekyll config
+# _drafts blog
+# theme partly based on: 
 # Kiko-plus https://aweekj.github.io/Kiko-plus/ and Minima https://github.com/jekyll/minima
 
 # basic
 title: _drafts
 description: digital rough frame carpentry, a blog of snippets and notes to get things started.
 keywords: digital humanities, tutorial, snippets, code, linux
-author: evanwill 
+author: EvanWill 
 
 url: "https://evanwill.github.io/_drafts"
 
+# social metadata
+twitter:
+  username: EvanPeterWill
+social:
+  name: Evan Will
+  links:
+    - https://twitter.com/EvanPeterWill
+    - https://github.com/evanwill
+
+# build
 collections:
   notes:
     output: true
@@ -18,3 +29,8 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Plugins (gh-pages safe)
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

@@ -58,5 +58,16 @@ Here are the steps I took to get it running on Windows 7 or 10:
 
 ## Example Themes with demos
 
-- http://themes.jekyllrc.org/
-- http://jekyllthemes.org/
+- <http://themes.jekyllrc.org/>
+- <http://jekyllthemes.org/>
+
+## On gh-pages
+
+Contrary to popular belief, GitHub Pages does allow/support a few plugins.
+Here is the list: <https://pages.github.com/versions/>
+
+Add them to your `_config.yml`, under `gems:`, not in the the gemfile (since gh-pages ignores that).
+They can be installed as a bundle using the `github-pages` gem.
+Of interest are: 
+- jekyll-seo-tag (GitHub [info](https://help.github.com/articles/search-engine-optimization-for-github-pages/), [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md), basically add {% raw %}`{% seo %}`{% endraw %} to the `<head>` of your pages, and make sure you have all the metadata in your `_config.yml`).
+- jekyll-sitemap (GitHub [info](https://help.github.com/articles/sitemaps-for-github-pages/), [repo](https://github.com/jekyll/jekyll-sitemap)).
