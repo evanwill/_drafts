@@ -5,20 +5,13 @@
 
 # basic
 title: _drafts
-description: digital rough frame carpentry, a blog of snippets and notes to get things started.
-keywords: digital humanities, tutorial, snippets, code, linux
-author: EvanWill 
+description: digital rough frame carpentry, a blog of notes, solutions, and mini-workshops to get things started.
+keywords: digital humanities, tutorial, workshops, code, linux
+author: EvanWill
+github_username: evanwill
+twitter_username: EvanPeterWill
 
 url: "https://evanwill.github.io/_drafts"
-
-# social metadata
-twitter:
-  username: EvanPeterWill
-social:
-  name: Evan Will
-  links:
-    - https://twitter.com/EvanPeterWill
-    - https://github.com/evanwill
 
 # build
 collections:
@@ -29,8 +22,3 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
-
-# Plugins (gh-pages safe)
-gems:
-  - jekyll-seo-tag
-  - jekyll-sitemap
