@@ -1,7 +1,11 @@
 ---
 # full css
 ---
-$base-font: 'Source Sans Pro', Verdana, Arial, Dotum, sans-serif;
+@font-face {
+  font-family: 'Noto Sans';
+  src:  url('NotoSans-Regular-webfont.woff') format('woff');
+}
+$base-font: 'Noto Sans', Verdana, Arial, sans-serif;
 $code-font: Menlo, Monaco, monospace;
 
 $base-font-size: 18px;
