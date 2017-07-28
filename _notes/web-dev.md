@@ -30,3 +30,7 @@ Accessibility:
 Free images:
 - [Unsplash](https://unsplash.com/)
 - [Flickr Commons](https://www.flickr.com/commons)
+
+Image optimize:
+- For one off, [Page Speed](https://developers.google.com/speed/pagespeed/insights/) has a little link at the bottom of the analysis to download optimized images, css, and js (see [Optimize Image](https://developers.google.com/speed/docs/insights/OptimizeImages))
+- Image Magick [convert](https://www.imagemagick.org/script/convert.php)
