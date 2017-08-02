@@ -1,7 +1,7 @@
 ---
 title: Writing in Markdown
 layout: post
-tags: [dh, tools]
+tags: [dh, md, tools]
 date: 2016-05-20
 ---
 
@@ -27,13 +27,13 @@ Here are some tutorials:
 
 ## Markdown editors
 
-Markdown is plaintext, it's sort of like source code for your document. 
+Markdown is [plain text](https://en.wikipedia.org/wiki/Plain_text), it's sort of like source code for your document. 
 You can write it in any application that supports plain text, i.e. a text editor.
 When working with code you should have a good text editor. 
  
 For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient (*note:* you can use Windows Notepad, but it does not handle UTF-8 encoding or UNIX line endings that are standard for most cross platform applications).
 However, more advanced code editors often have plugins or features to make it easier with previews of your document.
-Checkout [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/).
+Checkout [Visual Studio Code](https://code.visualstudio.com/) (use shortcut `Ctrl+Shift+V` to preview) or [Atom](https://atom.io/).
 
 If you want a more fully featured visual writing environment, there are also applications devoted specifically to writing in Markdown. 
 These apps will have previews, GUI controls, and automatic export options. 
@@ -45,8 +45,8 @@ Check out:
 
 ## Rendering Markdown
 
-Markdown is human readable as plaintext--it is intuitive like writing an email. 
-However, it is designed to render to HTML. 
+Markdown is human readable as plain text--it is intuitive like writing an email. 
+However, it is designed to render as HTML. 
 Markdown compilers are built in to many applications to generate formatted versions such as HTML, .docx, or PDF.
 
 One option is [Pandoc](http://pandoc.org/), a command line utility to translate between many formats and generate new output versions, such as PDFs (via [LaTex](https://www.latex-project.org/about/)). 

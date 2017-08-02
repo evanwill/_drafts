@@ -32,8 +32,7 @@ Here are the steps I took to get it running on Windows 7 or 10:
   - Done!
 
 3. Use Jekyll:
-  - To create a new demo project, open a command prompt, type `jekyll new testsite` 
-  - Jekyll will create a new directory with the given name that includes all the files necessary for a basic project
+  - To create a new demo project, open a command prompt, type `jekyll new testsite`. Jekyll will create a new directory with the given name that includes all the files necessary for a basic project. Once you understand the basics, this step is unnecessary.
   - Move to the new directory, type `cd testsite`
   - To start working with it, type `jekyll serve`. (note: for larger sites you will want to activate incremental build, use the short command `jekyll s -i`)
   - Open web browser and visit http://localhost:4000 
