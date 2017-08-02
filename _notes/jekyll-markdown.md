@@ -26,7 +26,7 @@ If you are getting unexpected results when rendering, check your white space.
 All HTML is valid Markdown, but by default Markdown converters ignore Markdown inside HTML tags. 
 For example, `<div> # Header One</div>` won't render as an `<h1>`.
 However, with Jekyll's kramdown, you can add the attribute `markdown="1"` to an HTML element to tell the converter to render the Markdown inside.
-For example, `<div markdown="1"> # Header One</div>` will render as `<div markdown="1"><h1>Header One</h1></div>`.
+Thus, `<div markdown="1"> # Header One</div>` will render as `<div><h1>Header One</h1></div>`.
 This is very handy for adding special divs with ids and classes!
 
 ### Nesting code blocks
