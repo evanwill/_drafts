@@ -21,7 +21,7 @@ Add `"editor.wordWrap": "on"` to `settings.json`.
 
 ## Integrated terminal
 
-Access a nice terminal without leaving the editor by typing Ctrl + \` (control + backtick).
+Access a nice terminal without leaving the editor by typing Ctrl + \` &nbsp; (control + backtick).
 This is extremely handy when developing Jekyll projects, since you can `jekyll s` and have the output easily visible while you are editing.
 I also use it for any non-routine Git activity, since the built in GUI client is only good for basic `git add/commit/push` equivalents.
 
@@ -34,19 +34,20 @@ e.g.  `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.e
 
 (note: shortcuts to Git Bash terminal on your desktop and start menu will point to `C:\Program Files\Git\git-bash.exe`, the MinTTY terminal. If you use that app, Code will open a new external terminal. To use Git Bash on the built in terminal make sure you are pointing to the `bin\bash.exe`). 
 
-## Markdown
+## Markdown preview
 
 Click `Ctrl+Shift+V` to preview rendered file.
 
 ## Spell check
 
 Search in the Extensions, there are several spell check options available.
+I have been using "Code Spellchecker".
 
 ## Arduino
 
-If you have Arduino IDE installed on your system, you add similar functionality to Code.
+If you have Arduino IDE installed on your system, you can add similar functionality to Code.
 Search in the Extensions for Arduino from Microsoft. 
-Click install, it will have to reload a couple times to install everything. 
+Click install, Code will have to reload a couple times to install everything. 
 Now when you open a `.ino` sketch, you will have options at the bottom of the window to select your board and port.
 More info [vscode-arduino](https://github.com/Microsoft/vscode-arduino).
 
