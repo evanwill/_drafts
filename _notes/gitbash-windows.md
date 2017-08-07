@@ -15,8 +15,9 @@ If you are missing a utility, such as wget, track down a binary for windows and 
 Sometimes the windows binary have funny prefixes, so you should rename the `.exe` file to the standard name.
 Since `bin` is on the PATH, it will be automatically available to Git Bash.
 
-*Note:* some utilities will not work with Git Bash's mintty terminal, for example Nano. 
-The Git-for-Windows team is focused on supporting Git, not a full UNIX terminal environment.
+*Note:* Many interactive utilities, such as `python`, `ipython` or `nano`, will not display properly with Git Bash's mintty terminal. 
+Try invoking them with `winpty` instead, for example `winpty ipython` will work nicely.
+The Git-for-Windows team is focused on supporting Git, not a full UNIX shell environment.
 If you are interested in more complete package, check my notes on [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) or [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html).
 
 Here are some utilities to add:
@@ -36,3 +37,9 @@ Here are some utilities to add:
 - Download `make-4.1-2-without-guile-w32-bin.zip` (get the version without guile)
 - Extract zip
 - Copy the contents to your `Git\mingw64\` merging the folders, but do NOT overwrite/replace any existing files. 
+
+## Nano
+
+- Download the Nano binary from Nano [win32-support](https://www.nano-editor.org/dist/win32-support/) page. You just need the `.exe` file, which is named `nano-git-0d9a7347243.exe` (as of this writing).
+- Rename the file to `nano.exe`, and copy to the `mingw64\bin` directory.
+- Nano will not work with Git Bash alone, but can be invoked using `winpty`, for example, `winpty nano test.txt`.
