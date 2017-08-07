@@ -14,9 +14,9 @@ Check the [official installation guide](https://retropie.org.uk/docs/First-Insta
 ## Hardware
 
 Suggested:
-- a raspberry pi 3
+- a Raspberry Pi 3 (from [MCM](http://www.mcmelectronics.com/product/83-17300), official distributor in US, also available many other places)
 - an micro SD card > 8GB (the RetroPie image is 2GB+, but you want plenty of room to add games)
-- some game pads, USB or bluetooth
+- some game pads, [USB](https://www.amazon.com/dp/B01KJS4ILY/ref=cm_sw_r_cp_ep_dp_09aIzb6JAXW5P) or [bluetooth](https://www.amazon.com/dp/B014QP2H1E/ref=cm_sw_r_cp_ep_dp_58aIzbS183WB8)
 
 ## Burn SD
 
@@ -24,6 +24,8 @@ Suggested:
 2. Download and install [Etcher](https://etcher.io/) if you don't have it.
 3. Insert your SD card into your computer and start up Etcher.
 4. Select the RetroPie image (e.g. `retropie-4.2-rpi2_rpi3.img.gz`), your SD card, and click "Flash!"
+
+*For more about burning SD images, see [Burn SD or USB](https://evanwill.github.io/_drafts/notes/burn-iso.html) note.*
 
 ## Start RetroPie
 
@@ -50,3 +52,10 @@ There are a few methods to get ROMs on your RetroPie, but the most foolproof way
 ## Play!
 
 You should be good to go!
+
+General menu controls:
+- A = select
+- B = back
+- Start = menu
+- Start + Select (in game) = exit back to main menu
+- Select + B (in game) = reset
