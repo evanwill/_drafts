@@ -95,7 +95,7 @@ date: 2017-08-24
         }
         abc.push(title.join(" "));
         /* create source */
-        abc.push("S: Random Reel, https://evanwill.github.io/test-music/")
+        abc.push("S: Brand New Reel, https://evanwill.github.io/_drafts/notes/reel.html")
         /* create meter */
         var m = Math.floor(Math.random() * meter.length);
         abc.push(meter[m]);
