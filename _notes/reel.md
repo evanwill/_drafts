@@ -13,7 +13,7 @@ date: 2017-08-24
     <div id="notation" class="abc-rendered"></div>
     <div id="play"></div>
     <div id="warnings" class="abc-warnings"></div>
-    <textarea name="abc" id="abc-text" class="abc-text" rows="20"></textarea>
+    <textarea name="abc" id="abc-text" class="abc-text" rows="14"></textarea>
     <button type="button" class="buttons" onclick="loadAbc();">Brand New Reel!</button>
     <button type="button" class="buttons" onclick="showEdit();">Edit</button>
     <!--<button type="button" onclick="printAbc();">Print</button>-->
