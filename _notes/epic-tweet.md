@@ -19,7 +19,7 @@ date: 2017-08-02
 
 > Epic Tweets remixes Samuel Butler's translations of the Iliad and Odyssey into 140 character outbursts.
 
-<script src="{{ site.url }}/js/butler-epics.txt"></script>
+<script src="{{ site.url }}/js/butler-epics.js"></script>
 <script>
     var poem = document.getElementById("epic");
 
