@@ -92,11 +92,12 @@ Major desktops:
 The best way to learn Linux is to try it. 
 When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. 
 However, if you are interested in running Linux or other open OS, you will have to install it yourself.
-Modern Linux distros are released as an ISO disk image, often called a “live cd” or “live usb”. 
+Modern Linux distros are released as an ISO disk image, often called a "live cd" or "live usb".
 This means you can download an ISO, burn it to a USB stick, and then boot up into the desktop without actually installing or changing your hard drive!
 Give it a try, with these [instructions](https://evanwill.github.io/_drafts/notes/burn-iso.html).
 
 Or you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
+The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
 
 Once you try it out, install it!
 Most installers are graphical and friendly.

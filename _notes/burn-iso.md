@@ -117,10 +117,13 @@ If it just boots as normal to your OS, you will need to change the boot order.
 
 For older systems BIOS controls the boot order. 
 To change it, you will have access the BIOS options menu as the computer powers on. 
-Each device is slightly different, but as the computer starts to boot you should see a screen with the manufacture’s logo and a message that tells you which key to press--sometimes its so fast you can’t read it! The key is usually F1, F2, DEL, ESC, or F10 (here are some [tips from Pendrivelinux](https://www.pendrivelinux.com/how-to-access-bios/)).
+Each device is slightly different, but as the computer starts to boot you should see a screen with the manufacture’s logo and a message that tells you which key to press--sometimes its so fast you can’t read it! The key is usually F1, F2, DEL, ESC, or F10 (here are some tips from [Pendrivelinux](https://www.pendrivelinux.com/how-to-access-bios/) or [gpost](https://www.groovypost.com/howto/bios-uefi-setup-guide-boot-from-cd-dvd-usb-drive-sd-card/)).
 Navigate the BIOS options and set USB first in the list of boot devices.
 
-Newer systems will have UEFI Secure Boot (instead of traditional BIOS), and Windows 10 makes things a bit more complicated.
+On Mac, turn on the computer, as soon as you hear the start-up chime, press and hold the `Option` key. 
+This should bring you to the "Startup Manager" allowing you to select the USB drive. 
+
+Newer PC systems will have UEFI Secure Boot (instead of traditional BIOS), and Windows 10 makes things a bit more complicated.
 Each vendor is different, and some have a special key at start up to enter the EFI/UEFI boot order menu allowing you to choose to the boot device. However, you should do some set up first.
 Here are the steps if you want to try out or install Linux on your Windows 10 machine:
 
