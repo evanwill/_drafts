@@ -40,16 +40,17 @@ However, the most popular and commonly used is the Unix shell **Bash** ([Bourne 
 Even if you are a Windows user, learning Bash will open up a powerful set of tools on your personal machine, in addition to familiarizing you with the standard remote interface used on almost all servers and super computers.
 If you want to control a Raspberry Pi or virtual machine in the cloud, you will need to use the Bash Shell.
 
-There are several options to add a UNIX style shell to Windows:
+On Linux or Mac, you already have Bash, just open a *Terminal* and you are ready to go.
+On Windows there are several options to add a UNIX-like style shell:
 
-- Git Bash: installing [Git for Windows](https://git-for-windows.github.io/) adds the Git Bash shell. It comes with some of the standard UNIX applications (and you can [add more](https://evanwill.github.io/_drafts/notes/gitbash-windows.html)). It is easy to install, integrates with Windows context menus (right click), and works well.
+- Git Bash: installing [Git for Windows](https://git-for-windows.github.io/) adds the Git Bash shell. It comes with some of the standard UNIX applications (and you can [add more](https://evanwill.github.io/_drafts/notes/gitbash-windows.html)). It is easy to install, integrates with Windows context menus (right click), and works well. (alternatively, use Git Bash with [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html), which is fully portable, no install needed)
 - [Cygwin](https://www.cygwin.com/): a project that adds Unix style terminal to Windows including hundreds of utilities built and packaged to function natively on Windows. It includes more functionality than Git Bash and has a package system to install utilities ([more info](https://evanwill.github.io/_drafts/notes/cygwin.html)).
 - [MobaXterm](http://mobaxterm.mobatek.net/): a non-opensource emulator similar to Cygwin with quite a bit of functionality and an optional paid version.
 - [Bash on Windows Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
 
-The window that hosts the text based CLI is often called a **terminal emulator**. 
-Most people use the default that comes with the OS, but if you want to get fancy, there are a surprising number of options out there!
-Check out [Guake](http://guake-project.org/), [Hyper](https://hyper.is/), [ConEmu](https://conemu.github.io/)(Windows), [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html)(Windows).
+The GUI window that hosts the text based CLI is often called a **terminal emulator**. 
+Most people use the default that comes with your OS, but if you want to get fancy, there are a surprising number of options out there!
+Check out [Guake](http://guake-project.org/) (linux, dropdown), [Hyper](https://hyper.is/) (slick looking, html/css based), [ConEmu](https://conemu.github.io/) (windows, tabbed), [upterm](https://github.com/railsware/upterm) (linux, IDE terminal), [Tilix](https://gnunn1.github.io/tilix-web/) (linux, tiling terminal), [Cool Retro Term](https://github.com/Swordfish90/cool-retro-term) (linux, retro emulator with flickering CRT screen look).
 
 ## Navigate 
 

@@ -11,7 +11,7 @@ date: 2017-07-05
 
 > Epic Episode remixes Samuel Butler's translations of the Iliad and Odyssey.
 
-<script src="{{ site.url }}/js/butler-epics.txt"></script>
+<script src="{{ site.url }}/js/butler-epics.js"></script>
 <script>
     var poem = document.getElementById("epic");
 
