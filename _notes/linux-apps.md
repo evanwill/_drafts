@@ -18,11 +18,11 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 
 ## Utilities
 
-- Password database: KeePassX 
+- Password database: KeePassX or KeePass2
 - File renamer: [pyRenamer](https://launchpad.net/pyrenamer), older batch file renamer, but still works. Unique feature allows you to use a csv list to rename a batch of files. 
 - Screencast: `vokoscreen`, or `kazam`
 - File transfer/sync: `grsync`, GUI rsync 
-- Rip DVDs: `handbrake`
+- Rip DVDs: `handbrake` (note: the version in the repository is out-of-date, check the official [handbrake site](https://handbrake.fr/) for instructions to install the latest)
 - Flickr uploader: `frogr`
 
 ## Games
