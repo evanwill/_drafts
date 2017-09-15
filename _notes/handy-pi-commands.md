@@ -79,3 +79,15 @@ See eLinux RPiconfig for full info [about config.txt](http://elinux.org/RPiconfi
 3. Open `/boot/config.txt` in an editor.
 4. Uncomment the line `hdmi_safe=1`
 5. save
+
+## OpenGL
+
+On rpi2 with the newest version of Raspbian Stretch, you can enable a new hardware OpenGL driver. 
+Run `sudo raspi-config`, look in Advanced > GL Driver.
+Select the new driver, then select finish and reboot the pi.
+
+Try it out with a few OpenGL games:
+
+`sudo apt-get install neverball`
+
+`sudo apt-get install oolite`
