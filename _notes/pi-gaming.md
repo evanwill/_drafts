@@ -5,7 +5,9 @@ tags: [fun, rpi]
 date: 2017-09-18
 ---
 
-Raspberry Pi is a powerful little $35 linux computer--and it's a lot of fun. 
+> #MakeItMondays in the [MILL](https://mill.lib.uidaho.edu/): Gaming on Raspberry Pi!
+
+Raspberry Pi is a wonderful little $35 linux computer--and it's a lot of fun. 
 Sure there is a lot of applications for physical computing or learning to code, but Pi also a handy open-source gaming machine!
 If you are interested in retro emulation, there are specialized distributions such as [RetroPie](https://retropie.org.uk/) (my [RetroPie notes](https://evanwill.github.io/_drafts/notes/retropie.html)).
 However, there are plenty of gaming opportunities on the standard Pi operating system, [Rasbian](https://www.raspberrypi.org/downloads/raspbian/).
