@@ -53,11 +53,12 @@ Here are some things to consider:
 - Dual booting options. Do you want to keep windows? Some installers make it easy (Ubuntu).
 - Repositories. Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others. Others are more DIY (Arch).
 - Hardware support. Some distros support a huge range of legacy hardware. Others have better support for the newest hardware (look for newest kernel version).
-- Current vs LTS (long term support). Do you want to install an OS that will be supported for a LONG time that you won't have to upgrade or do you want the latest-and-greatest?
+- Current vs LTS (long term support). Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest?
 - Rolling release vs. fixed release. Rolling release distros have a continuos stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require an large upgrade every so often.
 - Ecosystem. Do you use a Linux server at work? Choose a distro from the same family to make life easier.
 
 My easy suggestion: use [Ubuntu](https://www.ubuntu.com/) or an [Ubuntu flavor](https://www.ubuntu.com/download/ubuntu-flavours).
+The installer is easy to use (supports easy dual booting with Windows) and hardware support is great.
 But check out the Appendix at the bottom for MORE suggestions!
 
 ## Desktop Environment
@@ -72,15 +73,15 @@ Things to consider:
 - Unique vs. traditional. Do you want something different or are you nostalgic for the old days?
 
 Major desktops:
-- [GNOME](https://www.gnome.org/). modern, minimalistic, no start menu, extensions (get newest version with Fedora)
-    - Unity. unique interface featuring Dash, Scopes, HUD. Ubuntu only, future uncertain.
-    - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with Mint)
-    - [MATE](https://mate-desktop.org/). traditional, a fork to preserve an old version of GNOME
-- [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with Neon)
+- [GNOME](https://www.gnome.org/). modern, minimalistic, no start menu, [extensions](https://extensions.gnome.org/) add functionality
+    - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://solus-project.com/))
+    - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/))
+    - [MATE](https://mate-desktop.org/). traditional, based on an old version of GNOME
+    - ~~Unity~~. Until version 17.10, Ubuntu shipped with a unique desktop. It is still available in LTS version 16.04, but the future is uncertain.
+- [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/))
 - [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop
-- [LXDE](http://lxde.org/). very light weight
-- [Budgie](https://solus-project.com/budgie/). up-and-coming new project (get newest version with Solus or Ubuntu)
-- Tiling window manager, [xmonad](http://xmonad.org/)
+- [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
+- Tiling window managers, e.g. [xmonad](http://xmonad.org/)
 
 > Most desktops support themes which make it easy to change the look and feel. 
 > For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
@@ -149,7 +150,9 @@ Here are a few things slightly different from Windows:
 - [RemixOS](http://www.jide.com/remixos) open android for desktop
 - [Android-x86](http://www.android-x86.org/download)
 
-**Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive. For example:
+**Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive.
+This makes them simple, fast, and secure.
+For example:
 - [Puppy Linux](http://puppylinux.org/)
 - [Slax](https://www.slax.org/en/)
 - [Porteus](http://www.porteus.org/)
