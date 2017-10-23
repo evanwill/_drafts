@@ -5,7 +5,7 @@ tags: [linux]
 date: 2017-02-02
 ---
 
-Search the repository at [Ubuntu Packages](http://packages.ubuntu.com/) to find proper names to install with `sudo apt-get install`.
+Search the repository at [Ubuntu Packages](http://packages.ubuntu.com/) to find proper names to install with `sudo apt install`.
 If you want to install apps from outside the repositories, download the `.deb`. 
 Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove with `sudo dpkg -r package-name` (note: the remove package name is not the same as the `.deb`'s name).
 
@@ -18,12 +18,20 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 
 ## Utilities
 
-- Password database: KeePassX or KeePass2
+- Password database: `keepass2`
 - File renamer: [pyRenamer](https://launchpad.net/pyrenamer), older batch file renamer, but still works. Unique feature allows you to use a csv list to rename a batch of files. 
 - Screencast: `vokoscreen`, or `kazam`
-- File transfer/sync: `grsync`, GUI rsync 
+- File transfer/sync: `grsync` (GUI rsync), `meld` (GUI diff and merge).
+- Backup: `deja-dup`
 - Rip DVDs: `handbrake` (note: the version in the repository is out-of-date, check the official [handbrake site](https://handbrake.fr/) for instructions to install the latest)
 - Flickr uploader: `frogr`
+- Ebook manager: Calibre, if you have ebooks, this helps you manage them and connect with reading devices. It also has great built in editing and conversion tools.
+- Burn SD/USB images: [Etcher](https://etcher.io/)
+
+## Image editing
+
+- Image editing: GIMP, `gimp` (the first time you open it, click "Windows" > "Single window mode" for a more usable experience). If you use raw images, check out Darktable. To play with HDR, `luminance-hdr`.
+- Vector drawing: Inkscape or Vectr.
 
 ## Games
 
@@ -35,4 +43,4 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 ## Handy distros
 
 - [Volumio](https://volumio.org/), dedicated audio player
-
+- [RetroPie](https://evanwill.github.io/_drafts/notes/retropie.html), dedicated game emulator
