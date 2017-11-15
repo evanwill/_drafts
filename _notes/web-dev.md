@@ -6,7 +6,8 @@ date: 2017-03-20
 ---
 
 Quick local server: 
-- Python 3, `python -m http.server 8000` then surf to `localhost:8000`
+- Python 3: `python -m http.server 8000` then surf to `localhost:8000`
+- Node: install `npm install -g http-server`, run `http-server`
 
 Browser support:
 - [Can I Use](http://caniuse.com/)
@@ -34,3 +35,7 @@ Free images:
 Image optimize:
 - For one off, [Page Speed](https://developers.google.com/speed/pagespeed/insights/) has a little link at the bottom of the analysis to download optimized images, css, and js (see [Optimize Image](https://developers.google.com/speed/docs/insights/OptimizeImages))
 - Image Magick [convert](https://www.imagemagick.org/script/convert.php)
+
+JQuery?
+- [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
+- [plainjs](https://plainjs.com/)
