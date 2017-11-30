@@ -39,3 +39,8 @@ Image optimize:
 JQuery?
 - [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
 - [plainjs](https://plainjs.com/)
+
+Web Master utilities:
+- [sitemaps](https://www.sitemaps.org/protocol.html)
+- [Google Custom Search](https://cse.google.com/cse/)
+- [Google Search Console](https://www.google.com/webmasters/tools/home)
