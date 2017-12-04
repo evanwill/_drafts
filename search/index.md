@@ -6,7 +6,7 @@ layout: page
 Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/).
 *May take a second to load!*
 
-<script src="{{ '/js/lunr.js' | absolute_url }}"></script>
+<script src="{{ site.url }}/js/lunr.js"></script>
 
 <input type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
 <input class="button-all" type="button" onclick="lunr_search();" value=" Search ">
