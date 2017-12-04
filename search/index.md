@@ -4,7 +4,8 @@ layout: page
 ---
 
 Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/).
-*May take a second to load!*
+*May take a second to load!* 
+(p.s. or you can try [google cse]({{ site.url }}/search/google.html))
 
 <script src="{{ site.url }}/js/lunr.js"></script>
 
