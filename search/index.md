@@ -20,7 +20,7 @@ var documents = {
     "{{ post.slug }}": 
     { 
       "id": "{{ post.slug }}",
-      "url": "{{ post.url | absolute_url | xml_escape }}",
+      "url": "{{ site.url | xml_escape }}{{ post.url | xml_escape }}",
       "title": "{{ post.title | xml_escape }}",
       "text": {{ post.content | strip_html | jsonify }}
     }{% unless forloop.last %},{% endunless %}
