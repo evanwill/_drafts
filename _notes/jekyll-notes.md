@@ -21,11 +21,9 @@ There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) 
 Here are the steps I took to get it running on Windows 7 or 10:
 
 1. Get Ruby installed:
-  - Download [RubyInstaller](http://rubyinstaller.org/downloads/), a installer package for windows.
-  - Run RubyInstaller, all the defaults should be fine.
-  - Download the Ruby Development Kit from the [RubyInstaller](http://rubyinstaller.org/downloads/) page. If you installed Ruby 32 bit, get `DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe`. Documentation is on [GitHub](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
-  - Click on the Dev Kit to unzip (its a self extracting package), put it in a permanent location, such as `C:\rubyDevKit\`
-  - Open a command prompt in the Dev Kit directory, then type the command `ruby dk.rb init`, then `ruby dk.rb install` to connect to your Ruby instance.
+  - Download the suggested stable version of [RubyInstaller](http://rubyinstaller.org/downloads/) (Ruby 2.4.X (x64)+).
+  - Run RubyInstaller, all the defaults should be fine. On the final step, ensure the box to start the MSYS2 DevKit is checked.
+  - The installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. (This installer can be restarted by typing `ridk install` into a command prompt)
 
 2. Install Jekyll:
   - Open a command prompt, then type `gem install jekyll bundler` (gem is Ruby's installer, similar to Python's pip)
