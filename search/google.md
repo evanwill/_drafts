@@ -3,7 +3,7 @@ layout: page
 title: Google Search
 ---
 
-*Please note:* Site Search is a free service provided by Google. Results depend on third party indexing.
+*Please note:* Custom Search Engine is a free service provided by Google. Results depend on third party indexing.
 
 <script>
   (function() {

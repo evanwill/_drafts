@@ -9,8 +9,8 @@ Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/).
 
 <script src="{{ site.url }}/js/lunr.js"></script>
 
-<input type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
-<input class="button-all" type="button" onclick="lunr_search();" value=" Search ">
+<input class="search" type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
+<input class="buttons" type="button" onclick="lunr_search();" value=" Search ">
 
 <ul id="search-results"></ul>
 
