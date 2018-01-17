@@ -27,6 +27,8 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 - Flickr uploader: `frogr`
 - Ebook manager: Calibre, if you have ebooks, this helps you manage them and connect with reading devices. It also has great built in editing and conversion tools.
 - Burn SD/USB images: [Etcher](https://etcher.io/)
+- Firewall: `ufw` or `gufw`
+- `caffeine` keeps screen awake during movies
 
 ## Image editing
 
@@ -39,6 +41,7 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 - SuperTux 2, `supertux`
 - [Endless Sky](https://endless-sky.github.io/), `endless-sky`
 - [mari0](http://stabyourself.net/mari0/#download)
+- `gweled`
 
 ## Handy distros
 
