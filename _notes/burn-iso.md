@@ -36,28 +36,28 @@ So let's get an image and burn it to some media!
 For Raspberry Pi and other single board computers, you will usually get an IMG file representing an hard drive image. 
 These are often zipped or in some other archive (`.zip` or `.xz`) to decrease the download size. It is not necessary to unzip. 
 For example:
-- Official Raspberry Pi OS, https://www.raspberrypi.org/downloads/
-- Volumio, https://volumio.org/
+- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi
+- [Volumio](https://volumio.org/)
 
 Linux distros are generally released as an ISO, often called a "live cd" or "live usb" meaning it can boot from the install media.
 For example:
-- Ubuntu, https://www.ubuntu.com/desktop
-- KDE neon, https://neon.kde.org/
-- Korora, https://kororaproject.org/
+- [Ubuntu](https://www.ubuntu.com/)
+- [KDE Neon](https://neon.kde.org/)
+- [Korora](https://kororaproject.org/)
 
 Some linux distros are specifically designed to be portable. You always use them from a USB stick and do not install to a hard drive.
 For example: 
-- Puppy Linux, http://puppylinux.org/
-- Slax, https://www.slax.org/en/
-- Porteus, http://www.porteus.org/
+- [Puppy Linux](http://puppylinux.org/)
+- [Slax](https://www.slax.org/en/)
+- [Porteus](http://www.porteus.org/)
 
 Many specialized utilities are also distributed as images so that they can be run from portable media to make changes to a system without a functioning OS. 
 For example:
-- GParted Live, http://gparted.sourceforge.net/livecd.php
-- DBAN, http://gparted.sourceforge.net/livecd.php
+- [GParted Live](https://gparted.sourceforge.io/livecd.php)
+- [DBAN](https://dban.org/)
 - Anti-virus rescue CDs
-	- Bitdefender, https://www.bitdefender.com/support/how-to-create-a-bitdefender-rescue-cd-627.html
-	- AVG, http://www.avg.com/gb-en/rescue-cd-business-edition 
+	- [Bitdefender](https://www.bitdefender.com/support/how-to-create-a-bitdefender-rescue-cd-627.html)
+	- [AVG](http://www.avg.com/gb-en/rescue-cd-business-edition)
 
 ## Get media
 

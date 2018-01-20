@@ -25,14 +25,14 @@ There are thousands to choose from, each with different philosophies, strengths,
 
 ## Why Linux?
 
-Linux is [Free Software](https://www.gnu.org/philosophy/free-sw.en.html), meaning cost-free and freely licensed, giving you **freedom** (as in [freeeeeedoooom](https://youtu.be/n9D7oeM3zd8))!
+Linux core is [Free Software](https://www.gnu.org/philosophy/free-sw.en.html), meaning cost-free and freely licensed, giving you **freedom** (as in [freeeeeedoooom](https://youtu.be/n9D7oeM3zd8))!
 You can control, inspect, modify, copy, and share the OS. 
 But for most users, that is not necessarily the most compelling reason to use Linux. 
 Instead they just appreciate a solid, powerful, and user-friendly OS.
 Linux provides security, privacy, stability/reliability, customization, and cost benefits, in addition to access to a vast ecosystem of open-source applications and services. 
 Linux runs most web servers, super computers, and single board computers. 
 So if you want to use a VM in the cloud, do high performance computing, or tinker with a Raspberry Pi at home, it's helpful to know Linux.
-But it also makes a great OS for your personal computer!
+But it also makes a great desktop OS for your personal computer!
 Thus, there are many practical *and* ideological reasons to use Free and Open software.
 
 > Bloatware, adware, viruses, oh my! 
@@ -43,18 +43,18 @@ Thus, there are many practical *and* ideological reasons to use Free and Open so
 ## Distributions
 
 Surf [Distrowatch](https://distrowatch.com/) to browse the latest distro news!
-Part of the fun of getting started with Linux is choosing a distro, but it can also be very overwhelming.
+Part of the fun of getting started with Linux is choosing a distro, but there are so many it can also be very overwhelming.
 Most distros are a package of technical low-level stuff, plus a desktop and selection of basic applications.
 Many are focused on running servers, others on desktop users.
 Here are some things to consider:
 
 - Out-of-the-box experience. Do you want it to just work or are you willing to spend time customizing it? Do you want all the applications pre-installed or minimalist (Arch)?
-- Installer! Older Linux distros were hard to install--Ubuntu really changed that, but some installers are still friendlier than others.
+- Installer! In the past, Linux distros were hard to install--Ubuntu really changed that, but some installers are still friendlier than others.
 - Dual booting options. Do you want to keep windows? Some installers make it easy (Ubuntu).
 - Repositories. Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others. Others are more DIY (Arch).
 - Hardware support. Some distros support a huge range of legacy hardware. Others have better support for the newest hardware (look for newest kernel version).
 - Current vs LTS (long term support). Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest?
-- Rolling release vs. fixed release. Rolling release distros have a continuos stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require an large upgrade every so often.
+- Rolling release vs. fixed release. Rolling release distros have a continuos stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require a large upgrade every so often.
 - Ecosystem. Do you use a Linux server at work? Choose a distro from the same family to make life easier.
 
 My easy suggestion: use [Ubuntu](https://www.ubuntu.com/) or an [Ubuntu flavor](https://www.ubuntu.com/download/ubuntu-flavours).
@@ -73,7 +73,7 @@ Things to consider:
 - Unique vs. traditional. Do you want something different or are you nostalgic for the old days?
 
 Major desktops:
-- [GNOME](https://www.gnome.org/). modern, minimalistic, no start menu, [extensions](https://extensions.gnome.org/) add functionality
+- [GNOME](https://www.gnome.org/). modern, minimalistic, no start menu, [extensions](https://extensions.gnome.org/) add functionality, themes easily change the look.
     - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://solus-project.com/))
     - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/))
     - [MATE](https://mate-desktop.org/). traditional, based on an old version of GNOME
@@ -121,11 +121,12 @@ Here are a few things slightly different from Windows:
 
 [Debian](https://www.debian.org/) boring, stable distro with extensive repositories that is the base of MANY other distros. Uses `apt` configuration and `.deb` packages.
 - [Ubuntu](https://www.ubuntu.com/) developed by Canonical based in the UK, it is the most popular desktop linux, very beginner friendly
-    - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours)
+    - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops
     - [KDE Neon](https://neon.kde.org/) cutting edge KDE on Ubuntu base
-    - [Linux Mint](https://www.linuxmint.com/) one of the most popular and beginner friendly
+    - [Linux Mint](https://www.linuxmint.com/) one of the most popular and beginner friendly, featuring the Cinnamon desktop
     - [Elementary OS](https://elementary.io/) mac replacement, unique Pantheon desktop
     - [Zorin OS](https://zorinos.com/) windows replacement
+    - [Pop!_os](https://system76.com/pop) Gnome desktop, built by computer company [System76](https://system76.com)
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi, unique Pixel desktop
 - [Tails](https://tails.boum.org/index.en.html) privacy focused distro
 
@@ -137,12 +138,12 @@ Here are a few things slightly different from Windows:
     - [Sugar](http://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Installation) unique kid focused distro originally developed for One Laptop per Child project
 - [Fedora Labs](https://labs.fedoraproject.org/) specialized distros from science to games
 
-[openSUSE](https://www.opensuse.org/)
+[openSUSE](https://www.opensuse.org/). Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 - [SUSE Enterprise](https://www.suse.com/) Germany based enterprise Linux
 
-[Arch](https://www.archlinux.org/) *K.I.S.S.* DIY, not user friendly
+[Arch](https://www.archlinux.org/) *K.I.S.S.* DIY, not traditionally user friendly, uses `pacman` for configuration, usually rolling release.
 - [Manjaro](https://manjaro.org/) user friendly Arch for beginners
-- [Antergos](https://antergos.com/)
+- [Antergos](https://antergos.com/) user friendly Arch
 
 [Solus](https://solus-project.com/) up-and-coming independent distro developing Budgie desktop
 
@@ -161,6 +162,11 @@ For example:
 - music player: [Volumio](https://volumio.org/)
 - media center: [OSMC](https://osmc.tv/), [OpenELEC](http://openelec.tv/)
 - gaming: [RetroPie](https://retropie.org.uk/)
+
+**Utilities.** Some specialized distros are basic utilities used to work on a computer where the main drive or OS maybe corrupted.
+- [GParted Live](https://gparted.sourceforge.io/livecd.php), partition and disk utility
+- [Clonezilla](http://www.clonezilla.org/), disk imaging/cloning deployment or recovery
+- [DBAN](https://dban.org/), disk data destroyer
 
 **Other open OS.** There are other open-source OS out there, Linux is just the most popular.
 - BSD. Considered rock-solid stable and secure for servers, with desktop options [FreeBSD](https://www.freebsd.org/) and [TrueOS](https://www.trueos.org/)
