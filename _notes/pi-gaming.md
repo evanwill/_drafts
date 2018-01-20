@@ -45,7 +45,7 @@ Here are a few options:
 
 The [Internet Archive](https://archive.org/) has thousands of old games preserved in their digital library.
 They make them available in a browser based emulator, so you can play them anywhere, but Pi is just right for many of these retro games!
-Check out these collections: 
+Yes, you can play [Oregon Trail](https://archive.org/details/msdos_Oregon_Trail_The_1990) right now, or check out these collections: 
 
 - [Internet Arcade](https://archive.org/details/internetarcade)
 - [MS DOS](https://archive.org/details/softwarelibrary_msdos_games)
