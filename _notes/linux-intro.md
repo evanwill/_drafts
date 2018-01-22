@@ -14,7 +14,7 @@ date: 2017-04-13
 
 Linux ([pronunciation](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) is a family of open source operating systems (OS).
 An OS is made up of a many components, basically:
-- Bootloader: starts the low level processes necessary to boot an OS, usually for [GRUB](https://www.gnu.org/software/grub/)
+- Bootloader: starts the low level processes necessary to boot an OS, most linux distrobutions use [GRUB](https://www.gnu.org/software/grub/)
 - Kernel: manages the hardware and low level software components, this is actually [Linux](https://www.kernel.org/)
 - Shell: text-based command line interface
 - Desktop environment: graphical interface 
@@ -30,7 +30,7 @@ You can control, inspect, modify, copy, and share the OS.
 But for most users, that is not necessarily the most compelling reason to use Linux. 
 Instead they just appreciate a solid, powerful, and user-friendly OS.
 Linux provides security, privacy, stability/reliability, customization, and cost benefits, in addition to access to a vast ecosystem of open-source applications and services. 
-Linux runs most web servers, super computers, and single board computers. 
+Linux runs majority of web servers, super computers, and single board computers. 
 So if you want to use a VM in the cloud, do high performance computing, or tinker with a Raspberry Pi at home, it's helpful to know Linux.
 But it also makes a great desktop OS for your personal computer!
 Thus, there are many practical *and* ideological reasons to use Free and Open software.
@@ -54,7 +54,7 @@ Here are some things to consider:
 - Repositories. Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others. Others are more DIY (Arch).
 - Hardware support. Some distros support a huge range of legacy hardware. Others have better support for the newest hardware (look for newest kernel version).
 - Current vs LTS (long term support). Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest?
-- Rolling release vs. fixed release. Rolling release distros have a continuos stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require a large upgrade every so often.
+- Rolling release vs. fixed release. Rolling release distros have a continuous stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require a large upgrade every so often.
 - Ecosystem. Do you use a Linux server at work? Choose a distro from the same family to make life easier.
 
 My easy suggestion: use [Ubuntu](https://www.ubuntu.com/) or an [Ubuntu flavor](https://www.ubuntu.com/download/ubuntu-flavours).
@@ -67,6 +67,7 @@ The desktop environment (DE) is the graphical interface you will be staring at a
 Unlike windows, mac, or chrome, with Linux you have a choice of desktops.
 It is separate from the core of the distro and can be installed independently.
 In fact you can [install more than one](https://www.linux.com/news/5-linux-desktop-environments-rise-2017)!
+In most cases you will choose a distro bundled with a DE, and most distros will give you several choices.
 Things to consider:
 - Weight. How graphics heavy is it. If you have an old computer or low spec hardware, go light!
 - Configurability. How much do you want to tweak the look and feel? Do you want it to just look good out of the box?
@@ -110,7 +111,7 @@ Here are a few things slightly different from Windows:
 
 - User accounts and passwords. You are always logged in as a user and require a password to make any changes to the system (Windows tends to hide this).
 - File system, home directory. Linux uses a different file system that Windows can't read and is presented differently. On Window the root is the drive letter `C:\`. Linux presents all drives as a unified file system, with the root at `/` and your user directory at `/home/username` (Linux doesn't use Windows back slashes `\`).
-- Updates. Updates are pushed out very regularly by most distros keeping you secure and fixing bugs. The updates cover the OS and all installed applications. First the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software are downloaded. There is usually an updater application, you may need to start it manually.
+- Updates. Updates are pushed out very regularly by most distros keeping you secure and fixing bugs. The updates cover the OS and all applications installed from a repository. First, the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software are downloaded. There is usually an updater application, but you may need to start it manually.
 - Software center. Applications can be easily and securely installed from your distro's repository. There is usually an GUI app to find and manage your software.
 - Terminal. Command line is really handy! See this [mini-workshop](https://evanwill.github.io/_drafts/notes/commandline.html).
 - UIdaho wifi. Connecting to AirVandalGold requires some extra steps, see [my instructions](https://evanwill.github.io/_drafts/notes/airvandalgold-setup.html).
@@ -119,37 +120,69 @@ Here are a few things slightly different from Windows:
 
 ## Major distro families
 
-[Debian](https://www.debian.org/) boring, stable distro with extensive repositories that is the base of MANY other distros. Uses `apt` configuration and `.deb` packages.
-- [Ubuntu](https://www.ubuntu.com/) developed by Canonical based in the UK, it is the most popular desktop linux, very beginner friendly
+Below is a basic introduction to the major linux families, with a focus on distros with desktop friendly versions.
+
+### Debian
+
+One of the oldest active linux distros, Debian has extensive stable repositories that are the base of MANY other distros. 
+This includes Ubuntu, developed by enterprise software company [Canonical](https://www.canonical.com/) based in the UK.
+Uses `apt` configuration and `.deb` packages.
+
+- [Debian](https://www.debian.org/), entirely free software released by the Debian Project
+- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly
     - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops
-    - [KDE Neon](https://neon.kde.org/) cutting edge KDE on Ubuntu base
-    - [Linux Mint](https://www.linuxmint.com/) one of the most popular and beginner friendly, featuring the Cinnamon desktop
-    - [Elementary OS](https://elementary.io/) mac replacement, unique Pantheon desktop
-    - [Zorin OS](https://zorinos.com/) windows replacement
-    - [Pop!_os](https://system76.com/pop) Gnome desktop, built by computer company [System76](https://system76.com)
+    - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base
+    - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop
+    - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop
+    - [Zorin OS](https://zorinos.com/), polished windows replacement
+    - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com)
+    - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi, unique Pixel desktop
 - [Tails](https://tails.boum.org/index.en.html) privacy focused distro
 
-[Fedora](https://getfedora.org/). Uses `yum` configuration and `.rpm` packages.
-- [RedHat](https://www.redhat.com/) USA based non-free enterprise Linux
-    - [CentOS](https://www.centos.org/) free RedHat
-- [Fedora Spins](https://spins.fedoraproject.org/)
-    - [Korora](https://kororaproject.org/) fairly new, nice looking distro
-    - [Sugar](http://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Installation) unique kid focused distro originally developed for One Laptop per Child project
-- [Fedora Labs](https://labs.fedoraproject.org/) specialized distros from science to games
+### Fedora / RedHat
 
-[openSUSE](https://www.opensuse.org/). Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
-- [SUSE Enterprise](https://www.suse.com/) Germany based enterprise Linux
+Based in the USA, [Red Hat](https://www.redhat.com/) is one of the largest open-source enterprise software companies, providing support, development, and Linux OS to major corporations.
+It is a good choice to learn if you are interested in working with enterprise environments.
+Uses `yum` configuration and `.rpm` packages.
 
-[Arch](https://www.archlinux.org/) *K.I.S.S.* DIY, not traditionally user friendly, uses `pacman` for configuration, usually rolling release.
-- [Manjaro](https://manjaro.org/) user friendly Arch for beginners
-- [Antergos](https://antergos.com/) user friendly Arch
+- [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software
+- [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free
+- [CentOS](https://www.centos.org/), free community supported RHEL
+- [Scientific Linux](https://www.scientificlinux.org/), free RHEL-based OS developed by Fermilab for high performance scientific computing environments
+- [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops
+    - [Sugar](http://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Installation), unique kid focused distro originally developed for One Laptop per Child project
+- [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games
+- [Korora](https://kororaproject.org/), nice looking beginner friendly
 
-[Solus](https://solus-project.com/) up-and-coming independent distro developing Budgie desktop
+### SUSE
 
-[Android](https://source.android.com/)
-- [RemixOS](http://www.jide.com/remixos) open android for desktop
-- [Android-x86](http://www.android-x86.org/download)
+Germany based enterprise FOSS company.
+Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
+
+- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option 
+- [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments
+- [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly
+
+### Arch
+
+An independent, community built distro with rolling release following a *K.I.S.S.* and DIY philosophy. 
+Not traditionally user friendly.
+Uses `pacman` for configuration.
+
+- [Arch](https://www.archlinux.org/)
+- [Manjaro](https://manjaro.org/), user friendly Arch for beginners
+- [Antergos](https://antergos.com/), user friendly Arch
+
+### Other
+
+**Android.** Based on Linux, Android is the most popular smart phone OS in the world.
+- [Android-x86](http://www.android-x86.org/download), port of Android that can be run on a laptop.
+
+**Independent.** Some distros go it alone. For example:
+- [Solus](https://solus-project.com/), up-and-coming independent distro developing Budgie desktop
+- [Mageia](http://www.mageia.org/en/), France based community focused distro
+- [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway
 
 **Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive.
 This makes them simple, fast, and secure.
@@ -161,7 +194,8 @@ For example:
 **Entertainment.** There are many specialized minimalist distros that act as entertainment centers, usually run on a Raspberry Pi or similar device.
 - music player: [Volumio](https://volumio.org/)
 - media center: [OSMC](https://osmc.tv/), [OpenELEC](http://openelec.tv/)
-- gaming: [RetroPie](https://retropie.org.uk/)
+- gaming: [RetroPie](https://retropie.org.uk/) or [SteamOS](http://store.steampowered.com/steamos/)
+- NAS: [FreeNAS](http://www.freenas.org/) or [EasyNAS](http://www.easynas.org/) 
 
 **Utilities.** Some specialized distros are basic utilities used to work on a computer where the main drive or OS maybe corrupted.
 - [GParted Live](https://gparted.sourceforge.io/livecd.php), partition and disk utility
@@ -171,4 +205,4 @@ For example:
 **Other open OS.** There are other open-source OS out there, Linux is just the most popular.
 - BSD. Considered rock-solid stable and secure for servers, with desktop options [FreeBSD](https://www.freebsd.org/) and [TrueOS](https://www.trueos.org/)
 - [Haiku](https://www.haiku-os.org/)
-- [KolibriOS](http://kolibrios.org/en/). Minimalist, tiny OS
+- [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS
