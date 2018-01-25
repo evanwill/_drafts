@@ -44,3 +44,8 @@ Web Master utilities:
 - [sitemaps](https://www.sitemaps.org/protocol.html)
 - [Google Custom Search](https://cse.google.com/cse/)
 - [Google Search Console](https://www.google.com/webmasters/tools/home)
+
+Design:
+- [Laws of UX](https://lawsofux.com/)
+- [Web Field Manual](https://webfieldmanual.com/)
+- [Butterick's Practical Typography](https://practicaltypography.com/)
