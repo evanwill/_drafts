@@ -21,6 +21,11 @@ Check the [kramdown syntax](https://kramdown.gettalong.org/syntax.html) for deta
 Although Markdown is simple, it is important to remember that white space, blank lines, and tabs matter.
 If you are getting unexpected results when rendering, check your white space.
 
+### Add attributes to links
+
+Kramdown allows you to add additional attributes to links. 
+I often add a target, like this: `[example](https://example.com){:target="_blank"}`.
+
 ### Intermix with HTML
 
 All HTML is valid Markdown, but by default Markdown converters ignore Markdown inside HTML tags. 
