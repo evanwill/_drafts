@@ -2,7 +2,7 @@
 title: Handy OpenRefine Functions to Remember
 layout: post
 tags: [openrefine, data, tools]
-date: 2016-06-01
+date: 2017-06-01
 ---
 
 ## OpenRefine Cross function
@@ -53,3 +53,14 @@ Or trim the white space for each value:
 
 `forEach(split(value, /\n/),e,e.trim()).join("\n")`
 
+## De-dupe
+
+On the key column, click "Sort", and choose sort method.
+Next to the show rows selection above the table, click on the "Sort" menu. 
+Select "Reorder row permanently" (if you do not do this step, sort is just visual and did not transform the data).
+On the key column, select "Edit cells" > "Blank down".
+Facet on blank, remove all matching rows.
+
+## Info on using more memory
+
+<https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory>

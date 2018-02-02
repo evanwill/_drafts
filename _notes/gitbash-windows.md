@@ -40,6 +40,8 @@ Here are some utilities to add:
 
 ## Nano
 
+> As of 2018, recent versions of Git Bash include Nano, so this is unnecessary
+
 - Download the Nano binary from Nano [win32-support](https://www.nano-editor.org/dist/win32-support/) page. You just need the `.exe` file, which is named `nano-git-0d9a7347243.exe` (as of this writing).
 - Rename the file to `nano.exe`, and copy to the `mingw64\bin` directory.
 - Nano will not work with Git Bash alone, but can be invoked using `winpty`, for example, `winpty nano test.txt`.
