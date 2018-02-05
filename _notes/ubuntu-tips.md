@@ -2,7 +2,7 @@
 title: Ubuntu essentials
 layout: post
 tags: [linux]
-date: 2017-01-02
+date: 2017-11-02
 ---
 
 Ubuntu is great, but here are some essentials and tips to get started and fix some issues that I regularly encounter.
