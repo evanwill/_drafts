@@ -5,7 +5,9 @@ tags: [linux]
 date: 2017-01-02
 ---
 
-Ubuntu is great, but here are some essentials and tips to fix some issues that I regularly encounter.
+Ubuntu is great, but here are some essentials and tips to get started and fix some issues that I regularly encounter.
+This post is from Ubuntu < 17.04, when Ubuntu shipped with the Unity desktop. 
+Since 17.10+, Ubuntu ships with Gnome desktop, so some of this post is not relevant or out-of-date--check my notes about [Gnome on Ubuntu]({{ "/notes/ubuntu-gnome.html" | absolute_url }}) for tips. 
 
 ## Install essentials
 
@@ -16,7 +18,7 @@ Otherwise, search the Software Center.
 - Play MP3s: many common media codec are not free and open source, requiring complicated licensing. Thus Ubuntu does not ship with them. There is an option to add them during install, but I don't since it complicates the process. Install manually using `ubuntu-restricted-extras` (note there is a different package name for each desktop and version, so confirm by searching on [packages](https://packages.ubuntu.com/)).
 - Play videos: VLC, get a better video player right away, `vlc`.
 - Play DVDs: DVDs can't be played until you install some non-free stuff. The codecs are not ready to go in the main repositories, so the easiest way seems to be to build it yourself: `sudo apt install libdvd-pkg` then `sudo dpkg-reconfigure libdvd-pkg`. You may also need to add these packages `sudo apt install libdvdnav4 libdvdread4`
-- Caffeine, turns off screen lock so that your screen doesn't turn off while you are watching youtube! Look for `caffeine-indicator` in the Software center.
+- Caffeine, turns off screen lock so that your screen doesn't turn off while you are watching youtube! On Unity look for `caffeine-indicator` in the Software center. On Gnome, use the [Caffeine extension](https://extensions.gnome.org/extension/517/caffeine/).
 - Text editor: tweak the settings of [Gedit](https://evanwill.github.io/_drafts/notes/gedit-editor.html), and add [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/).
 - Git: `sudo apt install git` do it!
 - Simple firewall: `gufw`. Check out some more extreme [security suggestions](https://wiki.ubuntu.com/BasicSecurity).
