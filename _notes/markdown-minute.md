@@ -89,7 +89,7 @@ A numbered list is created using a number + `.`, like:
 </div>
 </div>
 
-Check the tags page for my [other Markdown notes]({{ site.url }}/tags/index.html#md).
+Check the tags page for my [other Markdown notes]({{ "/tags/index.html#md" | absolute_url }}).
 
 <script>
 function markdownToggle() {

@@ -5,9 +5,9 @@ layout: page
 
 Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/).
 *May take a second to load!* 
-(p.s. or you can try [google cse]({{ site.url }}/search/google.html))
+(p.s. or you can try [google cse]({{ "/search/google.html" | absolute_url }}))
 
-<script src="{{ site.url }}/js/lunr.js"></script>
+<script src="{{ "/js/lunr.js" | absolute_url }}"></script>
 
 <input class="search" type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
 <input class="buttons" type="button" onclick="lunr_search();" value=" Search ">
@@ -21,7 +21,7 @@ var documents = {
     "{{ post.slug }}": 
     { 
       "id": "{{ post.slug }}",
-      "url": "{{ site.url | xml_escape }}{{ post.url | xml_escape }}",
+      "url": "{{ post.url | absolute_url | xml_escape }}",
       "title": "{{ post.title | xml_escape }}",
       "text": {{ post.content | strip_html | jsonify }}
     }{% unless forloop.last %},{% endunless %}

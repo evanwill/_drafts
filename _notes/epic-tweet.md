@@ -8,7 +8,7 @@ date: 2017-08-02
 #tweet-box { border: 1px solid #e6ecf0; padding: 5px; } #profile-img { border-radius: 100%; vertical-align: middle; float: left; } #tweet { margin-left: 60px; } #name { color: #14171a; font-weight: bold; } #handle { color: #657786; }
 </style>
 <div id="tweet-box">
-<img id="profile-img" src="{{ site.url }}/assets/Bust_Homer_BM.jpg" >
+<img id="profile-img" src="{{ "/assets/Bust_Homer_BM.jpg" | absolute_url }}" >
 <div id="tweet">
 <span id="name">Homer </span> <span id="handle">@realEpicAuthor</span>
 <div id="epic" ></div>
@@ -19,7 +19,7 @@ date: 2017-08-02
 
 > Epic Tweets remixes Samuel Butler's translations of the Iliad and Odyssey into 140 character outbursts.
 
-<script src="{{ site.url }}/js/butler-epics.js"></script>
+<script src="{{ "/js/butler-epics.js" | absolute_url }}"></script>
 <script>
     var poem = document.getElementById("epic");
 

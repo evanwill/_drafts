@@ -41,7 +41,7 @@ permalink: /tags/
   {% for note in site.notes %}
     {% for nt in note.tags %}
       {% if nt == item %}
-      <li class="tag-post"><a href="{{ note.url | prepend: site.url }}"><span class="tag-post-title">{{ note.title }}</span><span class="date archive-list-post-date"> | <time>{{ note.date | date: "%Y-%m-%d" }}</time></span></a></li>
+      <li class="tag-post"><a href="{{ note.url | absolute_url }}"><span class="tag-post-title">{{ note.title }}</span><span class="date archive-list-post-date"> | <time>{{ note.date | date: "%Y-%m-%d" }}</time></span></a></li>
       {% endif %}
     {% endfor %}
   {% endfor %}

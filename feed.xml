@@ -5,15 +5,15 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ "/" | absolute_url }}</link>
+    <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml" />
     {% for post in site.notes reversed %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <link>{{ post.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
     {% endfor %}
   </channel>

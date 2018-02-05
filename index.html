@@ -15,7 +15,7 @@ title: browse
   <div class="listjs">
     {% for post in site.notes reversed %}
     <div class="archive-list-post">
-      <a href="{{ post.url | prepend: site.url }}">  
+      <a href="{{ post.url | absolute_url }}">  
       <span class="title archive-list-post-title">
         {{ post.title }}
       </span>
@@ -30,7 +30,7 @@ title: browse
 
 </div>
 <!-- add list.js http://www.listjs.com/ @javve -->
-<script src="{{ site.url }}/js/list.min.js"></script>
+<script src="{{ "/js/list.min.js" | absolute_url }}"></script>
 <script> 
     var options = {
         valueNames: [ 'title', 'date', 'tags' ],

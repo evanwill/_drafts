@@ -12,6 +12,7 @@ github_username: evanwill
 twitter_username: EvanPeterWill
 
 url: "https://evanwill.github.io/_drafts"
+baseurl: /_drafts
 
 # build
 collections:

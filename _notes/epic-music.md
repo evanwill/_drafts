@@ -6,8 +6,8 @@ date: 2017-09-02
 ---
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ site.url }}/css/abcmusic.css">
-<script src="{{ site.url }}/js/abcjs_editor_midi_3.1.2-min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="{{ "/css/abcmusic.css" | absolute_url }}">
+<script src="{{ "/js/abcjs_editor_midi_3.1.2-min.js" | absolute_url }}" type="text/javascript"></script>
 
 <div id="playground">
     <div id="notation" class="abc-rendered"></div>
@@ -49,7 +49,7 @@ date: 2017-09-02
 
 <!--<div id="print-abc"></div>-->
 
-<script src="{{ site.url }}/js/butler-epics.js"></script>
+<script src="{{ "/js/butler-epics.js" | absolute_url }}"></script>
 <script type="text/javascript">
     /* create lines array */
     var lines = text.split(/[.!?]/);
@@ -60,7 +60,7 @@ date: 2017-09-02
     // v 2, map alphabet to octaves
 
     /* set soundfonts location */
-    window.ABCJS.midi.soundfontUrl = "{{ site.url }}/assets/soundfont/";
+    window.ABCJS.midi.soundfontUrl = "{{ "/assets/soundfont/" | absolute_url }}";
     var reel
     var line;
     var abc = [];
