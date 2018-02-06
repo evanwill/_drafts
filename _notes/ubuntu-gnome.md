@@ -37,8 +37,9 @@ The cool part of Gnome is the flexibility of using shell extensions to quickly a
 These range from new themes to menus to info widgets.
 
 First, install the Extensions browser plugin for [Firefox](https://addons.mozilla.org/en/firefox/addon/gnome-shell-integration/) or [Chromium](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep).
-Then, install the helper `sudo apt install chrome-gnome-shell` on your system.
+Then, install the helper `sudo apt install chrome-gnome-shell` on your system (works for all browsers).
 Now, you can install and manage everything from your browser by visiting the [Gnome Extensions page](https://extensions.gnome.org/).
+Configuration can also be done in Tweak tool > Extensions.
 
 For example, add useful utilities:
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/), disable screen lock to watch movies--I consider this an essential, and the app version used in other Ubuntu versions will not work with Gnome.
@@ -89,6 +90,16 @@ Here are a few I like:
 - `gnome-games-app` (browse and organize games)
 - `tilix` (tiling terminal)
 - `gnome-boxes` (browse virtual boxes)
+
+## Hot keys
+
+- `F11`, toggle full screen for any app
+- `Super` (i.e. Windows key between Ctrl and Alt), toggle "Activities" overview / switcher (or `Alt+F1`)
+- `Super+A`, show application menu
+- `Ctrl+Alt` + Up/Down arrow, switch between workspaces (or `Super+Page Up/Down`)
+- `Alt+Tab`, switch between windows (or `Super+Tab`)
+- `Alt+F2`, command window, type `r` to restart to recover from freezes
+- To sleep rather than shutdown, open the topbar menu, hold `Alt` and the shutdown power icon will turn into a pause icon.
 
 ## More stuff
 
