@@ -16,6 +16,7 @@ Browser support:
 Google tests:
 - [Page Speed](https://developers.google.com/speed/pagespeed/insights/)
 - [mobile-friendly](https://search.google.com/search-console/mobile-friendly)
+- [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
 
 Colors:
 - [Adobe color wheel](https://color.adobe.com/)
