@@ -28,7 +28,7 @@ The kernel versions are numbered like `v4.15.1` and fall into several [categorie
 Mainline is the newest version line (e.g. `4.15`), and is continuously updated with new Stable subversions (e.g. `4.15.1`).
 The newest Mainline kernel has the most up-to-date fixes and performance improvements, but also has the most *unknown* bugs. 
 Older Stable and Longterm kernels are regularly updated with patches from the Mainline, thus may have issues, but most are *known* bugs that have documented fixes.
-There is a trade off between the most up-to-date and more stable kernels, thus most distros maintain a LTS version with their releases.
+There is a trade off between the most up-to-date and more stable kernels (see ["Which kernel version is stable"](https://www.linux.com/blog/learn/2018/2/which-linux-kernel-version-stable) for a good discussion), thus most distros maintain a LTS version with their releases.
 
 From the the [Ubuntu kernel ppa](http://kernel.ubuntu.com/~kernel-ppa/mainline/?C=M;O=D), click on the newer version you want to install.
 Scroll down to the "build" section for your computer's architecture, most likely "amd64" and "generic" for a 64-bit laptop.
