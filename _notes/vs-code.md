@@ -2,13 +2,16 @@
 title: Visual Studio Code Notes
 layout: post
 tags: [tools, editor]
-date: 2017-06-30
+date: 2018-01-27
 ---
 
 [Code](https://code.visualstudio.com) is a nice open source text editor from microsoft ([docs](https://code.visualstudio.com/Docs)).
 It is light weight compared to most traditional IDE, yet fully featured and efficient.
 I find it perfect for working on web projects (i.e. *Open Folder* not a file), such as using Jekyll, with Git nicely integrated.
 In the past I used [Atom](https://atom.io/), but Code seems quicker and less clunky.
+*Update:* unfortunately MS seems to be continuously adding more and more features (i.e. junk) all the time--taking it from a nice minimalist editor, to a getting-close-to bloated piece of software.
+I am still using it, but starting to get frustrated by more and more features that I don't want and actually get in the way of working.
+Typical MS...
 
 To configure the editor you override the default settings by writing new values into a `settings.json` file.
 Go to *File* > *Preferences* > *Settings* (or Ctrl+,), and add the new name + value pairs in the JSON brackets `{ }` on the right. 
@@ -18,6 +21,10 @@ Here are my notes-to-self about stuff:
 ## Enable word wrap
 
 Add `"editor.wordWrap": "on"` to `settings.json`.
+
+## Get rid of excessive stuff in file explorer
+
+Add `"problems.decorations.enabled": false` to `settings.json`.
 
 ## Integrated terminal
 
