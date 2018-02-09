@@ -1,11 +1,11 @@
 ---
-title: Gnome on Ubuntu
+title: GNOME on Ubuntu
 layout: post
 tags: [linux]
 date: 2018-01-02
 ---
 
-Starting with 17.10, Ubuntu ships with [Gnome](https://www.gnome.org/) desktop rather than Unity.
+Starting with 17.10, Ubuntu ships with [GNOME](https://www.gnome.org/) desktop rather than Unity.
 There are many good reasons for this, but for those of us who actually liked Unity, there is new stuff to get used to.
 
 ## Start Tweaking
@@ -21,11 +21,11 @@ Settings > Devices > Display to set up your monitor and turn on Night Light if y
 Settings > Bluetooth, turn bluetooth off if you don't use it, since it is a security risk.
 Next, install Tweak tool, `gnome-tweak-tool`, to give more simple customization options.
 
-Finally, if you really don't like Ubuntu's dock, you can remove it to go to a more [vanilla Gnome experience](http://www.omgubuntu.co.uk/2017/10/install-vanilla-gnome-shell-ubuntu-17-10).
+Finally, if you don't like Ubuntu's dock, you can remove it to go to a more [vanilla Gnome experience](http://www.omgubuntu.co.uk/2017/10/install-vanilla-gnome-shell-ubuntu-17-10).
 
 ## Change Themes 
 
-The default style for 17.10 is the pretty ugly and dated "Ambiance" ported from Unity.
+The default style for 17.10 is the pretty ugly and dated "Ambiance", the familiar default from Unity.
 Luckily, changing themes is incredibly easy with Tweak tool, a simple drop down in Appearance > Themes, plus a separate drop down for your icon set.
 There is a whole [universe of themes](https://www.gnome-look.org/) out there, but to get started you can install a few decent options from the main repository: 
 
@@ -33,12 +33,12 @@ There is a whole [universe of themes](https://www.gnome-look.org/) out there, bu
 
 ## Get Extensions 
 
-The cool part of Gnome is the flexibility of using shell extensions to quickly add functionality to the desktop. 
+The cool part of GNOME is the flexibility of using shell extensions to quickly add functionality to the desktop. 
 These range from new themes to menus to info widgets.
 
 First, install the Extensions browser plugin for [Firefox](https://addons.mozilla.org/en/firefox/addon/gnome-shell-integration/) or [Chromium](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep).
 Then, install the helper `sudo apt install chrome-gnome-shell` on your system (works for all browsers).
-Now, you can install and manage everything from your browser by visiting the [Gnome Extensions page](https://extensions.gnome.org/).
+Now, you can install and manage everything from your browser by visiting the [GNOME Extensions page](https://extensions.gnome.org/).
 Configuration can also be done in Tweak tool > Extensions.
 
 For example, add useful utilities:
@@ -53,7 +53,7 @@ Or completely change the desktop functionality:
 ## Organize Apps
 
 The main application launcher has an icon for every installed app.
-To help organize this list, you can group items together using Gnome/Ubuntu Software, it's just not very obvious how to do it...
+To help organize this list, you can group items together using GNOME/Ubuntu Software, it's just not very obvious how to do it...
 
 Open Software, click on Installed tab, then on the check mark at the upper right corner.
 Now click the box next to each app you want to add to a folder.
@@ -91,7 +91,7 @@ Here are a few I like:
 - `tilix` (tiling terminal)
 - `gnome-boxes` (browse virtual boxes)
 
-## Hot keys
+## Keyboard shortcuts
 
 - `F11`, toggle full screen for any app
 - `Super` (i.e. Windows key between Ctrl and Alt), toggle "Activities" overview / switcher (or `Alt+F1`)
@@ -100,6 +100,7 @@ Here are a few I like:
 - `Alt+Tab`, switch between windows (or `Super+Tab`)
 - `Alt+F2`, command window, type `r` to restart to recover from freezes
 - To sleep rather than shutdown, open the topbar menu, hold `Alt` and the shutdown power icon will turn into a pause icon.
+- You can also [customize your shortcuts](https://help.gnome.org/users/gnome-help/stable/keyboard-shortcuts-set.html.en) using Settings > Keyboard > Shortcuts.
 
 ## More stuff
 
