@@ -8,7 +8,7 @@ date: 2016-05-26
 [Git for Windows](https://git-for-windows.github.io/) comes bundled with the "Git Bash" terminal which is incredibly handy for unix-like commands on a windows machine.
 It is missing a few standard linux utilities, but it is easy to add ones that have a windows binary available.
 
-The basic idea is that `C:\Program Files\Git\mingw64\` is your `/` directory according to Git Bash (note: depending on how you installed it, the directory might be different. from the start menu, right click on the Git Bash icon and open file location. It might be something like `C:\Users\name\AppData\Local\Programs\Git`, the `mingw64` in this directory is your root).
+The basic idea is that `C:\Program Files\Git\mingw64\` is your `/` directory according to Git Bash (note: depending on how you installed it, the directory might be different. from the start menu, right click on the Git Bash icon and open file location. It might be something like `C:\Users\name\AppData\Local\Programs\Git`, the `mingw64` in this directory is your root. Find it by using `pwd -W`).
 If you go to that directory, you will find the typical linux root folder structure (`bin`, `etc`, `lib` and so on). 
 
 If you are missing a utility, such as wget, track down a binary for windows and copy the files to the corresponding directories. 
@@ -30,6 +30,13 @@ Here are some utilities to add:
 - Move `wget.exe` to your `Git\mingw64\bin\`
 
 *Note: I have noticed some bugs when using Wget on Git Bash to create WARC files. For more complex use of Wget, consider [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) instead.*
+
+## Hugo 
+
+[Hugo](http://gohugo.io/) static site generator can be downloaded as a binary and does not have a installer.
+Dropping it into your `bin` easily adds it to your Git Bash path.
+Grab the Windows 64-bit version from the [releases page](https://github.com/gohugoio/hugo/releases).
+Unzip the download, then copy `hugo.exe` into your `Git\mingw64\bin` directory.
 
 ## make
 
