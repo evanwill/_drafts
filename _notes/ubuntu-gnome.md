@@ -98,7 +98,7 @@ Here are a few I like:
 - `Super+A`, show application menu
 - `Ctrl+Alt` + Up/Down arrow, switch between workspaces (or `Super+Page Up/Down`)
 - `Alt+Tab`, switch between windows (or `Super+Tab`)
-- `Alt+F2`, command window, type `r` to restart to recover from freezes
+- `Alt+F2`, command window, type `r` to restart GNOME to recover from freezes
 - To sleep rather than shutdown, open the topbar menu, hold `Alt` and the shutdown power icon will turn into a pause icon.
 - You can also [customize your shortcuts](https://help.gnome.org/users/gnome-help/stable/keyboard-shortcuts-set.html.en) using Settings > Keyboard > Shortcuts.
 
@@ -106,3 +106,8 @@ Here are a few I like:
 
 If you have issues with your keyboard or touch pad, there is a bug with some laptops in the kernel shipped with 17.10--see my note on [adding new kernels to Ubuntu]({{ "/notes/ubuntu-kernel.html" | absolute_url }}).
 Other than the complications mentioned above, most of the essentials to get set up are in my older [Ubuntu tips]({{ "/notes/ubuntu-tips.html" | absolute_url }}).
+
+If you want to do some more serious customization, GTK+ can be styled with CSS ([docs](https://developer.gnome.org/gtk3/stable/theming.html)).
+You can start a program with a debug window to get all the information, sort of like using inspect dev tools on a web browser:
+
+`GTK_DEBUG=interactive gedit`
