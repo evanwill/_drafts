@@ -49,4 +49,6 @@ Web Master utilities:
 Design:
 - [Laws of UX](https://lawsofux.com/)
 - [Web Field Manual](https://webfieldmanual.com/)
+- [Performance Tooling Today](http://www.perf-tooling.today/)
 - [Butterick's Practical Typography](https://practicaltypography.com/)
+- [Planet Friendly Web Guide](https://www.planetfriendlyweb.org/)
