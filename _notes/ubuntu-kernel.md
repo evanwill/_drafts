@@ -12,6 +12,7 @@ At first it sounds complicated to re-install the most basic parts of your operat
 ## Check Current Kernel Version
 
 The command `uname -r` will list your current kernel version.
+If you want to see a list of all kernels currently installed, try `dpkg --list | grep linux-image` (yes, you probably have more than one!).
 
 ## Boot with an Older Kernel
 
@@ -32,9 +33,10 @@ There is a trade off between the most up-to-date and more stable kernels (see ["
 
 From the the [Ubuntu kernel ppa](http://kernel.ubuntu.com/~kernel-ppa/mainline/?C=M;O=D), click on the newer version you want to install.
 Scroll down to the "build" section for your computer's architecture, most likely "amd64" and "generic" for a 64-bit laptop.
-Download the three `.deb` packages for the new kernel (the version number is replaced with "..." in the list below):
+You'll need three `.deb` files from the list: headers all, headers generic, and image generic (i.e. not the "lowlatency" ones).
+Download the three packages for the new kernel, for example, the version number is replaced with "..." in the list below:
 - `linux-headers-... _all.deb`
-- `linux-headers-... _amd64.deb`
+- `linux-headers-... -generic... _amd64.deb`
 - `linux-image-... -generic... _amd64.deb`
 
 Next, to simplify install, I create a new folder and add the three downloaded `.deb` packages.
