@@ -82,7 +82,7 @@ Negative Examples:
 
 # Simple Web Based Tools
 
-- [Raw Graphs](http://raw.densitydesign.org/) (based on D3.js)
+- [Raw Graphs](https://rawgraphs.io/) (based on D3.js)
 - [Data Wrapper](https://datawrapper.de/)
 - [Charted](http://www.charted.co/)
 
