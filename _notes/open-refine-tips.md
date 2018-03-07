@@ -61,6 +61,11 @@ Select "Reorder row permanently" (if you do not do this step, sort is just visua
 On the key column, select "Edit cells" > "Blank down".
 Facet on blank, remove all matching rows.
 
+## Compare two columns
+
+Create new "equal" column using expression:
+`if(cells["column1"].value == cells["column2"].value, "True", "False")`
+
 ## Info on using more memory
 
 <https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory>
