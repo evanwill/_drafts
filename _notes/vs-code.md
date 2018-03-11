@@ -14,17 +14,24 @@ I am still using it, but starting to get frustrated by more and more features th
 Typical MS...
 
 To configure the editor you override the default settings by writing new values into a `settings.json` file.
-Go to *File* > *Preferences* > *Settings* (or Ctrl+,), and add the new name + value pairs in the JSON brackets `{ }` on the right. 
+Go to *File* > *Preferences* > *Settings* (or `Ctrl+,`), and add the new name + value pairs in the JSON brackets `{ }` on the right (or click on the pencil icon next to the setting on the left side listings and select from menu). 
 
 Here are my notes-to-self about stuff:
 
-## Enable word wrap
+## Config preferences
 
-Add `"editor.wordWrap": "on"` to `settings.json`.
+- Enable word wrap: `"editor.wordWrap": "on"`
+- Get rid of excessive stuff in file explorer: `"problems.decorations.enabled": false`
+- Hide minimap, sometimes I find the map annoyingly in the way: `"editor.minimap.enabled": false`
+- Disable clearing clipboard if you accidentally `Ctrl+C` on blank line: `"editor.emptySelectionClipboard": false`
+- Disable annoying drag and drop selection moving: `"editor.dragAndDrop": false`
+- Disable annoyingly unhelpful html tag closing: `"html.autoClosingTags": false`
+- Limit html suggestions: `"html.suggest.angular1": false, "html.suggest.ionic": false`
 
-## Get rid of excessive stuff in file explorer
+## Change themes
 
-Add `"problems.decorations.enabled": false` to `settings.json`.
+Type `Ctrl+K` then `Ctrl+T`, then choose a theme from the list. 
+Get more themes from the Extensions shop.
 
 ## Integrated terminal
 
@@ -50,6 +57,10 @@ Click `Ctrl+Shift+V` to preview rendered file.
 Search in the Extensions, there are several spell check options available.
 I have been using "Code Spellchecker".
 
+## Multi-cursor
+
+To add more cursors to work on multiple lines at once, `Alt` and left-click (or toggle to `Ctrl` + left-click in Selection menu).
+
 ## Arduino
 
 If you have Arduino IDE installed on your system, you can add similar functionality to Code.
@@ -64,3 +75,7 @@ Emmet snippet expansion: write the abbreviation and press `tab` ([Emmet Cheatshe
 
 Auto format html, highlight area and `Ctrl+Shift+I`. 
 Setting for auto format are in File > Preferences > User Settings, add `"html.format.wrapLineLength": 0,` to prevent auto link breaks.
+
+## XML
+
+There are several extensions to add XML functionality--look for "XML Language Support" to do validation and work with schemas.

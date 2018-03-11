@@ -82,6 +82,7 @@ Major desktops:
 - [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/))
 - [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop
 - [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
+- [Sugar](https://www.sugarlabs.org/). very unique, kid focused, educational desktop.
 - Tiling window managers, e.g. [xmonad](http://xmonad.org/)
 
 > Most desktops support themes which make it easy to change the look and feel. 
@@ -137,6 +138,7 @@ Uses `apt` configuration and `.deb` packages.
     - [Zorin OS](https://zorinos.com/), polished windows replacement
     - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com)
     - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop
+    - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi, unique Pixel desktop
 - [Tails](https://tails.boum.org/index.en.html) privacy focused distro
 
@@ -144,14 +146,14 @@ Uses `apt` configuration and `.deb` packages.
 
 Based in the USA, [Red Hat](https://www.redhat.com/) is one of the largest open-source enterprise software companies, providing support, development, and Linux OS to major corporations.
 It is a good choice to learn if you are interested in working with enterprise environments.
-Uses `yum` configuration and `.rpm` packages.
+Uses `yum` or `dnf` configuration and `.rpm` packages.
 
-- [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software
+- [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software. Considered fairly cutting edge with two new versions each year, a testing ground for RHEL, yet stable enough for most users.
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free
 - [CentOS](https://www.centos.org/), free community supported RHEL
 - [Scientific Linux](https://www.scientificlinux.org/), free RHEL-based OS developed by Fermilab for high performance scientific computing environments
 - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops
-    - [Sugar](http://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Installation), unique kid focused distro originally developed for One Laptop per Child project
+    - [Sugar](https://spins.fedoraproject.org/en/soas/), unique kid focused distro originally developed for One Laptop per Child project
 - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games
 - [Korora](https://kororaproject.org/), nice looking beginner friendly
 
@@ -183,6 +185,7 @@ Uses `pacman` for configuration.
 - [Solus](https://solus-project.com/), up-and-coming independent distro developing Budgie desktop
 - [Mageia](http://www.mageia.org/en/), France based community focused distro
 - [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway
+- [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!
 
 **Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive.
 This makes them simple, fast, and secure.
