@@ -19,6 +19,7 @@ In Settings > Dock, make the icons smaller (the default seems to take up way too
 Settings > Background to get your wallpaper set.
 Settings > Devices > Display to set up your monitor and turn on Night Light if you want a red shift in the evening.
 Settings > Bluetooth, turn bluetooth off if you don't use it, since it is a security risk.
+
 Next, install Tweak tool, `gnome-tweak-tool`, to give more simple customization options.
 
 Finally, if you don't like Ubuntu's dock, you can remove it to go to a more [vanilla Gnome experience](http://www.omgubuntu.co.uk/2017/10/install-vanilla-gnome-shell-ubuntu-17-10).
