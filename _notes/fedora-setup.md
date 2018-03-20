@@ -53,14 +53,16 @@ Once installed, head to [GNOME Extensions](https://extensions.gnome.org/) to try
 Here are two I like:
 
  - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/), disable screen lock to watch movies
- - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+ - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/), puts dash into the top/bottom bar, sort of like windows 10
 
 ## Get themes
 
 The default Adwaita theme isn't that lovely. 
 There are a bunch of themes in the Fedora repos, so install a bunch and play around:
 
-`sudo dnf install arc-theme numix-gtk-theme numix-icon-theme numix-icon-theme-circle bluecurve-gnome-theme bluecurve-icon-theme gnome-shell-theme-selene bluecurve-metacity-theme nodoka-theme-gnome elementary-icon-theme pop-gtk-theme pop-icon-theme moka-icon-theme evopop-gtk-theme evopop-icon-theme arc-theme adapta-gtk-theme paper-icon-theme`
+```
+sudo dnf install arc-theme numix-gtk-theme numix-icon-theme numix-icon-theme-circle bluecurve-gnome-theme bluecurve-icon-theme gnome-shell-theme-selene bluecurve-metacity-theme nodoka-theme-gnome elementary-icon-theme pop-gtk-theme pop-icon-theme moka-icon-theme evopop-gtk-theme evopop-icon-theme arc-theme adapta-gtk-theme paper-icon-theme
+```
 
 Then open Tweaks > Appearance to switch between the Applications and Icons themes to see how they look. 
 I kind a like EvoPop right now... 
