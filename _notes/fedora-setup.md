@@ -82,7 +82,7 @@ Unfortunately, you need a bunch of stuff. This worked for me:
 
 `sudo dnf install redhat-rpm-config`
 
-`sudo dnf install ruby ruby-devel`
+`sudo dnf install ruby ruby-devel rubygems-devel`
 
 `gem update --system` *note: vulnerabilities recently discovered in gem, update!*
 
