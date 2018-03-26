@@ -14,7 +14,7 @@ date: 2017-04-13
 
 Linux ([pronunciation](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) is a family of open source operating systems (OS).
 An OS is made up of a many components, basically:
-- Bootloader: starts the low level processes necessary to boot an OS, most linux distrobutions use [GRUB](https://www.gnu.org/software/grub/)
+- Bootloader: starts the low level processes necessary to boot an OS, most linux distributions use [GRUB](https://www.gnu.org/software/grub/)
 - Kernel: manages the hardware and low level software components, this is actually [Linux](https://www.kernel.org/)
 - Shell: text-based command line interface
 - Desktop environment: graphical interface 
@@ -30,7 +30,7 @@ You can control, inspect, modify, copy, and share the OS.
 But for most users, that is not necessarily the most compelling reason to use Linux. 
 Instead they just appreciate a solid, powerful, and user-friendly OS.
 Linux provides security, privacy, stability/reliability, customization, and cost benefits, in addition to access to a vast ecosystem of open-source applications and services. 
-Linux runs majority of web servers, super computers, and single board computers. 
+Linux runs the vast majority of web servers, super computers, and single board computers. 
 So if you want to use a VM in the cloud, do high performance computing, or tinker with a Raspberry Pi at home, it's helpful to know Linux.
 But it also makes a great desktop OS for your personal computer!
 Thus, there are many practical *and* ideological reasons to use Free and Open software.
@@ -67,7 +67,7 @@ The desktop environment (DE) is the graphical interface you will be staring at a
 Unlike windows, mac, or chrome, with Linux you have a choice of desktops.
 It is separate from the core of the distro and can be installed independently.
 In fact you can [install more than one](https://www.linux.com/news/5-linux-desktop-environments-rise-2017)!
-In most cases you will choose a distro bundled with a DE, and most distros will give you several choices.
+In most cases you will choose a distro pre-bundled with a DE, and most distros will give you several choices.
 Things to consider:
 - Weight. How graphics heavy is it. If you have an old computer or low spec hardware, go light!
 - Configurability. How much do you want to tweak the look and feel? Do you want it to just look good out of the box?
@@ -75,12 +75,12 @@ Things to consider:
 
 Major desktops:
 - [GNOME](https://www.gnome.org/). modern, minimalistic, no start menu, [extensions](https://extensions.gnome.org/) add functionality, themes easily change the look.
-    - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://solus-project.com/))
-    - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/))
-    - [MATE](https://mate-desktop.org/). traditional, based on an old version of GNOME
+    - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://solus-project.com/)).
+    - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/)).
+    - [MATE](https://mate-desktop.org/). traditional, based on an old version of GNOME.
     - ~~Unity~~. Until version 17.10, Ubuntu shipped with a unique desktop. It is still available in LTS version 16.04, but the future is uncertain.
-- [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/))
-- [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop
+- [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/)).
+- [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop.
 - [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
 - [Sugar](https://www.sugarlabs.org/). very unique, kid focused, educational desktop.
 - Tiling window managers, e.g. [xmonad](http://xmonad.org/)
@@ -99,8 +99,8 @@ Modern Linux distros are released as an ISO disk image, often called a "live cd"
 This means you can download an ISO, burn it to a USB stick, and then boot up into the desktop without actually installing or changing your hard drive!
 Give it a try, with these [instructions](https://evanwill.github.io/_drafts/notes/burn-iso.html).
 
-Or you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
-The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
+> Alternatively, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
+> The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
 
 Once you try it out, install it!
 Most installers are graphical and friendly.
@@ -129,18 +129,20 @@ One of the oldest active linux distros, Debian has extensive stable repositories
 This includes Ubuntu, developed by enterprise software company [Canonical](https://www.canonical.com/) based in the UK.
 Uses `apt` configuration and `.deb` packages.
 
-- [Debian](https://www.debian.org/), entirely free software released by the Debian Project
-- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly
-    - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops
-    - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base
-    - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop
-    - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop
-    - [Zorin OS](https://zorinos.com/), polished windows replacement
-    - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com)
-    - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop
-    - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware
-- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi, unique Pixel desktop
-- [Tails](https://tails.boum.org/index.en.html) privacy focused distro
+- [Debian](https://www.debian.org/), entirely free software released by the Debian Project.
+- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly.
+    - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops.
+    - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base.
+    - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop.
+    - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop.
+    - [Zorin OS](https://zorinos.com/), polished windows replacement.
+    - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com).
+    - [Bodhi Linux](), minimalist, lightweight distro with unique Moksha desktop.
+    - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop.
+    - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware.
+- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), Official OS of Raspberry Pi, unique Pixel desktop.
+- [Tails](https://tails.boum.org/index.en.html), privacy focused distro.
+- [Endless OS](https://endlessos.com/home/), simplified, education focused system designed for offline use, by computer company [Endless](https://endlessos.com/computers/).
 
 ### Fedora / RedHat
 
@@ -149,22 +151,21 @@ It is a good choice to learn if you are interested in working with enterprise en
 Uses `yum` or `dnf` configuration and `.rpm` packages.
 
 - [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software. Considered fairly cutting edge with two new versions each year, a testing ground for RHEL, yet stable enough for most users.
-- [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free
-- [CentOS](https://www.centos.org/), free community supported RHEL
-- [Scientific Linux](https://www.scientificlinux.org/), free RHEL-based OS developed by Fermilab for high performance scientific computing environments
-- [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops
-    - [Sugar](https://spins.fedoraproject.org/en/soas/), unique kid focused distro originally developed for One Laptop per Child project
-- [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games
-- [Korora](https://kororaproject.org/), nice looking beginner friendly
+    - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops, including [Sugar](https://spins.fedoraproject.org/en/soas/).
+    - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games.
+    - [Korora](https://kororaproject.org/), nice looking beginner friendly.
+- [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
+- [CentOS](https://www.centos.org/), free community supported RHEL.
+- [Scientific Linux](https://www.scientificlinux.org/), free RHEL-based OS developed by Fermilab for high performance scientific computing environments.
 
 ### SUSE
 
 Germany based enterprise FOSS company.
 Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 
-- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option 
-- [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments
-- [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly
+- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed.
+    - [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly.
+- [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments.
 
 ### Arch
 
@@ -173,18 +174,15 @@ Not traditionally user friendly.
 Uses `pacman` for configuration.
 
 - [Arch](https://www.archlinux.org/)
-- [Manjaro](https://manjaro.org/), user friendly Arch for beginners
-- [Antergos](https://antergos.com/), user friendly Arch
+- [Manjaro](https://manjaro.org/), user friendly Arch for beginners.
+- [Antergos](https://antergos.com/), user friendly Arch.
 
 ### Other
 
-**Android.** Based on Linux, Android is the most popular smart phone OS in the world.
-- [Android-x86](http://www.android-x86.org/download), port of Android that can be run on a laptop.
-
 **Independent.** Some distros go it alone. For example:
-- [Solus](https://solus-project.com/), up-and-coming independent distro developing Budgie desktop
-- [Mageia](http://www.mageia.org/en/), France based community focused distro
-- [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway
+- [Solus](https://solus-project.com/), up-and-coming independent distro developing Budgie desktop.
+- [Mageia](http://www.mageia.org/en/), France based community focused distro.
+- [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image.
 - [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!
 
 **Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive.
@@ -194,18 +192,22 @@ For example:
 - [Slax](https://www.slax.org/en/)
 - [Porteus](http://www.porteus.org/)
 
+**Android.** Based on Linux, Android is the most popular smart phone OS in the world.
+- [Android-x86](http://www.android-x86.org/download), port of Android that can be run on a laptop.
+
 **Entertainment.** There are many specialized minimalist distros that act as entertainment centers, usually run on a Raspberry Pi or similar device.
-- music player: [Volumio](https://volumio.org/)
-- media center: [OSMC](https://osmc.tv/), [OpenELEC](http://openelec.tv/)
-- gaming: [RetroPie](https://retropie.org.uk/) or [SteamOS](http://store.steampowered.com/steamos/)
-- NAS: [FreeNAS](http://www.freenas.org/) or [EasyNAS](http://www.easynas.org/) 
+- music player: [Volumio](https://volumio.org/).
+- media center: [OSMC](https://osmc.tv/) or [OpenELEC](http://openelec.tv/).
+- gaming: [RetroPie](https://retropie.org.uk/) or [SteamOS](http://store.steampowered.com/steamos/).
+- NAS: [FreeNAS](http://www.freenas.org/) or [EasyNAS](http://www.easynas.org/). 
 
 **Utilities.** Some specialized distros are basic utilities used to work on a computer where the main drive or OS maybe corrupted.
-- [GParted Live](https://gparted.sourceforge.io/livecd.php), partition and disk utility
-- [Clonezilla](http://www.clonezilla.org/), disk imaging/cloning deployment or recovery
-- [DBAN](https://dban.org/), disk data destroyer
+- [GParted Live](https://gparted.sourceforge.io/livecd.php), partition and disk utility.
+- [Clonezilla](http://www.clonezilla.org/), disk imaging/cloning deployment or recovery.
+- [DBAN](https://dban.org/), disk data destroyer.
 
 **Other open OS.** There are other open-source OS out there, Linux is just the most popular.
-- BSD. Considered rock-solid stable and secure for servers, with desktop options [FreeBSD](https://www.freebsd.org/) and [TrueOS](https://www.trueos.org/)
-- [Haiku](https://www.haiku-os.org/)
-- [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS
+- BSD. Considered rock-solid stable and secure for servers, with desktop options [FreeBSD](https://www.freebsd.org/) and [TrueOS](https://www.trueos.org/).
+- [Haiku](https://www.haiku-os.org/), based on BeOS, an early competitor to Mac.
+- [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS.
+- [Redox OS](https://www.redox-os.org/), newly developed OS written in [Rust](https://www.rust-lang.org/en-US/) language.
