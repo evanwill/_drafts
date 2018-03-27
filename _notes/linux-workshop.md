@@ -15,8 +15,10 @@ date: 2018-03-26
 > Come get an introduction to free and open source operating systems, and see desktop versions of Linux in action on Raspberry Pi and laptops. 
 > We will get oriented to the basics of the desktop and learn how to install it on a computer.
 
-1. [Intro to Linux](https://evanwill.github.io/_drafts/notes/linux-intro.html)
-2. [Burn USB](https://evanwill.github.io/_drafts/notes/burn-iso.html)
-3. [Boot USB](https://evanwill.github.io/_drafts/notes/linux-boot-usb.html)
-4. Demo GNOME
-5. [Command Line demo](https://evanwill.github.io/_drafts/notes/commandline.html)
+Notes:
+
+1. [Intro to Linux](https://evanwill.github.io/_drafts/notes/linux-intro.html), learn about how to choose a Distro.
+2. [Burn USB](https://evanwill.github.io/_drafts/notes/burn-iso.html), learn how to create a Live USB install media.
+3. [Boot USB](https://evanwill.github.io/_drafts/notes/linux-boot-usb.html), the tips and tricks to boot a Live USB.
+4. Demo time
+5. [Command Line demo](https://evanwill.github.io/_drafts/notes/commandline.html) (optional)

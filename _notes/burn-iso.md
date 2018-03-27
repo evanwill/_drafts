@@ -5,7 +5,7 @@ tags: [linux, rpi, workshop]
 date: 2017-01-27
 ---
 
-> MILL-Mini workshop 2017-01-27.
+> MILL-Mini workshop:
 > This session will take you through the Why and How of burning ISO/IMG files to SD or USB for single board computers or installing Linux.
 
 ## Background
@@ -13,7 +13,7 @@ date: 2017-01-27
 Burning a disk image or bootable USB stick is an important task if you want to use Raspberry Pi or Linux. 
 When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. 
 However, if you are interested in running Linux or other open OS, you will most likely have to install it yourself. 
-Traditionally, installation was done by burning a disk image onto a bootable CD or DVD. 
+Traditionally, installation was done by burning a disk image onto a CD or DVD. 
 Since most devices no longer have optical drives, we now create bootable SD or USB instead. 
 
 ## Copying files versus burning an image
@@ -36,23 +36,27 @@ So let's get an image and burn it to some media!
 For Raspberry Pi and other single board computers, you will usually get an IMG file representing an hard drive image. 
 These are often zipped or in some other archive (`.zip` or `.xz`) to decrease the download size. It is not necessary to unzip. 
 For example:
+
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi
 - [Volumio](https://volumio.org/)
 
 Linux distros are generally released as an ISO, often called a "live cd" or "live usb" meaning it can boot from the install media.
 For example:
+
 - [Ubuntu](https://www.ubuntu.com/)
 - [KDE Neon](https://neon.kde.org/)
-- [Korora](https://kororaproject.org/)
 
-Some linux distros are specifically designed to be portable. You always use them from a USB stick and do not install to a hard drive.
+Some linux distros are specifically designed to be portable. 
+You always use them from a USB stick and do not install to a hard drive.
 For example: 
+
 - [Puppy Linux](http://puppylinux.org/)
 - [Slax](https://www.slax.org/en/)
 - [Porteus](http://www.porteus.org/)
 
 Many specialized utilities are also distributed as images so that they can be run from portable media to make changes to a system without a functioning OS. 
 For example:
+
 - [GParted Live](https://gparted.sourceforge.io/livecd.php)
 - [DBAN](https://dban.org/)
 - Anti-virus rescue CDs
@@ -64,15 +68,15 @@ For example:
 Now you need a micro SD card for Raspberry Pi or a USB stick for linux on a computer.
 Be sure to get media that is bigger than the image you want to burn! 
 
-- **SD cards:** There is a confusing variety of SD cards out there today. Look for one labelled SDHC (SDXC are incompatible with some systems), Class 10 / UHS 3. The numbers aren't essential, but faster read/write speeds will give better performance. 8GB is standard, but I would get 16GB, since the SD card will be the main hard drive for your Pi. If your computer does not have an SD slot, get a SD reader.
+- **SD cards:** There is a confusing variety of SD cards out there today. Look for one labelled SDHC (SDXC are incompatible with some systems), Class 10 / UHS 3. The numbers aren't essential, but faster read/write speeds will give better performance. 8GB is standard, but I like to get at least 16GB, since the SD card will be the main hard drive for your Pi. If your computer does not have an SD slot, get a SD reader.
 - **USB drives:** Most USB drives will be fine for installing linux. However, if you want to use it as a live USB or portable desktop, look for USB 3 versions with faster read/write speeds if possible.
 
-**Optional: Format media.**
-If you have previously used the media, you might want to start with a nice clean disk by re-formatting. 
-If you are on Windows or Mac, get the official [SD Formatter](https://www.sdcard.org/downloads/formatter_4/index.html).
-This will enable you to restore SD or USB you have previously burnt, which Windows and Mac are unable to actually read. 
-On linux, the built in formatting utilities are generally sufficient to restore and format media. If necessary use Gparted and format to fat32.
-However, when using Etcher, formatting before burning is rarely necessary.
+> **Optional: Format media.**
+> If you have previously used the media, you might want to start with a nice clean disk by re-formatting. 
+> If you are on Windows or Mac, get the official [SD Formatter](https://www.sdcard.org/downloads/formatter_4/index.html).
+> This will enable you to restore SD or USB you have previously burnt, which Windows and Mac are unable to actually read. 
+> On linux, the built in formatting utilities are generally sufficient to restore and format media. If necessary use Gparted and format to fat32.
+> However, when using Etcher, formatting before burning is rarely necessary.
 
 ## 3. Get Etcher
 
@@ -80,17 +84,17 @@ However, when using Etcher, formatting before burning is rarely necessary.
 
 Why Etcher and not the million other options out there? 
 
-- easy to use, it automatically selects the right drives and just works!
-- can burn from archived (.zip, .7z, etc) images automatically
-- open source, cross platform, and easy to install
-- new and actively developed (most are not)
-- fast and efficient
+- Easy to use, it automatically selects the right drives and just works!
+- Can burn from archived (.zip, .7z, etc) images automatically.
+- Open source, cross platform, and easy to install.
+- New and actively developed (most are not).
+- Fast and efficient, with built in verification of the burn.
 
 ## 4. Burn image
 
-Start up Etcher by clicking on the `.AppImage` file (or on windows the `.exe`). Etcher makes the rest easy!
+Start up Etcher by clicking on the `.AppImage` or `.exe` file. Etcher makes the rest easy!
 
-1. Plug your media into your computer.
+1. Plug your media into the computer.
 2. Select the image.
 3. Select the SD/USB (if you have only one plugged in, it will be automatically selected).
 4. Click Flash! (you may need to authenticate at this point, since you are making changes to a drive)
@@ -99,4 +103,4 @@ Start up Etcher by clicking on the `.AppImage` file (or on windows the `.exe`). 
 
 Now you can go play with your Raspberry Pi or try out a new Linux distro!
 
-See [Boot a Live USB](https://evanwill.github.io/_drafts/notes/linux-boot-usb.html) for tips about how to get the USB to boot on your computer.
+Next, see [Boot a Live USB](https://evanwill.github.io/_drafts/notes/linux-boot-usb.html) for tips about how to get the USB to boot on your computer.
