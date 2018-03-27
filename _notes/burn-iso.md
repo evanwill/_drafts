@@ -31,7 +31,7 @@ The image has to be "burnt", essentially overwriting the entire media removing t
 
 So let's get an image and burn it to some media!
 
-## Get an IMG / ISO
+## 1. Get an IMG / ISO
 
 For Raspberry Pi and other single board computers, you will usually get an IMG file representing an hard drive image. 
 These are often zipped or in some other archive (`.zip` or `.xz`) to decrease the download size. It is not necessary to unzip. 
@@ -59,93 +59,44 @@ For example:
 	- [Bitdefender](https://www.bitdefender.com/support/how-to-create-a-bitdefender-rescue-cd-627.html)
 	- [AVG](http://www.avg.com/gb-en/rescue-cd-business-edition)
 
-## Get media
+## 2. Get media
 
 Now you need a micro SD card for Raspberry Pi or a USB stick for linux on a computer.
-There is a confusing variety of SD cards out there today. 
-Look for one labelled SDHC (SDXC are incompatible with some systems), Class 10 / UHS 3. 
-The numbers aren't essential, but faster read/write speeds will give better performance. 
-Most USB drives will be fine for installing linux.
-If you want to use it as a live USB or portable desktop, look for USB 3 versions with faster read/write speeds if possible.
-
 Be sure to get media that is bigger than the image you want to burn! 
-8GB is standard, but I would get 16GB.
 
-Do you have an SD slot on your computer?
-If not get an SD reader! 
+- **SD cards:** There is a confusing variety of SD cards out there today. Look for one labelled SDHC (SDXC are incompatible with some systems), Class 10 / UHS 3. The numbers aren't essential, but faster read/write speeds will give better performance. 8GB is standard, but I would get 16GB, since the SD card will be the main hard drive for your Pi. If your computer does not have an SD slot, get a SD reader.
+- **USB drives:** Most USB drives will be fine for installing linux. However, if you want to use it as a live USB or portable desktop, look for USB 3 versions with faster read/write speeds if possible.
 
-## Format media
-
-Start with a nice clean disk! 
+**Optional: Format media.**
+If you have previously used the media, you might want to start with a nice clean disk by re-formatting. 
 If you are on Windows or Mac, get the official [SD Formatter](https://www.sdcard.org/downloads/formatter_4/index.html).
-This will enable you to restore SD/USB you have previously burnt, which Windows and Mac are unable to actually read. 
-
+This will enable you to restore SD or USB you have previously burnt, which Windows and Mac are unable to actually read. 
 On linux, the built in formatting utilities are generally sufficient to restore and format media. If necessary use Gparted and format to fat32.
+However, when using Etcher, formatting before burning is rarely necessary.
 
-## Get Etcher
+## 3. Get Etcher
 
-[Download Etcher](https://etcher.io/#downloads) for your system, and extract the `.zip` file (you should get a single `.AppImage` file on Linux or an `.exe` on windows).
+[Download Etcher](https://etcher.io/) for your system, and extract the `.zip` file (you should get a single `.AppImage` file on Linux or an `.exe` on windows).
 
 Why Etcher and not the million other options out there? 
-- open source and cross platform
-- new and actively developed (most are not)
-- easy to install 
+
 - easy to use, it automatically selects the right drives and just works!
 - can burn from archived (.zip, .7z, etc) images automatically
+- open source, cross platform, and easy to install
+- new and actively developed (most are not)
 - fast and efficient
-- good verification 
 
-## Burn image
+## 4. Burn image
 
 Start up Etcher by clicking on the `.AppImage` file (or on windows the `.exe`). Etcher makes the rest easy!
 
-1. Select the image.
-2. Select the SD/USB.
-3. Click Flash!
-4. Wait. Wait... 
-5. Remove your SD/USB.
+1. Plug your media into your computer.
+2. Select the image.
+3. Select the SD/USB (if you have only one plugged in, it will be automatically selected).
+4. Click Flash! (you may need to authenticate at this point, since you are making changes to a drive)
+5. Wait. Wait... 
+6. Remove your SD/USB.
 
 Now you can go play with your Raspberry Pi or try out a new Linux distro!
 
-## Appendix: Tips for booting from USB  
-
-Burning a live USB is a great way to test out linux distros. 
-However, for it to work you need to boot from USB. 
-For some systems, this is not the default. 
-Plug in your USB drive, then turn on your computer.
-If it just boots as normal to your OS, you will need to change the boot order.
-
-For older systems BIOS controls the boot order. 
-To change it, you will have access the BIOS options menu as the computer powers on. 
-Each device is slightly different, but as the computer starts to boot you should see a screen with the manufacture’s logo and a message that tells you which key to press--sometimes its so fast you can’t read it! The key is usually F1, F2, DEL, ESC, or F10 (here are some tips from [Pendrivelinux](https://www.pendrivelinux.com/how-to-access-bios/) or [gpost](https://www.groovypost.com/howto/bios-uefi-setup-guide-boot-from-cd-dvd-usb-drive-sd-card/)).
-Navigate the BIOS options and set USB first in the list of boot devices.
-
-On Mac, turn on the computer, as soon as you hear the start-up chime, press and hold the `Option` key. 
-This should bring you to the "Startup Manager" allowing you to select the USB drive. 
-
-Newer PC systems will have UEFI Secure Boot (instead of traditional BIOS), and Windows 10 makes things a bit more complicated.
-Each vendor is different, and some have a special key at start up to enter the EFI/UEFI boot order menu allowing you to choose to the boot device. However, you should do some set up first.
-Here are the steps if you want to try out or install Linux on your Windows 10 machine:
-
-1. Take precautions: 
-
-	- Make a backup. You should make a backup of all your critical files anyway, but now is a good time to make sure you have everything you *really* want saved in multiple stable locations. 
-	- Make a Windows Recovery Drive. Search your system for "recovery" and the option to create a recovery drive will pop up. This ensures you can reinstall or repair Windows if necessary
-	
-2.  Disable Fast Startup:
-
-	- Fast Startup needs to be disabled or you will not get the option to boot from USB and your linux install will not be able to properly identify the Windows boot manager.
-	- Open the Control Panel > Power Options.
-	- Click "Choose what the power button does", then "Change settings that are currently unavailable"
-	- Uncheck the box next to "Turn on fast startup (Recommended)"
-	- Completely shutdown your computer (not sleep, hibernate, or restart).
-	
-3. Enable USB Boot:
-
-	- Plug in your linux USB.
-	- Start your machine, some systems may boot the USB directly or will have a key to enter EFI boot options and choose USB. If you don't see this, keep booting into Windows 10.
-	- Go to the Windows shutdown menu, Hold `shift` key and click restart. Keep holding `shift`. 
-	- You should see a blue boot options menu, select "Use a device", then select your USB.
-
-There is a lot of variation in how to access BIOS and UEFI options from different computer companies, so if it doesn't seem to work, try searching for help on your specific model or manufacturer. 
-When trying and installing most major Linux distributions you do NOT need to disable Secure Boot. 
+See [Boot a Live USB](https://evanwill.github.io/_drafts/notes/linux-boot-usb.html) for tips about how to get the USB to boot on your computer.

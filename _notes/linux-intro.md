@@ -2,10 +2,10 @@
 title: Introduction to Linux!
 layout: post
 tags: [linux, workshop]
-date: 2017-04-13
+date: 2018-03-26
 ---
 
-> MILL-Mini workshop:
+> Mini workshop:
 >
 > Want to get started with Raspberry Pi or Linux on your laptop? This workshop will introduce the most popular operating system in the world! Although most people are more familiar with Windows or Mac, Linux OS runs the vast majority of web servers, super computers, smartphones (Android), TVs, and other electronic devices. You can also use desktop versions for free on your laptop or home computer!
 > Come get an introduction to free and open source operating systems, and see desktop versions of Linux in action on Raspberry Pi and laptops. We will get oriented to the basics of the desktop and learn how to install it on a computer.
@@ -46,16 +46,17 @@ Surf [Distrowatch](https://distrowatch.com/) to browse the latest distro news!
 Part of the fun of getting started with Linux is choosing a distro, but there are so many it can also be very overwhelming.
 Most distros are a package of technical low-level stuff, plus a desktop and selection of basic applications.
 Many are focused on running servers, others on desktop users.
+
 Here are some things to consider:
 
-- Out-of-the-box experience. Do you want it to just work or are you willing to spend time customizing it? Do you want all the applications pre-installed or minimalist (Arch)?
-- Installer! In the past, Linux distros were hard to install--Ubuntu really changed that, but some installers are still friendlier than others.
-- Dual booting options. Do you want to keep windows? Some installers make it easy (Ubuntu).
-- Repositories. Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others. Others are more DIY (Arch).
-- Hardware support. Some distros support a huge range of legacy hardware. Others have better support for the newest hardware (look for newest kernel version).
-- Current vs LTS (long term support). Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest?
-- Rolling release vs. fixed release. Rolling release distros have a continuous stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require a large upgrade every so often.
-- Ecosystem. Do you use a Linux server at work? Choose a distro from the same family to make life easier.
+- **Out-of-the-box experience.** Do you want it to just work or are you willing to spend time customizing it? Do you want all the applications pre-installed (openSUSE) or minimalist (Arch)?
+- **Repositories.** Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others (Fedora). Others are more DIY (Arch). Some distros package only free and open software that meets their community guidelines (Fedora); others include commonly used, but non-free software, such as MP3 encodings (Ubuntu).
+- **Ecosystem.** Do you use a Linux server at work? Choose a distro from the same family to make life easier.
+- **Hardware support.** Unlike Windows, with Linux you don't have to install a bunch of drivers to get everything to work. However, some distros support a huge range of legacy hardware, while others have better support for the newest hardware built in. It is often difficult to run high performance graphics cards with out specific distro support. Distros have different versions of the Linux Kernel--the newest have new features and performance baked in, but have less of the kinks worked out.
+- **Updates.** Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest?Distros typically follow either a rolling or fixed release. Rolling release distros have a continuous stream of updates, you always have the latest software and never have to upgrade to a new version. Fixed release are more traditional and stable with incremental versions that require a large upgrade every so often. Fixed releases are also often broken in to current and LTS (long term support)--if you want to install once, and use the system for years without needed to upgrade, choose an LTS.
+- **Installer!** In the past, Linux distros were confusing to install, a major barrier to adoption--Ubuntu really changed that, but some installers are still friendlier than others. 
+    - **Secure Boot UEFI**. If you have a newer computer, it will have Secure Boot UEFI which is only supported by the bigger Linux distros (Ubuntu, Fedora, SUSE)--otherwise you will have to tweak your UEFI / BIOS to get the installer to work.
+    - **Dual booting.** Do you want to keep windows? Some installers make it easy (Ubuntu).
 
 My easy suggestion: use [Ubuntu](https://www.ubuntu.com/) or an [Ubuntu flavor](https://www.ubuntu.com/download/ubuntu-flavours).
 The installer is easy to use (supports easy dual booting with Windows) and hardware support is great.
@@ -74,6 +75,7 @@ Things to consider:
 - Unique vs. traditional. Do you want something different or are you nostalgic for the old days?
 
 Major desktops:
+
 - [GNOME](https://www.gnome.org/). modern, minimalistic, no start menu, [extensions](https://extensions.gnome.org/) add functionality, themes easily change the look.
     - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://solus-project.com/)).
     - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/)).
@@ -83,7 +85,7 @@ Major desktops:
 - [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop.
 - [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
 - [Sugar](https://www.sugarlabs.org/). very unique, kid focused, educational desktop.
-- Tiling window managers, e.g. [xmonad](http://xmonad.org/)
+- Tiling window managers, e.g. [xmonad](http://xmonad.org/) or [i3](https://i3wm.org/).
 
 > Most desktops support themes which make it easy to change the look and feel. 
 > For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
@@ -95,31 +97,29 @@ Major desktops:
 The best way to learn Linux is to try it. 
 When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. 
 However, if you are interested in running Linux or other open OS, you will have to install it yourself.
-Modern Linux distros are released as an ISO disk image, often called a "live cd" or "live usb".
+Most modern Linux distros are released as an ISO disk image, often a "live cd" or "live usb".
 This means you can download an ISO, burn it to a USB stick, and then boot up into the desktop without actually installing or changing your hard drive!
 Give it a try, with these [instructions](https://evanwill.github.io/_drafts/notes/burn-iso.html).
 
-> Alternatively, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
-> The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
-
 Once you try it out, install it!
 Most installers are graphical and friendly.
+
+> Alternatively, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
+> The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
 
 ## Basics
 
 If you have ever used a computer, almost everything will be familiar! No big deal.
 Here are a few things slightly different from Windows:
 
-- User accounts and passwords. You are always logged in as a user and require a password to make any changes to the system (Windows tends to hide this).
-- File system, home directory. Linux uses a different file system that Windows can't read and is presented differently. On Window the root is the drive letter `C:\`. Linux presents all drives as a unified file system, with the root at `/` and your user directory at `/home/username` (Linux doesn't use Windows back slashes `\`).
-- Updates. Updates are pushed out very regularly by most distros keeping you secure and fixing bugs. The updates cover the OS and all applications installed from a repository. First, the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software are downloaded. There is usually an updater application, but you may need to start it manually.
-- Software center. Applications can be easily and securely installed from your distro's repository. There is usually an GUI app to find and manage your software.
-- Terminal. Command line is really handy! See this [mini-workshop](https://evanwill.github.io/_drafts/notes/commandline.html).
-- UIdaho wifi. Connecting to AirVandalGold requires some extra steps, see [my instructions](https://evanwill.github.io/_drafts/notes/airvandalgold-setup.html).
+- **User accounts and passwords.** You are always logged in as a user and require a password to make any changes to the system (Windows tends to hide this).
+- **File system, home directory.** Linux uses a file system that Windows can't read and is presented differently. On Window the root is the drive letter `C:\`. Linux presents all drives as a unified file system, with the root at `/` and your user directory at `/home/username` (Linux doesn't use Windows back slashes `\`).
+- **Updates.** Updates are pushed out very regularly by most distros keeping you secure and fixing bugs. The updates cover the OS and all applications installed from a repository. First, the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software are downloaded. There is usually an updater application, but you may need to start it manually.
+- **Software center.** Applications can be easily and securely installed from your distro's repository. There is usually an GUI app to find and manage your software.
+- **Terminal.** Command line is really handy! See this [mini-workshop](https://evanwill.github.io/_drafts/notes/commandline.html).
+- **UIdaho wifi.** Connecting to AirVandalGold requires some extra steps, see [my instructions](https://evanwill.github.io/_drafts/notes/airvandalgold-setup.html).
 
-# Appendix
-
-## Major distro families
+# Major distro families
 
 Below is a basic introduction to the major linux families, with a focus on distros with desktop friendly versions.
 
@@ -151,8 +151,9 @@ It is a good choice to learn if you are interested in working with enterprise en
 Uses `yum` or `dnf` configuration and `.rpm` packages.
 
 - [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software. Considered fairly cutting edge with two new versions each year, a testing ground for RHEL, yet stable enough for most users.
-    - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops, including [Sugar](https://spins.fedoraproject.org/en/soas/).
+    - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops.
     - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games.
+    - [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/), very unique kid focused learning platform, packaged to run on a live USB.
     - [Korora](https://kororaproject.org/), nice looking beginner friendly.
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
 - [CentOS](https://www.centos.org/), free community supported RHEL.
@@ -177,9 +178,10 @@ Uses `pacman` for configuration.
 - [Manjaro](https://manjaro.org/), user friendly Arch for beginners.
 - [Antergos](https://antergos.com/), user friendly Arch.
 
-### Other
+### Others
 
 **Independent.** Some distros go it alone. For example:
+
 - [Solus](https://solus-project.com/), up-and-coming independent distro developing Budgie desktop.
 - [Mageia](http://www.mageia.org/en/), France based community focused distro.
 - [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image.
@@ -188,25 +190,30 @@ Uses `pacman` for configuration.
 **Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive.
 This makes them simple, fast, and secure.
 For example:
+
 - [Puppy Linux](http://puppylinux.org/)
 - [Slax](https://www.slax.org/en/)
 - [Porteus](http://www.porteus.org/)
 
 **Android.** Based on Linux, Android is the most popular smart phone OS in the world.
+
 - [Android-x86](http://www.android-x86.org/download), port of Android that can be run on a laptop.
 
 **Entertainment.** There are many specialized minimalist distros that act as entertainment centers, usually run on a Raspberry Pi or similar device.
+
 - music player: [Volumio](https://volumio.org/).
 - media center: [OSMC](https://osmc.tv/) or [OpenELEC](http://openelec.tv/).
 - gaming: [RetroPie](https://retropie.org.uk/) or [SteamOS](http://store.steampowered.com/steamos/).
 - NAS: [FreeNAS](http://www.freenas.org/) or [EasyNAS](http://www.easynas.org/). 
 
 **Utilities.** Some specialized distros are basic utilities used to work on a computer where the main drive or OS maybe corrupted.
+
 - [GParted Live](https://gparted.sourceforge.io/livecd.php), partition and disk utility.
 - [Clonezilla](http://www.clonezilla.org/), disk imaging/cloning deployment or recovery.
 - [DBAN](https://dban.org/), disk data destroyer.
 
 **Other open OS.** There are other open-source OS out there, Linux is just the most popular.
+
 - BSD. Considered rock-solid stable and secure for servers, with desktop options [FreeBSD](https://www.freebsd.org/) and [TrueOS](https://www.trueos.org/).
 - [Haiku](https://www.haiku-os.org/), based on BeOS, an early competitor to Mac.
 - [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS.
