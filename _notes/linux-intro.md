@@ -99,6 +99,13 @@ Major desktops:
 > You might hear about GTK vs. Qt applications and themes.
 > Gnome uses GTK and KDE uses Qt, so applications based on the non-native tool kit won't style correctly.
 
+## 64 or 32
+
+One last choice you might have to make is 64 or 32-bit?
+Many distros have started to phase out 32-bit support, but you may still encounter the choice to download "64-bit" / "x86_64" / "AMD64" versus "32-bit" / "i386" / "i586".
+If your computer is still running, it is likely new enough to be 64-bit, so I would suggest ignoring 32-bit options unless you know your hardware requires it.
+Some distros now also support ARM processors, such as found in Raspberry Pi, so you may encounter an option like "ARMv7".
+
 ## Try and Install!
 
 The best way to learn Linux is to try it. 
@@ -174,7 +181,7 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
 Germany based enterprise FOSS company.
 Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 
-- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed.
+- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed. Note: openSUSE default install ISO are not live images and can not be used to try without installing. They provide a separate live image, but it is not complete and cannot be used to install.
     - [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly.
 - [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments.
 
