@@ -39,6 +39,8 @@ So if you want to use a VM in the cloud, do high performance computing, or tinke
 But it also makes a great desktop OS for your personal computer!
 Thus, there are many practical *and* ideological reasons to use Free and Open software.
 
+For an indepth introduction, try the free edX course from the Linux Foundation, [Introduction to Linux](https://training.linuxfoundation.org/linux-courses/system-administration-training/introduction-to-linux).
+
 > Bloatware, adware, viruses, oh my! 
 > Many people are sick of the shady commercial practices of Windows, Apple, and PC manufacturers that put user security and privacy at risk.
 > Proprietary OS limit your rights and control as a user.
@@ -146,8 +148,8 @@ One of the oldest active linux distros, Debian has extensive stable repositories
 This includes Ubuntu, developed by enterprise software company [Canonical](https://www.canonical.com/) based in the UK.
 Uses `apt` configuration and `.deb` packages.
 
-- [Debian](https://www.debian.org/), entirely free software released by the Debian Project.
-- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly.
+- [Debian](https://www.debian.org/), entirely free software released by the Debian Project. [Debian packages](https://www.debian.org/distrib/packages).
+- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly. [Ubuntu Packages](https://packages.ubuntu.com/).
     - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops.
     - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base.
     - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop.
@@ -167,7 +169,7 @@ Based in the USA, [Red Hat](https://www.redhat.com/) is one of the largest open-
 It is a good choice to learn if you are interested in working with enterprise environments.
 Uses `yum` or `dnf` configuration and `.rpm` packages.
 
-- [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software. Considered fairly cutting edge with two new versions each year, a testing ground for RHEL, yet stable enough for most users.
+- [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software. Considered fairly cutting edge with two new versions each year, a testing ground for RHEL, yet stable enough for most users. [Fedora Packages](https://apps.fedoraproject.org/packages/).
     - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops.
     - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games.
     - [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/), very unique kid focused learning platform, packaged to run on a live USB. Learn more at [Sugar Labs](https://www.sugarlabs.org/).
@@ -181,7 +183,7 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
 Germany based enterprise FOSS company.
 Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 
-- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed. Note: openSUSE default install ISO are not live images and can not be used to try without installing. They provide a separate live image, but it is not complete and cannot be used to install.
+- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed. Note: openSUSE default install ISO are not live images and can not be used to try without installing. They provide a separate live image, but it is not complete and cannot be used to install. [openSUSE Packages](https://software.opensuse.org/find).
     - [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly.
 - [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments.
 
@@ -189,7 +191,7 @@ Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 
 An independent, community built distro with rolling release following a *K.I.S.S.* and DIY philosophy. 
 Not traditionally user friendly.
-Uses `pacman` for configuration.
+Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/packages/).
 
 - [Arch](https://www.archlinux.org/)
 - [Manjaro](https://manjaro.org/), user friendly Arch for beginners.
