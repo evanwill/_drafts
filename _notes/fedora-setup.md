@@ -65,7 +65,6 @@ sudo dnf install arc-theme numix-gtk-theme numix-icon-theme numix-icon-theme-cir
 ```
 
 Then open Tweaks > Appearance to switch between the Applications and Icons themes to see how they look. 
-I kind a like EvoPop right now... 
 
 ## Get more apps
 
@@ -87,3 +86,12 @@ Unfortunately, you need a bunch of stuff. This worked for me:
 `gem update --system` *note: vulnerabilities recently discovered in gem, update!*
 
 `gem install jekyll bundler`
+
+## Fonts
+
+You might want a few more fonts, open Software, click Add-ons > Fonts. 
+Scroll through and install a bunch. 
+I also do: `sudo dnf install google-noto-mono-fonts adobe-source-code-pro-fonts`.
+
+Also, you can download [Fira Code](https://github.com/tonsky/FiraCode), look in the ttf folder, then double click on each of the font weights. 
+This opens up the font install window, click the Install button to add to the system.
