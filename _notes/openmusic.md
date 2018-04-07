@@ -1,7 +1,7 @@
 ---
 title: Open Music Theory Intro
 layout: post
-tags: [workshops]
+tags: [workshop]
 date: 2017-08-15
 ---
 

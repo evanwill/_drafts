@@ -1,7 +1,7 @@
 ---
 title: Setup Jupyter with Py 2, 3, and R
 layout: post
-tags: [python, r]
+tags: [python, R]
 date: 2017-04-06
 ---
 
