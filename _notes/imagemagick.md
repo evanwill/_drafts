@@ -72,4 +72,13 @@ A few approaches:
 - use Magick's batch abilities: `magick *.pdf[0] -resize x500 -set filename:f '%t' '%[filename:f]-thumb.jpg'`
 - use simple Magick command in a Bash loop: `for f in *.pdf; do magick "$f"[0] -resize x500 -flatten "${f%.pdf}.jpg"; done`
 
-For higher quality result, add `-density 600`, for example: `for f in *.pdf; do magick -density 600 "$f"[0] -resize x500 -flatten "${f%.pdf}.jpg"; done`
+For higher quality result, add `-density 600`, for example: `for f in *.pdf; do magick -density 600 "$f"[0] -resize x500 -flatten "${f%.pdf}.jpg"; done`. 
+Before working with the PDF, Magick must render it at a specific resolution.
+The default [density](https://www.imagemagick.org/script/command-line-options.php#density) is 72 dpi, so bumping it up to 300 or 600 will greatly enhance the quality of most image, but also significantly slow processing.
+
+If you need higher speed, it *might* be faster to use Ghostscript directly to create the images. 
+For example, `for f in *.pdf; do gs -q -o "${f%.pdf}.jpg" -sDEVICE=jpeg -dLastPage=1 -r300 "$f"; done` gets the images. 
+Then use `magick` to resize the JPEGs, something like `for f in *.jpg; do magick "$f" -thumbnail x800 -flatten "${f%.jpg}-sm.jpg"; done`.
+
+Alternatively, you can try [GraphicsMagick](http://www.graphicsmagick.org/) which implements all the same tools and options, but is more optimized for speed.
+In the examples the only difference is `magick` would be replaced with `gm convert`.
