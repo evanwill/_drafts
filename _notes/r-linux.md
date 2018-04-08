@@ -25,6 +25,15 @@ You can now start RStudio by typing `rstudio` in the terminal (it will not show 
 As a bonus, `r-essentials` automatically installs the IRKernel is that can be used in Jupyter Notebook. 
 When you start Jupyter (`jupyter notebook`), R is available in the options to create a new notebook.
 
+> I am conflicted about Anaconda. 
+> It is undeniably useful and powerful, simplifying getting started with advanced Python and scientific computing. 
+> It is great for teaching, thus has been adopted by organizations such as Software Carpentry. 
+> However, as it grows, it is a for-profit enterprise company and building "partnerships" with huge tech companies. 
+> This has led to questionable activities, such as adding a prompt to install Microsoft Code Editor to the Anaconda installer. 
+> I am actually a Code user, but it seems like classic shady software marketing technique that makes me uncomfortable.
+> The good part of these "partnerships" is sustainable funding and development from the biggest drivers of data science industry. 
+> However, it also reduces the community driven spirit and values of open source software.
+
 # Traditional Install
 
 To get RStudio running first you need [R](https://cran.r-project.org/). 

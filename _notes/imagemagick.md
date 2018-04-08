@@ -26,7 +26,7 @@ On Windows:
 1. Download the [ImageMagick installer](http://www.imagemagick.org/script/download.php#windows).
 2. Run the installer with default options.
 3. Download the [Ghostscript installer](https://www.ghostscript.com/download/gsdnld.html) (you probably want the AGPL Windows 64 bit version).
-4. Run the install with default options.
+4. Run the installer with default options.
 
 Also on Windows, if you want to follow the commands in this note, be sure to have a bash terminal, such as Git Bash (packaged with [Git installer](https://git-scm.com/)) or [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html).
 
@@ -34,7 +34,8 @@ Also on Windows, if you want to follow the commands in this note, be sure to hav
 
 The full [ImageMagick docs](http://www.imagemagick.org/script/command-line-processing.php) do a nice job of introducing commandline processing concepts. 
 However, here is the basics.
-Give the command, the image options, the input filename(s), image operator(s), and the output filename(s).
+
+> Basic pattern: `<command> <image options> <input filename(s)> <image operator(s)> <output filename(s)>`
 
 First, use a built in pattern to create a test image: 
 `magick -size 640x480 pattern:checkerboard checkerboard.png`

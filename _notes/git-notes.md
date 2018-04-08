@@ -40,6 +40,11 @@ Create a branch locally, then add to remote:
 - Create and switch to a new branch, `git checkout -b branch-name`. (reminder: this is a short cut combo of two commands, `git branch branch-name` and `git checkout branch-name`)
 - To add the branch to the remote, `git push origin branch-name` will create the remote branch and set the "upstream" for the local version. (this is a shortcut to `git branch --set-upstream-to origin branch-name` plus `git push`)
 
+## Graph
+
+You can actually reproduce those pretty visualizations of history you see on GitHub in the terminal. 
+Try: `git log --graph --abbrev-commit --date=relative`
+
 ## Helpful
 
 - [Rebase a Pull Request](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
