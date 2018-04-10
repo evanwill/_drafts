@@ -77,7 +77,7 @@ Advanced collection management and processing of raw image file types, including
 
 **Advanced:**
 
-- [ImageMagick](http://www.imagemagick.org/script/index.php){:target="_blank"}, powerful image manipulation tool, used via CLI or by many other applications.
+- [ImageMagick](http://www.imagemagick.org/script/index.php){:target="_blank"}, powerful image manipulation tool, used via CLI or by many other applications (my [get started notes](https://evanwill.github.io/_drafts/notes/imagemagick.html)).
 - [G'MIC](http://gmic.eu/){:target="_blank"}, CLI, library, and GIMP plugin for advanced image processing.
 - [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/){:target="_blank"}, image metadata utility, the only reliable way to read and write photo file embedded metadata. Or you can try [Exiv2](http://www.exiv2.org/index.html).
 - [ImageJ](http://imagej.net/Welcome){:target="_blank"}, powerful batch image processor designed for scientific analysis (or [my notes](https://digitalaladore.wordpress.com/2017/06/07/visualizing-aladore-the-book/){:target="_blank"} for less scientific purposes).

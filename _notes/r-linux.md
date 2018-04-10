@@ -25,6 +25,21 @@ You can now start RStudio by typing `rstudio` in the terminal (it will not show 
 As a bonus, `r-essentials` automatically installs the IRKernel is that can be used in Jupyter Notebook. 
 When you start Jupyter (`jupyter notebook`), R is available in the options to create a new notebook.
 
+**Note:**
+When installing on Fedora I have run into issues where some applications no longer work because they are trying to use Anaconda rather than the default system Python (I haven't had this happen on Ubuntu).
+The installer adds a line to your `.bashrc` in order to make Anaconda available on your path.
+Open `sudo nano ~/.bashrc`, and look for a line like:
+
+```
+# added by Anaconda3 installer
+export PATH="/home/username/anaconda3/bin:$PATH"
+```
+
+One quick fix is to flip PATH and Anaconda, so your system Python will be found first by default. 
+Change the `.bashrc` line above to `export PATH="$PATH:/home/edog/anaconda3/bin"`, then reboot. 
+Your applications will correctly find the system Python, but you can still easily access Anaconda's `conda`, `ipython`, and `jupyter`. 
+Keep in mind, if you type `python` in the terminal, it will be the system Python, not Anaconda. 
+
 > I am conflicted about Anaconda. 
 > It is undeniably useful and powerful, simplifying getting started with advanced Python and scientific computing. 
 > It is great for teaching, thus has been adopted by organizations such as Software Carpentry. 

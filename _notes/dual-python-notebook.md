@@ -58,3 +58,19 @@ Notebooks are gaining attention for integrating code and publication, opening po
 - [SageMath](http://www.sagemath.org/) (math focused notebook platform, an "open source alternative to Magma, Maple, Mathematica, and MATLAB". A solid project that has been around for awhile, but hasn't gained much popularity.)
 - [Apache Zepplin](https://zeppelin.apache.org/) (Java based notebook particularly useful for dashboards and Spark cluster integration, i.e. big data)
 - [Beaker notebook](http://beakernotebook.com/) (newish project, multiple languages in a single notebook)
+
+## Issues on Linux
+
+When installing on Fedora I have run into issues where some applications no longer work because they are trying to use Anaconda rather than the default system Python (I haven't had this happen on Ubuntu).
+The installer adds a line to your `.bashrc` in order to make Anaconda available on your path.
+Open `sudo nano ~/.bashrc`, and look for a line like:
+
+```
+# added by Anaconda3 installer
+export PATH="/home/username/anaconda3/bin:$PATH"
+```
+
+One quick fix is to flip PATH and Anaconda, so your system Python will be found first by default. 
+Change the `.bashrc` line above to `export PATH="$PATH:/home/edog/anaconda3/bin"`, then reboot. 
+Your applications will correctly find the system Python, but you can still easily access Anaconda's `conda`, `ipython`, and `jupyter`. 
+Keep in mind, if you type `python` in the terminal, it will be the system Python, not Anaconda. 
