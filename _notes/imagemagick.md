@@ -76,9 +76,13 @@ For higher quality result, add `-density 600`, for example: `for f in *.pdf; do 
 Before working with the PDF, Magick must render it at a specific resolution.
 The default [density](https://www.imagemagick.org/script/command-line-options.php#density) is 72 dpi, so bumping it up to 300 or 600 will greatly enhance the quality of most image, but also significantly slow processing.
 
-If you need higher speed, it *might* be faster to use Ghostscript directly to create the images. 
-For example, `for f in *.pdf; do gs -q -o "${f%.pdf}.jpg" -sDEVICE=jpeg -dLastPage=1 -r300 "$f"; done` gets the images. 
+If you need higher speed processing the PDFs, it *might* be faster to use Ghostscript or Xpdf directly to create the images:
+
+- Ghostscript: `for f in *.pdf; do gs -q -o "${f%.pdf}.jpg" -sDEVICE=jpeg -dLastPage=1 -r300 "$f"; done` gets the images. 
+- [Xpdf tools](http://www.xpdfreader.com/index.html) provides the `pdftopng` utility that can quickly create PNG images from PDFs. For example, `for f in *.pdf; do pdftopng -l 1 -r 300 "$f" "${f%.pdf}"; done`, would grab the first page at 300 dpi.
+
 Then use `magick` to resize the JPEGs, something like `for f in *.jpg; do magick "$f" -thumbnail x800 -flatten "${f%.jpg}-sm.jpg"; done`.
 
-Alternatively, you can try [GraphicsMagick](http://www.graphicsmagick.org/) which implements all the same tools and options, but is more optimized for speed.
-In the examples the only difference is `magick` would be replaced with `gm convert`.
+If ImageMagick seems too slow, you can try [GraphicsMagick](http://www.graphicsmagick.org/) which implements all the same tools and options, but is more optimized for speed. 
+In the example commands above, the only difference is `magick` would be replaced with `gm convert`.
+When working with images of very large pixel dimensions, `gm` seems more efficient than `magick`.
