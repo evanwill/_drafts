@@ -64,6 +64,8 @@ Resize all PNG in a folder, convert to JPEG, and sequentially number:
 Resize all PNG in a folder, convert to JPEG, but keep original file name: 
 `magick *.png -resize 200x200 -set filename:f '%t' '%[filename:f]-thumb.png'`
 
+Check the [commandline options](https://www.imagemagick.org/script/command-line-options.php#auto-level) page for more details. 
+
 ## Create PDF Thumbs
 
 In this example, I want to create an image representing a PDF by grabbing the first page from each PDF in a directory and creating a JPEG. 
