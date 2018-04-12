@@ -5,7 +5,8 @@ tags: [images, open, workshop]
 date: 2018-04-04
 ---
 
-> Learn about free and open-source applications that make advanced media editing possible without expensive software! This session will introduce the most popular open-source media editing applications and get you setup to use GIMP for photo editing.
+> MILL workshop 2018: Learn about free and open-source applications that make advanced media editing possible without expensive software! 
+> This session will introduce the most popular open-source media editing applications and get you setup to use GIMP for photo editing.
 
 When thinking about editing images and other media, a certain super expensive, close-source ecosystem usually comes to mind (i.e. Adobe)--to the point it has even become a verb, "photoshopping".
 However, there are plenty of excellent open source alternatives that can power your media editing workflows for [free](https://www.gnu.org/philosophy/free-sw.en.html){:target="_blank"}.
@@ -94,11 +95,12 @@ This means the image can be scaled to any size with out loss of detail.
 
 ## Video 
 
-Unfortunately, none of the open video editors are *great* just yet, and all seem a bit unstable. 
-I have used OpenShot successfully on many projects.
+Unfortunately, none of the open video editors are *great* just yet, and all seem a bit unstable at times. 
+I have used [OpenShot](https://www.openshot.org/){:target="_blank"} successfully on many projects, fairly easy to use.
+Others say [Kdenlive](https://kdenlive.org/){:target="_blank"} is stable and professional (check out the ["Current state of Linux video editing"](https://opensource.com/article/18/4/new-state-video-editing-linux) for some in-depth reviews). 
 
-- Decent: [OpenShot](https://www.openshot.org/){:target="_blank"} or [Shotcut](https://shotcut.org/){:target="_blank"}.
-- Less stable in my experience: [kdenlive](https://kdenlive.org/){:target="_blank"}, [Pitivi](http://www.pitivi.org/){:target="_blank"}, [avidemux](http://avidemux.sourceforge.net/){:target="_blank"}.
+- Decent: [OpenShot](https://www.openshot.org/){:target="_blank"} and [kdenlive](https://kdenlive.org/){:target="_blank"}.
+- Less stable in my experience: [Shotcut](https://shotcut.org/){:target="_blank"}, [Pitivi](http://www.pitivi.org/){:target="_blank"}, and [avidemux](http://avidemux.sourceforge.net/){:target="_blank"}.
 - Pro, not open, but cost-free: [Lightworks](https://www.lwks.com/){:target="_blank"} (full editing software used by professional studios, with export limited to 720p) or [DaVinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve/){:target="_blank"}.
 
 ## Others
