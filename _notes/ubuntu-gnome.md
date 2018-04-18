@@ -32,6 +32,9 @@ There is a whole [universe of themes](https://www.gnome-look.org/) out there, bu
 
 `sudo apt install arc-theme numix-gtk-theme numix-blue-gtk-theme numix-icon-theme moka-icon-theme faba-icon-theme elementary-icon-theme pocillo-icon-theme`
 
+Other themes can be installed via PPA or manually. 
+I like [Pop theme](https://github.com/pop-os/gtk-theme) (instructions in the middle of the readme).
+
 ## Get Extensions 
 
 The cool part of GNOME is the flexibility of using shell extensions to quickly add functionality to the desktop. 

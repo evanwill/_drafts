@@ -9,8 +9,9 @@ After being a long-term Ubuntu user, while using 17.10 and looking ahead at 18.0
 
 First, [Fedora](https://getfedora.org/).
 I choose Fedora because it is a bit more cutting edge than Ubuntu, yet still fairly stable (and running a newer kernel that works correctly with my laptop).
-I was interested in it because of its connection to the huge enterprize Linux company [Red Hat](https://www.redhat.com/en).
-There are a lot of good things about Fedora philosophically, but I haven't been totally sold on it yet... anyway, here are my notes about getting started:
+I have found that although Debian/Ubuntu is known for gigantic repositories, Fedora plus RPM Fusion has more packages that I am interested in and they are more up-to-date.
+Fedora is also interesting because of its connection to the huge enterprize Linux company [Red Hat](https://www.redhat.com/en).
+There are a lot of good things about Fedora philosophically, I am liking it but I haven't been totally sold on it yet... anyway, here are my notes about getting started:
 
 ## Installer 
 

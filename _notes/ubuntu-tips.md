@@ -26,6 +26,7 @@ Otherwise, search the Software Center.
 - Ebook manager: Calibre, if you have ebooks, this helps you manage them and connect with reading devices. It also has great built in editing and conversion tools.
 - KeePass2 (`keepass2`) or KeePassX for passwords.
 - `build-essential` adds Make and compilers necessary for building a lot of software.
+- A few extra fonts: `fonts-firacode`, `fonts-noto`
 
 ## Languages
 
