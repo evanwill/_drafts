@@ -24,4 +24,4 @@ I got it to work using these steps on Ubuntu and Fedora:
     - Username: [your vandal web id]
     - Password: [your vandal web password]
 
-4. You should now be able to connect!
+You should now be able to connect!
