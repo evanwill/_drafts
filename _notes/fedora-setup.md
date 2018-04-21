@@ -22,7 +22,7 @@ However, dual-booting is still possible, it is just not well documented and the 
 To dual-boot with an existing OS, chick on the install location icon and select your hard drive. 
 In the options below, check "Automatic" and "I would like to make additional space available".
 Then click "Done" at the top. 
-This will open a window where you can choose existing partitions to delete--i.e. select your old Linux partition you want to over write and the old `/boot/efi`. 
+This will open a window where you can choose existing partitions to delete--i.e. select your old Linux partition you want to over write. 
 The selected partitions will be deleted, and Fedora will automatically set up new ones in the freed up space. 
 
 In my case, this seemed to work good. 
