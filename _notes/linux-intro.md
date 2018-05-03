@@ -122,6 +122,7 @@ Give it a try with these instructions to [burn an ISO](https://evanwill.github.i
 Once you try it out, install it!
 The live session will have an app to permanently install the OS on your machine.
 Most installers are graphical and user-friendly.
+Here is Ubuntu's official [install tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop).
 
 > Alternatively, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
 > The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
