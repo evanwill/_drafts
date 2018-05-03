@@ -240,3 +240,7 @@ There are other open-source OS out there, Linux is just the most popular.
 - [Haiku](https://www.haiku-os.org/), based on BeOS, an early competitor to Mac.
 - [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS.
 - [Redox OS](https://www.redox-os.org/), newly developed OS written in [Rust](https://www.rust-lang.org/en-US/) language.
+
+# Resources
+
+- Julia Evans [Drawings](https://drawings.jvns.ca/) and [Zines](https://jvns.ca/zines/) are an approachable and amusing way to learn about advanced linux topics.
