@@ -11,6 +11,7 @@ This site gathers them together so I can find them.
 It's a memory tool. 
 
 `_drafts` is built using [Jekyll](https://jekyllrb.com/), on [GitHub Pages](https://pages.github.com/).
+[Last build date: {{ site.time | date: "%Y-%m-%d" }}]
 
 License is <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" title="license">cc-by-sa</a> [evan will](https://github.com/evanwill).
 
@@ -26,3 +27,5 @@ Some of my other sites:
 - [poem choice](https://uidaholib.github.io/poemchoice/)
 - [poemBot](https://github.com/evanwill/poemBot)
 - [Digital Aladore](https://digitalaladore.wordpress.com/)
+
+> Last build date: {{ site.time | date: "%Y-%m-%d" }}
