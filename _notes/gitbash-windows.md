@@ -60,4 +60,4 @@ Unzip the download, then copy `hugo.exe` into your `Git\mingw64\bin` directory.
 
 - Download the Nano binary from Nano [win32-support](https://www.nano-editor.org/dist/win32-support/) page. You just need the `.exe` file, which is named `nano-git-0d9a7347243.exe` (as of this writing).
 - Rename the file to `nano.exe`, and copy to the `mingw64\bin` directory.
-- Nano will not work with Git Bash alone, but can be invoked using `winpty`, for example, `winpty nano test.txt`.
+- This version of Nano will not work with Git Bash alone, but can be invoked using `winpty`, for example, `winpty nano test.txt`.

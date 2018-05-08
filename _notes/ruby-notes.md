@@ -17,7 +17,7 @@ However, there can be some barriers because the way RVM functions isn't compatib
 
 ## Set up RVM on Ubuntu
 
-Install curl and build-essential if you don't have it (`sudo apt install curl build-essential`).
+Install curl and build-essential if you don't have them (`sudo apt install curl build-essential`).
 
 Set up Tilix: 
 
@@ -35,9 +35,14 @@ This will download all the dependencies and build the Ruby version, which might 
 
 When it completes, check your Ruby, `ruby -v`.
 If this is your first version, it will become the default, or you can select one, `rvm use 2.5.1`.
-If you want, generate the documentation, run `rvm docs generate-ri`.
+If you want to generate the documentation, run `rvm docs generate-ri`.
 
 Now you can install Jekyll: `gem install bundler jekyll`
 
 Once you restart your system, Gnome terminal will recognize your current Ruby version. 
 Use RVM from Tilix.
+
+Intros:
+
+- [Try Ruby! in 15 minutes](http://tryruby.org/)
+- [Rails for Zombies](http://railsforzombies.org/)

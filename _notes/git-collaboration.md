@@ -75,3 +75,9 @@ GitHub also offers free web hosting for your project, organization, or personal 
 Check workshop [Go-go gh-pages!](https://evanwill.github.io/go-go-ghpages/)
 
 Also, use [GitHub Gist](https://gist.github.com/) to instantly share simple notes, outlines, snippets, etc.
+
+## Resources
+
+- [Git Book](https://git-scm.com/book)
+- [Git for Teams](http://gitforteams.com/)
+- SWC [Version Control with Git](http://swcarpentry.github.io/git-novice/)
