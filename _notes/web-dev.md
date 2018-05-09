@@ -5,7 +5,7 @@ tags: [web, tips]
 date: 2017-03-20
 ---
 
-Quick local server: 
+Quick local server:
 - Python 3: `python -m http.server 8000` then surf to `localhost:8000`
 - Node: install `npm install -g http-server`, run `http-server`
 
@@ -52,3 +52,7 @@ Design:
 - [Performance Tooling Today](http://www.perf-tooling.today/)
 - [Butterick's Practical Typography](https://practicaltypography.com/)
 - [Planet Friendly Web Guide](https://www.planetfriendlyweb.org/)
+
+Ultra minimal computing notebook:
+- [new-note](https://github.com/jjjjjjjjjjjjjjjjjjjj/new-note/) (see [article](https://boingboing.net/2018/05/08/the-simplest-online-note-takin.html))
+- or paste into address bar `data:text/html, <html contenteditable style='padding:10%;'>`, type, then save with `Ctrl+S`.
