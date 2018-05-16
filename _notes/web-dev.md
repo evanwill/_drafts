@@ -8,6 +8,7 @@ date: 2017-03-20
 Quick local server:
 - Python 3: `python -m http.server 8000` then surf to `localhost:8000`
 - Node: install `npm install -g http-server`, run `http-server`
+- Ruby: `ruby -run -e httpd . -p 8080` then surf to `localhost:8080`
 
 Browser support:
 - [Can I Use](http://caniuse.com/)
