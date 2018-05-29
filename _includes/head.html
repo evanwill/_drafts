@@ -1,4 +1,4 @@
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
@@ -12,6 +12,7 @@
   <meta property="og:description" content="{% if page.tags %}Note about {{ page.tags | join: ", " | escape }}{% endif %} from _drafts, {{ site.description }}" />
   <meta property="og:type" content="article" />
   <meta property="article:author" content="Evan Will" />
+  <meta property="og:image" content="{{ "assets/drafts.jpg" | absolute_url }}" />
   {% if page.tags %}{% for t in page.tags %}<meta property="article:tag" content="{{ t | escape }}" />{% endfor %}{% endif %}
   {% if page.date %}<meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}" />{% endif %}
   <meta property="og:site_name" content="{{ site.title }}" />
