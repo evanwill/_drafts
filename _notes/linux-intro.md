@@ -156,8 +156,9 @@ Uses `apt` configuration and `.deb` packages.
     - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop.
     - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop.
     - [Zorin OS](https://zorinos.com/), polished windows replacement.
+    - [Linux Lite](https://www.linuxliteos.com/), focused on easy to use.
     - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com).
-    - [Bodhi Linux](), minimalist, lightweight distro with unique Moksha desktop.
+    - [Bodhi Linux](https://www.bodhilinux.com/), minimalist, lightweight distro with unique Moksha desktop.
     - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop.
     - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware.
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), Official OS of Raspberry Pi, unique Pixel desktop.
@@ -174,7 +175,7 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
     - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops.
     - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games.
     - [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/), very unique kid focused learning platform, packaged to run on a live USB. Learn more at [Sugar Labs](https://www.sugarlabs.org/).
-    - [Korora](https://kororaproject.org/), nice looking beginner friendly.
+    - ~~[Korora](https://kororaproject.org/)~~, *(development is stalled, sadly many small distros are disappearing)* nice looking beginner friendly.
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
 - [CentOS](https://www.centos.org/), free community supported RHEL.
 - [Scientific Linux](https://www.scientificlinux.org/), free RHEL-based OS developed by Fermilab for high performance scientific computing environments.
