@@ -31,7 +31,7 @@ The default style for 18.04 is the pretty ugly and dated "Ambiance", the familia
 Luckily, changing themes is incredibly easy with Tweak tool, a simple drop down in Appearance > Themes, plus a separate drop down for your icon set.
 There is a whole [universe of themes](https://www.gnome-look.org/) out there, but to get started you can install a few decent options from the main repository: 
 
-`sudo apt install arc-theme numix-gtk-theme numix-blue-gtk-theme numix-icon-theme moka-icon-theme faba-icon-theme elementary-icon-theme pocillo-icon-theme`
+`sudo apt install arc-theme numix-gtk-theme numix-blue-gtk-theme materia-gtk-theme numix-icon-theme papirus-icon-theme moka-icon-theme faba-icon-theme elementary-icon-theme pocillo-icon-theme`
 
 Other themes can be installed via PPA or manually. 
 I like [Pop theme](https://github.com/pop-os/gtk-theme) (instructions in the middle of the readme).
