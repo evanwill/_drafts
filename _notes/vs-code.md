@@ -28,6 +28,8 @@ Here are my notes-to-self about stuff:
 - Disable annoyingly unhelpful html tag closing: `"html.autoClosingTags": false`
 - Limit html suggestions: `"html.suggest.angular1": false, "html.suggest.ionic": false`
 
+Once you have everything set up nicely, copy your `settings.json` file to a git repo and reuse it on all your computers!
+
 ## Change themes
 
 Type `Ctrl+K` then `Ctrl+T`, then choose a theme from the list. 

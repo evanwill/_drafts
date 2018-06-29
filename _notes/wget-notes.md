@@ -62,3 +62,11 @@ Occasionally it might be necessary to ignore robot.txt for archival purposes, ad
 
 If you want to view your WARC later, use [Webrecorder Player](https://github.com/webrecorder/webrecorderplayer-electron).
 
+## Download a file and change the filename
+
+Let say you have an API with funny url that gives you an image. 
+Wget might save it with some bizarre filename.
+You can change the file name with the `--output-document` option (`-O`). 
+For example: 
+
+`wget -O new.jpg "http://example.org?CISOROOT=HJCCC&CISOPTR=9&action=2&DMSCALE=100&DMWIDTH=9000&DMHEIGHT=9000&DMX=0&DMY=0&DMTEXT=&DMROTATE=0"`
