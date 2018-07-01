@@ -40,6 +40,12 @@ Create a branch locally, then add to remote:
 - Create and switch to a new branch, `git checkout -b branch-name`. (reminder: this is a short cut combo of two commands, `git branch branch-name` and `git checkout branch-name`)
 - To add the branch to the remote, `git push origin branch-name` will create the remote branch and set the "upstream" for the local version. (this is a shortcut to `git branch --set-upstream-to origin branch-name` plus `git push`)
 
+## Update branch from master
+
+1. Update your `master` branch, with `git pull`. 
+2. Switch to the feature branch that needs updating, `git checkout feature-branch`.
+3. Merge `master` into the feature: `git merge master`. 
+
 ## Graph
 
 You can actually reproduce those pretty visualizations of history you see on GitHub in the terminal. 
