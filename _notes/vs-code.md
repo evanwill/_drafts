@@ -73,7 +73,7 @@ More info [vscode-arduino](https://github.com/Microsoft/vscode-arduino).
 
 Emmet snippet expansion: write the abbreviation and press `tab` ([Emmet Cheatsheet](http://docs.emmet.io/cheat-sheet/)).
 
-Auto format html, highlight area and `Ctrl+Shift+I`. 
+Auto format html, highlight area and `Ctrl+Shift+I` (or maybe `Ctrl+K` followed by `Ctrl+F`). 
 Setting for auto format are in File > Preferences > User Settings, add `"html.format.wrapLineLength": 0,` to prevent auto link breaks.
 
 ## XML
