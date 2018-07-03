@@ -37,6 +37,7 @@ Here are a few options:
 - Arcade-like classics: `frozen-bubble`, `xgalaga`, `snake4`, `battleball`, `tint`, `freesweep`, `pingus`, `chromium-bsu`
 - Classic point-n-click adventures: `flight-of-the-amazon-queen`, `beneath-a-steel-sky`, `drascula`, `lure-of-the-temptress`
 - Tux classics: `supertux` (Mario inspired platformer), `supertuxkart` (Mario kart like races, might not work on current Rasbian), `extremetuxracer` (downhill penguin race)
+- Rogue-like: `games-rogue` (group of rogue-like games, including `angband`, `crawl`, `moria`, and `slashem`), `crawl-tiles` (classic rogue-like with graphics)
 - Others: `freeciv` (Civilization builder), `openttd` (Transport Tycoon), `lincity` (sim city), `endless-sky` (space exploration), `freeorion` (space conquest)
 - Create levels: there are many games inspired by commercial classics that fans create open engines and free content for, such as `freedink` (zelda-like),`flare` (action rpg), or `freedoom` (free DOOM game base).
 - Cat that follows your mouse: `oneko` (is this a game? well it's amusing anyway...)
