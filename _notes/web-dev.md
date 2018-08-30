@@ -34,6 +34,7 @@ Colors:
 
 - [Adobe color wheel](https://color.adobe.com/)
 - [Coolors](https://coolors.co)
+- [Picular](https://picular.co/)
 
 Accessibility:
 
@@ -66,6 +67,7 @@ Design:
 - [Performance Tooling Today](http://www.perf-tooling.today/)
 - [Butterick's Practical Typography](https://practicaltypography.com/)
 - [Planet Friendly Web Guide](https://www.planetfriendlyweb.org/)
+- [Open Source Guide](https://opensource.guide/)
 
 Ultra minimal computing notebook:
 
