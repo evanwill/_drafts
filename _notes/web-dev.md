@@ -19,10 +19,10 @@ Browser support:
 Tests:
 
 - [Page Speed](https://developers.google.com/speed/pagespeed/insights/)
-- [mobile-friendly](https://search.google.com/search-console/mobile-friendly)
+- [mobile-friendly](https://search.google.com/test/mobile-friendly)
 - [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)
-- [Facebook Sharing Debugger]9https://developers.facebook.com/tools/debug/sharing/)
+- [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/)
 
 Web Master utilities:
 
