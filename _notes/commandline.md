@@ -148,7 +148,9 @@ Classic games:
 - `sudo apt-get bsdgames`
 - `tetris-bsd` (see [full list](http://wiki.linuxquestions.org/wiki/BSD_games))
 
-Or watch Star Wars: `telnet towel.blinkenlights.nl`
+Watch Star Wars: `telnet towel.blinkenlights.nl`
+
+Read some [xkcd](https://uni.xkcd.com/) comics!
 
 ## Reference
 
