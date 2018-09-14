@@ -24,6 +24,7 @@ Here are some tutorials:
 
 - GitHub [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 - [Markdown Tutorial](http://www.markdowntutorial.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
 
 ## Markdown editors
 
@@ -50,4 +51,4 @@ However, it is designed to render as HTML.
 Markdown compilers are built in to many applications to generate formatted versions such as HTML, .docx, or PDF.
 
 One option is [Pandoc](http://pandoc.org/), a command line utility to translate between many formats and generate new output versions, such as PDFs (via [LaTex](https://www.latex-project.org/about/)). 
-Check this [Sustainable Authorship in Plain Text](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) tutorial.
+Check my note [Pandoc for PDFs](https://evanwill.github.io/_drafts/notes/pandoc.html) or the [Sustainable Authorship in Plain Text](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) tutorial.

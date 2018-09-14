@@ -16,6 +16,7 @@ Pair Git with free hosting from [Github](https://github.com/) and you have a pow
 If you are working with code or collaborating, version control WILL make your life better!
 
 See: 
+
 - Get Git, [Why](https://uidaholib.github.io/get-git/1why.html)
 - Software Carpentry, [Version Control with Git](http://swcarpentry.github.io/git-novice/)
 - also check out [Data Carpentry](http://www.datacarpentry.org/lessons/) for discipline specific data lessons
@@ -42,7 +43,8 @@ There is two basic workflows to collaborate on a GitHub repository:
     - Add collaborators via email or GitHub name.
     - Collaborator will need to accept the invite.
     - Clone the repo to your local machine.
-    - Now you all have equal control over the repo content: `push`, `pull`, `merge`, etc. Using feature [branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) may be helpful to organize your work.
+    - Now you all have equal control over the repo content: `push`, `pull`, `merge`, etc. 
+    - Using feature [branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) may be helpful to organize your work--create a branch, do some work, push the new branch to GitHub, then create a Pull Request to discuss with your team.
 2. Fork and Pull Request (more complex, centralized control, typical of bigger projects)
     - Navigate to your partner's repo on GitHub.
     - Click "Fork" in upper right.
@@ -52,7 +54,8 @@ There is two basic workflows to collaborate on a GitHub repository:
     - Create a message saying exactly what changes you made and why.
     - The original repo will now have a PR that collaborators can view and comment on. Only the owner can accept the request and merge it.
 
-See GitHub Help [Fork a Repo](https://help.github.com/articles/fork-a-repo/) and [About Pull requests](https://help.github.com/articles/about-pull-requests/) for more options.
+See GitHub Help [Fork a Repo](https://help.github.com/articles/fork-a-repo/), [About Pull requests](https://help.github.com/articles/about-pull-requests/), and [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/) for more info.
+Also, check out Atlassian's [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows) for more options.
 
 *Note:* it is best to create small, targeted commits when collaborating.
 Each commit should do one specific thing making it easier for others to understand your work and navigate the history if necessary.
@@ -61,9 +64,10 @@ PR's should include only one change so they can be merged in as a module--don't 
 ## Project management features
 
 GitHub adds many handy web-based features to manage your projects / Git repositories:
-- Issues. Create an issue to discuss and track ideas, bugs, projects, requests, etc. Can be assigned to people, tagged, and more. Allows people outside of the project report problems with your code. 
+
+- Issues. Create an issue to discuss and track ideas, bugs, projects, requests, etc. Can be assigned to people, tagged, and more. Also allows people outside of the project report problems with your code. Be sure to create checklists in the first comment box (`- [ ] step`)--they become click-able and show progress in the Issue view.
 - Projects. Create Trello board like lists to organize work.
-- Wiki. Simple wiki-style documentation that can be edited by your collaborators (note: written Markdown not wikitext).
+- Wiki. Simple wiki-style documentation that can be edited by your collaborators (note: written in Markdown not wikitext).
 
 To make the most of these features, you will want to learn [Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) because it's a [great way to write](https://evanwill.github.io/_drafts/notes/writing-markdown.html) and is used everywhere on GitHub.
 Issues, PR, and commits can be mentioned in any GitHub comment and will be replaced by [reference shortlinks](https://help.github.com/articles/autolinked-references-and-urls/). 

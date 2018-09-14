@@ -18,6 +18,8 @@ sudo apt install pandoc texlive texlive-fonts-extra texlive-xetex
 
 If you install [MiKTeX](https://miktex.org/) on Windows (your LaTeX distro) plus Pandoc, most of these commands should work--MiKTeX's package manager will pop up asking to install what ever is necessary.
 
+*Note: this was written on Linux using Pandoc 1.19.2.1, it doesn't work quite the same on Pandoc 2+ on Windows. I will update when I get a chance...*
+
 To create a basic PDF, use the `-o` output flag and a file name with `.pdf` extension. 
 For example: 
 

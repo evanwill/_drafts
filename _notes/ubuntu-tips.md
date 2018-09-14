@@ -28,6 +28,7 @@ Otherwise, search the Software Center.
 - `build-essential` adds Make and compilers necessary for building a lot of software.
 - `curl` is often to grab web stuff on the command line.
 - A few extra fonts: `fonts-firacode` `fonts-noto`
+- Firefox extensions: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/) or [Multi-account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), [Side-view](https://testpilot.firefox.com/experiments/side-view), [Notes](https://testpilot.firefox.com/experiments/notes/)
 
 ## Languages
 

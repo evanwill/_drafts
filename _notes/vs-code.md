@@ -29,6 +29,7 @@ Here are my notes-to-self about stuff:
 - Limit html suggestions: `"html.suggest.angular1": false, "html.suggest.ionic": false`
 
 Once you have everything set up nicely, copy your `settings.json` file to a git repo and reuse it on all your computers!
+(or see my example at the bottom of this note)
 
 ## Change themes
 
@@ -81,3 +82,24 @@ Setting for auto format are in File > Preferences > User Settings, add `"html.fo
 ## XML
 
 There are several extensions to add XML functionality--look for "XML Language Support" to do validation and work with schemas.
+
+## Settings
+
+```
+{
+    "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.wordWrap": "on",
+    "problems.decorations.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.dragAndDrop": false,
+    "html.autoClosingTags": false,
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false,
+    "html.format.wrapLineLength": 0,
+    "html.format.maxPreserveNewLines": 3,
+    "extensions.ignoreRecommendations": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoClosingBrackets": false
+}
+```
