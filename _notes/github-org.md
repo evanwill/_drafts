@@ -14,16 +14,20 @@ Give your org a good name, preferably with no spaces, since this will be used fo
 Select the Free account.
 Then add members!
 
-Now, when created a new repository, all members can use the drop down option to create the repository under their own account or under the organization. 
+Now, when creating a new repository, all members can use the drop down option to create the repository under their own account or under the organization. 
 Repositories owned by the Org will be accessible and managed by the Owner accounts.
 They stay with the Org even if the original creator leaves the Org.
 
 Accounts in your Org have one of two roles:
+
 - Owner = full admin access to everything
 - Member = can see all teams and members, and can create new repos
 
 Your Org can create Teams.
 Set up teams to manage groups with access to specific repositories.
+Teams also have their own page that hosts a discussion forum, and can be `@` mentioned to notify all members in other discussion comments.
+
+People who need access to a repository, but aren't part of the Org, are added as "Outside Collaborators".
 
 ## Education discount
 
