@@ -45,7 +45,7 @@ Citation:
 General search strategies:
 
 - Booleans (AND, OR, NOT)
-- Keywords and concept mapping - broader, narrower, related, synonyms / thesaurus
+- Keywords and concept mapping (broader, narrower, related, synonyms / thesaurus. [intro video](https://youtu.be/v_8rNiW4A9A){:target="_blank"}) 
 - Citation chaining (look at what an important paper in your area cites and who cites it)
 
 ## Resources 
@@ -66,7 +66,7 @@ Important databases:
 - Excellent citation tracking, enables in depth citation chaining
 - Filter by highly cited, "hot in the field", etc., to explore subject area
 - Export data, citation lists
-- [WoS Search intro video](https://youtu.be/xwhy0JBHlMw), [quick ref](http://clarivate.libguides.com/ld.php?content_id=35888196)
+- [WoS Search intro video](https://youtu.be/xwhy0JBHlMw){:target="_blank"}, [quick ref](http://clarivate.libguides.com/ld.php?content_id=35888196){:target="_blank"}
 
 #### [Google Scholar](https://scholar.google.com){:target="_blank"}
 
