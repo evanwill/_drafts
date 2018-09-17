@@ -10,7 +10,7 @@ date: 2018-09-14
 ## Services
 
 - Reference desk (chat/email/phone [hours](https://www.lib.uidaho.edu/about/hours.html#reference){:target="_blank"}), don't be shy!
-- Summit (network of 37 NW academic libraries) and [ILL](https://www.lib.uidaho.edu/services/ill/){:target="_blank"}
+- Summit (network of 37 NW academic libraries) and [ILL](https://www.lib.uidaho.edu/services/ill/){:target="_blank"} (worldwide network for  library sharing)
 - [Book purchase requests](https://www.lib.uidaho.edu/find/request.html){:target="_blank"}
 - [Workshops](https://www.lib.uidaho.edu/services/workshops/){:target="_blank"}
 - [OA Fund](https://www.lib.uidaho.edu/services/oapf/){:target="_blank"}
@@ -22,7 +22,7 @@ date: 2018-09-14
 - Less focused and powerful than databases
 - Use notes:
     - sign in (access resources off campus)
-    - account (check out loan status, saved items/searches/history)
+    - account (check loan status, saved items/searches/history)
     - scopes (UI Library, Summit, Articles, Reserves)
     - filters (date, resource type, etc)
     - "personalize" (weights search results in your discipline)
@@ -31,9 +31,13 @@ date: 2018-09-14
 
 ## Concepts 
 
+Scholarly literature: 
+
 - [Peer Review](https://www.lib.ncsu.edu/tutorials/peerreview/){:target="_blank"}
 - [Grey Lit](http://guides.library.cornell.edu/graylit){:target="_blank"}
 - Preprint archives, e.g. [arXiv](https://arxiv.org/){:target="_blank"}
+
+Citation: 
 
 - [Citation guide](http://libguides.uidaho.edu/citing){:target="_blank"}
 - [Citation management software](http://libguides.uidaho.edu/citation-management){:target="_blank"}
