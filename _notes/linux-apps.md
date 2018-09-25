@@ -29,6 +29,7 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 - Burn SD/USB images: [Etcher](https://etcher.io/)
 - Firewall: `ufw` or `gufw`
 - `caffeine` keeps screen awake during movies
+- `virtualbox` VM manager, also if you ever need windows for some reason, get a legal [windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 
 ## Image editing
 

@@ -32,6 +32,7 @@ Web Master utilities:
 
 Colors:
 
+- [Material Design Color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0)
 - [Adobe color wheel](https://color.adobe.com/)
 - [Coolors](https://coolors.co)
 - [Picular](https://picular.co/)
