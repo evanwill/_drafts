@@ -1,7 +1,7 @@
 ---
 title: OpenRefine POST request with Jython
 layout: post
-tags: [refine, python]
+tags: [openrefine, python]
 date: 2017-04-10
 ---
 
