@@ -1,11 +1,11 @@
 <header class="header">
   <h1 class="header-title">
-    <a href="{{ "/" | absolute_url }}">{{ site.title }}</a>
+    <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
   </h1>
   <nav class="header-nav">
-    <a href="{{ "/about.html" | absolute_url }}">About</a>
-    <a href="{{ "/tags/index.html" | absolute_url }}">Tags</a>
-    <a href="{{ "/search/index.html" | absolute_url }}">Search</a>
+    <a href="{{ '/about.html' | absolute_url }}" {% if page.url == '/about.html' %}class="active"{% endif %}>About</a>
+    <a href="{{ '/tags/' | absolute_url }}" {% if page.url == '/tags/' %}class="active"{% endif %}>Tags</a>
+    <a href="{{ '/search/' | absolute_url }}" {% if page.url == '/search/' %}class="active"{% endif %}>Search</a>
     <a href="https://github.com/evanwill/_drafts">Github</a>
   </nav>
 <div style="clear:both"></div>
