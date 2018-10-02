@@ -1,12 +1,17 @@
 ---
 # full css
 ---
+/* font base */ 
 @font-face {
   font-family: 'Noto Sans';
-  src:  url('NotoSans-Regular-webfont.woff') format('woff');
+  src:  url('fonts/notosans-regular-webfont.woff') format('woff');
 }
-$base-font: 'Noto Sans', Verdana, Arial, sans-serif;
-$code-font: Menlo, Monaco, monospace;
+@font-face {
+  font-family: 'Source Code Pro';
+  src:  url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+}
+$base-font: 'Noto Sans', Helvetica, Arial, sans-serif;
+$code-font: 'Source Code Pro', Menlo, Monaco, monospace;
 
 $base-font-size: 18px;
 $base-font-size-sm: 14px;
