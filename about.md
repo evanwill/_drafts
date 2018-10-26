@@ -18,22 +18,24 @@ If you re-use some of my content, this jekyll theme, or use it in teaching, plea
 Some of my workshops:
 
 - [get-git](https://evanwill.github.io/get-git/)
-- [hello-arduino](https://evanwill.github.io/hello-arduino/)
-- [clean-your-data](https://evanwill.github.io/clean-your-data/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 - [Fetching and Parsing Data from the Web with OpenRefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
+- [hello-arduino](https://evanwill.github.io/hello-arduino/)
+- [clean-your-data](https://evanwill.github.io/clean-your-data/)
+- [Make OER!](https://evanwill.github.io/make-oer/)
 
 Some of my other projects:
 
 - [#PastyAware](https://evanwill.github.io/pastyAware/)
-- [workshop-template](https://github.com/evanwill/workshop-template)
+- [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh)
+- [workshop-template](https://github.com/evanwill/workshop-template) / [workshop-template-b](https://evanwill.github.io/workshop-template-b/)
 - [basic-book](https://github.com/evanwill/basic-book)
-- [lightning-time](https://evanwill.github.io/lightning-time/)
-- [p5tests](https://evanwill.github.io/p5tests/index.html)
-- [poem choice](https://uidaholib.github.io/poemchoice/)
+- [lightning-time](https://evanwill.github.io/lightning-time/) / [countdown-timer](https://github.com/evanwill/countdown-timer)
 - [poemBot](https://github.com/evanwill/poemBot)
 - [Digital Aladore](https://digitalaladore.wordpress.com/)
-- [pages-collection](https://github.com/uidaholib/pages-collection)
+- [sphere-view](https://evanwill.github.io/sphere-view/)
+- [p5tests](https://evanwill.github.io/p5tests/index.html)
+- [poem choice](https://uidaholib.github.io/poemchoice/)
 
 > Last build date: {{ site.time | date: "%Y-%m-%d" }}
 

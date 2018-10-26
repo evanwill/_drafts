@@ -52,3 +52,8 @@ Here are the steps:
 2. remove all existing image metdata: `exiftool -all= test.jpg`
 3. add the new fake photosphere metadata (be sure to replace the pixel dimensions with the actual size of your image): `exiftool -XMP-GPano:FullPanoHeightPixels="4500" -XMP-GPano:FullPanoWidthPixels="9000" -XMP-GPano:ProjectionType="equirectangular" -XMP-GPano:UsePanoramaViewer="True" test.jpg`
 4. upload to Flickr or other viewer
+
+## Some Other Viewer
+
+Checkout my project [sphere-view](https://evanwill.github.io/sphere-view/) that uses [Pannellum](https://pannellum.org/) photosphere viewer, in a minimal Jekyll template on GitHub Pages.
+You don't actually have to fake the metadata if you use this viewer...
