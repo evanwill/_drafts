@@ -2,7 +2,7 @@
 title: Introduction to Linux!
 layout: post
 tags: [linux, workshop]
-date: 2018-03-26
+date: 2018-11-06
 ---
 
 > Mini workshop:
