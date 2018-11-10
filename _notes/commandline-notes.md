@@ -1,5 +1,5 @@
 ---
-title: Commandline thoughts
+title: Commandline notes
 layout: post
 tags: [shell, linux]
 date: 2018-10-30
@@ -26,3 +26,16 @@ To get around that, use an extra variable.
 To combine the other two commands: 
 
 `for f in *.txt; do NAME="${f#front-}"; mv "$f" "${NAME%-back.txt}.md"; done`
+
+## Combine CSVs
+
+Remove headers and combine all files into one:
+
+`tail -n +1 *.csv > all.csv`
+
+Then, each file will be separated by `==> filename <==`.
+Open in OpenRefine, use separator `==>`, then use `<==` to create filename column.
+
+Or use a loop:
+
+`for f in *.txt; do cat $f; echo "separator"; done > combo.txt`
