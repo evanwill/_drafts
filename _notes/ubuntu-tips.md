@@ -33,11 +33,11 @@ Otherwise, search the Software Center.
 ## Languages
 
 - Python: Ubuntu comes with a system Python version installed. If you want to work with Python, its a good idea to install a more up-to-date version for your user account. I suggest [Anaconda](https://www.continuum.io/downloads), a scientific Python distribution with comes packages with everything you need, including iPython and Jupyter Notebook. Then [set up Jupyter](https://evanwill.github.io/_drafts/notes/dual-python-notebook.html) with Py 2, 3, and R.
-- Java: `default-jre` or `default-jdk`
-- Ruby: it is easiest to use the repository (`ruby-full`), but it is slightly out of date. If you need specific versions, check the [install docs](https://www.ruby-lang.org/en/documentation/installation/).
+- Java: `default-jre` or `default-jdk` (this tends to be up-to-date, some apps may require an old version, search [packages](https://packages.ubuntu.com/search?keywords=jdk&searchon=names&suite=bionic&section=all) for find them).
+- Ruby: probably best to use [RVM](https://rvm.io/) (see [note]({{ '/notes/ruby-notes.html' | relative_url }})), although you can use the repository (`ruby-full`), but it is slightly out of date.
 - Processing3: [download](https://processing.org/download/)
 - Arduino: [download](https://www.arduino.cc/en/Main/Software)
-- NodeJS: [download](https://nodejs.org/en/) or add [ppa](https://nodejs.org/en/download/package-manager/)
+- NodeJS: use [nvm](https://github.com/creationix/nvm) (this seems to be the best method; install nvm, then `nvm install --lts`), or official [NodeSource ppa](https://github.com/nodesource/distributions/blob/master/README.md), or repository version `nodejs` (which maybe a bit behind)
 
 ## Older suggestions for Ubuntu < 17.04 with Unity
 
