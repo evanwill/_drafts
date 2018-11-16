@@ -2,7 +2,7 @@
 title: Introduction to Linux!
 layout: post
 tags: [linux, workshop]
-date: 2018-03-26
+date: 2018-11-06
 ---
 
 > Mini workshop:
@@ -87,10 +87,10 @@ Things to consider:
 Major desktops:
 
 - [GNOME](https://www.gnome.org/). modern, minimalist-style, unique "Activities Overview" (no start menu), [extensions](https://extensions.gnome.org/) add functionality, and themes easily change the look.
-    - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://solus-project.com/)).
+    - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://getsol.us/home/)).
     - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/)).
     - [MATE](https://mate-desktop.org/). traditional, based on an old version of GNOME.
-    - ~~Unity~~. Until version 17.10, Ubuntu shipped with a unique desktop. It is still available in LTS version 16.04, but the future is uncertain.
+    - ~~Unity~~. Until version 17.10, Ubuntu shipped with a unique desktop. It is still available in old LTS version 16.04, but is unlikely to be further developed. However, Ubuntu's GNOME theme emulates the Unity look.
 - [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/)).
 - [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop.
 - [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
@@ -156,7 +156,7 @@ Uses `apt` configuration and `.deb` packages.
     - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop.
     - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop.
     - [Zorin OS](https://zorinos.com/), polished windows replacement.
-    - [Linux Lite](https://www.linuxliteos.com/), focused on easy to use.
+    - [Linux Lite](https://www.linuxliteos.com/), focused on easy to use, windows replace, with Xfce.
     - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com).
     - [Bodhi Linux](https://www.bodhilinux.com/), minimalist, lightweight distro with unique Moksha desktop.
     - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop.
@@ -173,7 +173,7 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
 
 - [Fedora](https://getfedora.org/), open project sponsored by Red Hat with a focus on free-software. Considered fairly cutting edge with two new versions each year, a testing ground for RHEL, yet stable enough for most users. [Fedora Packages](https://apps.fedoraproject.org/packages/).
     - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops.
-    - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to games.
+    - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to music.
     - [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/), very unique kid focused learning platform, packaged to run on a live USB. Learn more at [Sugar Labs](https://www.sugarlabs.org/).
     - ~~[Korora](https://kororaproject.org/)~~, *(development is stalled, sadly many small distros are disappearing)* nice looking beginner friendly.
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
@@ -185,13 +185,13 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
 Germany based enterprise FOSS company.
 Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 
-- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed. Note: openSUSE default install ISO are not live images and can not be used to try without installing. They provide a separate live image, but it is not complete and cannot be used to install. [openSUSE Packages](https://software.opensuse.org/find).
+- [openSUSE](https://www.opensuse.org/), developer focused with a rolling release option, Tumbleweed. *Note: openSUSE default install ISO are not live images and can not be used to try without installing. They provide a separate live image, but it is not complete and cannot be used to install.* [openSUSE Packages](https://software.opensuse.org/find).
     - [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly.
 - [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments.
 
 ### Arch
 
-An independent, community built distro with rolling release following a *K.I.S.S.* and DIY philosophy. 
+An independent, community built family with rolling release following a *K.I.S.S.* and DIY philosophy. 
 Not traditionally user friendly.
 Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/packages/).
 
@@ -203,7 +203,7 @@ Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/
 
 **Independent.** Some distros go it alone. For example:
 
-- [Solus](https://solus-project.com/), up-and-coming independent distro developing Budgie desktop.
+- [Solus](https://getsol.us/home/), up-and-coming independent distro developing Budgie desktop.
 - [Mageia](http://www.mageia.org/en/), France based community focused distro.
 - [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image.
 - [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!
