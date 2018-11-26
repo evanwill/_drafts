@@ -33,25 +33,43 @@ transform with `forEach(value.parseJson().keywords,v,v.text).join("; ")`, result
 ## String + Array functions
 
 A powerful way to interact with large strings (such as the text of poems or web scrape) is to turn them into arrays, then use array functions to manipulate. 
-Create an array from any string by using the `split(value, expression)` function. The expression is the character or pattern you want to split the string up on, often a new line or a deliminator in a list. For example:
+Create an array from any string by using the `split(value, expression)` function. 
+The expression is the character or pattern you want to split the string up on, often a new line or a deliminator in a list. 
+For example, split on a new line:
 
-`split(value, /\n/)`
+`value.split(/\n/)`
 
-Once the cell is an array, it can be rearranged and sliced in many ways with [array functions]((https://github.com/OpenRefine/OpenRefine/wiki/GREL-Array-Functions). Next, reconstitute the string by using `join()` on the array. For example, if we had a list of tags like "dogs; cats; muffins" we could put them in alphabetic order:
+Once the cell is an array, it can be rearranged and sliced in many ways with [array functions]((https://github.com/OpenRefine/OpenRefine/wiki/GREL-Array-Functions).
+Then reconstitute the string by using `join()` on the array. 
 
-`sort(split(value, "; ")).join("; ")`
+For example, if we had a list of tags like "dogs; cats; muffins" as a cell value we could put them in alphabetic order using:
 
-Remove the first line of a poem:
+`value.split("; ").sort().join("; ")`
 
-`slice(split(value, /\n/),1).join("\n")`
+Remove the first item in the list:
 
-Remove the last two lines:
+`value.split("; ").slice(1).join("; ")`
 
-`slice(split(value, /\n/),-2).join("\n")`
+Remove the last item in the list:
+
+`value.split("; ").slice(-1).join("; ")`
 
 Or trim the white space for each value:
 
-`forEach(split(value, /\n/),e,e.trim()).join("\n")`
+`forEach(value.split(";"),e,e.trim()).join(";")`
+
+If you had lines of a poem or text as a cell value you could do the same types of operations.
+For example, remove the first line of a poem:
+
+`value.split(/\n/).slice(1).join("\n")`
+
+Remove the last two lines:
+
+`value.split(/\n/).slice(-2).join("\n")`
+
+Or trim the white space for each value:
+
+`forEach(value.split(/\n/),e,e.trim()).join("\n")`
 
 ## De-dupe
 

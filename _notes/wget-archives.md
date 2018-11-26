@@ -1,7 +1,7 @@
 ---
 title: Wget and Web Archiving 
 layout: post
-tags: [workshop, tools]
+tags: [workshop, tools, library]
 date: 2017-06-07
 ---
 
