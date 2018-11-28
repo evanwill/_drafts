@@ -86,12 +86,16 @@ IPTC metadata has a ~30 character limit.
 If you want to add the same metadata to a large batch of files, it is most efficient to use ExifTool's built in batch processing. 
 For example, adding a wildcard `*` and file extension `.tif` will add the metadata tags to all TIF files in a folder:
 
-`exiftool -Title="Example Collection" -Copyright="Photo courtesy of the Example Collection, University of X." -XMP-dc:Source="Example Collection, SPEC, University of X." *.tif`
+```
+exiftool -Title="Example Collection" -Copyright="Photo courtesy of the Example Collection, University of X." -XMP-dc:Source="Example Collection, SPEC, University of X." *.tif
+```
 
 If each file requires individualized metadata, it is possible to use a Bash loop, although this is much slower.
 For example, this loop uses the file name (assumed to be based on an identifier) to add an identifier to the metadata:
 
-`for f in *.tif; do exiftool -Title="Example Collection ${f%.tif}" -Copyright="Photo courtesy of the Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" -XMP-dc:Source="Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" "$f"; done`
+```
+for f in *.tif; do exiftool -Title="Example Collection ${f%.tif}" -Copyright="Photo courtesy of the Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" -XMP-dc:Source="Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" "$f"; done
+```
 
 ## Guidelines for Digitized materials
 
