@@ -1,7 +1,7 @@
 ---
 title: CSS Animation
 layout: post
-tags: [web, css]
+tags: [web, css, fun]
 date: 2017-03-08
 ---
 

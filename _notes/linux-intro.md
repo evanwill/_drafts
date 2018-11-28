@@ -204,6 +204,7 @@ Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/
 **Independent.** Some distros go it alone. For example:
 
 - [Solus](https://getsol.us/home/), up-and-coming independent distro developing Budgie desktop.
+- [Qubes OS](https://www.qubes-os.org/), personal security focused distro with unique architecture that isolates all software in separate VM-like containers.
 - [Mageia](http://www.mageia.org/en/), France based community focused distro.
 - [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image.
 - [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!

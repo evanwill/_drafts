@@ -13,7 +13,7 @@ Truthfully, nothing else works reliably.
 ExifTool is a [Perl](https://www.perl.org/) library and commandline tool.
 Check the [install docs](https://sno.phy.queensu.ca/~phil/exiftool/install.html) for full information, but basically on Windows use the "stand-alone executable", Mac use the "MacOS package", and on Linux use your distro repository.
 
-Windows:
+**Windows:**
 
 - Download the "stand-alone Windows Executable" from the [ExifTool](https://sno.phy.queensu.ca/~phil/exiftool/) page (this will be a `.zip` file e.g. "exiftool-11.20.zip").
 - Unzip the downloaded file.
@@ -22,7 +22,7 @@ Windows:
     - If you use Git Bash, find your Git Bash root directory by typing `cd /` then `pwd -W`. In your Git Bash root, copy `exiftool.exe` into the `bin` folder (see [my note on adding stuff to Git Bash](https://evanwill.github.io/_drafts/notes/gitbash-windows.html) for more detail). ExifTool will only be available on Git Bash, but this install method does not require admin access and I would suggest only using Git Bash with it anyway.
     - Alternatively, you can copy `exiftool.exe` into a directory on the Window's PATH, i.e. `C:\Windows`. ExifTool will be available on CMD and GitBash.
 
-Linux:
+**Linux:**
 
 - install ExifTool as the Perl library, e.g. `sudo apt install libimage-exiftool-perl`.
 
@@ -37,7 +37,7 @@ The most basic command is to read all metadata:
 
 `exiftool test.jpg`
 
-From there add Options and/or Tags to the command. 
+From there add *Options* and/or *Tags* to the command. 
 
 **Options** typically change the tool's output. 
 Option examples: 
@@ -94,7 +94,7 @@ If each file requires individualized metadata, it is possible to use a Bash loop
 For example, this loop uses the file name (assumed to be based on an identifier) to add an identifier to the metadata:
 
 ```
-for f in *.tif; do exiftool -Title="Example Collection ${f%.tif}" -Copyright="Photo courtesy of the Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" -XMP-dc:Source="Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" "$f"; done
+for f in *.tif; do exiftool -Title="Example Collection, ${f%.tif}" -Copyright="Photo courtesy of the Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" -XMP-dc:Source="Example Collection, catalog nos. ${f%.tif}, SPEC, University of X" "$f"; done
 ```
 
 ## Guidelines for Digitized materials
