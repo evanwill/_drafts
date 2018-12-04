@@ -18,6 +18,13 @@ To Sync your fork from the original repository is two steps:
     - `git merge upstream/master`
     - You're up-to-date locally, then update your fork, `git push`
 
+This is possible using GitHub Desktop:
+
+1. Click current branch button
+2. At bottom click "choose branch to merge with master"
+3. Click "upstream/master"
+4. Click "Merge upstream/master"
+
 There is also a weird work around to do it via the GitHub web interface:
 
 1. Go to the original repository (not your fork).
