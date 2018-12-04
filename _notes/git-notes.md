@@ -18,6 +18,15 @@ To Sync your fork from the original repository is two steps:
     - `git merge upstream/master`
     - You're up-to-date locally, then update your fork, `git push`
 
+There is also a weird work around to do it via the GitHub web interface:
+
+1. Go to the original repository (not your fork).
+2. Click on "New pull request"
+3. On "compare changes" page, click the little text that says "compare across forks".
+4. Select your fork from the "base fork" drop down (this means you are pulling code from the original and sending it to your fork), if all is good it will say "Able to merge"
+5. Add a PR message and click green "Create pull request" button.
+6. Your fork now has a PR, click "Merge pull request" to complete.
+
 ## Remote branches 
 
 It is a bit confusing that branches are only local by default.
