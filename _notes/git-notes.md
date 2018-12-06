@@ -7,32 +7,18 @@ date: 2017-06-01
 
 ##  Sync fork
 
-To Sync your fork from the original repository is two steps:
+To sync your fork from the original repository is two steps:
 
 1. [Setup the upstream remote](https://help.github.com/articles/configuring-a-remote-for-a-fork/) (only have to do this one time)
     - check current config: `git remote -v`
-    - add upstream remote: `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
+    - add upstream remote (use the clone link from the original repo): `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
 2. [Sync fork](https://help.github.com/articles/syncing-a-fork/)
     - `git fetch upstream`
     - `git checkout master`
     - `git merge upstream/master`
-    - You're up-to-date locally, then update your fork, `git push`
+    - You're up-to-date locally, then update your fork on github, `git push`
 
-This is possible using GitHub Desktop:
-
-1. Click current branch button
-2. At bottom click "choose branch to merge with master"
-3. Click "upstream/master"
-4. Click "Merge upstream/master"
-
-There is also a weird work around to do it via the GitHub web interface:
-
-1. Go to the original repository (not your fork).
-2. Click on "New pull request"
-3. On "compare changes" page, click the little text that says "compare across forks".
-4. Select your fork from the "base fork" drop down (this means you are pulling code from the original and sending it to your fork), if all is good it will say "Able to merge"
-5. Add a PR message and click green "Create pull request" button.
-6. Your fork now has a PR, click "Merge pull request" to complete.
+(see also [update github fork](https://evanwill.github.io/_drafts/notes/git-update-fork.html))
 
 ## Remote branches 
 
