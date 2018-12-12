@@ -56,8 +56,10 @@ However, the variable is picky about the exact name used, so check against the o
 The command looks like:
 
 ```
-pandoc --latex-engine=xelatex -V geometry=margin=1.25in -V mainfont="Noto Sans" -o output.pdf input.md
+pandoc --pdf-engine=xelatex -V geometry=margin=1.25in -V mainfont="Noto Sans" -o output.pdf input.md
 ```
+
+> Note: older versions of Pandoc use `--latex-engine` instead of `--pdf-engine`
 
 You can also use the pdfLaTex engine, which requires specifically prepared LaTex fonts (usually stored with a `.sty` extension).
 Preparing and using the fonts requires a bit of LaTex savvy (in theory you can use lots of cool fonts, [FontCatalogue](http://www.tug.dk/FontCatalogue/)).
