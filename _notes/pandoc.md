@@ -70,5 +70,20 @@ The command looks like:
 pandoc --latex-engine=pdflatex -V fontfamily="electrum" -V geometry=margin=1.25in -o output.pdf input.md
 ```
 
+Font size can be controlled using `-V fontsize=12pt`, however, the default template only supports sizes 10, 11, or 12. 
+More sizes are supported using the extsize package (8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt) which can be used by adding `-V documentclass=extarticle` plus the desired fontsize (if extsize is not installed, your LaTeX distribution should automatically fetch it).
+
+Now we are getting a lot of commandline arguments to keep track of... 
+You can simplify by declaring the LaTeX options as YAML metadata at the top of the document instead. 
+For example: 
+
+```
+---
+documentclass: extarticle
+mainfont: Noto Sans
+fontsize: 14pt
+---
+```
+
 For my basic purposes, that is plenty of control, but of course you can go much further by learning more about LaTex.
 Check [danstoner](https://github.com/danstoner/pandoc_samples) for samples of PDF creation, [Practical Typography](http://practicaltypography.com/system-fonts.html) for system font suggestions, and the [Pandoc User Guide](http://pandoc.org/MANUAL.html) for more info.
