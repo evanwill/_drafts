@@ -2,7 +2,7 @@
 title: Pandoc for PDFs
 layout: post
 tags: [dh, md, tools]
-date: 2017-07-05
+date: 2018-09-05
 ---
 
 [Pandoc](http://pandoc.org/), the "universal document converter", is a command line utility to convert between countless file types.
@@ -59,7 +59,7 @@ The command looks like:
 pandoc --pdf-engine=xelatex -V geometry=margin=1.25in -V mainfont="Noto Sans" -o output.pdf input.md
 ```
 
-> Note: older versions of Pandoc use `--latex-engine` instead of `--pdf-engine`
+> Note: older versions of Pandoc use `--latex-engine` instead of `--pdf-engine`, which is likely if you installed Pandoc from a distro repository.
 
 You can also use the pdfLaTex engine, which requires specifically prepared LaTex fonts (usually stored with a `.sty` extension).
 Preparing and using the fonts requires a bit of LaTex savvy (in theory you can use lots of cool fonts, [FontCatalogue](http://www.tug.dk/FontCatalogue/)).

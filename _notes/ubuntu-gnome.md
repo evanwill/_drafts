@@ -2,21 +2,21 @@
 title: GNOME on Ubuntu
 layout: post
 tags: [linux]
-date: 2018-06-02
+date: 2018-09-02
 ---
 
 Starting with 17.10+ Ubuntu ships with [GNOME](https://www.gnome.org/) desktop rather than Unity.
-There are many good reasons for this, but for those of us who actually liked Unity, there is new stuff to get used to.
+Here are some notes to start customizing:
 
 ## Start Tweaking
 
 When you first install, there are a few things to do right away to get Gnome on Ubuntu looking better.
 First, remove the junk from the dock, i.e. Amazon, by right clicking and selecting "remove from favorites" (to uninstall Amazon, open Ubuntu Software and look on the Installed tab). 
-Add good stuff to the dock as you open it, by right clicking the dock icon and "add to favorites".
+Add good stuff to the dock as you open it, by right clicking the dock icon and selecting "add to favorites".
 
 Then head to Settings to get the desktop looking better.
 
-- Settings > Dock, make the icons smaller (the default seems to take up way too much space).
+- Settings > Dock, make the icons smaller (the default seems to take up way too much space). This is the configurations for Ubuntu's customized version of the popular extension [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/).
 - Settings > Background to get your wallpaper set.
 - Settings > Devices > Display to set up your monitor and turn on Night Light if you want a red shift in the evening.
 - Settings > Bluetooth, turn bluetooth off if you don't use it, since it is a security risk.
@@ -34,10 +34,10 @@ There is a whole [universe of themes](https://www.gnome-look.org/) out there, bu
 `sudo apt install arc-theme numix-gtk-theme numix-blue-gtk-theme materia-gtk-theme numix-icon-theme papirus-icon-theme moka-icon-theme faba-icon-theme elementary-icon-theme pocillo-icon-theme`
 
 Other themes can be installed via PPA or manually. 
-I like [Pop theme](https://github.com/pop-os/gtk-theme) (instructions in the middle of the readme).
+I like [Pop theme](https://github.com/pop-os/gtk-theme) (see instructions in the middle of the readme).
 
-You can also try out Ubuntu's new theme in development, Communitheme.
-It is a little different, you install as a snap app `snap install communitheme`, then choose it as a session when you log in.
+Ubuntu 18.10+ ships with a new theme [Yaru](https://github.com/ubuntu/yaru) (formerly known as "communitheme"). 
+You can also try it out in 18.04 by installing it as a snap app, `snap install communitheme`, then choose it as a session when you log in (click the little cog next to the password box).
 
 ## Get Extensions 
 
@@ -46,31 +46,35 @@ These range from new themes to menus to info widgets.
 
 First, install the Extensions browser plugin for [Firefox](https://addons.mozilla.org/en/firefox/addon/gnome-shell-integration/) or [Chromium](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep).
 Then, install the helper `sudo apt install chrome-gnome-shell` on your system (works for all browsers).
-Now, you can install and manage everything from your browser by visiting the [GNOME Extensions page](https://extensions.gnome.org/).
+Now, you can install, manage, and configure everything from your browser by visiting the [GNOME Extensions page](https://extensions.gnome.org/).
 Configuration can also be done in Tweak tool > Extensions.
 
 For example, add useful utilities:
 
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/), disable screen lock to watch movies--I consider this an essential, and the app version used in other Ubuntu versions will not work with Gnome.
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
+- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/), saves history of clipboard.
+- [NetSpeed](https://extensions.gnome.org/extension/104/netspeed/), displays internet connection stats in top bar.
 
 Or completely change the desktop functionality:
 
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/), a customized version of this extension ships with Ubuntu to create the Unity-like dock on the left side of the desktop--you can uninstall the Ubuntu version and add the vanilla extension if you want.
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/), puts dash into the top/bottom bar, sort of like windows 10.
-- [Arc Menu](https://github.com/LinxGem33/Arc-Menu), replaces "show applications" with a more traditional drop down menu organized into categories.
+- [Arc Menu](https://github.com/LinxGem33/Arc-Menu), replaces "show applications" with a more traditional drop down menu organized into categories. Similarly, [Gno-Menu](https://extensions.gnome.org/extension/608/gnomenu/) adds a "menu" option to the top bar with a comprehensive apps menu.
 - [gTile](https://extensions.gnome.org/extension/28/gtile/), add a button to resize windows based on a grid, something like a basic tiling window manager (that you manually adjust). 
 
 ## Organize Apps
 
 The main application launcher has an icon for every installed app.
-To help organize this list, you can group items together using GNOME/Ubuntu Software, it's just not very obvious how to do it...
+To help organize this list, you can group items together using GNOME/Ubuntu Software, it's just not very obvious how to do it (in fact people often think it is impossible)...
 
 Open Software, click on Installed tab, then on the check mark at the upper right corner.
 Now click the box next to each app you want to add to a folder.
 Once the group is checked off, click the "Add to Folder" button at the bottom left. 
 In the pop up, click on the folder you want to add them too, or click the "+" to create a new folder.
 Finally, click "Add" to finish creating the new group.
+
+This process can be simplified using the [Appfolders Management](https://extensions.gnome.org/extension/1217/appfolders-manager/) extension, which adds folder options when you right click on the application menu.
 
 ## New Apps
 
@@ -96,7 +100,7 @@ Here are a few I like:
 ## Issues with snap apps and themes
 
 A few of the standard applications that ship with 18.04 are now snap apps, rather than traditionally installed software.
-There seems to be a bug with them when you are using a non-default theme, and they either won't open or just look usably terrible. 
+There seems to be a bug with them when you are using a non-default theme, and they either won't open or just look unusably terrible. 
 This is *really* frustrating. 
 So uninstall the snaps and reinstall the traditional app. 
 
