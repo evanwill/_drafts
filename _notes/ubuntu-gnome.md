@@ -60,7 +60,7 @@ Or completely change the desktop functionality:
 
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/), a customized version of this extension ships with Ubuntu to create the Unity-like dock on the left side of the desktop--you can uninstall the Ubuntu version and add the vanilla extension if you want.
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/), puts dash into the top/bottom bar, sort of like windows 10.
-- [Arc Menu](https://github.com/LinxGem33/Arc-Menu), replaces "show applications" with a more traditional drop down menu organized into categories. Similarly, [Gno-Menu](https://extensions.gnome.org/extension/608/gnomenu/) adds a "menu" option to the top bar with a comprehensive apps menu.
+- [Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/), replaces "show applications" with a more traditional drop down menu organized into categories. Similarly, [Gno-Menu](https://extensions.gnome.org/extension/608/gnomenu/) adds a "menu" option to the top bar with a comprehensive apps menu.
 - [gTile](https://extensions.gnome.org/extension/28/gtile/), add a button to resize windows based on a grid, something like a basic tiling window manager (that you manually adjust). 
 
 ## Organize Apps
