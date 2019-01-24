@@ -2,38 +2,47 @@
 title: Setup Jupyter with Py 2, 3, and R
 layout: post
 tags: [python, R]
-date: 2017-04-06
+date: 2019-01-06
 ---
 
 [Jupyter Notebook](http://jupyter.org/) is a great tool for teaching code and exploratory, iterative coding.
-It was originally developed for [Python](www.python.org), but it now supports a variety of [kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels). 
-Notebook becomes even more useful with both Python 2 and 3 installed (keep in mind [Python 3 is current, 2 is legacy](https://wiki.python.org/moin/Python2orPython3)). 
+It was originally developed for [Python](https://www.python.org), but it now supports [kernels for many languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+With multiple kernels installed, you will be given a choice to launch notebooks using any of those languages.
+Thus, Notebook becomes even more useful with both Python 2 and 3 installed (keep in mind [Python 3 is current, 2 is legacy](https://wiki.python.org/moin/Python2orPython3)). 
 And you may as well add [R](https://www.r-project.org/) while you're at it!
 
 ## 1. Install Jupyter via Anaconda
 
-First, [Jupyter project](http://jupyter.org/install.html) and I suggest you install Python 3 via the [Anaconda](https://www.continuum.io/downloads) distribution. 
-Conda gives you a huge package of scientific Python libraries pre-installed, plus some very handy management and virtual environment tools. 
-Once you install [Anaconda Python 3](https://www.continuum.io/downloads), you automagically have Jupyter with the IPython3 kernel ready to go. 
+First, [Jupyter project](http://jupyter.org/install.html) and I suggest you install Python 3 via the [Anaconda](https://www.anaconda.com/download/) distribution. 
+Anaconda gives you a [huge package](https://docs.anaconda.com/anaconda/packages/pkg-docs/) of scientific Python libraries pre-installed, plus `conda`, a very handy management and virtual environment tool (also comes with [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) GUI, which is kind of annoying, and [Spyder IDE](https://www.spyder-ide.org/)). 
+Once you install Anaconda Python 3, you automagically have Jupyter with the IPython3 kernel ready to go. 
 
-If you already have Anaconda installed, be sure to update before adding the additional kernels, using `conda update conda`.
+- Download latest version of [Anaconda Python 3](https://www.anaconda.com/download/) 
+- Run [installer](http://docs.anaconda.com/anaconda/install/), but be sure to say yes to "add Anaconda to my PATH".
+
+If you already have Anaconda installed, be sure to update before adding the additional kernels. 
+Anaconda can be completely upgraded using `conda update conda`, then `conda update anaconda`.
 
 ## 2. Add Python 2 kernel to Jupyter
 
-Second, add the Python 2 kernel using a [virtual environment](https://conda.io/docs/using/envs.html):
+Second, add the Python 2 kernel using a [virtual environment](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-envs):
 
-1. open a terminal and create a new Python 2 environment: `conda create -n py27 python=2.7`
+1. open a terminal and create a new Python 2 environment: `conda create -n py27 python=2.7`. This will take a minute to install the Python 2 dependency.
 2. activate the environment: linux `source activate py27` or windows `activate py27`
-3. install the kernel in the env: `conda install notebook ipykernel`
-4. install the kernel for outside the env: `ipython kernel install --user`
-5. close the env: `source deactivate`
+3. install the kernel in the env: `conda install ipykernel`
+4. close the env: `source deactivate`
 
 ## 3. Add R kernel to Jupyter 
 
-Third, we add [R via Conda](https://docs.continuum.io/anaconda/r_language). 
-Conda R-essentials includes a bunch of popular R packages, including the Notebook IRKernel.
+Third, add [R via Conda](https://docs.anaconda.com/anaconda/user-guide/tasks/use-r-language/). 
+Conda [R-essentials](https://docs.anaconda.com/anaconda/packages/r-language-pkg-docs/) package includes a bunch of popular R packages, including the Notebook IRKernel.
 
-Simply open a terminal and install R and R-essentials: `conda install -c r r-essentials`
+> Note: Anaconda gives you the choice of using [MRO](https://mran.microsoft.com/open) or normal [R](https://www.r-project.org/). Use conda packages `mro-base` or `r` respectively.
+
+If you want R to be generally available, simply open a terminal and install R, R-essentials, and RStudio (optional, [more notes](https://evanwill.github.io/_drafts/notes/r-linux.html)): `conda install -c r r-essentials rstudio`
+
+If you would rather keep R in a environment, open a terminal and create a new R env: `conda create -n mro_env r-essentials mro-base`.
+The R installed in this env will be available to Jupyter Notebook.
 
 ## Start Notebook
 
@@ -49,7 +58,7 @@ To shut down Jupyter, close the browser window, then `Ctrl + C` in the terminal 
 ## Add more Jupyter stuff
 
 Conda has a few other addons available for Jupyter.
-Check the [documentation](https://docs.continuum.io/anaconda/jupyter-notebook-extensions) to learn more.
+Check the [extension documentation](https://docs.anaconda.com/anaconda/user-guide/tasks/use-jupyter-notebook-extensions/) to learn more.
 
 ## Other notebooks
 
@@ -57,7 +66,7 @@ Notebooks are gaining attention for integrating code and publication, opening po
 
 - [SageMath](http://www.sagemath.org/) (math focused notebook platform, an "open source alternative to Magma, Maple, Mathematica, and MATLAB". A solid project that has been around for awhile, but hasn't gained much popularity.)
 - [Apache Zepplin](https://zeppelin.apache.org/) (Java based notebook particularly useful for dashboards and Spark cluster integration, i.e. big data)
-- [Beaker notebook](http://beakernotebook.com/) (newish project, multiple languages in a single notebook)
+- [Beaker notebook](http://beakerx.com/) (newish project recently converted into an extension of Jupyter allowing multiple languages in a single notebook and other enhancements. Can be installed via `conda )
 
 ## Issues on Linux
 

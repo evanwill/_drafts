@@ -1,5 +1,5 @@
 ---
-title: RStudio on Linux
+title: R and RStudio on Linux
 layout: post
 tags: [R, linux]
 date: 2018-04-03
@@ -24,6 +24,8 @@ Conda can also install and manage R on your system, which is nice since it makes
 You can now start RStudio by typing `rstudio` in the terminal (it will not show up in your applications), or start an R prompt by typing `R`. 
 As a bonus, `r-essentials` automatically installs the IRKernel is that can be used in Jupyter Notebook. 
 When you start Jupyter (`jupyter notebook`), R is available in the options to create a new notebook.
+
+> Anaconda gives you the choice of using [MRO](https://mran.microsoft.com/open) or normal [R](https://www.r-project.org/). Use conda packages `mro-base` or `r` respectively.
 
 **Note:**
 When installing on Fedora I have run into issues where some applications no longer work because they are trying to use Anaconda rather than the default system Python (I haven't had this happen on Ubuntu).
