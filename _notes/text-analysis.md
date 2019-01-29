@@ -48,8 +48,8 @@ NLP
 Topic Modeling
 - Megan R. Brett, ["Topic Modeling: A Basic Introduction" (2012)](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
 - [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) (Programming Historian [MALLET lesson](http://programminghistorian.org/lessons/topic-modeling-and-mallet))
-- [Topic Modeling Tool](https://code.google.com/archive/p/topic-modeling-tool/)  (simple visual way to use part of MALLET)
-    - example classroom projects: Sherlock Holmes's London [prep](https://sherlockholmeslondondh.wordpress.com/2015/03/23/topic-modeling-assignment/) and [analysis](https://sherlockholmeslondondh.wordpress.com/2015/03/27/topic-modeling-part-2-graphing-the-results/); Posner [basic strategies](http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/).
+- [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool)  (simple visual way to use part of MALLET)
+    - example classroom projects: Sherlock Holmes's London [prep](https://sherlockholmeslondondh.wordpress.com/2015/03/23/topic-modeling-assignment/) and [analysis](https://sherlockholmeslondondh.wordpress.com/2015/03/27/topic-modeling-part-2-graphing-the-results/); Posner [basic strategies](http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/) and [tmt_get_started](https://github.com/miriamposner/tmt_get_started).
 
 Overview Docs (online tool designed for journalists to sort through huge data sets)
 - [Overview web app](https://www.overviewdocs.com/)
