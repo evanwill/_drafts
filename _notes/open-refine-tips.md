@@ -95,12 +95,12 @@ For example, if you had "12345", "123456", "1234567", and wanted them all to be 
 
 <https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory>
 
-## Linux install problems with Java version not found 
+## Linux issue with Java version not found (V<3.0)
 
-If you have an up-to-date version of Java installed on linux (`openjdk-11-jre`), starting Refine with `./refine` will throw an error saying you don't have Java installed or need to set `$JAVA_HOME`.
-The message is false, there is a bug in `./refine` where it checks for older versions of Java as "up-to-date" and was not future proofed. 
+If you have an up-to-date version of Java installed on linux (`openjdk-11-jre`), starting Refine V<3.0 with `./refine` will throw an error saying you don't have Java installed or need to set `$JAVA_HOME`.
+The message is false (no matter how much you mess with `$JAVA_HOME` it won't work!), there is a bug in `./refine` where it checks for older versions of Java as "up-to-date" and was not future proofed. 
 
-To fix the bug, you can try a newer version of Refine (should be fixed in 3.0+), or just grab the updated `./refine` file and manually replace your faulty one: 
+To fix the bug, you can try a newer version of Refine (it is fixed in 3.0+), or just grab the updated `./refine` file and manually replace your faulty one: 
 
 - in your openrefine directory (e.g. `openrefine-2.8/`), delete `refine`.
 - Go to this [updated version](https://github.com/OpenRefine/OpenRefine/blob/5f9777ffae1568165da8df006e5d7465d91f4b78/refine), click "Raw", save as "refine" in the openrefine directory.

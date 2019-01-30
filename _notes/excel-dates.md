@@ -1,12 +1,12 @@
 ---
 title: Dates in Excel
 layout: post
-tags: [data, windows]
+tags: [data, windows, openrefine]
 date: 2017-09-05
 ---
 
 Excel will mess up your dates.
-Assuming you want to use your data outside of Excel, it is best to avoid allowing it to convert them to it's built in format, so import as "text" and set the column type to "text" to avoid issues. 
+Assuming you want to use your data outside of Excel, it is best to avoid allowing it to convert them to its built in format, so import as "text" and set the column type to "text" to avoid issues. 
 
 Excel uses the 1900 date system (sometimes called numeric dates, serial dates, or 1900 system). 
 It simply counts the number of days since 1900. 
