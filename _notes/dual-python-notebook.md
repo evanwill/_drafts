@@ -5,8 +5,11 @@ tags: [python, R]
 date: 2019-01-06
 ---
 
-[Jupyter Notebook](http://jupyter.org/) is a great tool for teaching code and exploratory, iterative coding.
-It was originally developed for [Python](https://www.python.org), but it now supports [kernels for many languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+[Jupyter](http://jupyter.org/) / Jupyter Notebook is a great tool for teaching code and exploratory, iterative coding.
+
+You can quickly demo it online at [Try Jupyter](https://jupyter.org/try)!
+
+Jupyter was originally developed for [Python](https://www.python.org), but it now supports [kernels for many languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
 With multiple kernels installed, you will be given a choice to launch notebooks using any of those languages.
 Thus, Notebook becomes even more useful with both Python 2 and 3 installed (keep in mind [Python 3 is current, 2 is legacy](https://wiki.python.org/moin/Python2orPython3)). 
 And you may as well add [R](https://www.r-project.org/) while you're at it!
@@ -64,8 +67,18 @@ Check the [extension documentation](https://docs.anaconda.com/anaconda/user-guid
 
 ## Sharing on the web
 
-- [nbviewer](https://nbviewer.jupyter.org/) (easy way to share a static rendered verison of a notebook from GitHub)
-- [binder](https://mybinder.org/) (open a GitHub repo of notebooks in a temporary executable environment)
+- [nbviewer](https://nbviewer.jupyter.org/) (easy way to share a static rendered version of a notebook from GitHub)
+- [binder](https://mybinder.org/) (open a GitHub repo of notebooks in a temporary executable environment, [docs](https://mybinder.readthedocs.io/en/latest/))
+
+## JupyterLab
+
+[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) is the next generation of Notebook that has been rolling out since about Feb 2018 ([news](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)).
+Designed as a more complete IDE-like environment, Lab still fully supports notebooks, but provides more advanced features.
+If you installed Anaconda, you already have Lab ready to go, and all your environments will be available.
+
+Open a terminal and type `jupyter lab` to start it up.
+
+> JupyterLab is actually available when you run `jupyter notebook` too, from the base url, something like `http://localhost:8888/tree`, replace the directory with `/lab`.
 
 ## Other Notebooks
 
