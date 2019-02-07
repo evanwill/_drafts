@@ -55,18 +55,34 @@ Pretty handy for teaching and learning!
 
 To shut down Jupyter, close the browser window, then `Ctrl + C` in the terminal host.
 
-## Add more Jupyter stuff
+## Extensions
 
 Conda has a few other addons available for Jupyter.
 Check the [extension documentation](https://docs.anaconda.com/anaconda/user-guide/tasks/use-jupyter-notebook-extensions/) to learn more.
 
-## Other notebooks
+- [BeakerX](http://beakerx.com/) (newish project recently converted into an extension of Jupyter allowing multiple languages in a single notebook and other enhancements. Can be installed via `conda`)
+
+## Sharing on the web
+
+- [nbviewer](https://nbviewer.jupyter.org/) (easy way to share a static rendered verison of a notebook from GitHub)
+- [binder](https://mybinder.org/) (open a GitHub repo of notebooks in a temporary executable environment)
+
+## Other Notebooks
 
 Notebooks are gaining attention for integrating code and publication, opening possibilities for interactive sharing and visualization. 
 
-- [SageMath](http://www.sagemath.org/) (math focused notebook platform, an "open source alternative to Magma, Maple, Mathematica, and MATLAB". A solid project that has been around for awhile, but hasn't gained much popularity.)
+- [SageMath](http://www.sagemath.org/) (math focused notebook platform, an "open source alternative to Magma, Maple, Mathematica, and MATLAB". A solid project that has been around fsince 2005, but hasn't gained much popularity.)
 - [Apache Zepplin](https://zeppelin.apache.org/) (Java based notebook particularly useful for dashboards and Spark cluster integration, i.e. big data)
-- [Beaker notebook](http://beakerx.com/) (newish project recently converted into an extension of Jupyter allowing multiple languages in a single notebook and other enhancements. Can be installed via `conda )
+
+Others are running in the cloud to lower barriers to getting started and promote reproducibility:
+
+- [Colaboratory](https://colab.research.google.com/) (Jupyter environment hosted by Google designed to run TensorFlow without installing anything, with your notebooks stored in Google Drive)
+- [Observable](https://beta.observablehq.com/) (JavaScript based data visualization for the web)
+- [Code Ocean](https://codeocean.com/) (a variety of notebooks and IDE available)
+- [COCALC](https://cocalc.com/) (was SageMath Cloud, now has Jupyter Notebook with lots of kernels, a LaTeX editor, and more)
+- [Iodide](https://github.com/iodide-project/iodide) (web focused notebook, in alpha development)
+- [Stencila](https://stenci.la/) (word processor + spreadsheet + code)
+- [Azure Notebooks](https://notebooks.azure.com/)
 
 ## Issues on Linux
 
