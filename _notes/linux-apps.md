@@ -26,7 +26,7 @@ Install `.deb` via commandline using `sudo dpkg -i package-name.deb`, and remove
 - Rip DVDs: `handbrake` (note: the version in the repository is out-of-date, check the official [handbrake site](https://handbrake.fr/) for instructions to install the latest)
 - Flickr uploader: `frogr`
 - Ebook manager: Calibre, if you have ebooks, this helps you manage them and connect with reading devices. It also has great built in editing and conversion tools.
-- Burn SD/USB images: [Etcher](https://etcher.io/)
+- Burn SD/USB images: [Etcher](https://www.balena.io/etcher/)
 - Firewall: `ufw` or `gufw`
 - `caffeine` keeps screen awake during movies
 - `virtualbox` VM manager, also if you ever need windows for some reason, get a legal [windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)

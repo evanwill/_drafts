@@ -80,7 +80,7 @@ Be sure to get media that is bigger than the image you want to burn!
 
 ## 3. Get Etcher
 
-[Download Etcher](https://etcher.io/) for your system, and extract the `.zip` file (you should get a single `.AppImage` file on Linux or an `.exe` on windows).
+[Download Etcher](https://www.balena.io/etcher/) for your system, and extract the `.zip` file (you should get a single `.AppImage` file on Linux or an `.exe` on windows).
 
 Why Etcher and not the million other options out there? 
 
