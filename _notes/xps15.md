@@ -23,7 +23,7 @@ There is a few [differences from Ubuntu](https://pop.system76.com/docs/differenc
 5. Enter BIOS:
     - turn off Secure Boot (this is necessary for the NVIDIA drivers, and eventually if you want to use virtual machines)
     - Settings > General > Advanced Boot Option, select "enable legacy option ROMS"
-    - SATA Operation, select "AHCI" (you need to turn "RAID" mode off because it is not supported by Linux, because its not worth while...)
+    - SATA Operation, select "AHCI" (you need to turn "RAID" mode off because it is not supported by Linux, because its not worth while... If you are dual booting, check the steps on the windows side before doing this)
 6. Save and exit BIOS
 7. Reboot and hit F12 as it boots to enter boot option menu
 8. Choose the first USB boot option
