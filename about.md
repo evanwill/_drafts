@@ -17,22 +17,24 @@ If you re-use some of my content, this jekyll theme, or use it in teaching, plea
 
 Some of my workshops:
 
-- [get-git](https://evanwill.github.io/get-git/)
+- [Get Git](https://evanwill.github.io/get-git/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 - [Fetching and Parsing Data from the Web with OpenRefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
-- [hello-arduino](https://evanwill.github.io/hello-arduino/)
-- [clean-your-data](https://evanwill.github.io/clean-your-data/)
+- [Hey API!](https://evanwill.github.io/hey-api/)
+- [Hello Arduino!](https://evanwill.github.io/hello-arduino/)
+- [Clean Your Data: Getting Started with OpenRefine](https://evanwill.github.io/clean-your-data/)
 - [Make OER!](https://evanwill.github.io/make-oer/)
 
 Some of my other projects:
 
 - [#PastyAware](https://evanwill.github.io/pastyAware/)
 - [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh)
+- [Lib-STATIC](https://lib-static.github.io/)
+- [poemBot](https://github.com/evanwill/poemBot)
 - [workshop-template](https://github.com/evanwill/workshop-template) / [workshop-template-b](https://evanwill.github.io/workshop-template-b/)
 - [basic-book](https://github.com/evanwill/basic-book)
-- [lightning-time](https://evanwill.github.io/lightning-time/) / [countdown-timer](https://github.com/evanwill/countdown-timer)
-- [poemBot](https://github.com/evanwill/poemBot)
-- [Digital Aladore](https://digitalaladore.wordpress.com/)
+- [Digital Aladore](https://digitalaladore.wordpress.com/) / [aladore-book](https://evanwill.github.io/aladore-book/)
+- [countdown-timer](https://github.com/evanwill/countdown-timer)
 - [sphere-view](https://evanwill.github.io/sphere-view/)
 - [p5tests](https://evanwill.github.io/p5tests/index.html)
 - [poem choice](https://uidaholib.github.io/poemchoice/)
