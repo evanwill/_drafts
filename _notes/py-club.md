@@ -5,16 +5,15 @@ tags: [workshop, python]
 date: 2019-04-18
 ---
 
-> Mini workshop
+> Mini workshop.
 
 1. Intro
 2. Survey 
 3. Discuss 
 
-# Conda 
+## Conda 
 
-Package + environment management for Python (but can be used for other languages).
-[conda docs](https://conda.io/en/latest/)
+Package + environment management for Python (but can be used for other languages), [conda docs](https://conda.io/en/latest/).
 
 Version and updates: 
 
@@ -30,7 +29,7 @@ Packages:
 
 Keep in mind if you install something without using `conda` (i.e. pip), conda can't update it.
 
-# Environments 
+## Environments 
 
 - `conda create -n testenv`
 - `conda env list`
@@ -43,7 +42,7 @@ Share:
 - `conda env export --name myenv > myenv.yml`
 - `conda env create --file myenv.yml`
 
-# Installing kernels
+## Installing kernels
 
 Python 2:
 
@@ -66,7 +65,7 @@ Julia:
 
 [Kernels list](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
-# Navigator 
+## Navigator 
 
 Anaconda Navigator is a GUI app to manage conda and install stuff...
 
@@ -77,7 +76,7 @@ Anaconda Navigator is a GUI app to manage conda and install stuff...
 - links to learning resources 
 - launch apps in the correct environment
 
-# JupyterLab 
+## JupyterLab 
 
 - It's the future and it's ready, [news](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906), [blog](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
 - If you have an up-to-date Anaconda install, it's already installed
@@ -90,7 +89,7 @@ Anaconda Navigator is a GUI app to manage conda and install stuff...
 - `conda install nb_conda`
 - `jupyter lab`
 
-# Sharing notebooks 
+## Sharing notebooks 
 
 - [nbviewer](https://nbviewer.jupyter.org/) (easy way to share a static rendered version of a notebook from GitHub)
 - [binder](https://mybinder.org/) (open a GitHub repo of notebooks in a temporary executable environment, [docs](https://mybinder.readthedocs.io/en/latest/))
