@@ -45,6 +45,11 @@ Accessibility:
 - [WAVE tool](http://wave.webaim.org/)
 - W3C [Easy Checks](https://www.w3.org/WAI/eval/preliminary) documentation
 
+Stop using "click here":
+
+- [Writing Hyperlinks: Salient, Descriptive, Start with Keyword](https://www.nngroup.com/articles/writing-links/)
+- [Why Your Links Should Never Say "Click Here"](https://www.smashingmagazine.com/2012/06/links-should-never-say-click-here/)
+
 Free images:
 
 - [Unsplash](https://unsplash.com/)
@@ -55,7 +60,6 @@ Image optimize:
 
 - For one off, [Page Speed](https://developers.google.com/speed/pagespeed/insights/) has a little link at the bottom of the analysis to download optimized images, css, and js (see [Optimize Image](https://developers.google.com/speed/docs/insights/OptimizeImages))
 - Image Magick [convert](https://www.imagemagick.org/script/convert.php)
-
 JQuery?
 
 - [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
