@@ -86,6 +86,7 @@ Notebooks are gaining attention for integrating code and publication, opening po
 
 - [SageMath](http://www.sagemath.org/) (math focused notebook platform, an "open source alternative to Magma, Maple, Mathematica, and MATLAB". A solid project that has been around fsince 2005, but hasn't gained much popularity.)
 - [Apache Zepplin](https://zeppelin.apache.org/) (Java based notebook particularly useful for dashboards and Spark cluster integration, i.e. big data)
+- [nteract](https://nteract.io/) (desktop app or [Atom package](https://atom.io/packages/hydrogen) built on top of Jupyter kernels to improve/simplify notebook experience)
 
 Others are running in the cloud to lower barriers to getting started and promote reproducibility:
 
