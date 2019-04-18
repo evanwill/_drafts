@@ -94,7 +94,7 @@ Others are running in the cloud to lower barriers to getting started and promote
 - [Observable](https://beta.observablehq.com/) (JavaScript based data visualization for the web)
 - [Code Ocean](https://codeocean.com/) (a variety of notebooks and IDE available)
 - [COCALC](https://cocalc.com/) (was SageMath Cloud, now has Jupyter Notebook with lots of kernels, a LaTeX editor, and more)
-- [Iodide](https://github.com/iodide-project/iodide) (web focused notebook, in alpha development)
+- [Iodide](https://github.com/iodide-project/iodide) and [Pyodide](https://github.com/iodide-project/pyodide/) (web focused notebooks implemented in browser, in alpha development)
 - [Stencila](https://stenci.la/) (word processor + spreadsheet + code)
 - [Azure Notebooks](https://notebooks.azure.com/)
 

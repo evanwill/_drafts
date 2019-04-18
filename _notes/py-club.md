@@ -8,8 +8,10 @@ date: 2019-04-18
 > Mini workshop.
 
 1. Intro
-2. Survey 
+2. Survey, [click here!](https://docs.google.com/forms/d/e/1FAIpQLSdcjgn14HTf2PR4Iifu_yCGJTvjFp1anoccBtKlmagjYirsPQ/viewform?usp=sf_link)
 3. Discuss 
+4. Environments and Kernels
+5. Notebooks
 
 ## Conda 
 
@@ -93,3 +95,8 @@ Anaconda Navigator is a GUI app to manage conda and install stuff...
 
 - [nbviewer](https://nbviewer.jupyter.org/) (easy way to share a static rendered version of a notebook from GitHub)
 - [binder](https://mybinder.org/) (open a GitHub repo of notebooks in a temporary executable environment, [docs](https://mybinder.readthedocs.io/en/latest/))
+
+## Library resources
+
+- [Safari: O'Reilly Books](http://ida.lib.uidaho.edu:2048/login?url=https://www.safaribooksonline.com/library/view/temporary-access/)
+- [workshops](https://www.lib.uidaho.edu/services/workshops/)
