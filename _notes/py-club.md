@@ -33,6 +33,8 @@ Keep in mind if you install something without using `conda` (i.e. pip), conda ca
 
 ## Environments 
 
+![XKCD python environment](https://imgs.xkcd.com/comics/python_environment.png)
+
 - `conda create -n testenv`
 - `conda env list`
 - `conda activate testenv`
@@ -80,14 +82,16 @@ Anaconda Navigator is a GUI app to manage conda and install stuff...
 
 ## JupyterLab 
 
-- It's the future and it's ready, [news](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906), [blog](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
+- It's the future and it's ready ([news](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906), [blog](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)). Notebook was designed around 2011--since then Python has been relatively stable, but web technology has changed rapidly... Jupyter Lab is an update using modern web technology, 
 - If you have an up-to-date Anaconda install, it's already installed
 - [JupyterLab docs](https://jupyterlab.readthedocs.io/en/stable/index.html)
 - fully backwards compatible ("Classic" Notebooks runs from the same server)
-- more IDE like (tabs and panes)
-- updated notebook features (drag & drop cells, collapse, context menu)
 - updated framework (built on JS)
 - more extensible
+- more IDE like (tabs and panes)
+- updated notebook features (drag & drop cells, collapse, context menu, more live preview formats and syntax highlighting)
+- code console (with notebook, text file, or codeblock in markdown > right-click to start console, shift+enter to run line or block)
+- Output view (right-click > "Create new view for output")
 - `conda install nb_conda`
 - `jupyter lab`
 
@@ -98,5 +102,6 @@ Anaconda Navigator is a GUI app to manage conda and install stuff...
 
 ## Library resources
 
+- [matplotlib XKCD](https://matplotlib.org/gallery/showcase/xkcd.html)
 - [Safari: O'Reilly Books](http://ida.lib.uidaho.edu:2048/login?url=https://www.safaribooksonline.com/library/view/temporary-access/)
 - [workshops](https://www.lib.uidaho.edu/services/workshops/)
