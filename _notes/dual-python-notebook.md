@@ -91,7 +91,7 @@ Notebooks are gaining attention for integrating code and publication, opening po
 Others are running in the cloud to lower barriers to getting started and promote reproducibility:
 
 - [Colaboratory](https://colab.research.google.com/) (Jupyter environment hosted by Google designed to run TensorFlow without installing anything, with your notebooks stored in Google Drive)
-- [Observable](https://beta.observablehq.com/) (JavaScript based data visualization for the web)
+- [Observable](https://observablehq.com/) (JavaScript based data visualization for the web)
 - [Code Ocean](https://codeocean.com/) (a variety of notebooks and IDE available)
 - [COCALC](https://cocalc.com/) (was SageMath Cloud, now has Jupyter Notebook with lots of kernels, a LaTeX editor, and more)
 - [Iodide](https://github.com/iodide-project/iodide) and [Pyodide](https://github.com/iodide-project/pyodide/) (web focused notebooks implemented in browser, in alpha development)
