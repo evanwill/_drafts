@@ -2,7 +2,7 @@
 title: R Resources
 layout: post
 tags: [R, linux]
-date: 2018-04-03
+date: 2019-03-03
 ---
 
 The R community seems like it is really taking off as a supportive, inclusive coding group in academics with less of the exclusion and barriers associated with traditional CS.
@@ -10,21 +10,22 @@ I rarely use R, but want to expand my knowledge to provide better support on cam
 
 So here is random R links that I need somewhere to put before I forget...
 
-Tutorials / guidebooks:
+Tutorials / learning:
 
 - [R4DS Online Learning Community](https://www.rfordatasci.com/)
 - [Getting Started with R](https://rfortherestofus.com/courses/getting-started/), R for the rest of us
-- [Prelude in R](https://preludeinr.com/)
 - [RStudio Primers](https://rstudio.cloud/learn/primers)
+- [Prelude in R](https://preludeinr.com/)
 - Software Carpentry [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) or [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/).
 
-Courses:
+Reference:
 
-- [Computational Historical Thinking: With Applications in R](http://dh-r.lincolnmullen.com/)
-- [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/), Silge and Robinson.
-- [Learning Statistics with R](https://learningstatisticswithr.com/)
-- [R for Data Science](http://r4ds.had.co.nz/), Grolemund and Wickham.
-- [Advanced R](http://adv-r.had.co.nz/)
+- [R Graphics Cookbook](https://r-graphics.org/), 2nd ed., Winston Chang.
+- [R for Data Science](http://r4ds.had.co.nz/), Grolemund and Wickham, 2017.
+- [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/), Silge and Robinson. 2019.
+- [Advanced R](http://adv-r.had.co.nz/), Wickham, 2014.
+- [Computational Historical Thinking: With Applications in R](http://dh-r.lincolnmullen.com/), Lincoln A. Mullen (work in progress).
+- [Learning Statistics with R](https://learningstatisticswithr.com/), Danielle Navarro (open course text/outline).
 
 Articles:
 
