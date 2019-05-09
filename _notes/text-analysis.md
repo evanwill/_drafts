@@ -113,3 +113,5 @@ Bash Shell
 - [Programming Historian](http://programminghistorian.org/)
 - [Stanford Litlab Pamphlets](http://litlab.stanford.edu/pamphlets/)
 - Miriam Posner [DH 101](http://miriamposner.com/dh101f15/index.php/tutorials-and-resources/suggested-tools/) and [blog](http://miriamposner.com/blog/).
+
+> Overheard: stopwords, "to be or not to be"
