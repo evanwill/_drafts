@@ -58,16 +58,14 @@ Common formats include [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graph
 
 Open these all with a text editor:
 
-- text file
-- html file
-- docx file
-- unzipped docx, `unzip`
+- text file (text)
+- html file (text. with markup)
+- docx file (binary. A zipped folder of XML components)
+- unzipped docx (use `unzip` or right-click to extract contents which are plain text files)
 
 Open this "dogtest" image in various formats with a viewer and text editor:
 
-- [png]({{ '/assets/testimage/dogtest.png' | relative_url }})
-- [jpg]({{ '/assets/testimage/dogtest.jpg' | relative_url }})
-- [svg]({{ '/assets/testimage/dogtest.svg' | relative_url }}) (open with a text editor to view the XML, edit the numbers to change the image)
-- [pbm]({{ '/assets/testimage/dogtest.pbm' | relative_url }}) (open with a text editor to see black and white pixels represented as `1` and `0`, edit to change the image)
-
-
+- [png]({{ '/assets/testimage/dogtest.png' | relative_url }}) (raster, binary, lossless compression)
+- [jpg]({{ '/assets/testimage/dogtest.jpg' | relative_url }}) (raster, binary, lossy compression)
+- [svg]({{ '/assets/testimage/dogtest.svg' | relative_url }}) (vector, text. Open with a text editor to view the XML, edit the numbers to change the image)
+- [pbm]({{ '/assets/testimage/dogtest.pbm' | relative_url }}) (raster, text. Open with a text editor to see black and white pixels represented as `1` and `0`, edit to change the image)
