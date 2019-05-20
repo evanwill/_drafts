@@ -7,8 +7,6 @@ Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/){:
 *May take a second to load!* 
 (p.s. or you can try [google cse]({{ "/search/google.html" | absolute_url }}))
 
-<script src="{{ "/js/lunr.js" | absolute_url }}"></script>
-
 <input class="search" type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
 <input class="buttons" type="button" onclick="lunr_search();" value=" Search ">
 <p id="count"></p>
@@ -16,50 +14,42 @@ Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/){:
 
 > Tips: search fields `title:foo` or `text:foo`, or use wildcards `foo*`.
 
+<script src="{{ '/js/lunr.min.js' | absolute_url }}"></script>
+<script src="{{ '/js/lunr-store.js' | absolute_url }}"></script>
 <script>
-// create docs
-var notes = [ 
-    {% for post in site.notes %}
-    {
-      "url": {{ post.url | absolute_url | jsonify }},
-      "title": {{ post.title | jsonify }},
-      "text": {{ post.content | strip_html | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-];
-// create index
+/* initialize lunr index */
 var idx = lunr(function () {
   this.ref('id')
   this.field('title')
   this.field('text')
-  for (var item in notes) {
+  for (var item in store) {
     this.add({
-      title: notes[item].title,
-      text: notes[item].text,
+      title: store[item].title,
+      text: store[item].text,
       id: item
     })
   }
 });
-// do search
-function displayResults(results) {
-  var countResults = document.getElementById('count');
-  countResults.innerHTML = results.length + ' Result(s) found</p>';
-  var searchResults = document.getElementById('search-results');
+/* search function */
+function lunr_search () {
+  var resultDiv = document.getElementById('search-results');
+  var resultCount = document.getElementById('count');
+  var query = document.getElementById('lunr-search').value;
+  /* basic search that supports operators */
+  var results = idx.search(query); 
+  /* display results */
+  resultDiv.innerHTML = '';
+  resultCount.innerHTML = results.length + ' Result(s) found</p>';
   if (results.length) {
     var appendString = '';
-    for (var item in results) {
+    for (item in results) {
       var ref = results[item].ref;
-      var searchItem = '<li><a href="' + notes[ref].url + '">' + notes[ref].title + '</a><br>' + notes[ref].text.substring(0,150) + '... </li>';
+      var searchItem = '<li><a href="' + store[ref].url + '">' + store[ref].title + '</a><br>' + store[ref].text.substring(0,150) + '... </li>';
       appendString += searchItem;
     }
-    searchResults.innerHTML = appendString;
+    resultDiv.innerHTML = appendString;
   } else {
-    searchResults.innerHTML = '<li>No results found</li>';
+    resultDiv.innerHTML = '<li>No results found</li>';
   }
-}
-function lunr_search() {
-    var query = document.getElementById("lunr-search").value;
-    var results = idx.search(query);
-    displayResults(results);
 }
 </script>
