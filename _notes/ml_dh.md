@@ -5,6 +5,8 @@ tags: [dh, workshop]
 date: 2019-05-15
 ---
 
+> Intro workshop for digital humanities group.
+
 Machine Learning (ML) is the application of algorithms and statistical modeling to allow computers to "learn" from data to do a task (often overlapping or used interchangeably with Artificial Intelligence / AI).
 
 ML tasks are broadly separated into *supervised* or *unsupervised* learning.
