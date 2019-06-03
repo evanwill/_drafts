@@ -5,7 +5,7 @@ tags: [tools]
 date: 2018-04-02
 ---
 
-ImageMagick is a powerful open source commandline utility for processing image files that is used under the hood by numerous other tools and websites.
+[ImageMagick](https://imagemagick.org/) is a powerful open source commandline utility for processing image files that is used under the hood by numerous other tools and websites.
 Once you get the hang of it, you can use it directly to do a lot of interesting things, from simple batch conversions to complex rendering.
 
 > *Note:* ImageMagick commands made a major change between version 6 and 7+. 

@@ -18,6 +18,7 @@ Browser support:
 
 Tests:
 
+- [Lighthouse tests](https://web.dev/measure)
 - [Page Speed](https://developers.google.com/speed/pagespeed/insights/)
 - [mobile-friendly](https://search.google.com/test/mobile-friendly)
 - [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
@@ -59,7 +60,8 @@ Free images:
 Image optimize:
 
 - For one off, [Page Speed](https://developers.google.com/speed/pagespeed/insights/) has a little link at the bottom of the analysis to download optimized images, css, and js (see [Optimize Image](https://developers.google.com/speed/docs/insights/OptimizeImages))
-- Image Magick [convert](https://www.imagemagick.org/script/convert.php)
+- [Image Magick](https://imagemagick.org/) ([notes](https://evanwill.github.io/_drafts/notes/imagemagick.html))
+
 JQuery?
 
 - [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
@@ -73,6 +75,7 @@ Design:
 - [Butterick's Practical Typography](https://practicaltypography.com/)
 - [Planet Friendly Web Guide](https://www.planetfriendlyweb.org/)
 - [Open Source Guide](https://opensource.guide/)
+- [ac4d Design Library](http://library.ac4d.com/)
 
 Ultra minimal computing notebook:
 
