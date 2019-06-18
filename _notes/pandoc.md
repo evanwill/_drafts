@@ -74,14 +74,17 @@ Font size can be controlled using `-V fontsize=12pt`, however, the default templ
 More sizes are supported using the extsize package (8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt) which can be used by adding `-V documentclass=extarticle` plus the desired fontsize (if extsize is not installed, your LaTeX distribution should automatically fetch it).
 
 Now we are getting a lot of commandline arguments to keep track of... 
-You can simplify by declaring the LaTeX options as YAML metadata at the top of the document instead. 
+You can simplify by declaring the LaTeX options as YAML metadata at the top of the document instead.
+You will still need to use the `--pdf-engine=xelatex` option, but won't need to list out all the `-V` options.
 For example: 
 
 ```
 ---
+geometry: margin=1in
 documentclass: extarticle
 mainfont: Noto Sans
 fontsize: 14pt
+colorlinks: true
 ---
 ```
 
