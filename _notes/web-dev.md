@@ -24,6 +24,7 @@ Tests:
 - [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 - [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/)
+- [webpagetest](http://webpagetest.org/) (test on actually devices and connections)
 
 Web Master utilities:
 
@@ -60,7 +61,15 @@ Free images:
 Image optimize:
 
 - For one off, [Page Speed](https://developers.google.com/speed/pagespeed/insights/) has a little link at the bottom of the analysis to download optimized images, css, and js (see [Optimize Image](https://developers.google.com/speed/docs/insights/OptimizeImages))
+- [Essential Image Optimization](https://images.guide/) by Addy Osmani
+- [Squoosh web app](https://squoosh.app/)
 - [Image Magick](https://imagemagick.org/) ([notes](https://evanwill.github.io/_drafts/notes/imagemagick.html))
+
+Reference:
+
+- [web.dev](https://web.dev/learn)
+- [MDN web docs](https://developer.mozilla.org/en-US/)
+- [w3schools](https://www.w3schools.com/)
 
 JQuery?
 
