@@ -46,11 +46,11 @@ On Windows there are several options to add a UNIX-like style shell:
 - Git Bash: installing [Git for Windows](https://git-for-windows.github.io/) adds the Git Bash shell. It comes with some of the standard UNIX applications (and you can [add more](https://evanwill.github.io/_drafts/notes/gitbash-windows.html)). It is easy to install, integrates with Windows context menus (right click), and works well. (alternatively, use Git Bash with [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html), which is fully portable, no install needed)
 - [Cygwin](https://www.cygwin.com/): a project that adds Unix style terminal to Windows including hundreds of utilities built and packaged to function natively on Windows. It includes more functionality than Git Bash and has a package system to install utilities ([more info](https://evanwill.github.io/_drafts/notes/cygwin.html)).
 - [MobaXterm](http://mobaxterm.mobatek.net/): a non-opensource emulator similar to Cygwin with quite a bit of functionality and an optional paid version.
-- [Bash on Windows Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
+- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 The GUI window that hosts the text based CLI is often called a **terminal emulator**. 
 Most people use the default that comes with your OS, but if you want to get fancy, there are a surprising number of options out there!
-Check out [Guake](http://guake-project.org/) (linux, dropdown), [Hyper](https://hyper.is/) (slick looking, html/css based), [ConEmu](https://conemu.github.io/) (windows, tabbed), [upterm](https://github.com/railsware/upterm) (linux, IDE terminal), [Tilix](https://gnunn1.github.io/tilix-web/) (linux, tiling terminal), [Cool Retro Term](https://github.com/Swordfish90/cool-retro-term) (linux, retro emulator with flickering CRT screen look).
+Check out [Guake](http://guake-project.org/) (linux, dropdown), [Hyper](https://hyper.is/) (slick looking, html/css based), [ConEmu](https://conemu.github.io/) (windows, tabbed), [Tilix](https://gnunn1.github.io/tilix-web/) (linux, tiling terminal), [Cool Retro Term](https://github.com/Swordfish90/cool-retro-term) (linux, retro emulator with flickering CRT screen look).
 
 ## Navigate 
 
@@ -158,3 +158,4 @@ Read some [xkcd](https://uni.xkcd.com/) comics!
 - [Shell lesson](http://swcarpentry.github.io/shell-novice/) from Software Carpentry
 - [The Linux Command Line](http://linuxcommand.org/tlcl.php) by William Shotts
 - [10 command-line tools for data analysis in Linux](https://opensource.com/article/17/2/command-line-tools-data-analysis-linux) by Jason Baker
+- [command line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/)
