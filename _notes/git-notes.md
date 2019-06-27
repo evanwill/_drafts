@@ -4,49 +4,43 @@ layout: post
 tags: [git, github]
 date: 2017-06-01
 ---
+## Quick fix the last commit
 
-##  Sync fork
+If you just made a commit, and haven't pushed it yet, but suddenly realize you forgot to add something, need to change the message, or tweak a file, use `git commit --amend`.
 
-To sync your fork from the original repository is two steps:
+1. make the changes you need 
+2. `git add` any changes (nothing if you are just changing the commit message)
+3. `git commit --amend -m "new commit message that replaces the old one"`
 
-1. [Setup the upstream remote](https://help.github.com/articles/configuring-a-remote-for-a-fork/) (only have to do this one time)
-    - check current config: `git remote -v`
-    - add upstream remote (use the clone link from the original repo): `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
-2. [Sync fork](https://help.github.com/articles/syncing-a-fork/)
-    - `git fetch upstream`
-    - `git checkout master`
-    - `git merge upstream/master`
-    - You're up-to-date locally, then update your fork on github, `git push`
+This commit will just be combined with the last one into a single new commit as if the first one never happened.
 
-(see also [update github fork](https://evanwill.github.io/_drafts/notes/git-update-fork.html))
+## Undo one file
 
-## Remote branches 
+Checkout the version of the file you want from the history, then commit that file. 
+For example, go back a version from one commit back:
 
-It is a bit confusing that branches are only local by default.
-A branch that is connected to a remote repository (GitHub) is called a "tracking branch".
-When you `git clone`, the `master` branch is automatically created as a "tracking branch" with the GitHub repository as the "upstream branch".
-However, git knows about the other branches, but does not automatically create them locally.
-Furthermore, after you create a new branch locally, and you want to push it to GitHub, you will need to add a remote. 
+```
+git checkout HEAD~1 example.txt
+git add example.txt
+git commit -m "undo example changes"
+```
 
-To get information about all your remotes, `git remote show origin` lists everything tracked locally and how it lines up with your remotes.
+## Undo a whole commit
 
-Use a remote "tracking branch" locally:
+`git revert <somehash>` will undo a commit you list by creating a new commit reversing those changes. 
+It doesn't go back to that point in the history or undo other commits along the way, it just does exactly the opposite of that one commit.
+Get the hash for the commit from the GitHub commits page or `git log --oneline` and add it to the end of `git revert`.
 
-- Clone the repo, `git clone https://github.com/user/repository.git`
-- Checking `git branch` will display only the local branches, i.e. `*master` if you just cloned it.
-- Check `git branch -a` to see all branches, including remotes, i.e. git knows about the other branches, it just didn't create a local version of it yet. The remote branches will be named like `remotes/origin/branch-name`.
-- To create a local version of the remote branch, `git checkout -b branch-name origin/branch-name`. Now it is there, you can push and fetch/pull as normal. (note: there is a short cut version: `git checkout --track origin/branch-name`, or even shorter: if you simply `git checkout branch-name` when there is no local branch with that name *and* it exactly matches a remote branch git will automatically create a local "tracking branch")
+## Undo a merge
 
-Create a branch locally, then add to remote:
+You can undo a merge commit, which will undo the whole batch of changes created by the merge--the exact opposite of the merge. 
 
-- Create and switch to a new branch, `git checkout -b branch-name`. (reminder: this is a short cut combo of two commands, `git branch branch-name` and `git checkout branch-name`)
-- To add the branch to the remote, `git push origin branch-name` will create the remote branch and set the "upstream" for the local version. (this is a shortcut to `git branch --set-upstream-to origin branch-name` plus `git push`)
+However, when reverting merge commits, you need an extra option, because you need to tell it which side of the history you want to keep, i.e. the parent or the merging branch.
+Normally you would keep the parent with option `-m 1`, the command ends up looking like:
 
-## Update branch from master
+`git revert -m 1 <somehash>`
 
-1. Update your `master` branch, with `git pull`. 
-2. Switch to the feature branch that needs updating, `git checkout feature-branch`.
-3. Merge `master` into the feature: `git merge master`. 
+Your history will look wonky (and can potentially have odd effects if you try to merge the same branch again), but it is the best way to avoid problems collaborating on a remote.
 
 ## Graph
 
