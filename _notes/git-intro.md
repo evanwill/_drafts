@@ -146,6 +146,18 @@ DOI are a persistent identifier used in academic writing to cite articles and ot
 Having a DOI for your code makes it easier to track citations and impact. 
 Learn how at [Making Your Code Citable](https://guides.github.com/activities/citable-code/){:target='_blank'}.
 
+## License
+
+Choosing a license is important if you want share data, code, and content. 
+It ensures users have legal rights to reuse, and reserves your rights as the creator.
+The [FAIR Principles](https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/) point out that having a clear license is a requirement for *legal interoperability* of data.
+
+It is convention to add a file as `LICENSE` or `LICENSE.md` to a repository so that people can easily find the license. 
+GitHub can automatically generate some open source licenses for you, see [Adding a license to a repository](https://help.github.com/en/articles/adding-a-license-to-a-repository).
+
+- [Choose an open source license](https://choosealicense.com/) (for software)
+- Creative Commons [Choose a License](https://creativecommons.org/choose/) (more common for text and data)
+
 ## Resources
 
 - Software Carpentry, [Version Control with Git](https://swcarpentry.github.io/git-novice/){:target='_blank'}
