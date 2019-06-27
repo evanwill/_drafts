@@ -24,7 +24,7 @@ See:
 ## Basic Workflow
 
 I want to introduce collaboration aspects of GitHub, but it's easiest to explain by using it! 
-Git seems pretty wierd until you Do it... 
+Git seems pretty weird until you Do it... 
 
 Follow the first time [Setup](https://uidaholib.github.io/get-git/2setup.html) and [Workflow](https://uidaholib.github.io/get-git/3workflow.html) from Get Git.
 
