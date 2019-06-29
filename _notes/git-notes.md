@@ -52,6 +52,7 @@ Try: `git log --graph --abbrev-commit --date=relative`
 - [Rebase a Pull Request](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
 - [About pull request merges](https://help.github.com/articles/about-pull-request-merges/)
 - [Rebase and merge](https://github.com/blog/2243-rebase-and-merge-pull-requests)
+- Amusing way to view Git Log, [StarLogs](https://github.com/artemave/StarLogs)
 
 ## Git in Classroom
 
