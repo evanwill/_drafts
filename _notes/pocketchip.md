@@ -5,6 +5,16 @@ tags: [fun, pocketchip]
 date: 2016-06-01
 ---
 
+> The makers of CHIP went out of business as of 2018 and took all their code down. 
+> If you want to keep your CHIP running, you have to rely on the community...
+
+## Archived stuff
+
+- [CHIP Community wiki](http://www.chip-community.org/index.php/Main_Page)
+- JF Possibilities, ["CHIP is dead.. or is it?"](http://www.chip-community.org/index.php/Main_Page) and [mirrored the original documentation](http://chip.jfpossibilities.com/docs/pocketchip.html)
+- yoursunny, [How to Flash C.H.I.P Offline](https://yoursunny.com/t/2018/CHIP-flash-offline/).
+- Thore-Krug, [Flash-CHIP](https://github.com/Thore-Krug/Flash-CHIP)
+
 ## Utility
 
 built in calculator: `xcalc`
@@ -13,7 +23,7 @@ use the built in browser: `surf http://google.com` (need help, `man surf`)
 
 get a text browser: `sudo apt-get install lynx`
 
-get a grapichal browser: `sudo apt-get install midori`
+get a graphical browser: `sudo apt-get install midori`
 
 get a paint program: `sudo apt-get install mypaint`
 
