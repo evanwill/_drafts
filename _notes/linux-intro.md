@@ -94,7 +94,7 @@ Major desktops:
 - [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/)).
 - [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop.
 - [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
-- Tiling window managers, e.g. [xmonad](http://xmonad.org/) or [i3](https://i3wm.org/).
+- Tiling window managers, e.g. [xmonad](http://xmonad.org/) or [i3](https://i3wm.org/). For any easy intro, checkout [Regolith Linux](https://regolith-linux.org/) which combines i3-wm with Ubuntu.
 
 > Most desktops support themes which make it easy to change the look and feel. 
 > For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
@@ -152,12 +152,12 @@ Uses `apt` configuration and `.deb` packages.
 - [Debian](https://www.debian.org/), entirely free software released by the Debian Project. [Debian packages](https://www.debian.org/distrib/packages).
 - [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly. [Ubuntu Packages](https://packages.ubuntu.com/).
     - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops.
-    - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base.
     - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop.
     - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop.
+    - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com) focused on developers, with good support for NVIDIA cards.
+    - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base.
     - [Zorin OS](https://zorinos.com/), polished windows replacement.
-    - [Linux Lite](https://www.linuxliteos.com/), focused on easy to use, windows replace, with Xfce.
-    - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com).
+    - [Linux Lite](https://www.linuxliteos.com/), focused on easy to use, windows replacement, with Xfce.
     - [Bodhi Linux](https://www.bodhilinux.com/), minimalist, lightweight distro with unique Moksha desktop.
     - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop.
     - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware.
@@ -178,7 +178,7 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
     - ~~[Korora](https://kororaproject.org/)~~, *(development is stalled, sadly many small distros are disappearing)* nice looking beginner friendly.
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
 - [CentOS](https://www.centos.org/), free community supported RHEL.
-- [Scientific Linux](https://www.scientificlinux.org/), free RHEL-based OS developed by Fermilab for high performance scientific computing environments.
+- ~~[Scientific Linux](https://www.scientificlinux.org/)~~, free RHEL-based OS developed by Fermilab for high performance scientific computing environments (is now being phased out in favor of CentOS).
 
 ### SUSE
 
@@ -197,15 +197,15 @@ Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/
 
 - [Arch](https://www.archlinux.org/)
 - [Manjaro](https://manjaro.org/), user friendly Arch for beginners.
-- [Antergos](https://antergos.com/), user friendly Arch.
+- ~~[Antergos](https://antergos.com/)~~, user friendly Arch (sadly [discontinued](https://antergos.com/blog/antergos-linux-project-ends/)).
 
 ### Others
 
 **Independent.** Some distros go it alone. For example:
 
 - [Solus](https://getsol.us/home/), up-and-coming independent distro developing Budgie desktop.
-- [Qubes OS](https://www.qubes-os.org/), personal security focused distro with unique architecture that isolates all software in separate VM-like containers.
 - [Mageia](http://www.mageia.org/en/), France based community focused distro.
+- [Qubes OS](https://www.qubes-os.org/), personal security focused distro with unique architecture that isolates all software in separate VM-like containers.
 - [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image.
 - [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!
 
