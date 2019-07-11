@@ -51,10 +51,6 @@ e.g.  `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.e
 
 (note: shortcuts to Git Bash terminal on your desktop and start menu will point to `C:\Program Files\Git\git-bash.exe`, the MinTTY terminal. If you use that app, Code will open a new external terminal. To use Git Bash on the built in terminal make sure you are pointing to the `bin\bash.exe`). 
 
-## Markdown preview
-
-Click `Ctrl+Shift+V` to preview rendered file.
-
 ## Spell check
 
 Search in the Extensions, there are several spell check options available.
@@ -64,6 +60,17 @@ I have been using "Code Spellchecker".
 
 To add more cursors to work on multiple lines at once, `Alt` and left-click (or toggle to `Ctrl` + left-click in Selection menu).
 
+## HTML
+
+Emmet snippet expansion: write the abbreviation and press `tab` ([Emmet Cheatsheet](http://docs.emmet.io/cheat-sheet/)).
+
+Auto format html, highlight area and type `Ctrl+K` followed by `Ctrl+F` (or maybe `Ctrl+Shift+I`). 
+Setting for auto format are in File > Preferences > User Settings, add `"html.format.wrapLineLength": 0,` to prevent auto link breaks.
+
+## Markdown preview
+
+Click `Ctrl+Shift+V` to preview rendered file.
+
 ## Arduino
 
 If you have Arduino IDE installed on your system, you can add similar functionality to Code.
@@ -71,13 +78,6 @@ Search in the Extensions for Arduino from Microsoft.
 Click install, Code will have to reload a couple times to install everything. 
 Now when you open a `.ino` sketch, you will have options at the bottom of the window to select your board and port.
 More info [vscode-arduino](https://github.com/Microsoft/vscode-arduino).
-
-## HTML
-
-Emmet snippet expansion: write the abbreviation and press `tab` ([Emmet Cheatsheet](http://docs.emmet.io/cheat-sheet/)).
-
-Auto format html, highlight area and `Ctrl+Shift+I` (or maybe `Ctrl+K` followed by `Ctrl+F`). 
-Setting for auto format are in File > Preferences > User Settings, add `"html.format.wrapLineLength": 0,` to prevent auto link breaks.
 
 ## XML
 
@@ -87,19 +87,34 @@ There are several extensions to add XML functionality--look for "XML Language Su
 
 ```
 {
-    "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.wordWrap": "on",
-    "problems.decorations.enabled": false,
+    "terminal.integrated.shell.windows": "C:\\Users\\ewilliamson\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+    "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
-    "editor.emptySelectionClipboard": false,
+    "breadcrumbs.enabled": false,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.colorDecorators": false,
+    "editor.copyWithSyntaxHighlighting": false,
     "editor.dragAndDrop": false,
-    "html.autoClosingTags": false,
-    "html.suggest.angular1": false,
-    "html.suggest.ionic": false,
-    "html.format.wrapLineLength": 0,
-    "html.format.maxPreserveNewLines": 3,
-    "extensions.ignoreRecommendations": true,
+    "editor.emptySelectionClipboard": false,
+    "editor.links": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.autoClosingBrackets": false
+    "explorer.enableDragAndDrop": false,
+    "outline.problems.badges": false,
+    "outline.problems.enabled": false,
+    "outline.problems.colors": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "extensions.ignoreRecommendations": true,
+    "problems.decorations.enabled": false,
+    "problems.autoReveal": false,
+    "html.format.maxPreserveNewLines": 3,
+    "html.autoClosingTags": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.rightClickBehavior": "default",
+    "html.format.wrapLineLength": 0
 }
 ```
