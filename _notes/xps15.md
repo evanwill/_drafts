@@ -113,6 +113,15 @@ Configure git helper:
 
 Then the next time you need a Git credential, it will prompt for username and password as normal, but it will be stored going forward.
 
+**Note: newer versions of Git require a different manager, if libgnome-keyring-dev gives a permission error, use libsecret instead. I found this is necessary on Ubuntu 19.04.**
+
+```
+sudo apt-get install libsecret-1-0 libsecret-1-dev
+cd /usr/share/doc/git/contrib/credential/libsecret
+sudo make
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+```
+
 ## Issue with sleep
 
 With Intel graphics activated, closing the lid for sleep or using the sleep icon from the power menu works correctly.
