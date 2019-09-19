@@ -15,7 +15,15 @@ Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/){:
 <p id="count"></p>
 <ul id="search-results"></ul>
 
-> Tips: search fields `title:foo` or `text:foo`, or use wildcards `foo*`.
+<hr> 
+
+> Advanced Search Tips: 
+>
+> - search fields `title:foo` or `text:foo`
+> - use wildcards `foo*` or `*oo`
+> - fuzzy matching `foo~1`
+> - must contain `+foo`
+> - must not contain `-foo`.
 
 <script src="{{ '/js/lunr.min.js' | absolute_url }}"></script>
 <script src="{{ '/js/lunr-store.js' | absolute_url }}"></script>
