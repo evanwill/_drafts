@@ -7,9 +7,9 @@ title: browse
 
   <div class="browse">
     <input class="search" placeholder=" Search" />
-    <button class="sort" data-sort="title">title</button>
-    <button class="sort" data-sort="date">date</button>
-    <button class="sort" data-sort="tags">tags</button>
+    <button class="buttons sort" data-sort="title">title</button>
+    <button class="buttons sort" data-sort="date">date</button>
+    <button class="buttons sort" data-sort="tags">tags</button>
   </div>
 
   <div class="listjs">
@@ -30,12 +30,11 @@ title: browse
 
 </div>
 <!-- add list.js http://www.listjs.com/ @javve -->
-<script src="{{ "/js/list.min.js" | absolute_url }}"></script>
+<script src="{{ '/js/list.min.js' | absolute_url }}"></script>
 <script> 
     var options = {
         valueNames: [ 'title', 'date', 'tags' ],
         listClass: 'listjs'
     };
-
     var userList = new List('archiveList', options);
 </script>

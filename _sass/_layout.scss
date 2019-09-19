@@ -263,6 +263,7 @@
   border: solid 1px $text-color;
   border-radius: 2px;
   font-size: 20px;
+  padding: 4px 8px;
 }
 .browse {
   margin-bottom: 1rem;
@@ -307,18 +308,15 @@
   border-radius: 2px;
   font-size: 20px;
   margin-top: 5px;
+  padding: 4px 8px;
+  text-align: center;
   &:focus {
     outline:none;
   }  
 }
 .sort { 
-  cursor: pointer;
   background-color: $background-color;
-  border: solid 1px $text-color;
-  border-radius: 2px;
-  font-size: 20px;
   color: $oc-gray-7;
-  margin-top: 5px;
   &:focus {
     outline:none;
   }
