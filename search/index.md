@@ -7,8 +7,11 @@ Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/){:
 *May take a second to load!* 
 (p.s. or you can try [google cse]({{ "/search/google.html" | absolute_url }}))
 
-<input class="search" type="text" size="15" id="lunr-search" placeholder="Search..." aria-label="search">
-<input class="buttons" type="button" onclick="lunr_search();" value=" Search ">
+<form id="searchform" onsubmit="lunr_search(); return false">
+  <input class="search" type="text" size="18" id="lunr-search" placeholder="Search notes..." aria-label="search">
+  <input class="buttons" type="submit" value="Search">
+</form>
+
 <p id="count"></p>
 <ul id="search-results"></ul>
 
