@@ -93,6 +93,11 @@ Ultra minimal computing notebook:
 - [new-note](https://github.com/jjjjjjjjjjjjjjjjjjjj/new-note/) (see [article](https://boingboing.net/2018/05/08/the-simplest-online-note-takin.html))
 - or paste into address bar `data:text/html, <html contenteditable style='padding:10%;'>`, type, then save with `Ctrl+S`.
 
+Minimal hosting: 
+
+- [1MB.site](https://1mb.site/)
+- [sdnotes](https://sdnotes.com/faq)
+
 Check content of certificate file:
 
 - `openssl x509 -in libcal_uidaho_edu_cert.cer -noout -text`
