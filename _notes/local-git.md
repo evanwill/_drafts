@@ -31,7 +31,7 @@ cd /c/
 mkdir newRepo 
 cd newRepo
 git init
-git add remote origin /t/newRepo.git
+git remote add origin /t/newRepo.git
 echo "init" > README
 git add README
 git commit -m "init"
