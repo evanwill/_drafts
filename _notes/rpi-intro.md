@@ -18,7 +18,7 @@ Arduino:
 
 Raspberry Pi:
 
-- Single board computer, 64-bit CPU, 512MB - 4GB RAM
+- Single board computer, 32/64-bit CPU, 512MB - 4GB RAM
 - Connect: USB, Ethernet, Wifi, Bluetooth
 - Output: Video (HDMI), audio (HDMI, 3.5mm jack), GPIO pins
 - Full operating system 
@@ -30,9 +30,9 @@ Raspberry Pi:
 
 e.g. [poemBot](https://github.com/evanwill/poemBot)
 
-## Raspberry Pi starter kits
+### Raspberry Pi starter kit
 
-- [Boards](https://www.raspberrypi.org/products/) (A, B, Zero, Compute)
+- [Boards](https://www.raspberrypi.org/products/) (A, B, Zero, Compute, [spec chart](https://en.wikipedia.org/wiki/Raspberry_Pi#Specifications))
 - Power supply (you need a good one! A rainbow icon shows up on screen if power goes low)
 - SD card (try to get decent quality, high read/write speed, "SDHC, Class 10 / UHS 3", min 8GB)
 - [Console cable](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview)
@@ -43,16 +43,17 @@ e.g. [poemBot](https://github.com/evanwill/poemBot)
 # Get Started 
 
 First step is to choose an OS for your Pi and burn it to your SD card.
-See [official step-by-step](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up).
+See [official step-by-step](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) for a visual walk through.
+Most likely you will want to start with NOOBS (does not require burning image) or an image of Raspbian:
 
-### NOOBS 
+**NOOBS**
 
 - [NOOBS](https://www.raspberrypi.org/downloads/noobs/) is an automatic Pi OS installer designed to be super simple
 - Download NOOBS, unzip, copy to SD card (you do NOT burn an image, just copy)
 - Plugin SD, connect video, keyboard, and power to Pi
 - Follow instructions!
 
-### Burn SD
+**Burn image to SD**
 
 - See [Burn ISO note](https://evanwill.github.io/_drafts/notes/burn-iso.html)
 - Download [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) (headless or desktop) (Linux distro for Pi, based on [Debian](https://www.debian.org/), see [Intro to Linux note](https://evanwill.github.io/_drafts/notes/linux-intro.html))
@@ -61,7 +62,7 @@ See [official step-by-step](https://projects.raspberrypi.org/en/projects/raspber
 - Plug SD into Pi, boot up!
 - see [Raspbian docs](https://www.raspberrypi.org/documentation/raspbian/)
 
-# Use Pi
+## Use Pi
 
 - GUI (i.e. plugin HDMI, this is often easiest way to get started, even if you are planning to go headless)
 - [console cable](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview) (can be handy for developing headless projects, can provide power to the board)
@@ -77,7 +78,8 @@ See [official step-by-step](https://projects.raspberrypi.org/en/projects/raspber
 - Tip: plug SD into computer to directly edit file system!
 - `/etc/rc.local` file runs at boot, so you can add command line calls to start your program
 
-# Resources 
+## Resources 
 
 - Offical Raspberry Pi [Documentation](https://www.raspberrypi.org/documentation/), [Help](https://www.raspberrypi.org/help/), and [Forum](https://www.raspberrypi.org/forums/)
 - [Adafruit Learn](https://learn.adafruit.com/), [pi category](https://learn.adafruit.com/category/learn-raspberry-pi)
+- Play around to learn more: [Volumio](https://volumio.org/) music center, [RetroPi](https://retropie.org.uk/)
