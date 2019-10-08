@@ -71,7 +71,7 @@ Next, set up Firefox browser:
 
 - Preferences > Privacy & Security > check "Use a master password" and set.
 - Add [GNOME extensions](https://extensions.gnome.org/) plugin, [gnome-shell-integration](https://addons.mozilla.org/en/firefox/addon/gnome-shell-integration/)
-- Add [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/?src=search)
+- Add Firefox [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/?src=search), [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - Add adblocker such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search)
 
 Now you can add [GNOME extensions](https://extensions.gnome.org/), click the GNOME icon in the browser's upper right side.
