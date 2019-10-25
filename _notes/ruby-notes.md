@@ -44,5 +44,5 @@ Use RVM from Tilix.
 
 Intros:
 
-- [Try Ruby! in 15 minutes](http://tryruby.org/)
+- [Ruby in Twenty Minutes](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [Rails for Zombies](http://railsforzombies.org/)
