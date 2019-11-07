@@ -54,6 +54,7 @@ Click the Extensions icon on the left side and search in the box to find new one
 
 - Spell check: I have been using "Code Spell Checker".
 - CSV highlighter: "Rainbow CSV"
+- Data viz: [SandDance for VSCode](https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance) (handy for looking at CSV contents)
 - Arduino: If you have Arduino IDE installed on your system, you can add similar functionality to Code. Search for "Arduino" from Microsoft. Now when you open a `.ino` sketch, you will have options at the bottom of the window to select your board and port. More info [vscode-arduino](https://github.com/Microsoft/vscode-arduino).
 - XML: "XML Language Support"
 

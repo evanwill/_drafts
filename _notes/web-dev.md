@@ -2,14 +2,14 @@
 title: Handy web dev tools
 layout: post
 tags: [web, tips]
-date: 2018-05-29
+date: 2019-07-29
 ---
 
 Quick local server:
 
-- Python 3: `python -m http.server 8000` then surf to `localhost:8000`
+- Python 3: `python -m http.server 8000` then surf to `localhost:8000` (part of python standard library)
+- Ruby: `ruby -run -e httpd . -p 8080` then surf to `localhost:8080` (using the ruby standard library WEBrick)
 - Node: install `npm install -g http-server`, run `http-server`
-- Ruby: `ruby -run -e httpd . -p 8080` then surf to `localhost:8080`
 
 Browser support:
 
@@ -69,9 +69,9 @@ Image optimize:
 
 Reference:
 
-- [web.dev](https://web.dev/learn)
 - [MDN web docs](https://developer.mozilla.org/en-US/)
 - [w3schools](https://www.w3schools.com/)
+- [web.dev](https://web.dev/learn)
 
 JQuery?
 
