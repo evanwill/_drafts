@@ -98,6 +98,10 @@ Minimal hosting:
 - [1MB.site](https://1mb.site/)
 - [sdnotes](https://sdnotes.com/faq)
 
+Find good font for your editor:
+
+- [Programming Fonts](https://app.programmingfonts.org/), test out mono fonts in web based editor
+
 Check content of certificate file:
 
 - `openssl x509 -in libcal_uidaho_edu_cert.cer -noout -text`
