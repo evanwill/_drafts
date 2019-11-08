@@ -38,17 +38,23 @@ Checkout [Visual Studio Code](https://code.visualstudio.com/) (use shortcut `Ctr
 
 If you want a more fully featured visual writing environment, there are also applications devoted specifically to writing in Markdown. 
 These apps will have previews, GUI controls, and automatic export options. 
-Check out:
- 
+
+Web-based: 
+
+- [Dillinger](http://dillinger.io/)
+- [StackEdit](https://stackedit.io/)
+- [HackMD](https://hackmd.io/) (real time collaboration)
+
+Stand alone apps:
+
 - [Remarkable](https://remarkableapp.github.io/index.html) - code / preview split screen.
-- [Dillinger](http://dillinger.io/) - in browser, nothing to install.
 - [Typora](https://www.typora.io/) - live preview writing focused slick new app.
 
 ## Rendering Markdown
 
 Markdown is human readable as plain text--it is intuitive like writing an email. 
 However, it is designed to render as HTML. 
-Markdown compilers are built in to many applications to generate formatted versions such as HTML, .docx, or PDF.
+Markdown compilers are built in to many applications (like the editors above) to generate formatted versions such as HTML, .docx, or PDF.
 
 One option is [Pandoc](http://pandoc.org/), a command line utility to translate between many formats and generate new output versions, such as PDFs (via [LaTex](https://www.latex-project.org/about/)). 
 Check my note [Pandoc for PDFs](https://evanwill.github.io/_drafts/notes/pandoc.html) or the [Sustainable Authorship in Plain Text](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) tutorial.
