@@ -21,19 +21,20 @@ date: 2019-11-11
 Learning, outreach, events:
 
 - [Palouse Digital Scholarship Symposium](https://palousedh.github.io/symposium/)
-- [Vandal Poem of the Day](http://poetry.lib.uidaho.edu/)
+- [Vandal Poem of the Day](https://poetry.lib.uidaho.edu/)
 
 Research, publishing, digital collections: 
 
 - [Historical Japanese Ceramic Comparative Collection](https://www.lib.uidaho.edu/digital/hjccc/) (Graduate fellow Renae Campbell, Historical Archaeology)
 - [Closure of Syringa](https://uidaho.maps.arcgis.com/apps/Cascade/index.html?appid=a459d05f5e2c4b5c9cd9e535e0c4afaa) (Undergraduate fellow Denessy Rodriguez, Sociology & Anthropology)
-- [CTRL+SHIFT](ctrl-shift.org) (Devin Becker, graduate fellows Corey Oglesby and Lauren Westerfield, MFA)
-- [CCC in Idaho](http://www.lib.uidaho.edu/digital/cccidaho/) (Patricia Hart, JAMM)
+- [CTRL+SHIFT](https://ctrl-shift.org) (Devin Becker, graduate fellows Corey Oglesby and Lauren Westerfield, MFA)
+- [CCC in Idaho](https://www.lib.uidaho.edu/digital/cccidaho/) (Patricia Hart, JAMM)
 
 Software: 
 
 - [researchlab-template (syringa project)](https://github.com/uidaholib/syringa-project)
 - [CollectionBuilder](https://collectionbuilder.github.io/)
+- [poemBot](https://github.com/evanwill/poemBot)
 
 ## Virtual Reality
 
