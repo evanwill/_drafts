@@ -32,7 +32,7 @@ Research, publishing, digital collections:
 
 Software: 
 
-- [researchlab-template](https://github.com/uidaholib/researchlab-template)
+- [researchlab-template (syringa project)](https://github.com/uidaholib/syringa-project)
 - [CollectionBuilder](https://collectionbuilder.github.io/)
 
 ## Virtual Reality
