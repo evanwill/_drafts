@@ -53,6 +53,7 @@ Try: `git log --graph --abbrev-commit --date=relative`
 - [About pull request merges](https://help.github.com/articles/about-pull-request-merges/)
 - [Rebase and merge](https://github.com/blog/2243-rebase-and-merge-pull-requests)
 - Amusing way to view Git Log, [StarLogs](https://github.com/artemave/StarLogs)
+- [gitignore.io](https://www.gitignore.io/) (ready made ignore templates for various project types)
 
 ## Git in Classroom
 
