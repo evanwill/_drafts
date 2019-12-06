@@ -39,3 +39,21 @@ Open in OpenRefine, use separator `==>`, then use `<==` to create filename colum
 Or use a loop:
 
 `for f in *.txt; do cat $f; echo "separator"; done > combo.txt`
+
+## Extract text from PDF
+
+Use `poppler-utils` package command `pdftotext` (which is probably already installed on linux, can be installed with [Xpdf tools](https://www.xpdfreader.com/download.html) on windows):
+
+`pdftotext filename outputname` 
+
+`for f in *.pdf; do pdftotext "$f"; done`
+
+## Add something to each line
+
+Use sed:
+
+`sed 's/^/stuff in front/; s/$/stuff at end/' "filename.txt"`
+
+In batch: 
+
+`for f in *.txt; do sed 's/^/front/; s/$/back/' "$f" > output/"$f"; done`
