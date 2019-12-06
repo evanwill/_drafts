@@ -52,8 +52,10 @@ Use `poppler-utils` package command `pdftotext` (which is probably already insta
 
 Use sed:
 
-`sed 's/^/stuff in front/; s/$/stuff at end/' "filename.txt"`
+`sed 's/^/stuff in front/; s/$/stuff at end/' "input.txt" > output.txt`
 
 In batch: 
 
 `for f in *.txt; do sed 's/^/front/; s/$/back/' "$f" > output/"$f"; done`
+
+See [Sed: an introduction](https://www.grymoire.com/Unix/Sed.html) for extensive tips. 
