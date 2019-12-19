@@ -8,7 +8,7 @@ date: 2019-01-25
 I recently got a [Dell XPS 15 9570](https://www.dell.com/en-us/shop/dell-laptops/xps-15/spd/xps-15-9570-laptop) (16gb ram, i7-8750H CPU) for work expecting it to have good support in Linux, considering other XPS laptops ship with Ubuntu. 
 However, the massive (for a laptop) NVIDIA GeForce GTX 1050Ti with 4GB GDDR5 ensures installing Linux is not so smooth... 
 
-*Update: Pop!_OS 19.04 seems buggy on my XPS 15 (and their icon update is horrible!), while Ubuntu 19.04 seems more stable and equally easy to install if you select proprietary drivers during install. The Pop!_OS 18.04 LTS seems better than the most current version.* 
+*Update: Ubuntu 19.10 installs/works great on XPS 15, and find Pop!_OS 19.10 a bit more buggy. The Pop!_OS 18.04 LTS seems better than the most current version, but I have moved to Ubuntu 19.10. Most of this post is still relevant.* 
 
 Any distro will boot into the live usb pretty well with the basic Intel graphics--however, you will eventually end up with a few issues trying to get NVIDIA to work. 
 To simplify, I decided to use [Pop!_OS](https://system76.com/pop), an Ubuntu-based distro from computer manufacturer [System76](https://system76.com).
