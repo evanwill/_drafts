@@ -1,8 +1,8 @@
 ---
-title: Ruby Notes
+title: Ruby / RVM Notes
 layout: post
 tags: [ruby, ubuntu]
-date: 2018-05-02
+date: 2020-01-04
 ---
 
 [Ruby](https://www.ruby-lang.org/en/) is an interesting language, but can be a bit frustrating with the many versions and incompatibilities.
@@ -10,9 +10,14 @@ My main use is for working with [Jekyll](https://jekyllrb.com/) or [Ruby on Rail
 
 On Windows I always use [RubyInstaller](https://rubyinstaller.org/), which seems to work well. 
 
-On Linux, I have often used the version in the distro repositories (Ubuntu: `ruby-full`), but this is usually fairly out-of-date and can cause some headaches (such as requiring `sudo` to install gems).
+On Linux, I have tried the version in the distro repositories (Ubuntu: `ruby-full`), but this is usually fairly out-of-date and can cause some headaches (such as requiring `sudo` to install gems).
+On Ubuntu 19.10 `ruby-full` will be version 2.5.1. 
 
-Recently, I have switched to using [RVM](https://rvm.io/).
+A better, easy alternative is to use the official [Ruby snap package](https://snapcraft.io/ruby) maintained by the Ruby core team which stays up-to-date.
+
+However, you might want to use a Ruby version manager to keep your dependencies in order and separate from your system Ruby.
+I have been using [RVM](https://rvm.io/) (alternatively, check [rbenv notes](https://evanwill.github.io/_drafts/notes/ruby-rbenv.html)).
+
 However, there can be some barriers because the way RVM functions isn't compatible with the default set up of Gnome terminal--either you can reconfigure, or do a little workaround by setting up a second terminal. 
 
 ## Set up RVM on Ubuntu
@@ -44,5 +49,6 @@ Use RVM from Tilix.
 
 Intros:
 
+- [TryRuby (in browser)](https://ruby.github.io/TryRuby/)
 - [Ruby in Twenty Minutes](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [Rails for Zombies](http://railsforzombies.org/)
