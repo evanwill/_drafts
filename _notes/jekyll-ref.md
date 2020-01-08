@@ -5,12 +5,26 @@ tags: [jekyll]
 date: 2019-04-19
 ---
 
-## Add attributes to links
+> random notes about Jekyll quirks
 
-[Kramdown](https://kramdown.gettalong.org/) allows you to add additional attributes to links (called [Inline Attribute Lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists).
+## Add attributes to elements
+
+[Kramdown](https://kramdown.gettalong.org/) allows you to add additional attributes to elements with a basic syntax called [Attribute Lists](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions).
+Directly proceeding or following the block or inline element (as written in Markdown), add a `{:` the attributes, and close `}`.
+Multiple attributes can be added inside the brackets.
+
+For example, to create `<p id="example" class="red">Stuff</p>`, use:
+
+```
+Stuff
+{: #example .red }
+```
+
 To create `<a href="https://example.com" target="_blank" rel="noopener">example</a>`, use:
 
-`[example](https://example.com){:target="_blank"}{:rel="noopener"}`.
+```
+[example](https://example.com){:target="_blank" rel="noopener"}
+```
 
 ## Mix HTML with Markdown
 
@@ -20,6 +34,14 @@ However, Markdown inside HTML tags will be ignored.
 For example, `<div> # Header One</div>` won't render as an `<h1>`.
 However, with Jekyll's kramdown, you can add the attribute `markdown="1"` to an HTML element to tell the converter to render the Markdown inside.
 Thus, `<div markdown="1"> # Header One</div>` will render as `<div><h1>Header One</h1></div>`.
+
+## Use variables to write Liquid expressions
+
+Jekyll's version of Liquid tweaks some of the functions to provide additional features.
+Sometimes it is handy to use a variable to actually write/modify a Liquid expression. 
+For example, a page or site variable can be used to set up an include, basically Liquid *inside* a Liquid expression:
+
+`{% raw %}{% include {{ page.variable }} %}{% endraw %}`
 
 ## Add YML front matter
 
