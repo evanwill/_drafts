@@ -21,7 +21,7 @@ date: 2017-09-02
     <button type="button" class="buttons" id="midi-download"></button>
     <br>
     <div id="quickref">
-        <p><a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank">ABC notation</a> is a shorthand standard for representing music, commonly used to record and share traditional folk tunes. Each tune has a header and some notes.</p>
+        <p><a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank" rel="noopener">ABC notation</a> is a shorthand standard for representing music, commonly used to record and share traditional folk tunes. Each tune has a header and some notes.</p>
         <p>Common header elements:</p>
         <ul>
         <li><code class="highlighter-rouge">X:</code> index number, required in some software [e.g. <code class="highlighter-rouge">X:1</code>]</li>
@@ -45,7 +45,7 @@ date: 2017-09-02
     </div>
 </div>
 
-<p>Epic Music reads Samuel Butler's translations of the Iliad and Odyssey as if it was <a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank">ABC notation</a>, a simple plain text music format. The editor is created using <a href="https://github.com/paulrosen/abcjs" >abcjs</a>, which renders the ABC in musical notation and generates MIDI sound playback (full functionality only on Chromium / Chrome browser). Click the Edit button to show the ABC notation, and try modifying the Epic Music!</p>
+<p>Epic Music reads Samuel Butler's translations of the Iliad and Odyssey as if it was <a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank" rel="noopener">ABC notation</a>, a simple plain text music format. The editor is created using <a href="https://github.com/paulrosen/abcjs" >abcjs</a>, which renders the ABC in musical notation and generates MIDI sound playback (full functionality only on Chromium / Chrome browser). Click the Edit button to show the ABC notation, and try modifying the Epic Music!</p>
 
 <!--<div id="print-abc"></div>-->
 

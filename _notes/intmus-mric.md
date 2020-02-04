@@ -14,22 +14,22 @@ date: 2018-09-18
 
 # IntMus Links
 
-- [Integrated Musicianship: Theory](https://intmus.github.io/inttheory18-19/){:target="_blank"} 
-- [IntMus Theory source code](https://github.com/intmus/inttheory18-19){:target="_blank"} on GitHub
+- [Integrated Musicianship: Theory](https://intmus.github.io/inttheory18-19/){:target="_blank" rel="noopener"} 
+- [IntMus Theory source code](https://github.com/intmus/inttheory18-19){:target="_blank" rel="noopener"} on GitHub
 
 --------
 
-- [Think Open Fellowship](https://libguides.uidaho.edu/THINKOPEN){:target="_blank"} (University of Idaho Library)
-- [Open Definition](https://opendefinition.org/){:target="_blank"} (Open Knowledge International)
-- [Open Music Theory](http://openmusictheory.com/){:target="_blank"}, by Kris Shaffer, Bryn Hughes, and Brian Moseley, 2014+ ([OMT source on GitHub](https://github.com/openmusictheory/openmusictheory.github.io){:target="_blank"})
+- [Think Open Fellowship](https://libguides.uidaho.edu/THINKOPEN){:target="_blank" rel="noopener"} (University of Idaho Library)
+- [Open Definition](https://opendefinition.org/){:target="_blank" rel="noopener"} (Open Knowledge International)
+- [Open Music Theory](http://openmusictheory.com/){:target="_blank" rel="noopener"}, by Kris Shaffer, Bryn Hughes, and Brian Moseley, 2014+ ([OMT source on GitHub](https://github.com/openmusictheory/openmusictheory.github.io){:target="_blank" rel="noopener"})
 
 ---------
 
 - Static Web tools:
-    - [GitHub](https://github.com/){:target="_blank"} (cloud based platform for version control, collaboration, project management, and code sharing)
-    - [GitHub Pages](https://pages.github.com/){:target="_blank"} (free web hosting service)
-    - [Jekyll](https://jekyllrb.com/){:target="_blank"} (static site generator, provides the theme / templates)
-    - [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"} (simple plain text content)
+    - [GitHub](https://github.com/){:target="_blank" rel="noopener"} (cloud based platform for version control, collaboration, project management, and code sharing)
+    - [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener"} (free web hosting service)
+    - [Jekyll](https://jekyllrb.com/){:target="_blank" rel="noopener"} (static site generator, provides the theme / templates)
+    - [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank" rel="noopener"} (simple plain text content)
 - Interactive features:
-    - [abcjs](https://github.com/paulrosen/abcjs){:target="_blank"} (live editable music examples in the text, e.g. [Happy Birthday in G major](https://intmus.github.io/inttheory18-19/02-int-scales-keys/b1-scales.html){:target="_blank"})
-    - [Disqus](https://disqus.com/){:target="_blank"} (discussion around assignments, e.g. [Unit 4 assignment](https://intmus.github.io/inttheory18-19/assignments/Fall-semester/2018-09-17.html){:target="_blank"})
+    - [abcjs](https://github.com/paulrosen/abcjs){:target="_blank" rel="noopener"} (live editable music examples in the text, e.g. [Happy Birthday in G major](https://intmus.github.io/inttheory18-19/02-int-scales-keys/b1-scales.html){:target="_blank" rel="noopener"})
+    - [Disqus](https://disqus.com/){:target="_blank" rel="noopener"} (discussion around assignments, e.g. [Unit 4 assignment](https://intmus.github.io/inttheory18-19/assignments/Fall-semester/2018-09-17.html){:target="_blank" rel="noopener"})

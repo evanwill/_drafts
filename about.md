@@ -12,7 +12,7 @@ It's a memory tool.
 
 `_drafts` is built using [Jekyll](https://jekyllrb.com/){:target='_blank'}, on [GitHub Pages](https://pages.github.com/){:target='_blank'}.
 
-License is <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" title="license">cc-by-sa</a> [evan will](https://github.com/evanwill).
+License is <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" title="license">cc-by-sa</a> [evan will](https://github.com/evanwill).
 If you re-use some of my content, this jekyll theme, or use it in teaching, please let me know--I would appreciate it!
 
 Some of my workshops:

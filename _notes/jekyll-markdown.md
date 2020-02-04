@@ -24,7 +24,7 @@ If you are getting unexpected results when rendering, check your white space.
 ### Add attributes to links
 
 Kramdown allows you to add additional attributes to links. 
-I often add a target, like this: `[example](https://example.com){:target="_blank"}`.
+I often add a target, like this: `[example](https://example.com){:target="_blank" rel="noopener"}`.
 
 ### Intermix with HTML
 

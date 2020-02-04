@@ -10,7 +10,7 @@ My main use is for working with [Jekyll](https://jekyllrb.com/) or [Ruby on Rail
 
 On Windows I always use [RubyInstaller](https://rubyinstaller.org/), which seems to work well. 
 
-On Linux, I have tried the version in the distro repositories (Ubuntu: `ruby-full`), but this is usually fairly out-of-date and can cause some headaches (such as requiring `sudo` to install gems, unless you edit your bash profile, see Jekyll [Ubuntu install docs](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"}).
+On Linux, I have tried the version in the distro repositories (Ubuntu: `ruby-full`), but this is usually fairly out-of-date and can cause some headaches (such as requiring `sudo` to install gems, unless you edit your bash profile, see Jekyll [Ubuntu install docs](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank" rel="noopener"}).
 On Ubuntu 19.10 `ruby-full` will be version 2.5.1, and updates are rare.
 
 A better, easy alternative is to use the official [Ruby snap package](https://snapcraft.io/ruby) maintained by the Ruby core team which stays up-to-date.

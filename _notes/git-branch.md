@@ -5,7 +5,7 @@ tags: [git, github]
 date: 2018-06-01
 ---
 
-[Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){:target="_blank"} is a Git fundamental that allows you to test out ideas in parallel to your main repository without disrupting the master copy. 
+[Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){:target="_blank" rel="noopener"} is a Git fundamental that allows you to test out ideas in parallel to your main repository without disrupting the master copy. 
 Notes about confusing things:
 
 ## Remote branches 

@@ -21,7 +21,7 @@ date: 2017-08-24
     <button type="button" class="buttons" id="midi-download"></button>
     <br>
     <div id="quickref">
-        <p><a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank">ABC notation</a> is a shorthand standard for representing music, commonly used to record and share traditional folk tunes. Each tune has a header and some notes.</p>
+        <p><a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank" rel="noopener">ABC notation</a> is a shorthand standard for representing music, commonly used to record and share traditional folk tunes. Each tune has a header and some notes.</p>
         <p>Common header elements:</p>
         <ul>
         <li><code class="highlighter-rouge">X:</code> index number, required in some software [e.g. <code class="highlighter-rouge">X:1</code>]</li>
@@ -45,7 +45,7 @@ date: 2017-08-24
     </div>
 </div>
 
-<p>Brand New Reel remixes the titles and tunes of about 460 traditional reels. The music data is derived from the <a href="http://abc.sourceforge.net/NMD/" target="_blank">ABC version of the Nottingham Music Database</a>. Because <a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank">ABC notation</a> is a simple plain text format, it is ideal for sharing music on the web--and for manipulating with code. The editor is created using <a href="https://github.com/paulrosen/abcjs" >abcjs</a>, which renders the ABC in musical notation and generates MIDI sound playback (full functionality only on Chromium / Chrome browser). Click the Edit button to show the ABC notation, and try modifying the Brand New Reel!</p>
+<p>Brand New Reel remixes the titles and tunes of about 460 traditional reels. The music data is derived from the <a href="http://abc.sourceforge.net/NMD/" target="_blank" rel="noopener">ABC version of the Nottingham Music Database</a>. Because <a href="https://en.wikipedia.org/wiki/ABC_notation" target="_blank" rel="noopener">ABC notation</a> is a simple plain text format, it is ideal for sharing music on the web--and for manipulating with code. The editor is created using <a href="https://github.com/paulrosen/abcjs" >abcjs</a>, which renders the ABC in musical notation and generates MIDI sound playback (full functionality only on Chromium / Chrome browser). Click the Edit button to show the ABC notation, and try modifying the Brand New Reel!</p>
 
 <!--<div id="print-abc"></div>-->
 
