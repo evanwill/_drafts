@@ -1,13 +1,13 @@
 
 $base-color: $oc-gray-9;
-$base-lighten-color: $oc-gray-6;
+$base-lighten-color: $oc-gray-7;
 
 $background-color: $oc-white;
 $background-over-color: #ccccff;//#f0e6ff;//#e0ccff;//$oc-gray-1;
 
 $text-color: $oc-gray-9;
 $link-color: #0000cc; //$oc-indigo-9; /*$oc-blue-8;*/
-$code-color: #e6005c;//#2c3fa0; /*$oc-indigo-9;*/
+$code-color: #1100d9;//#2c3fa0; /*$oc-indigo-9;*/
 $code-background-color: #e1e6ea; /* $oc-gray-1; */
 $table-border-color: $oc-gray-2;
 $table-background-color: $oc-gray-1;
@@ -258,7 +258,7 @@ pre {
 
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  //font-size: 85%;
   color: $code-color;
   background-color: $code-background-color;
   border-radius: 3px;
@@ -269,7 +269,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: .5rem;
-  font-size: .8rem;
+  //font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;

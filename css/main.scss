@@ -4,11 +4,13 @@
 /* font base */ 
 @font-face {
   font-family: 'Noto Sans';
-  src:  url('fonts/notosans-regular-webfont.woff') format('woff');
+  src: local('Noto Sans Regular'), url('fonts/notosans-regular-webfont.woff') format('woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Source Code Pro';
-  src:  url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+  src:  local('Source Code Pro'), url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+  font-display: swap;
 }
 $base-font: 'Noto Sans', Helvetica, Arial, sans-serif;
 $code-font: 'Source Code Pro', Menlo, Monaco, monospace;

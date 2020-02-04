@@ -96,18 +96,18 @@
           margin: 4px;
           margin-left: 0px;
           color: $oc-white;
-          background-color: $oc-gray-6;
+          background-color: $oc-gray-7;
           text-decoration: none;
           border-radius: 3px;
 
           span {
             float: left;
-            padding: .5px 5px;
+            padding: .5px 8px;
           }
         }
 
         a:hover {
-          background-color: $oc-gray-7;
+          background-color: $oc-gray-8;
         }
       }
     }
@@ -209,23 +209,23 @@
           margin: 4px;
           margin-left: 0px;
           color: $oc-white;
-          background-color: $oc-gray-6;
+          background-color: $oc-gray-7;
           text-decoration: none;
           border-radius: 3px;
 
           span {
             float: left;
-            padding: .5px 5px;
+            padding: .5px 8px;
           }
 
           .count {
-            background-color: $oc-gray-7;
+            background-color: $oc-gray-8;
             border-radius: 0 3px 3px 0;
           }
         }
 
         a:hover {
-          background-color: $oc-gray-7;
+          background-color: $oc-gray-8;
         }
       }
     }
@@ -271,7 +271,7 @@
 .archive {
   &-list {
     &-post {
-      padding: 0.1rem;
+      padding: 0.4rem 0.1rem;
 
       &:hover {
           background-color: $background-over-color;
