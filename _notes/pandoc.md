@@ -8,8 +8,8 @@ date: 2018-09-05
 [Pandoc](http://pandoc.org/), the "universal document converter", is a command line utility to convert between countless file types.
 I use it in my writing workflow to convert from [Markdown](https://evanwill.github.io/_drafts/notes/writing-markdown.html) to PDF.
 
-Check the docs for full [installation instructions](http://pandoc.org/installing.html), but basically you need to install Pandoc and a [LaTex](https://www.latex-project.org/about/) distribution.
-Pandoc converts your Markdown and your Tex / LaTex distribution does the typesetting to create PDFs. 
+Check the docs for full [installation instructions](http://pandoc.org/installing.html), but basically you need to install Pandoc and a [LaTeX](https://www.latex-project.org/about/) distribution.
+Pandoc converts your Markdown and your Tex / LaTeX distribution does the typesetting to create PDFs. 
 Here is everything necessary on Ubuntu Linux:
 
 ```
@@ -28,10 +28,10 @@ pandoc -o output.pdf input.md
 ```
 
 For writing your content Pandoc supports an extended version of [markdown syntax](http://pandoc.org/MANUAL.html#pandocs-markdown) with many enhancements such as footnotes and tables (similar to GitHub Flavor Markdown). 
-If you include a [YAML metadata block](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block) at the top of your file, the standard fields will be translated into LaTex elements (title, date, author, etc).
+If you include a [YAML metadata block](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block) at the top of your file, the standard fields will be translated into LaTeX elements (title, date, author, etc).
 
-To tweak your PDF layout / typesetting, you can pass LaTex variables to Pandoc using the `-V` variable flag (see docs for all [LaTex variable options](http://pandoc.org/MANUAL.html#variables-for-latex)).
-If you know LaTex, you can get fancy right away and use existing templates.
+To tweak your PDF layout / typesetting, you can pass LaTeX variables to Pandoc using the `-V` variable flag (see docs for all [LaTeX variable options](http://pandoc.org/MANUAL.html#variables-for-latex)).
+If you know LaTeX, you can get fancy right away and use existing templates.
 However, you can also use a few very simple options to spruce up the defaults.
 For example, the default margin is very large, so you might want to use:
 
@@ -39,10 +39,10 @@ For example, the default margin is very large, so you might want to use:
 pandoc -V geometry=margin=1.25in -o output.pdf input.md
 ```
 
-This will use the LaTex package `geometry` to set all the margins to 1.25 inch.
+This will use the LaTeX package `geometry` to set all the margins to 1.25 inch.
 You could set each margin individually with geometry options margin-left, margin-right, margin-top, or margin-bottom.
 
-To change the font I usually use the XeLaTex engine, since it can use any normal font installed on your system.
+To change the font I usually use the XeLaTeX engine, since it can use any normal font installed on your system.
 First, you need to figure out the correct names for installed fonts. 
 Use this command:
 
@@ -61,8 +61,8 @@ pandoc --pdf-engine=xelatex -V geometry=margin=1.25in -V mainfont="Noto Sans" -o
 
 > Note: older versions of Pandoc use `--latex-engine` instead of `--pdf-engine`, which is likely if you installed Pandoc from a distro repository.
 
-You can also use the pdfLaTex engine, which requires specifically prepared LaTex fonts (usually stored with a `.sty` extension).
-Preparing and using the fonts requires a bit of LaTex savvy (in theory you can use lots of cool fonts, [FontCatalogue](http://www.tug.dk/FontCatalogue/)).
+You can also use the pdfLaTeX engine, which requires specifically prepared LaTeX fonts (usually stored with a `.sty` extension).
+Preparing and using the fonts requires a bit of LaTeX savvy (in theory you can use lots of cool fonts, [FontCatalogue](https://www.tug.org/FontCatalogue/)).
 However, the `texlive-fonts-extra` package contains a few ready to go options.
 The command looks like:
 
@@ -88,5 +88,5 @@ colorlinks: true
 ---
 ```
 
-For my basic purposes, that is plenty of control, but of course you can go much further by learning more about LaTex.
+For my basic purposes, that is plenty of control, but of course you can go much further by learning more about LaTeX.
 Check [danstoner](https://github.com/danstoner/pandoc_samples) for samples of PDF creation, [Practical Typography](http://practicaltypography.com/system-fonts.html) for system font suggestions, and the [Pandoc User Guide](http://pandoc.org/MANUAL.html) for more info.
