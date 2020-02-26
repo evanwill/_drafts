@@ -59,7 +59,7 @@ Daniel Keim, Gennady Andrienko, Jean-Daniel Fekete, Carsten Görg, Jörn Kohlham
 Visualizations and Viz tools need to be designed with human visual abilities in mind. 
 For example, check out this research about "Preattentive Features and Tasks" [(on youtube)](https://youtu.be/wnvoZxe95bo):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wnvoZxe95bo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wnvoZxe95bo" frameborder="0" allowfullscreen></iframe>
 
 > Christopher G. Healey, "Perception in Visualization", http://www.csc.ncsu.edu/faculty/healey/PP/
 

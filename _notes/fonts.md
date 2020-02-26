@@ -16,3 +16,4 @@ date: 2019-05-29
 - [Hell vetica](https://hellveticafont.com/) (helvetica twisted by messed up kernings)
 - [Vollkorn](http://vollkorn-typeface.com/) (includes ligatures that can make your text as unreadable as early typeface...)
 - [TT2020](https://ctrlcctrlv.github.io/TT2020/) (typewriter font with realistic irregularities built in)
+- [Raybees](https://vole.wtf/raybees-font/) (cutout-style font, with gyphs like a skull in place of brackets)
