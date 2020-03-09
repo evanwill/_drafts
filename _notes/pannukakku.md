@@ -1,7 +1,7 @@
 ---
 title: Pannukakku Recipe
 layout: post
-tags: [fun]
+tags: [fun,food]
 date: 2018-04-07
 ---
 
