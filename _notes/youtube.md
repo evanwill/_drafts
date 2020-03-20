@@ -51,11 +51,11 @@ Default images:
 
 Auto thumbs:
 
-- default image 480x360, https://img.youtube.com/vi/< youtube id >/0.jpg 
-- alternate thumb 120x90, https://img.youtube.com/vi/< youtube id >/1.jpg 
-- alternate thumb 120x90, https://img.youtube.com/vi/< youtube id >/2.jpg 
-- alternate thumb 120x90, https://img.youtube.com/vi/< youtube id >/3.jpg
+- default image 480x360, `https://img.youtube.com/vi/< youtube id >/0.jpg `
+- alternate thumb 120x90, `https://img.youtube.com/vi/< youtube id >/1.jpg`
+- alternate thumb 120x90, `https://img.youtube.com/vi/< youtube id >/2.jpg`
+- alternate thumb 120x90, `https://img.youtube.com/vi/< youtube id >/3.jpg`
 
-Note: you can use the domain "img.youtube.com" or "i3.ytimg.com".
+Note: you can use the domain `img.youtube.com` or `i3.ytimg.com`.
 
 For more control, you can use [YouTube Data API](https://developers.google.com/youtube/v3/), but it requires a key to access.
