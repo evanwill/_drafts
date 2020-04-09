@@ -6,7 +6,7 @@ https://evanwill.github.io/_drafts/
 
 https://github.com/evanwill/_drafts
 
-`_drafts` is built using [Jekyll](https://jekyllrb.com/), on [GitHub Pages](https://pages.github.com/).
+`_drafts` is built using [Jekyll](https://jekyllrb.com/), hosted on [GitHub Pages](https://pages.github.com/).
 
 The content of this project is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" title="license">CC-BY-SA</a> [evan will](https://github.com/evanwill).
 The underlying source code used to format and display that content (the Jekyll theme) is licensed under the [MIT license](https://github.com/evanwill/_drafts/blob/master/LICENSE).
