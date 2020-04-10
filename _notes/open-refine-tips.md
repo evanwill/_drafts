@@ -95,6 +95,21 @@ For example, if you had "12345", "123456", "1234567", and wanted them all to be 
 
 <https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory>
 
+## Local server to input data from files
+
+A goofy approach to get a bunch of text data into a spreadsheet from individual files is to serve the directory of files up on a local server then grab them using Refine's fetch.
+This avoids many limitations of working with conventional spreadsheets, and lets you parse the files into data using Refine methods such as parseHtml, split columns, or split multivalued cells.
+
+For example, imagine I have a folder of hundreds of HTML files that I want to parse into data:
+
+- create a list of the files on commandline with `ls > list.txt`
+- create Refine project using `list.txt` so each row will equal one of the files
+- [start a local server]({{ '/notes/web-server.html' | relative_url }}) in the folder of files and note where it is served (e.g. `localhost:8080`)
+- Add column based on the filenames with the local url, e.g. `"http://localhost:8080/" + value`
+- Add column by fetching urls
+
+Now you have a spreadsheet with a giant amount of text data!
+
 ## Linux issue with Java version not found (V<3.0)
 
 If you have an up-to-date version of Java installed on linux (`openjdk-11-jre`), starting Refine V<3.0 with `./refine` will throw an error saying you don't have Java installed or need to set `$JAVA_HOME`.
