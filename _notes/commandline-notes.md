@@ -27,6 +27,14 @@ To combine the other two commands:
 
 `for f in *.txt; do NAME="${f#front-}"; mv "$f" "${NAME%-back.txt}.md"; done`
 
+If you have spaces in the pattern, escape them. 
+E.g. `name with space` use something like `${f#name\ with\ space}`.
+
+You can also use the syntax `${var/pattern/replacementstring}` to replace things in the filename. 
+If the "pattern" chunk starts with an extra `/`, then it replaces all matches (not just the first).
+This way you could remove all spaces from filenames in a directory and replace them with underscore like: 
+`for f in *\ *; do mv "$f" "${f// /_}"; done`
+
 ## Combine CSVs
 
 Remove headers and combine all files into one:
