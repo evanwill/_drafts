@@ -2,7 +2,7 @@
 title: Ubuntu 20.04
 layout: post
 tags: [linux, install]
-date: 2020-01-27
+date: 2020-04-27
 ---
 
 New long term release [Ubuntu 20.04](https://ubuntu.com/download/desktop) is out!
