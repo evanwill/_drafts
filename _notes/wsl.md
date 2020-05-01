@@ -7,7 +7,7 @@ date: 2020-04-28
 
 On Windows I use Git Bash (from [Git for Windows](https://git-scm.com/)) for everyday commandline tasks.
 Occasionally I need something a bit more complete and have used [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) in the past.
-However, after recent improvements [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL) is now offering a great alternative that is easy to install. 
+However, [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL) is now offering a great alternative that is easy to install. 
 
 > *P.S.* [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-about) sounds even better, but I don't have an up-to-date enough Windows built to try it.
 > *P.S.S.* If you are using Bash commandline a lot, why not just [try to linux](https://evanwill.github.io/_drafts/notes/linux-workshop.html) fulltime or dual boot!

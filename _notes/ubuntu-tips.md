@@ -29,6 +29,7 @@ Otherwise, search the Software Center.
 - `curl` is often to grab web stuff on the command line.
 - A few extra fonts: `fonts-firacode` `fonts-noto`
 - Firefox extensions: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/), [Multi-account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), [Side-view](https://testpilot.firefox.com/experiments/side-view), [Notes](https://testpilot.firefox.com/experiments/notes/), [OneTab](https://addons.mozilla.org/en-US/firefox/addon/onetab/)
+- Disk utilities: [Etcher](https://www.balena.io/etcher/) for burning USBs, and GParted for formatting.
 
 ## Languages
 
