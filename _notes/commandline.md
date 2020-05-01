@@ -43,10 +43,10 @@ If you want to control a Raspberry Pi or virtual machine in the cloud, you will 
 On Linux or Mac, you already have Bash, just open a *Terminal* and you are ready to go.
 On Windows there are several options to add a UNIX-like style shell:
 
+- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10). ([WSL notes](https://evanwill.github.io/_drafts/notes/wsl.html))
 - Git Bash: installing [Git for Windows](https://git-for-windows.github.io/) adds the Git Bash shell. It comes with some of the standard UNIX applications (and you can [add more](https://evanwill.github.io/_drafts/notes/gitbash-windows.html)). It is easy to install, integrates with Windows context menus (right click), and works well. (alternatively, use Git Bash with [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html), which is fully portable, no install needed)
 - [Cygwin](https://www.cygwin.com/): a project that adds Unix style terminal to Windows including hundreds of utilities built and packaged to function natively on Windows. It includes more functionality than Git Bash and has a package system to install utilities ([more info](https://evanwill.github.io/_drafts/notes/cygwin.html)).
 - [MobaXterm](http://mobaxterm.mobatek.net/): a non-opensource emulator similar to Cygwin with quite a bit of functionality and an optional paid version.
-- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about): Windows 10 has the option to install a Ubuntu Linux subsystem which enables a native Bash shell with all the standard functionality. This is very handy, but installing takes [a few steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 The GUI window that hosts the text based CLI is often called a **terminal emulator**. 
 Most people use the default that comes with your OS, but if you want to get fancy, there are a surprising number of options out there!
