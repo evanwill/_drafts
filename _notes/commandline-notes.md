@@ -67,3 +67,14 @@ In batch:
 `for f in *.txt; do sed 's/^/front/; s/$/back/' "$f" > output/"$f"; done`
 
 See [Sed: an introduction](https://www.grymoire.com/Unix/Sed.html) for extensive tips. 
+
+## Get list of files meeting criteria 
+
+I often have a folder of text files and need a list of which one contain some specific string. 
+Easy using `grep` with the `-l` flag for listing filename only (not the matching lines):
+
+`grep -l "string" * > list.txt`
+
+Or the opposite, files without the phrase, using `-L` for filenames with no match:
+
+`grep -L "string" * > list.txt`
