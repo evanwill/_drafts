@@ -5,17 +5,17 @@ tags: [images, library, tools]
 date: 2018-11-27
 ---
 
-To read, write, and manipulate metadata embedded in image files you need [ExifTool](https://sno.phy.queensu.ca/~phil/exiftool/) (p.s. can also read/write metadata on many other file formats such as PDF, videos, music, and documents). 
+To read, write, and manipulate metadata embedded in image files you need [ExifTool](https://exiftool.org/) (p.s. can also read/write metadata on many other file formats such as PDF, videos, music, and documents). 
 Truthfully, nothing else works reliably. 
 
 ## Install
 
 ExifTool is a [Perl](https://www.perl.org/) library and commandline tool.
-Check the [install docs](https://sno.phy.queensu.ca/~phil/exiftool/install.html) for full information, but basically on Windows use the "stand-alone executable", Mac use the "MacOS package", and on Linux use your distro repository.
+Check the [install docs](https://exiftool.org/install.html) for full information, but basically on Windows use the "stand-alone executable", Mac use the "MacOS package", and on Linux use your distro repository.
 
 **Windows:**
 
-- Download the "stand-alone Windows Executable" from the [ExifTool](https://sno.phy.queensu.ca/~phil/exiftool/) page (this will be a `.zip` file e.g. "exiftool-11.20.zip").
+- Download the "stand-alone Windows Executable" from the [ExifTool](https://exiftool.org/) page (this will be a `.zip` file e.g. "exiftool-11.99.zip").
 - Unzip the downloaded file.
 - Inside you will find a file named `exiftool(-k).exe`. Rename it to `exiftool.exe`.
 - Add it to your PATH: 
@@ -29,35 +29,42 @@ Check the [install docs](https://sno.phy.queensu.ca/~phil/exiftool/install.html)
 ## Use 
 
 To use ExifTool, start with the command `exiftool`, add some options, and the file name of an image.
-Type `exiftool` to printout the [full manual page](https://sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html).
+Type `exiftool` to printout the [full manual page](https://exiftool.org/exiftool_pod.html).
 
 ### Read Metadata 
 
-The most basic command is to read all metadata:
+The most basic command is to read all metadata for an image:
 
 `exiftool test.jpg`
+
+However, Exiftool has batch options built in, so you could replace the filename with a selector such as `*.jpg` to read multiple images.
 
 From there add *Options* and/or *Tags* to the command. 
 
 **Options** typically change the tool's output. 
 Option examples: 
 
-- `-v`, the [Verbose Option](https://sno.phy.queensu.ca/~phil/exiftool/verbose.html) adds more technical detail to the output: `exiftool -v test.jpg`
+- `-v`, the [Verbose Option](https://exiftool.org/verbose.html) adds more technical detail to the output: `exiftool -v test.jpg`
 - `-T` outputs the data as a tab delimited table: `exiftool -T test.jpg > table.txt`
+- `-csv` outputs as csv and automatically adds a "SourceFile" column with the file name: `exiftool -csv *.jpg > metadata.csv`
 - `-X` outputs RDF/XML format: `exiftool -X test.jpg > metadata.xml`
 - `-ee` reads metadata for embedded files in addition to the main file, e.g. images combined into a PDF: `exiftool -ee test.pdf`
 - `-a` (allow duplicates) and `-u` (allow unknown tags) extract metadata that might otherwise be hidden: `exiftool -a -u test.jpg`
 
 **Tags** correspond to embedded metadata elements and are used to read or write specific values.
 Metadata elements are given a "Tag Name" (and machine readable "Tag ID") that ExifTool can take as a commandline argument by adding `-` in front. 
-To find the notation explore the [Tag Names](https://sno.phy.queensu.ca/~phil/exiftool/TagNames/index.html) index.
+To find the notation explore the [Tag Names](https://exiftool.org/TagNames/index.html) index.
 
 To **read** a specific tag, include it as an argument.
 For example, `exiftool -Make test.jpg` will output the EXIF metadata for camera/scanner make. 
 
+A batch of GPS tags can be extracted using: 
+
+`exiftool -gpslatitude -gpslongitude -csv *.jpg > locations.csv`
+
 *Note*, some tags are part of a larger "group", such as IPTC or XMP, and may have a "namespace". 
 The tag names are prefixed with the group name, for example, `-XMP:Description` or `-IPTC:Source`.
-Namespaces are added to the group name, for example, `-XMP-dc:Source`. 
+Namespaces are added to the group name, for example, `-XMP-dc:Source`.
 
 ### Write Metadata 
 
