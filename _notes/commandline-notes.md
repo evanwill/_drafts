@@ -78,3 +78,19 @@ Easy using `grep` with the `-l` flag for listing filename only (not the matching
 Or the opposite, files without the phrase, using `-L` for filenames with no match:
 
 `grep -L "string" * > list.txt`
+
+## Don't store in history
+
+If you add a space at the beginning of the line, then the command won't be recorded in your history. 
+This is important if you are manually adding some passwords or secrets in the command.
+
+## Use command output in another command
+
+Sometimes you can't pipe output into a command, you need the output inside the command instead (i.e. "command substitution").
+Use `$(command)` in place. 
+E.g. `JUPYTER=$(which jupyter) julia` (gives julia-lang location of Jupyter Notebook). 
+
+## Handy Ref
+
+- [Bash scripting cheatsheet](https://devhints.io/bash)
+- [SS64](https://ss64.com/bash/)
