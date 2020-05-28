@@ -9,7 +9,7 @@ New long term release [Ubuntu 20.04](https://ubuntu.com/download/desktop) is out
 
 Long term releases get guaranteed five years of support, so are great if you like to install a solid system once and leave it.
 On the other hand, I like do a fresh install at every release, but either way, this note gathers up tips for getting everything set up after you install. 
-I have a Dell XPS 15, Lenovo Flex, and HP Envy, and so far everything seems to work well. 
+I have a Dell XPS 15, Lenovo Flex, and HP Envy, and so far everything seems to work well--and the desktop seems noticeably faster than 18.04.
 
 ## Install from USB
 
@@ -75,6 +75,10 @@ From snap install:
 - KeePassXC (password manager)
 
 ## Install Languages
+
+*Note*, 20.04 has some different system languages installed.
+It ships with Ruby 2.7 (new) and Python 3.8 (no more Python 2).
+In the terminal, Python is `python3`, so `which python` will come up with nothing.
 
 - Ruby: [rbenv](https://evanwill.github.io/_drafts/notes/ruby-rbenv.html) or [RVM set up](https://evanwill.github.io/_drafts/notes/ruby-notes.html)
 - Python: [Anaconda set up](https://evanwill.github.io/_drafts/notes/dual-python-notebook.html)
