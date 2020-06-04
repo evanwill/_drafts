@@ -8,17 +8,17 @@ date: 2019-01-25
 I recently got a [Dell XPS 15 9570](https://www.dell.com/en-us/shop/dell-laptops/xps-15/spd/xps-15-9570-laptop) (16gb ram, i7-8750H CPU) for work expecting it to have good support in Linux, considering other XPS laptops ship with Ubuntu. 
 However, the massive (for a laptop) NVIDIA GeForce GTX 1050Ti with 4GB GDDR5 ensures installing Linux is not so smooth... 
 
-*Update: Ubuntu 19.10 installs/works great on XPS 15, and find Pop!_OS 19.10 a bit more buggy. The Pop!_OS 18.04 LTS seems better than the most current version, but I have moved to Ubuntu 19.10. Most of this post is still relevant.* 
+*Update: [Ubuntu 20.04 installs/works great](https://evanwill.github.io/_drafts/notes/ubuntu20.html) on XPS 15. I have moved to Ubuntu 20.04, but most of this post is still relevant. The most recent versions of Pop!_OS have some unique gnome extensions, including an auto-tiling desktop option.* 
 
 Any distro will boot into the live usb pretty well with the basic Intel graphics--however, you will eventually end up with a few issues trying to get NVIDIA to work. 
 To simplify, I decided to use [Pop!_OS](https://system76.com/pop), an Ubuntu-based distro from computer manufacturer [System76](https://system76.com).
-There is a few [differences from Ubuntu](https://pop.system76.com/docs/difference-between-pop-ubuntu/), but most importantly Pop!_OS provides a special image specifically for NVIDIA machines so you don't have to follow a bunch of post install steps to get things working. 
+There is a few [differences from Ubuntu](https://support.system76.com/articles/difference-between-pop-ubuntu/), but most importantly Pop!_OS provides a special image specifically for NVIDIA machines so it is easy to get things working. 
 
 *Note: I did not install as a dual boot, so I am not sure how smoothly that would go, but check the [official docs](https://pop.system76.com/docs/dual-booting-windows/).*
 
 ## Set up and install Pop!_OS
 
-1. [download Pop!_OS](https://system76.com/pop) choosing the NVIDIA option.
+1. [download Pop!_OS](https://pop.system76.com/) choosing the NVIDIA option.
 2. [Burn to a USB stick](https://evanwill.github.io/_drafts/notes/burn-iso.html)
 3. Plug in your Pop!_OS USB
 4. Boot XPS 15 and hit F2 as it boots to enter the BIOS menu
