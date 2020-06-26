@@ -93,7 +93,7 @@ For example, if you had "12345", "123456", "1234567", and wanted them all to be 
 
 ## Info on using more memory
 
-<https://github.com/OpenRefine/OpenRefine/wiki/FAQ:-Allocate-More-Memory>
+<https://github.com/OpenRefine/OpenRefine/wiki/FAQ-Allocate-More-Memory>
 
 ## Local server to input data from files
 
