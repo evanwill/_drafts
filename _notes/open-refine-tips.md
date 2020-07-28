@@ -95,6 +95,15 @@ For example, if you had "12345", "123456", "1234567", and wanted them all to be 
 
 <https://github.com/OpenRefine/OpenRefine/wiki/FAQ-Allocate-More-Memory>
 
+## Parsing CONTENTdm TSV export 
+
+CONTENTdm and some other platforms export metadata in TSV format which often end up with parsing errors on import. 
+When starting a project:
+
+- make sure you select the correct encoding (for CONTENTdm = "UTF-8")
+- uncheck the option `Use character " to enclose cells containing column separators`
+- parsing issues are often not immediately apparent, so carefully check the number of records you expect and view the last rows of your data 
+
 ## Local server to input data from files
 
 A goofy approach to get a bunch of text data into a spreadsheet from individual files is to serve the directory of files up on a local server then grab them using Refine's fetch.

@@ -8,8 +8,9 @@ date: 2018-11-26
 Outline:
 
 - Import metadata:
-    - character encoding
+    - character encoding (UTF-8!)
     - import options (separator, batches)
+    - CONTENTdm TSV parsing issues: uncheck the option `Use character " to enclose cells containing column separators`
 - Explore metadata:
     - facets (from column menu)
     - text filter (from column menu)
