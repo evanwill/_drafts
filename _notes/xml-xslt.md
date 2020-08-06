@@ -28,21 +28,23 @@ Saxon provides an open source and commercial version of their v.2 processor impl
 If you install from a Linux repository, you will get a relatively old version--which in this case is actually good. 
 Apparently more recent "open" versions from Saxonica have limited advanced features.
 
-Be sure you Java installed (`default-jre`), then install:
+Be sure you have Java installed (`default-jre`), then install:
 
 `sudo apt install libsaxonb-java`
 
 Use is via a Java command like:
 
-`java net.sf.saxon.Transform -o:out.html -s:example.xml -xsl:test.xslt`
+`java net.sf.saxon.Transform -o:output.html -s:example.xml -xsl:test.xslt`
+
+Or via the commandline wrapper ([man page](http://manpages.ubuntu.com/manpages/trusty/man1/saxonb-xslt.1.html)):
+
+`saxonb-xslt -s:example.xml -xsl:stylesheet.xsl -o:output.html`
 
 If you run with a v1 stylesheet you may get a warning, but it still works fine. 
 You will also get a warning for "unsafe extensions" for commands such as `xsl:result-document`. 
 To ignore the warning, add `-ext:on`, like:
 
-`java net.sf.saxon.Transform -s:example.xml -xsl:test.xsl -ext:on`
-
-See [man page](http://manpages.ubuntu.com/manpages/trusty/man1/saxonb-xslt.1.html) or [tutorial notes](http://www.microhowto.info/howto/process_an_xml_document_using_an_xslt_stylesheet.html).
+`saxonb-xslt -s:example.xml -xsl:test.xsl -ext:on`
 
 ## Ruby Nokogiri
 
@@ -67,3 +69,5 @@ i.e. open the XML; open the XSL; apply the XSLT; write the output to a file.
 See [Nokogiri stylesheet docs](https://nokogiri.org/rdoc/Nokogiri/XSLT/Stylesheet.html). 
 
 Alternatively, rather than writing/applying an XSL, I have found it easier to just parse values out of the XML using selectors, then write the new document using Ruby instead. 
+
+In fact, I think I will do my best to avoid XML if possible...
