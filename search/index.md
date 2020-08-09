@@ -3,7 +3,7 @@ title: Site Search
 layout: page
 ---
 
-Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/){:target='_blank'}.
+Basic search of *_drafts* notes full text using [Lunr.js](https://lunrjs.com/){:target='_blank' rel='noopener'}.
 *May take a second to load!* 
 (p.s. or you can try [google cse]({{ "/search/google.html" | absolute_url }}))
 

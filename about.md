@@ -5,12 +5,12 @@ layout: page
 
 `_drafts` is digital rough frame carpentry, a blog of notes, solutions, and mini-workshops to get things started.
 
-Basically, `_drafts` is a list of [gists](https://gist.github.com/){:target='_blank'}. 
+Basically, `_drafts` is a list of [gists](https://gist.github.com/){:target='_blank' rel='noopener'}. 
 I write notes to remind myself about tips and tricks.
 This site gathers them together so I can find them.
 It's a memory tool. 
 
-`_drafts` is built using [Jekyll](https://jekyllrb.com/){:target='_blank'}, hosted on [GitHub Pages](https://pages.github.com/){:target='_blank'}.
+`_drafts` is built using [Jekyll](https://jekyllrb.com/){:target='_blank' rel='noopener'}, hosted on [GitHub Pages](https://pages.github.com/){:target='_blank' rel='noopener'}.
 The "theme" is mostly [Minima](https://github.com/jekyll/minima) mixed with ideas from [Kiko-plus](https://aweekj.github.io/Kiko-plus/).
 The home page uses [List.js](https://listjs.com/).
 
