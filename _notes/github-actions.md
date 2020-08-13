@@ -26,6 +26,18 @@ I often .gitignore these since my projects aren't complex, and they tend to conf
 However, you need the Gemfile.lock to tell the build process exactly what Gems to use--this way, if it works on your computer, it will work on the virtual machine. 
 (Keep in mind, the VM is Ubuntu, so not sure if that is true if you use Windows...)
 
+You don't need anything fancy.
+A Gemfile with just this will work: 
+
+```
+source 'https://rubygems.org'
+
+gem 'jekyll'
+
+```
+
+Create the Gemfile, then run `jekyll s` to generate the Gemfile.lock, and commit them both. 
+
 ## 2. Action YML
 
 Next, you need to create the YAML Action file in the directory `.github/workflows/`. 
