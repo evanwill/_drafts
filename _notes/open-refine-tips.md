@@ -119,6 +119,13 @@ For example, imagine I have a folder of hundreds of HTML files that I want to pa
 
 Now you have a spreadsheet with a giant amount of text data!
 
+## Common HTML parsing
+
+I often use these GREL statements to extract stuff out of HTML:
+
+- get all image src out: `forEach(value.parseHtml().select('img'),i,i.htmlAttr('src')).join("; ")`
+- get all links out: `forEach(value.parseHtml().select('a'),i,i.htmlAttr('href')).join("; ")`
+
 ## Linux issue with Java version not found (V<3.0)
 
 If you have an up-to-date version of Java installed on linux (`openjdk-11-jre`), starting Refine V<3.0 with `./refine` will throw an error saying you don't have Java installed or need to set `$JAVA_HOME`.
