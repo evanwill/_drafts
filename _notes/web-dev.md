@@ -21,7 +21,7 @@ Tests:
 - [Lighthouse tests](https://web.dev/measure)
 - [Page Speed](https://developers.google.com/speed/pagespeed/insights/)
 - [mobile-friendly](https://search.google.com/test/mobile-friendly)
-- [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
+- [Rich Results Test](https://search.google.com/test/rich-results) (replaces discontinued [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool))
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 - [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/)
 - [webpagetest](http://webpagetest.org/) (test on actually devices and connections)
