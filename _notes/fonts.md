@@ -11,9 +11,11 @@ date: 2019-05-29
 - [Dana Library Hand](http://www.margoburns.com/fonts/DanaLibraryHand/), font created by Margo Burns inspired by a writing style recommended for card catalogues by 1899 ["A library primer"](https://archive.org/details/primerlibrary00danarich/page/n8).
 - [Leon Sans](https://github.com/cmiscm/leonsans), javascript based font allowing interesting transformations and effects (awesome [leonsans demos](https://leon-kim.com/examples/)).
 - [Fontello](http://fontello.com/), icon font generator.
-- [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) or [Kongtext](https://www.dafont.com/kongtext.font) + [NES.css](https://nostalgic-css.github.io/NES.css/) (not a font, but retro styling) 
+- [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) or [Kongtext](https://www.dafont.com/kongtext.font) (retro game fonts)
 - [Greta Grotesk](https://boingboing.net/2019/10/17/how-dare-you-2.html) (based on Greta's hand lettered signs)
 - [Hell vetica](https://hellveticafont.com/) (helvetica twisted by messed up kernings)
 - [Vollkorn](http://vollkorn-typeface.com/) (includes ligatures that can make your text as unreadable as early typeface...)
 - [TT2020](https://ctrlcctrlv.github.io/TT2020/) (typewriter font with realistic irregularities built in)
 - [Raybees](https://vole.wtf/raybees-font/) (cutout-style font, with gyphs like a skull in place of brackets)
+- [ztext.js](https://bennettfeely.com/ztext/) (3D typography that works with any font)
+- [Handwritten.JS](https://github.com/alias-rahil/handwritten.js) (converts text into realistic handwritten image)

@@ -18,6 +18,7 @@ Browser support:
 
 Tests:
 
+- [Web Vitals](https://web.dev/vitals/)
 - [Lighthouse tests](https://web.dev/measure)
 - [Page Speed](https://developers.google.com/speed/pagespeed/insights/)
 - [mobile-friendly](https://search.google.com/test/mobile-friendly)
