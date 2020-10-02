@@ -91,6 +91,12 @@ For example, if you had "12345", "123456", "1234567", and wanted them all to be 
 
 `"00000000"[0,8-length(value)] + value`
 
+## Remove trailing period (or other character)
+
+Regex `$` means end of string and `^` is start of string, so you can do something like: 
+ 
+`value.replace(/\.$/,"")`
+
 ## Info on using more memory
 
 <https://github.com/OpenRefine/OpenRefine/wiki/FAQ-Allocate-More-Memory>
