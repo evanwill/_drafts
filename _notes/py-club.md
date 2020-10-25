@@ -103,5 +103,5 @@ Anaconda Navigator is a GUI app to manage conda and install stuff...
 ## Library resources
 
 - [matplotlib XKCD](https://matplotlib.org/gallery/showcase/xkcd.html)
-- [Safari: O'Reilly Books](http://ida.lib.uidaho.edu:2048/login?url=https://www.safaribooksonline.com/library/view/temporary-access/)
+- [Safari: O'Reilly Books](https://uidaho.idm.oclc.org/login?url=https://www.safaribooksonline.com/library/view/temporary-access/)
 - [workshops](https://www.lib.uidaho.edu/services/workshops/)

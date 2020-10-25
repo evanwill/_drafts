@@ -54,12 +54,12 @@ More stuff:
 
 Important ENGR databases: 
 
-- [IEEE Xplore](http://ida.lib.uidaho.edu:2048/login?url=http://ieeexplore.ieee.org/){:target="_blank" rel="noopener"} (standards, personalized account)
-- [Engineering Village / Compendex](http://ida.lib.uidaho.edu:2048/login?url=https://www.engineeringvillage.com/){:target="_blank" rel="noopener"}
-- [ACM Digital Library](http://ida.lib.uidaho.edu:2048/login?url=http://dl.acm.org/dl.cfm){:target="_blank" rel="noopener"} (conference proceedings)
-- [Dissertations & Theses PQDT](http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/pqdtft/advanced?accountid=14551){:target="_blank" rel="noopener"} (ETD database for most universities)
-- [Safari: O'Reilly Learning Platform](http://ida.lib.uidaho.edu:2048/login?url=https://www.safaribooksonline.com/library/view/temporary-access/){:target="_blank" rel="noopener"} (handy tech learning resources)
-- [SciFinder](http://ida.lib.uidaho.edu:2048/login?url=https://scifinder.cas.org/){:target="_blank" rel="noopener"} (patents, chemical abstracts)
+- [IEEE Xplore](https://uidaho.idm.oclc.org/login?url=http://ieeexplore.ieee.org/){:target="_blank" rel="noopener"} (standards, personalized account)
+- [Engineering Village / Compendex](https://uidaho.idm.oclc.org/login?url=https://www.engineeringvillage.com/){:target="_blank" rel="noopener"}
+- [ACM Digital Library](https://uidaho.idm.oclc.org/login?url=http://dl.acm.org/dl.cfm){:target="_blank" rel="noopener"} (conference proceedings)
+- [Dissertations & Theses PQDT](https://uidaho.idm.oclc.org/login?url=https://search.proquest.com/pqdtft/advanced?accountid=14551){:target="_blank" rel="noopener"} (ETD database for most universities)
+- [Safari: O'Reilly Learning Platform](https://uidaho.idm.oclc.org/login?url=https://www.safaribooksonline.com/library/view/temporary-access/){:target="_blank" rel="noopener"} (handy tech learning resources)
+- [SciFinder](https://uidaho.idm.oclc.org/login?url=https://scifinder.cas.org/){:target="_blank" rel="noopener"} (patents, chemical abstracts)
 
 ## Research Concepts 
 
@@ -80,7 +80,7 @@ General search strategies:
 - Keywords and concept mapping (broader, narrower, related, synonyms / thesaurus. [intro video](https://youtu.be/v_8rNiW4A9A){:target="_blank" rel="noopener"}) 
 - Citation chaining (look at what an important paper in your area cites and who cites it)
 
-## [Web of Science](http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA){:target="_blank" rel="noopener"}
+## [Web of Science](https://uidaho.idm.oclc.org/login?url=http://webofknowledge.com/UA){:target="_blank" rel="noopener"}
  
 - Content: wide coverage of science scholarly/peer-reviewed articles from the most important journals and conference proceedings
     - Index only (metadata, not full text), contains items that the Library might not have access to.

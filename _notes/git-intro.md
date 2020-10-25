@@ -164,4 +164,4 @@ GitHub can automatically generate some open source licenses for you, see [Adding
 - [Data Carpentry](https://www.datacarpentry.org/lessons/){:target='_blank' rel='noopener'} for discipline specific data lessons
 - [Git Book](https://git-scm.com/book){:target='_blank' rel='noopener'}
 - [Git for Teams](http://gitforteams.com/){:target='_blank' rel='noopener'}
-- [Safari Books Online](http://ida.lib.uidaho.edu:2048/login?url=https://www.oreilly.com/library/view/temporary-access/){:target='_blank' rel='noopener'}
+- [Safari Books Online](https://uidaho.idm.oclc.org/login?url=https://www.oreilly.com/library/view/temporary-access/){:target='_blank' rel='noopener'}
