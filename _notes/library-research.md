@@ -87,8 +87,8 @@ Important ENGR databases:
     - Familiar / easy to search
     - Good citation tracking
     - Connect to UI Library:
-        - Adding UI Library to your Scholar account will provide a link to full text content in search results via our subscriptions.
-        - Log in to Google Scholar with your Gmail account; From menu in upper left, go to settings > Library links; Search for University of Idaho, and click the check box; Click "Save".
+        - If you connect U of I Library to your Scholar account, search results will show a link “Univ of Idaho - Get it” to access full text items in our subscriptions. 
+        - [How to connect to UI Library](https://www.lib.uidaho.edu/find/accesstools.html#connect-google-scholar-to-u-of-i-library){:target="_blank" rel="noopener"}
 - [Article Access and Discovery Tools](https://www.lib.uidaho.edu/find/accesstools.html){:target="_blank" rel="noopener"}
     - Variety of plugins and tools to help find access to articles that the library doesn't have access to, or to discover more research.
 
