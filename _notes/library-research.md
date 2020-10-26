@@ -133,17 +133,17 @@ Developed by an academic non-profit, Zotero is independent and does not sell you
 - [Zotero Desktop](https://www.zotero.org/download/) - optionally download and install the "personal research assistant" / "stand alone" app. The installation will likely prompt you to install plugins for LibreOffice / MS Word, the "Zotero Connector", and set up an online account.
     - If you already set up your online account, add it in Preferences > Sync. Once set up, the green refresh arrow appears in upper right of the app window.
 - "Zotero Connector" browser plugin (Addon/Extension) - install the plugin for your web browser. This will allow you to save references / pdfs directly from web pages.
-    - Access Connector preferences by right clicking the icon. Check for defaults about saving PDFs and website snapshots.
+    - Access Connector preferences by right clicking the icon. Check for defaults about saving PDFs and website snapshots. You may also need to "Authorize" to save items directly to the web version if your desktop app isn not open.
     - Will automatically detect Proxy links (i.e. logging in via U of I Library) and offer to save that setting to facilitate access.
     - Provides Google Doc integration.
 
 ### Create citation records
 
-- [Create a new record](https://www.zotero.org/support/adding_items_to_zotero) - use one of the methods to add references to your library
+- [Create a new record](https://www.zotero.org/support/adding_items_to_zotero) - use one of the methods to add references to your library:
     - "Magic wand button" - paste in a URL, DOI, ISBN. Zotero will auto extract the information to create a new record. It will automatically attempt to download related PDF or create a website snapshot.
     - "Plus button" - manually fill in the information.
     - Click the browser plugin in your address bar - information will be auto extracted to create new record.
-- Edit & Annotate record - check the record "tabs" for options. Use these fields to organize and enrich your collections.
+- Edit & Annotate record - check the record "tabs" for options. Use these fields to organize and enrich your collections:
     - "Info" - manually edit the citation details if necessary.  
     - "Notes" - your annotations about the record. You can add multiple writing in rich text. Write summaries, key points you want to use, facts, sentences to quote?
     - "Tags" - add tags to group your articles around topics (see the tag visualization in lower left).
@@ -158,6 +158,8 @@ Developed by an academic non-profit, Zotero is independent and does not sell you
 - "Create citation/bibliography" - select some references, click the button / right click, and copy the bibliography into your document.
 - [Word Processor Plugins](https://www.zotero.org/support/word_processor_integration) - Integrate directly with LibreOffice, Word, or Google Docs. Use the tool to insert citations from your manager directly into the paper. This will add the correct inline/footnote citation and populate the bibliography/works cited section. (note: these are automatically installed by the desktop app)
 - [RTF scan](https://www.zotero.org/support/rtf_scan) - alternative to using the word processor plugins when writing in .RTF format. Add name+date to text, Zotero scans it and matches to your records to auto generate citation and bibliography.
+- "Export" options include BibTeX if integrating with LaTeX writing workflows.
+- "Generate report" option on desktop outputs publication info plus your notes, a nice way to create an annotated bibliography to share.
 
 ### Usage tips
 
