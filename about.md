@@ -21,7 +21,7 @@ If you re-use some of my content, this jekyll theme, or use it in teaching, plea
 Some of my workshops:
 
 - [Get Git](https://evanwill.github.io/get-git/)
-- [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
+- [go-go gh-pages (v2)](https://evanwill.github.io/go-go-ghpages-b/) (old version: [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/))
 - [Write-MD](https://evanwill.github.io/write-md/) (markdown and pandoc)
 - [Fetching and Parsing Data from the Web with OpenRefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
 - [Hey API!](https://evanwill.github.io/hey-api/) / [Refine APIs!](https://evanwill.github.io/refine-apis/)
