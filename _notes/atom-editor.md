@@ -23,7 +23,9 @@ Spellcheck is built in which is handy.
 Atom comes bundled with GUI Git / GitHub tools which look similar to GitHub Desktop.
 Click the icons in the lower right or `Ctrl+Shift+9` toggles the Git panel.
 Click on a file to view it's diff.
-Right click on the "Fetch" icon to access Pull or Push options.
+
+Like GitHub Desktop an icon offers Fetch, but then changes to Push once you make some Commits, or Pull when there are remote updates. 
+Right click the icon to access more options.
 
 This seems like a real plus for people who might use GitHub Desktop instead.
 However, I prefer the efficiency of VS Code's approach which adds version control to a tab in the Project browsing panel.
