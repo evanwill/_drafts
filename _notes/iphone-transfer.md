@@ -8,6 +8,7 @@ date: 2017-06-01
 There was a brief time when you could simply plug your iPhone in to your Linux computer via USB and access the photos. For all logical people this seems like sensible functionality. So of course, Apple killed it with the latest iOS 10 updates (cause Apple hates users, linux, and openness as far as I can tell based on my experience). 
 
 But maybe you are like me, you have an iPhone that some one gave you and you need to get the photos off. Don't mess around with searching years and years of forum posts for solutions, because iOS changes constantly and intentionally prevents the functionality you want and expect. If you have iOS <=9, Ubuntu will work with it automatically. If you have iOS >=10, as of around March 2017 none of the old solutions to directly connect via USB will work. 
+(*Note: as of 2020, it sort of works again, but [see my notes about HEIC transfer issues](https://evanwill.github.io/_drafts/notes/heic.html))
 
 The utility package `libimobiledevice` that allowed connection to iOS ships with Ubuntu now, but doesn't seem to work alone with iOS 10+.
 Some have suggested downloading the most recent source code and manually building `libimobiledevice` works.
