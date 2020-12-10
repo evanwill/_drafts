@@ -88,3 +88,46 @@ Then use `magick` to resize the JPEGs, something like `for f in *.jpg; do magick
 If ImageMagick seems too slow, you can try [GraphicsMagick](http://www.graphicsmagick.org/) which implements all the same tools and options, but is more optimized for speed. 
 In the example commands above, the only difference is `magick` would be replaced with `gm convert`.
 When working with images of very large pixel dimensions, `gm` seems more efficient than `magick`.
+
+## PDF Error on Ubuntu
+
+If you are using the older version of ImageMagick installed from Ubuntu repository (v. 6.9.x, and thus using `convert`), you will probably get an error trying to create images from PDFs. 
+Version 6 had a security policy against using Ghostscript functions due to an security issue in `gs`. 
+However, the Ghostscript version in the repositories is more up to date than the ImageMagick version--so the issue probably doesn't apply. 
+
+Check your Ghostscript version:
+
+`gs -v`
+
+If you have > 9.24, you can safely override ImageMagick's policy. 
+Open the policy file: 
+
+`sudo nano /etc/ImageMagick-6/policy.xml` 
+
+Find this section:
+
+```
+<!-- disable ghostscript format types -->
+  <policy domain="coder" rights="none" pattern="PS" />
+  <policy domain="coder" rights="none" pattern="PS2" />
+  <policy domain="coder" rights="none" pattern="PS3" />
+  <policy domain="coder" rights="none" pattern="EPS" />
+  <policy domain="coder" rights="none" pattern="PDF" />
+  <policy domain="coder" rights="none" pattern="XPS" />
+```
+
+Then comment it out:
+
+```
+<!-- disable ghostscript format types -->
+<!--
+  <policy domain="coder" rights="none" pattern="PS" />
+  <policy domain="coder" rights="none" pattern="PS2" />
+  <policy domain="coder" rights="none" pattern="PS3" />
+  <policy domain="coder" rights="none" pattern="EPS" />
+  <policy domain="coder" rights="none" pattern="PDF" />
+  <policy domain="coder" rights="none" pattern="XPS" />
+-->
+```
+
+And save.
