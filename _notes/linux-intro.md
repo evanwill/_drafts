@@ -34,12 +34,12 @@ But for most users, that is not necessarily the most compelling reason to use Li
 Instead they just appreciate a solid, powerful, and user-friendly OS.
 Linux provides security, privacy, stability/reliability, customization, and cost benefits, in addition to access to a huge ecosystem of open-source applications and services.
 
-Linux runs the vast majority of web servers (95%+), super computers (all of the top 500), smart phones (80%+), IoT, and single board computers. 
+Linux runs the vast majority of web servers (95%+), super computers (all of the top 500), smart phones (80%+), Chromebooks, IoT, and single board computers. 
 So if you want to use a VM in the cloud, do high performance computing, or tinker with a Raspberry Pi at home, it's helpful to know Linux.
 But it also makes a great desktop OS for your personal computer!
 Thus, there are many practical *and* ideological reasons to use Free and Open software.
 
-For an indepth introduction, try the free edX course from the Linux Foundation, [Introduction to Linux](https://training.linuxfoundation.org/linux-courses/system-administration-training/introduction-to-linux).
+For an in depth introduction, try the free edX course from the Linux Foundation, [Introduction to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/).
 
 > Bloatware, adware, viruses, oh my! 
 > Many people are sick of the shady commercial practices of Windows, Apple, and PC manufacturers that put user security and privacy at risk.
@@ -58,16 +58,17 @@ Here are some things to consider:
 - **Out-of-the-box experience.** Do you want it to just work or are you willing to spend time customizing? Do you want all the applications pre-installed (openSUSE) or minimalist (Arch)?
 - **Community.** Do you want to search online and find hundreds of answers to your questions (Ubuntu), be part of a values driven community (Fedora), or get involved in a smaller forum of deeply invested enthusiasts (Arch)?
 - **Repositories.** Some distros have huge repos of applications (Debian), making installing new software secure and easy. Some are more up-to-date than others (Fedora). Others are more DIY (Arch). Some distros package only free and open software that meets their community guidelines (Fedora); others include commonly used, but non-free software, such as MP3 encodings (Ubuntu).
-- **Ecosystem.** Do you use a Linux server at work? Choose a distro from the same family to make life easier.
+- **Ecosystem.** Do you use a Linux server at work or some hobby project? Choose a distro from the same family to make life easier.
 - **Hardware support.** Unlike Windows, with Linux you don't have to install a bunch of drivers to get everything to work. However, some distros support a huge range of legacy hardware, while others have better support for the newest hardware built in. It is often difficult to run high performance graphics cards with out specific distro support. Distros have different versions of the Linux Kernel--the newest have upgraded features and performance baked in, but have less of the kinks worked out.
-- **Updates.** Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest? Distros typically follow either a rolling or fixed release. *Rolling release* distros have a continuous stream of updates, you always have the latest software and never have to upgrade to a new version. *Fixed release* are more traditional and stable with incremental versions that require a large upgrade every so often. Fixed releases are often broken into latest and LTS (long term support)--if you want to install once, and use the system for years without needed to upgrade, choose an LTS. For example, Ubuntu normal releases are officially supported for nine months, LTS for five years.
+- **Updates.** Do you want to install an OS that will be supported for a LONG time so that you won't have to upgrade or do you want the latest-and-greatest? Distros typically follow either a rolling or fixed release. *Rolling release* distros have a continuous stream of updates, you always have the latest software and never have to upgrade to a new version (but may encounter some instability). *Fixed release* are more traditional and stable with incremental versions that require a large upgrade every so often. Fixed releases are often broken into latest and LTS (long term support)--if you want to install once, and use the system for years without needed to upgrade, choose an LTS. For example, Ubuntu normal releases are officially supported for nine months, LTS for five years.
 - **Installer!** In the past, Linux distros were confusing to install, a major barrier to adoption--Ubuntu really changed that, and some installers are still friendlier than others. 
     - **Secure Boot UEFI**. If you have a newer computer, it will have Secure Boot UEFI which is only supported by the bigger Linux distros (Ubuntu, Fedora, SUSE)--otherwise you will have to tweak your UEFI / BIOS to get the installer to work.
     - **Dual booting.** Do you want to keep windows? Some installers make it easy (Ubuntu).
 
-My easy suggestion: use [Ubuntu](https://www.ubuntu.com/) or an [Ubuntu flavor](https://www.ubuntu.com/download/ubuntu-flavours).
+My easy suggestion: use [Ubuntu](https://www.ubuntu.com/) or an [Ubuntu flavor](https://ubuntu.com/download/flavours).
 The installer is easy to use (supports easy dual booting with Windows) and hardware support is great.
-It also has the largest beginner and intermediate user community, so help is always easily at hand via blogs, wikis, and forums--if you search for Linux help probably 90% of answers are about Ubuntu.
+It also has the largest beginner and intermediate user community, so help is always easily at hand via blogs, wikis, and forums--if you search for general Linux help majority of answers are about Ubuntu.
+If a piece of software provides Linux instructions or packages, it will include Ubuntu.
 
 But check out the [Major Distro Families](#major-distro-families) below for MORE suggestions!
 
@@ -77,29 +78,19 @@ Next, you will have to choose your desktop environment (DE)--the graphical inter
 Unlike windows, mac, or chrome, with Linux distros you have a choice of desktops.
 It is separate from the core of the distro and can be installed independently.
 
-Generally, you will choose a package pre-bundled with a DE, most distros will give you several options.
+Generally, you will choose a package pre-bundled with a DE, most distros will give you several options, with GNOME, KDE, and Xfce being most common.
+Distros often tweak their versions of the desktops, so the final look, default software, and features vary a bit. 
+Just take a look at their screenshots and decide! 
+
+But here are a bunch more details...
+
 Things to consider:
 
-- Weight. How graphics heavy is it. If you have an old computer or low spec hardware, go light!
+- Weight. How resource intensive is it? Slicker desktops (GNOME, KDE) require modern hardware to run well. If you have an old computer or low spec hardware, go light (Xfce, LXqt)!
 - Configurability. How much do you want to tweak the look and feel? Do you want it to just look good out of the box?
-- Unique vs. traditional. Do you want something different or are you nostalgic for the old days?
+- Unique vs. traditional. Do you want something different (GNOME) or are you nostalgic for the old days (Cinnamon)?
 
-Major desktops:
-
-- [GNOME](https://www.gnome.org/). modern, minimalist-style, unique "Activities Overview" (no start menu), [extensions](https://extensions.gnome.org/) add functionality, and themes easily change the look.
-    - [Budgie](https://budgie-desktop.org/). up-and-coming project (get newest version with [Solus](https://getsol.us/home/)).
-    - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/)).
-    - [MATE](https://mate-desktop.org/). traditional, based on an old version of GNOME.
-    - ~~Unity~~. Until version 17.10, Ubuntu shipped with a unique desktop. It is still available in old LTS version 16.04, but is unlikely to be further developed. However, Ubuntu's GNOME theme emulates the Unity look.
-- [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/)).
-- [Xfce](https://www.xfce.org/). lighter weight, traditional linux desktop.
-- [LXDE](http://lxde.org/). very light weight, basic features. Also see [LXQt](http://lxqt.org/) variant.
-- Tiling window managers, e.g. [xmonad](http://xmonad.org/) or [i3](https://i3wm.org/). For any easy intro, checkout [Regolith Linux](https://regolith-linux.org/) which combines i3-wm with Ubuntu.
-
-> Most desktops support themes which make it easy to change the look and feel. 
-> For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
-> You might hear about GTK vs. Qt applications and themes.
-> Gnome uses GTK and KDE uses Qt, so applications based on the non-native tool kit won't style correctly.
+See [Major Desktop Environments](#major-desktop-environments) below for lots more detail... 
 
 ## 64 or 32
 
@@ -110,22 +101,27 @@ Some distros now also support ARM processors, such as found in Raspberry Pi, so 
 
 ## Try and Install!
 
-The best way to learn Linux is to try it. 
-When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. 
-However, if you are interested in running Linux or other open OS, you will have to install it yourself.
+The best way to learn Linux is to try it.
 
-Most modern Linux distros are released as an ISO disk image, often a "live cd" or "live usb".
-This means you can download an ISO, burn it to a USB stick, and then boot up into the desktop without actually installing or changing your hard drive!
+When you buy a Windows, Chromebook, or Mac computer, the operating system (OS) comes pre-installed. 
+However, if you are interested in running Linux or other open OS, you will usually have to install it yourself.
+
+Most modern Linux distros are released as an ISO disk image, usually a "live cd" or "live usb".
+This means you can download an ISO, burn it to a USB stick, and then boot up into the live desktop without actually installing or changing your hard drive!
 
 Give it a try with these instructions to [burn an ISO](https://evanwill.github.io/_drafts/notes/burn-iso.html) and [boot a live USB](https://evanwill.github.io/_drafts/notes/linux-boot-usb.html).
 
 Once you try it out, install it!
+
 The live session will have an app to permanently install the OS on your machine.
 Most installers are graphical and user-friendly.
 Here is Ubuntu's official [install tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop).
 
 > Alternatively, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
 > The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
+>
+> Manufactures such as Dell and Lenovo are offering more computers with Linux pre-installed, and Linux specific companies such as [System76](https://system76.com/) are booming. 
+> More manufactures offering devices means better hardware support is being built into the Linux kernel.
 
 ## Basics
 
@@ -133,11 +129,39 @@ If you have ever used a computer, almost everything will be familiar! No big dea
 Here are a few things slightly different from Windows:
 
 - **User accounts and passwords.** You are always logged in as a user and require a password to make any changes to the system (Windows tends to hide this).
-- **File system, home directory.** Linux uses a file system that Windows can't read and is presented differently. On Window the root is the drive letter `C:\`. Linux presents all drives as a unified file system, with the root at `/` and your user directory at `/home/username` (Linux doesn't use Windows back slashes `\`).
-- **Updates.** Updates are pushed out very regularly by most distros keeping you secure and fixing bugs. The updates cover the OS and all applications installed from a repository. First, the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software are downloaded. There is usually an updater application, but you may need to start it manually.
-- **Software center.** Applications can be easily and securely installed from your distro's repository. There is usually an GUI app to find and manage your software.
+- **File system, home directory.** Linux uses a file system that Windows can't read and is presented differently. On Windows the root is the drive letter `C:\`. Linux presents all drives as a unified file system, with the root at `/` and your user directory at `/home/username` (Linux doesn't use Windows back slashes `\`).
+- **Updates.** Updates are pushed out regularly keeping you secure and fixing bugs--updates are *much* more common than on Windows, yet usually less of a hassle. The updates cover the OS *and* all applications installed from a repository. First, the catalog of all software in the distro's repositories is updated, then updates that apply to your installed software (and dependencies) are downloaded. There is usually an updater application, but you may need to start it manually.
+- **Software center.** Applications can be easily and securely installed from your distro's repository. There is usually an GUI app to find and manage software curated by the distro. Recently distro independent application packaging frameworks are supplementing or replacing traditional software repositories. The main frameworks include Snap (Ubuntu, [Snapcraft](https://snapcraft.io/)), Flatpack ([Flathub](https://flathub.org/)), and [Appimage](https://appimage.org/). These formats simplify software distribution, as each package has all dependencies fully self-contained (and often sandboxed).
 - **Terminal.** Command line is really handy! See this [mini-workshop](https://evanwill.github.io/_drafts/notes/commandline.html).
-- **UIdaho wifi.** Connecting to AirVandalGold requires some extra steps, see [my instructions](https://evanwill.github.io/_drafts/notes/airvandalgold-setup.html).
+
+# Major Desktop Environments
+
+The major desktops can be divided by their "widget toolkit" used to create the GUI elements and default applications.
+This is probably the last time you will ever hear "widget toolkit", but you might hear something like GTX theme or Qt application.
+The details aren't important, but you will see some family resemblance.
+All desktops can support both GTX and Qt applications, but software in the native toolkit will have more closely integrated and themed.
+
+Major desktops:
+
+- [GTX based](https://en.wikipedia.org/wiki/GTK)
+    - [GNOME](https://www.gnome.org/). modern, minimalist-style, unique "Activities Overview" (no start menu), [extensions](https://extensions.gnome.org/) add functionality, and themes easily change the look.
+    - [Xfce](https://www.xfce.org/). lighter weight, simple, stable, traditional linux desktop. Offered as the default of many distros, often highly customized.
+    - Less common:
+        - [Cinnamon](http://developer.linuxmint.com/projects.html). more traditional desktop with start menu (get newest version with [Mint](https://www.linuxmint.com/)).
+        - [Budgie](https://budgie-desktop.org/). slick, GNOME-based (get newest version with [Solus](https://getsol.us/home/)).
+        - Pantheon. polished, GNOME-based (developed by [ElementaryOS](https://elementary.io/))
+        - [MATE](https://mate-desktop.org/). traditional, lighter weight, based on an old version of GNOME.
+        - [LXDE](http://lxde.org/). very light weight, basic features (development has shifted to LXQt instead, so check out LXQt instead). 
+        - Historic note: ~~Unity~~. Until version 17.10, Ubuntu shipped with a unique desktop. However, Ubuntu's GNOME theme emulates the Unity look.
+- [Qt based](https://en.wikipedia.org/wiki/Qt_(software))
+    - [KDE](https://www.kde.org/). very configurable, complex, windows-like (get newest version with [Neon](https://neon.kde.org/)).
+    - [LXQt](http://lxqt.org/). very light weight, basic features (sibling of LXDE).
+    - DDE. Polished desktop of [Deepin linux](https://www.deepin.org/en/) (Chinese focused), recently becoming available in other distros.
+- Other
+    - Tiling window managers (the traditional desktop metaphor is replaced by automatically dividing the screen with your open application windows, controlled by key commands, for a simple and efficient desktop. There is a bit of a learning curve!) Checkout [xmonad](http://xmonad.org/) or [i3](https://i3wm.org/). For any easy intro, checkout [Regolith Linux](https://regolith-linux.org/) which combines i3-wm with Ubuntu.
+
+> Most desktops support themes which make it easy to change the look and feel. 
+> For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
 
 # Major Distro Families
 
@@ -150,11 +174,11 @@ This includes Ubuntu, developed by enterprise software company [Canonical](https
 Uses `apt` configuration and `.deb` packages.
 
 - [Debian](https://www.debian.org/), entirely free software released by the Debian Project. [Debian packages](https://www.debian.org/distrib/packages).
-- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly. [Ubuntu Packages](https://packages.ubuntu.com/).
-    - [Ubuntu flavors](https://www.ubuntu.com/download/ubuntu-flavours), Ubuntu spins featuring alternative desktops.
+- [Ubuntu](https://www.ubuntu.com/), the most popular desktop linux, beginner friendly. [Ubuntu Packages](https://packages.ubuntu.com/) and [Snapcraft](https://snapcraft.io/).
+    - [Ubuntu flavors](https://ubuntu.com/download/flavours), Ubuntu spins featuring alternative desktops.
     - [Linux Mint](https://www.linuxmint.com/), one of the most popular and beginner friendly, featuring the Cinnamon desktop.
     - [Elementary OS](https://elementary.io/), stylish mac replacement, unique Pantheon desktop.
-    - [Pop!_os](https://system76.com/pop), customized Gnome desktop, built by computer company [System76](https://system76.com) focused on developers, with good support for NVIDIA cards.
+    - [Pop!_os](https://system76.com/pop), customized Gnome desktop with some unique addons, built by computer company [System76](https://system76.com) focused on developers.
     - [KDE Neon](https://neon.kde.org/), cutting edge KDE on Ubuntu base.
     - [Zorin OS](https://zorinos.com/), polished windows replacement.
     - [Linux Lite](https://www.linuxliteos.com/), focused on easy to use, windows replacement, with Xfce.
@@ -162,8 +186,8 @@ Uses `apt` configuration and `.deb` packages.
     - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop.
     - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware.
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), Official OS of Raspberry Pi, unique Pixel desktop.
-- [Tails](https://tails.boum.org/index.en.html), privacy focused distro.
 - [Endless OS](https://endlessos.com/home/), simplified, education focused system designed for offline use, by computer company [Endless](https://endlessos.com/computers/).
+- [deepin](https://deepin.org/), Chinese based distro with unique desktop and apps. 
 
 ### Fedora / RedHat
 
@@ -175,9 +199,8 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
     - [Fedora Spins](https://spins.fedoraproject.org/), alternative desktops.
     - [Fedora Labs](https://labs.fedoraproject.org/), specialized distros from science to music.
     - [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/), very unique kid focused learning platform, packaged to run on a live USB. Learn more at [Sugar Labs](https://www.sugarlabs.org/).
-    - ~~[Korora](https://kororaproject.org/)~~, *(development is stalled, sadly many small distros are disappearing)* nice looking beginner friendly.
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
-- [CentOS](https://www.centos.org/), free community supported RHEL.
+- ~~[CentOS](https://www.centos.org/)~~, free community supported RHEL. Once very popular, was unexpectedly discontinued in 2020 during Red Hat corporate changes.
 - ~~[Scientific Linux](https://www.scientificlinux.org/)~~, free RHEL-based OS developed by Fermilab for high performance scientific computing environments (is now being phased out in favor of CentOS).
 
 ### SUSE
@@ -197,16 +220,15 @@ Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/
 
 - [Arch](https://www.archlinux.org/)
 - [Manjaro](https://manjaro.org/), user friendly Arch for beginners.
-- ~~[Antergos](https://antergos.com/)~~, user friendly Arch (sadly [discontinued](https://antergos.com/blog/antergos-linux-project-ends/)).
+- [EndeavourOS](https://endeavouros.com/), intended to build user-friendly installer and community for Arch.
 
 ### Others
 
 **Independent.** Some distros go it alone. For example:
 
 - [Solus](https://getsol.us/home/), up-and-coming independent distro developing Budgie desktop.
-- [Mageia](http://www.mageia.org/en/), France based community focused distro.
 - [Qubes OS](https://www.qubes-os.org/), personal security focused distro with unique architecture that isolates all software in separate VM-like containers.
-- [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image.
+- [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image or as base for containers.
 - [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!
 
 **Portable.** Some linux distros are specifically designed to be portable, i.e. you always use them from a USB stick and do not install to a hard drive.
@@ -219,7 +241,7 @@ For example:
 
 **Android.** Based on Linux, Android is the most popular smart phone OS in the world.
 
-- [Android-x86](http://www.android-x86.org/download), port of Android that can be run on a laptop.
+- [Android-x86](http://www.android-x86.org/), port of Android that can be run on a laptop.
 
 **Entertainment.** There are many specialized minimalist distros that act as entertainment centers, usually run on a Raspberry Pi or similar device.
 
