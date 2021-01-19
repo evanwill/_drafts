@@ -6,7 +6,7 @@ date: 2017-06-01
 ---
 ## Quick fix the last commit
 
-If you just made a commit, and haven't pushed it yet, but suddenly realize you forgot to add something, need to change the message, or tweak a file, use `git commit --amend`.
+If you just made a commit, *and haven't pushed it yet*, but suddenly realize you forgot to add something, need to change the message, or tweak a file, use `git commit --amend`.
 
 1. make the changes you need 
 2. `git add` any changes (nothing if you are just changing the commit message)
@@ -40,12 +40,28 @@ Normally you would keep the parent with option `-m 1`, the command ends up looki
 
 `git revert -m 1 <somehash>`
 
-Your history will look wonky (and can potentially have odd effects if you try to merge the same branch again), but it is the best way to avoid problems collaborating on a remote.
+Your history will look wonky (and can potentially have odd effects if you try to merge the same branch again), but it is usually the best way to avoid problems collaborating on a remote.
 
 ## Graph
 
 You can actually reproduce those pretty visualizations of history you see on GitHub in the terminal. 
 Try: `git log --graph --abbrev-commit --date=relative`
+
+## file naming for collaboration!
+
+Be *extra careful* of file naming case sensitivity when working with people across Linux, Mac, and Windows.
+
+Git is developed and designed for Linux. 
+In Linux file systems, filenames are case sensitive. 
+So files like "README.md", "readme.md", and "ReadMe.md" are three totally different files, and can be tracked and committed by Git. 
+GitHub and other web services run on Linux so also allow case sensitive file naming.
+
+However, Windows and Mac file systems are by default case insensitive.
+On Window and Mac files like "README.md", "readme.md", and "ReadMe.md" can not exist at the same time, and all refer to a single file.
+
+This can lead to nasty Git errors if a Linux user commits files that would be the same if case insensitive. 
+E.g. Linux user commits "README.md" and "readme.md" in the same directory, if Windows and Mac users pull the update they end up with fatal errors and a lot of confusion.
+It can't be gracefully fixed on Windows or Mac, so it is best to clean it up on GitHub or Linux, then do a fresh clone (see [xkcd git](https://xkcd.com/1597/)).
 
 ## Helpful
 
