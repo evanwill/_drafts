@@ -25,13 +25,14 @@ Tests:
 - [Rich Results Test](https://search.google.com/test/rich-results) (replaces discontinued [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool))
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 - [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/)
-- [webpagetest](http://webpagetest.org/) (test on actually devices and connections)
+- [webpagetest](http://webpagetest.org/) (test on actual devices and connections)
 
 Web Master utilities:
 
 - [sitemaps](https://www.sitemaps.org/protocol.html)
 - [Google Custom Search](https://cse.google.com/cse/)
 - [Google Search Console](https://www.google.com/webmasters/tools/home)
+- [ascii font generator](ttps://patorjk.com/software/taag/)
 
 Colors:
 
@@ -97,7 +98,6 @@ Ultra minimal computing notebook:
 
 Minimal hosting: 
 
-- [1MB.site](https://1mb.site/)
 - [sdnotes](https://sdnotes.com/faq)
 
 Find good font for your editor:

@@ -108,3 +108,4 @@ Others say [Kdenlive](https://kdenlive.org/){:target="_blank" rel="noopener"} is
 - [Blender](https://www.blender.org/){:target="_blank" rel="noopener"}, super powerful 3D modeling, animation, rendering, and video. Complex, professional grade tool. The developers host movie projects that produce completely [free and open short films](https://www.blender.org/about/projects/){:target="_blank" rel="noopener"}.
 - [Audacity](https://www.audacityteam.org/){:target="_blank" rel="noopener"}, audio recording and editing. 
 - [Scribus](https://www.scribus.net/){:target="_blank" rel="noopener"}, desktop publishing.
+- [vidcutter](https://github.com/ozmartian/vidcutter){:target="_blank" rel="noopener"}, handy utility for cutting video files.
