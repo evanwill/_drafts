@@ -31,12 +31,16 @@ So to avoid issues:
 
 For example, when Windows and Mac users run a local dev server (such as using Jekyll), the localhost urls and filesystem will be case insensitive. 
 You may have a file like "assets/ExampleImg.PNG", and the urls "localhost:4000//assets/ExampleImg.PNG", "localhost:4000//assets/ExampleImg.png", and "localhost:4000//assets/exampleimg.png" will work.
-However, once on most Linux servers, only the case sensitive filename "/assets/ExampleImg.PNG" will work.
+They test using the site and everything seems to be working fine.
+
+However, once deployed on most Linux servers, only the case sensitive filename "/assets/ExampleImg.PNG" will work.
+So they end up with mysterious errors in production.
 
 ## Issues on Git 
 
-Git is developed and designed for Linux, thus treat file history as case sensitive.
+Git is developed and designed for Linux, thus treat files and their history as case sensitive.
 This can lead to nasty Git errors on Windows and Mac if a Linux user commits files that would be the same if case insensitive.
 
-E.g. Linux user commits "README.md" and "readme.md" in the same directory, if Windows and Mac users pull the update they end up with fatal errors and a lot of confusion.
+E.g. Linux user commits "README.md" in a directory that already contains "readme.md", this is valid on Linux and GitHub.
+However, if Windows and Mac users pull that update they will end up with fatal errors and a lot of confusion.
 It can't be gracefully fixed on Windows or Mac, so it is best to clean it up on GitHub or Linux, then do a fresh clone (see [xkcd git](https://xkcd.com/1597/)).
