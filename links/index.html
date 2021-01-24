@@ -1,0 +1,41 @@
+---
+layout: default
+title: Links
+permalink: /links/
+---
+<h2 class="page-title">Links to Random Other Stuff:</h2>
+<div id="archiveList" class="archive-list">
+
+  <div class="browse">
+    <input class="search" placeholder=" Search" type="text" aria-label="Search posts">
+    <button class="buttons sort" data-sort="title">title</button>
+    <button class="buttons sort" data-sort="date">category</button>
+    <button class="buttons sort" data-sort="tags">recent</button>
+  </div>
+
+  <div class="listjs">
+    {% for link in site.data.links reversed %}
+    <div class="archive-list-post">
+      <a href="{{ link.link }}" target="_blank" rel="noopener">  
+        <span class="title archive-list-post-title">
+            {{ link.name }}
+        </span>
+        <span class="tags">| {{ link.category }}</span>
+        <span class="date archive-list-post-date"> | 
+            <time>{{ link.date }}</time>
+        </span>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+<!-- add list.js http://www.listjs.com/ @javve -->
+<script src="{{ '/js/list.min.js' | absolute_url }}"></script>
+<script> 
+    var options = {
+        valueNames: [ 'title', 'date', 'tags' ],
+        listClass: 'listjs'
+    };
+    var userList = new List('archiveList', options);
+</script>
