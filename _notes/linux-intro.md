@@ -227,7 +227,7 @@ Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/
 **Independent.** Some distros go it alone. For example:
 
 - [Solus](https://getsol.us/home/), up-and-coming independent distro developing Budgie desktop.
-- [Qubes OS](https://www.qubes-os.org/), personal security focused distro with unique architecture that isolates all software in separate VM-like containers.
+- [Qubes OS](https://www.qubes-os.org/), personal security focused distro with unique architecture that isolates all software in separate VM-like containers. Major distros have also started offering fully containerized OS versions for max security and stability, such as [Ubuntu Core](https://ubuntu.com/core) and [Fedora Silverblue](https://silverblue.fedoraproject.org/) (see [explainer article](https://arstechnica.com/gadgets/2021/02/ubuntu-core-20-adds-secure-boot-with-hardware-backed-encryption/)).
 - [Alpine Linux](https://www.alpinelinux.org/), minimalistic, security focused distro from Norway, commonly used as basic server image or as base for containers.
 - [Linux From Scratch](http://www.linuxfromscratch.org/), build everything yourself, step-by-step DIY!
 
