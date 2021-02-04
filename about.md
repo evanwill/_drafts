@@ -15,7 +15,7 @@ The "theme" is mostly [Minima](https://github.com/jekyll/minima) mixed with idea
 The home page uses [List.js](https://listjs.com/).
 
 The content of this project is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" title="license">cc-by-sa</a> [evan will](https://github.com/evanwill).
-The underlying source code used to format and display that content (the Jekyll theme) is licensed under the [MIT license](https://github.com/evanwill/_drafts/blob/master/LICENSE).
+The underlying source code used to format and display that content (the Jekyll theme) is licensed under the [MIT license](https://github.com/evanwill/_drafts/blob/main/LICENSE).
 If you re-use some of my content, this jekyll theme, or use it in teaching, please let me know--I would appreciate it!
 
 Some of my workshops:

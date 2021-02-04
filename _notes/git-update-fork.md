@@ -7,11 +7,13 @@ date: 2018-12-04
 
 [Forking](https://help.github.com/articles/fork-a-repo/) a repository is a feature unique to GitHub (i.e. it is *not* a Git function).
 A fork is a complete copy of a repository that retains a link to the original. 
-They are used in a similar way to Git [Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), allowing you to experiment and make changes independent of the master version which can then be merged back into the source.
+They are used in a similar way to Git [Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), allowing you to experiment and make changes independent of the main/master version which can then be merged back into the source.
 This supports a workflow where anyone can offer contributions to open projects via [pull requests](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
 
 However, it is often a bit mystifying how to keep your fork up-to-date with the original.
 A simple solution is to delete your stale fork and then fork a new one--but there is (of course) a way to update safely. 
+
+*Instructions below use `main` as default branch, if you have an older repository the default may be `master` instead*
 
 ##  Sync fork on commandline
 
@@ -22,16 +24,16 @@ To sync your fork from the original repository is two steps:
     - add upstream remote (use the clone link from the original repo): `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
 2. [Sync fork](https://help.github.com/articles/syncing-a-fork/)
     - `git fetch upstream`
-    - `git checkout master`
-    - `git merge upstream/master`
+    - `git checkout main`
+    - `git merge upstream/main`
     - You're up-to-date locally, then update your fork on github, `git push`
 
 ## Sync fork on GitHub Desktop
 
 1. Click current branch button in top menu (this should bring up a branch panel)
-2. At bottom of the branch panel click "choose branch to merge with master" (this should open a dialog box)
-3. Click "upstream/master" (this should be the original repo that you forked)
-4. Click "Merge upstream/master" (this will fetch the updates in the original repo and attempt to merge them into your current branch)
+2. At bottom of the branch panel click "choose branch to merge with main" (this should open a dialog box)
+3. Click "upstream/main" (this should be the original repo that you forked)
+4. Click "Merge upstream/main" (this will fetch the updates in the original repo and attempt to merge them into your current branch)
 
 ## Sync fork on GitHub web interface
 

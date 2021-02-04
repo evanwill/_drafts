@@ -49,10 +49,10 @@ name: build with jekyll and deploy on github pages
 on:
   push: 
     branches: 
-      - master
+      - main
   pull_request:
     branches: 
-      - master
+      - main
 
 jobs:
   jekyll:
@@ -75,13 +75,13 @@ jobs:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
 ```{% endraw %}
 
-The `on` key says to build on any push or PR to the master branch (you could switch it to what ever branch works for you, just don't try to use gh-pages branch).
+The `on` key says to build on any push or PR to the main branch (you could switch it to what ever branch works for you, just don't try to use gh-pages branch).
 
 The `jobs` key gives the list of things to do.
 Each `uses` value is a repository on GitHub, so you can go look at the code to see what it is doing, or set up your own version. 
 In this workflow: 
 
-- `actions/checkout@v2` checks out the code from the master branch (from GitHub).
+- `actions/checkout@v2` checks out the code from the main branch (from GitHub).
 - `actions/cache@v1` checks to see if the gems listed in your Gemfile.lock are already cached (from GitHub).
 - `helaili/jekyll-action@2.0.2` basically runs `bundle exec jekyll build`, then commits the output into the `gh-pages` branch, using the secret called "JEKYLL_PAT".
 
@@ -103,7 +103,7 @@ Click "New secret", name it exactly `JEKYLL_PAT`, and paste in your key.
 
 ## 4. Commit / PR
 
-With everything set up, the Acton should run on your next commit or PR to master. 
+With everything set up, the Acton should run on your next commit or PR to main. 
 You do not need to activate GitHub Pages in settings, it will happen automatically. 
 
 The Actions tab provides detailed progress for your workflow, so if something goes wrong it is a bit easier to debug than default GitHub Pages.
