@@ -117,8 +117,12 @@ The live session will have an app to permanently install the OS on your machine.
 Most installers are graphical and user-friendly.
 Here is Ubuntu's official [install tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop).
 
-> Alternatively, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
-> The performance will be very limited, but it is an easy way to test something out or see what the install process looks like.
+> Alternatively, if you *really* don't want to even download anything, you can visit [Distrotest](https://distrotest.net/index.php).
+> Distrotest will boot up a virtual machine with your disto of choice and open a remote desktop window right in your browser.
+> The performance is slow (depending on your connection and the VM) and not exactly like using real hardware, but can be a nice option to quickly check out a new OS.
+> 
+> As another option, you can install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on a computer to try out any distro in a disposable virtual machine.
+> The performance will be very limited, but it is an easy way to test something out or see what the install process looks like--and grab screenshots for tutorials or debugging.
 >
 > Manufactures such as Dell and Lenovo are offering more computers with Linux pre-installed, and Linux specific companies such as [System76](https://system76.com/) are booming. 
 > More manufactures offering devices means better hardware support is being built into the Linux kernel.
