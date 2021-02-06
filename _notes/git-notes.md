@@ -76,6 +76,7 @@ It can't be gracefully fixed on Windows or Mac, so it is best to clean it up on 
 - [GitHub Classroom](https://classroom.github.com/)
 - [Why you should use GitHub: Lessons for the classroom and newsroom](http://www.storybench.org/use-github-lessons-classroom-newsroom/)
 - [GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+- [git for librarians reading list](https://gist.github.com/chrisdaaz/1e894dc5af2e2c9cf0cc75d057fcf79f)
 
 ## GitHub
 
