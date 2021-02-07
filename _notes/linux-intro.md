@@ -189,7 +189,7 @@ Uses `apt` configuration and `.deb` packages.
     - [Bodhi Linux](https://www.bodhilinux.com/), minimalist, lightweight distro with unique Moksha desktop.
     - [Peppermint](https://peppermintos.com/), ChromeOS-like cloud focused minimal desktop.
     - [GalliumOS](https://galliumos.org/), Xubuntu based replacement for Chromebook hardware.
-- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), Official OS of Raspberry Pi, unique Pixel desktop.
+- [Raspberry Pi OS](https://www.raspberrypi.org/software/), official distro of Raspberry Pi, unique Pixel desktop (some other distros offer specialized spins for Pi as well)
 - [Endless OS](https://endlessos.com/home/), simplified, education focused system designed for offline use, by computer company [Endless](https://endlessos.com/computers/).
 - [deepin](https://deepin.org/), Chinese based distro with unique desktop and apps. 
 

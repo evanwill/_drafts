@@ -37,7 +37,7 @@ For Raspberry Pi and other single board computers, you will usually get an IMG f
 These are often zipped or in some other archive (`.zip` or `.xz`) to decrease the download size. It is not necessary to unzip. 
 For example:
 
-- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) Official OS of Raspberry Pi
+- [Raspberry Pi OS](https://www.raspberrypi.org/software/) 
 - [Volumio](https://volumio.org/)
 
 Linux distros are generally released as an ISO, often called a "live cd" or "live usb" meaning it can boot from the install media.
