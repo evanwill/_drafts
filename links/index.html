@@ -24,13 +24,13 @@ permalink: /links/
 
   <div class="listjs">
     {% for link in site.data.links reversed %}
-    <div class="archive-list-post">
+    <div class="archive-list-link">
       <a href="{{ link.link }}" target="_blank" rel="noopener">  
-        <span class="title archive-list-post-title">
+        <span class="title archive-list-link-title">
             {{ link.name }}
         </span>
         <span class="category">| {{ link.category }}</span>
-        <span class="date archive-list-post-date"> 
+        <span class="date"> 
             (<time>{{ link.date }}</time>)
         </span>
       </a>

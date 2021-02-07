@@ -299,6 +299,32 @@
         text-transform: uppercase;
       }
     }
+    &-link {
+      padding: 0.4rem 0.1rem;
+
+      &:hover {
+          background-color: #e0ccff;//#f0e6ff;//#e0ccff;
+          border-color: transparent;
+      }
+
+      a {
+        color: $base-color;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+      &-title {
+        font-size : 1.2rem;
+        font-weight: 400;
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+
+    }
   }
 }
 .buttons {
