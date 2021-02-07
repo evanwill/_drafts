@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 ---
 {% assign categories = site.data.links | map: 'category' | uniq %}
-<h2 class="page-title">Links to Random Stuff:</h2>
+<h2 class="page-title">Links to Fun Stuff:</h2>
 <div id="archiveList" class="archive-list">
 
   <div class="browse">
@@ -23,7 +23,7 @@ permalink: /links/
   </div>
 
   <div class="listjs">
-    {% for link in site.data.links reversed %}
+    {% for link in site.data.links %}
     <div class="archive-list-link">
       <a href="{{ link.link }}" target="_blank" rel="noopener">  
         <span class="title archive-list-link-title">
