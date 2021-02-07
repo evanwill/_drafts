@@ -3,14 +3,23 @@ layout: default
 title: Links
 permalink: /links/
 ---
-<h2 class="page-title">Links to Random Other Stuff:</h2>
+{% assign categories = site.data.links | map: 'category' | uniq %}
+<h2 class="page-title">Links to Random Stuff:</h2>
 <div id="archiveList" class="archive-list">
 
   <div class="browse">
     <input class="search" placeholder=" Search" type="text" aria-label="Search posts">
     <button class="buttons sort" data-sort="title">title</button>
-    <button class="buttons sort" data-sort="date">category</button>
-    <button class="buttons sort" data-sort="tags">recent</button>
+    <button class="buttons sort" data-sort="category">category</button>
+    <button class="buttons sort" data-sort="date">recent</button>
+    <br>
+
+    Filter: 
+    {% for c in categories %}
+    <button class="buttons filter-buttons" onclick="filterByCategory('{{ c }}')">{{ c }}</button>
+    {% endfor %}
+    <button id="view-all" class="buttons filter-buttons">All</button>
+    
   </div>
 
   <div class="listjs">
@@ -20,9 +29,9 @@ permalink: /links/
         <span class="title archive-list-post-title">
             {{ link.name }}
         </span>
-        <span class="tags">| {{ link.category }}</span>
-        <span class="date archive-list-post-date"> | 
-            <time>{{ link.date }}</time>
+        <span class="category">| {{ link.category }}</span>
+        <span class="date archive-list-post-date"> 
+            (<time>{{ link.date }}</time>)
         </span>
       </a>
     </div>
@@ -33,9 +42,26 @@ permalink: /links/
 <!-- add list.js http://www.listjs.com/ @javve -->
 <script src="{{ '/js/list.min.js' | absolute_url }}"></script>
 <script> 
+    // filter by category function
+    function filterByCategory(filter_category) {
+      userList.filter( function(item) {
+        var cat = item.values().category;
+        if (cat.indexOf(filter_category) != -1) {
+          return true;
+        } else {
+          return false;
+        }
+      })
+    };
+
+    // init list
     var options = {
-        valueNames: [ 'title', 'date', 'tags' ],
+        valueNames: [ 'title', 'category', 'date' ],
         listClass: 'listjs'
     };
     var userList = new List('archiveList', options);
+    
+    // reset filter
+    document.getElementById('view-all').onclick = function() { userList.filter(); };
+
 </script>
