@@ -1,7 +1,7 @@
 # jekyll config
-# _drafts blog
+# _drafts blog, https://github.com/evanwill/_drafts
 # theme partly based on: 
-# Kiko-plus https://aweekj.github.io/Kiko-plus/ and Minima https://github.com/jekyll/minima
+# Minima https://github.com/jekyll/minima and Kiko-plus https://aweekj.github.io/Kiko-plus/ 
 
 # basic
 title: _drafts

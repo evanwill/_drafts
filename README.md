@@ -2,9 +2,9 @@
 
 digital rough frame carpentry, a blog of snippets and notes to get things started.
 
-https://evanwill.github.io/_drafts/
+<https://evanwill.github.io/_drafts/>
 
-https://github.com/evanwill/_drafts
+<https://github.com/evanwill/_drafts>
 
 `_drafts` is built using [Jekyll](https://jekyllrb.com/), hosted on [GitHub Pages](https://pages.github.com/).
 
