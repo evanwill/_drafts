@@ -81,3 +81,6 @@ Since you installed the tools using git, to update rbenv and ruby-build you simp
 cd ~/.rbenv && git pull
 cd "$(rbenv root)"/plugins/ruby-build && git pull
 ```
+
+**Note:** the list of available Ruby versions (`rbenv install -l`) is NOT automatically updated.
+So you should periodically update ruby-build following the git pull method above (i.e. `cd ~/.rbenv/plugins/ruby-build && git pull`).
