@@ -8,7 +8,7 @@ date: 2019-07-29
 Quick local server:
 
 - Python 3: `python -m http.server 8000` then surf to `localhost:8000` (part of python standard library)
-- Ruby: `ruby -run -e httpd . -p 8080` then surf to `localhost:8080` (using the ruby standard library WEBrick)
+- Ruby: `ruby -run -e httpd . -p 8080` then surf to `localhost:8080` (*note* in ruby 3.0+ webrick is removed from the standard library, so you will have to install `webrick` gem)
 - Node: install `npm install -g http-server`, run `http-server`
 
 Browser support:
