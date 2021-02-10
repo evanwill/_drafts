@@ -1,7 +1,7 @@
 ---
 title: Pandoc for PDFs
 layout: post
-tags: [dh, md, tools]
+tags: [dh, md, pdf, tools]
 date: 2018-09-05
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Using Jekyll on Windows
 layout: post
-tags: [jekyll, windows, staticgen]
+tags: [jekyll, windows]
 date: 2016-10-03
 ---
 

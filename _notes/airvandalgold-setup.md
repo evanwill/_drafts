@@ -1,7 +1,7 @@
 ---
 title: Connect to AirVandalGold wifi on Linux
 layout: post
-tags: [linux, wifi, uidaho]
+tags: [linux, uidaho]
 date: 2018-04-01
 ---
 
