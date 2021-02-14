@@ -5,6 +5,11 @@ tags: [github,jekyll]
 date: 2020-08-05
 ---
 
+I have an [updated version of this action]({{ '/notes/github-actions.html' | relative_url }}), which is a bit easier to set up. 
+I would suggest using it instead!
+
+---------------------------
+
 [GitHub Actions](https://github.com/features/actions) are a fairly new feature of the platform that allows you to create / run workflow automation scripts in repositories. 
 It functions similar to 3rd party continuous integration tools like [Travis CI](https://travis-ci.org/), but built directly into GitHub.
 It is currently being pushed pretty heavily, with the new "Actions" tab added to every repository interface. 
@@ -108,4 +113,4 @@ You do not need to activate GitHub Pages in settings, it will happen automatical
 
 The Actions tab provides detailed progress for your workflow, so if something goes wrong it is a bit easier to debug than default GitHub Pages.
 
-Just enjoy your newly build website!
+Just enjoy your newly built website!
