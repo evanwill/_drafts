@@ -7,7 +7,6 @@ date: 2021-02-05
 
 [GitHub Actions](https://github.com/features/actions) are a fairly new feature of the platform that allows you to create / run workflow automation scripts in repositories. 
 It functions similar to 3rd party continuous integration tools like [Travis CI](https://travis-ci.org/), but built directly into GitHub.
-It is currently being pushed pretty heavily, with the "Actions" tab added to every repository interface. 
 Explore the [documentation](https://docs.github.com/en/actions) and [marketplace](https://github.com/marketplace?type=actions) to get the idea of what you can do. 
 
 In my use case, I just want to **build a Jekyll site and deploy on GitHub Pages**.
@@ -15,7 +14,7 @@ However, the default Pages build uses an old version of Jekyll and does not allo
 Actions allows us to set up our own build instead.
 
 Jekyll docs provide a [GitHub Actions tutorial](https://jekyllrb.com/docs/continuous-integration/github-actions/). 
-However, I assume you already have a Jekyll project set up, and made some tweaks to simplify the process. 
+However, I assume you already have a Jekyll project set up, and have made some tweaks to simplify the process. 
 
 Here are the steps to set up a new Jekyll build Action:
 
@@ -106,7 +105,7 @@ In this workflow:
 - [peaceiris/actions-gh-pages@v3](https://github.com/peaceiris/actions-gh-pages) takes the output and commits it to the `gh-pages` branch. 
 
 Once set up in the repository, the action will run immediately.
-In theory GitHub Pages should activate automatically, however, I found it necessary to active manually.
+In theory GitHub Pages should activate automatically, however, I found it necessary to activate manually.
 Go to the repository Settings, scroll down to the GitHub Pages section, select "gh-pages" branch, and save.
 
 The Actions tab of the repository provides detailed progress for your workflow, so if something goes wrong it is a bit easier to debug than default GitHub Pages.
