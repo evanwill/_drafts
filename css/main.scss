@@ -15,9 +15,10 @@
 $base-font: 'Noto Sans', Helvetica, Arial, sans-serif;
 $code-font: 'Source Code Pro', Menlo, Monaco, monospace;
 
-$base-font-size: 18px;
-$base-font-size-sm: 14px;
-$mobile-font-size: 16px;
+$container-max-width: 860px; //48rem;
+$base-font-size: 20px;
+$base-font-size-sm: 18px;
+$mobile-font-size: 18px;
 
 $li-bottom-space: 0.2em;
 $li-bullets-width: 1.7em;
