@@ -79,8 +79,6 @@ jobs:
       - uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
-          # don't use prettier https://prettier.io
-          format_output: false
 
       # use actions-gh-pages to deploy
       # https://github.com/peaceiris/actions-gh-pages
