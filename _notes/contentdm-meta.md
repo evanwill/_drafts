@@ -70,11 +70,11 @@ Google Sheets:
     - "Separator type" select "Tab".
     - "Convert text to numbers, dates, and formulas" select "No" (to avoid reformatting dates and numbers and running into issues with full text field).
 
-Excel (different versions have the menu options in different locations and use different labels, so this is just a vague approximation. As far as I can tell online Excel 365 can't import data and can't really be used for this process at all.):
+Excel (different versions have the menu options labeled differently, so these steps are just a vague approximation. As far as I can tell online Excel 365 can't import data and can't really be used for this process at all.):
 
 - Open a new blank spreadsheet in Excel (*do not double click "export.txt" or open with Excel directly*)
-- Click "Data" > "Import text based data"
-- This should pop open a "Import" options menu similar to the one described above for LibreOffice Calc--choose similar options. It is important to select UTF-8 or the parsing will have errors.
+- Click "Data" > "From Text/CSV" (in "Get data" area left side of ribbon)
+- This should pop open an "Import" options menu similar to the one described above for LibreOffice Calc--choose similar options. In "File origin" be sure to choose "Unicode (UTF-8)" or the parsing will have errors. (Excel 365 flashes some notices like "connecting" and "loading" data, as if you are setting up a live database connection--you can ignore this mysticism, its just importing data like normal).
 
 ## Metadata notes
 
