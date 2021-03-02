@@ -1,7 +1,7 @@
 ---
 title: GNOME on Ubuntu
 layout: post
-tags: [linux]
+tags: [ubuntu, linux]
 date: 2018-09-02
 ---
 

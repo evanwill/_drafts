@@ -1,7 +1,7 @@
 ---
 title: Random Interesting CSS
 layout: post
-tags: [web, tips]
+tags: [css, web, tips]
 date: 2019-05-29
 ---
 

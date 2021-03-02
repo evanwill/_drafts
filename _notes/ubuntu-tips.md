@@ -1,7 +1,7 @@
 ---
 title: Ubuntu essentials
 layout: post
-tags: [linux]
+tags: [ubuntu, linux]
 date: 2017-11-02
 ---
 

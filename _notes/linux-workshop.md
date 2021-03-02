@@ -14,6 +14,8 @@ date: 2018-11-08
 > You can also use desktop versions for free on your laptop or home computer!
 > Come get an introduction to free and open source operating systems, and see desktop versions of Linux in action on Raspberry Pi and laptops. 
 > We will get oriented to the basics of the desktop and learn how to install it on a computer.
+>
+> Check out [Try Linux}(https://evanwill.github.io/try-linux/), an updated version of this workshop.
 
 The following notes provide a TON of information about getting started with Linux. 
 But first, *take a deep breath*... don't get overwhelmed by all this information! 

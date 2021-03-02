@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 20.04
 layout: post
-tags: [linux, install]
+tags: [ubuntu, linux, install]
 date: 2020-04-27
 ---
 

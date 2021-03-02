@@ -1,7 +1,7 @@
 ---
 title: Alternative Kernels on Ubuntu
 layout: post
-tags: [linux]
+tags: [ubuntu, linux]
 date: 2018-02-01
 ---
 
