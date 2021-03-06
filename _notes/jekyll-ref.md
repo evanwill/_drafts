@@ -52,3 +52,26 @@ Use `sed`, like `sed -i '1i---\n# \n---' file.html`.
 For a batch:
 
 `for f in *.html; do sed -i '1i---\n# \n---' "$f"; done`
+
+## Grab key / value when iterating over hash
+
+If you have a YML hash like:
+
+```
+example: 
+    key1: value1
+    key2: value2
+    key3: value3
+```
+
+You can iterate over the hash, in the loop access the key with `[0]` and value at `[1]`, like:
+
+```{% raw %}
+{% for e in site.data.file.example %}
+key: {{ e[0] }}
+value: {{ e[1] }}
+{% endfor %}
+{% endraw %}
+```
+
+(see old [Liquid wiki docs](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#allowed-collection-types))
