@@ -13,9 +13,9 @@ title: browse
   </div>
 
   <div class="listjs">
-    {% for post in site.notes reversed %}
+    {% for post in site.notes reversed %}{% unless post.hide == true %}
     <div class="archive-list-post">
-      <a href="{{ post.url | absolute_url }}">  
+      <a href="{{ post.url | relative_url }}">  
       <span class="title archive-list-post-title">
         {{ post.title }}
       </span>
@@ -25,12 +25,12 @@ title: browse
       <span class="tags">{{ post.tags | join: ', ' }}</span>
       </a>
     </div>
-    {% endfor %}
+    {% endunless %}{% endfor %}
   </div>
 
 </div>
 <!-- add list.js http://www.listjs.com/ @javve -->
-<script src="{{ '/js/list.min.js' | absolute_url }}"></script>
+<script src="{{ '/js/list.min.js' | relative_url }}"></script>
 <script> 
     var options = {
         valueNames: [ 'title', 'date', 'tags' ],
