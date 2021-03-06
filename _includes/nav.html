@@ -1,12 +1,12 @@
 <header class="header">
   <h1 class="header-title">
-    <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
   </h1>
   <nav class="header-nav">
-    <a href="{{ '/about.html' | absolute_url }}" {% if page.url == '/about.html' %}class="active"{% endif %}>About</a>
-    <a href="{{ '/tags/' | absolute_url }}" {% if page.url == '/tags/' %}class="active"{% endif %}>Tags</a>
-    <a href="{{ '/search/' | absolute_url }}" {% if page.url == '/search/' %}class="active"{% endif %}>Search</a>
-    <a href="{{ '/links/' | absolute_url }}" {% if page.url == '/links/' %}class="active"{% endif %}>Links</a>
+    <a href="{{ '/about.html' | relative_url }}" {% if page.url == '/about.html' %}class="active"{% endif %}>About</a>
+    <a href="{{ '/tags/' | relative_url }}" {% if page.url == '/tags/' %}class="active"{% endif %}>Tags</a>
+    <a href="{{ '/search/' | relative_url }}" {% if page.url == '/search/' %}class="active"{% endif %}>Search</a>
+    <a href="{{ '/links/' | relative_url }}" {% if page.url == '/links/' %}class="active"{% endif %}>Links</a>
   </nav>
 <div style="clear:both"></div>
 </header>
