@@ -35,7 +35,7 @@ gem 'jekyll'
 
 ```
 
-Create the Gemfile, then run `jekyll s` to automatically generate the Gemfile.lock, and commit them both. 
+Create the Gemfile, then run `bundle install` to generate the Gemfile.lock, and commit them both. 
 
 ## 2. Action YML
 
@@ -43,9 +43,11 @@ Next, you need to create the YAML Action file in the directory `.github/workflow
 You can name it what ever you want, but I call mine, `.github/workflows/jekyll.yml`. 
 
 Adding this file will automatically set up a `GITHUB_TOKEN` secret, which is nice so you don't need to mess around with personal access tokens.
-However, you do need permission to create a "workflow" level token *when committing the file*.
-So depending on how your local GitHub authentication is set up, you might not be able to push this file! 
-To avoid issues, I create the file using the web interface.
+
+However, **you do need permission to create a "workflow" level token when committing the file**.
+So depending on how your local GitHub authentication is set up, you might not be able to push this file or if you are editing an existing one your action might end up with permissions errors! 
+
+To avoid issues, I create and edit the file *only* using the web interface.
 
 Add this text to your yml action:
 
@@ -62,7 +64,7 @@ on:
 
 jobs:
   jekyll:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04 # ubuntu-latest is now 20.04 and doesn't seem to work
     steps:
       # checkout code
       - uses: actions/checkout@v2
