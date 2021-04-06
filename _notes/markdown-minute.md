@@ -2,13 +2,15 @@
 title: Markdown in a Minute
 layout: post
 tags: [md, tools]
-date: 2017-08-01
+date: 2020-08-01
 ---
-<style> #markdown-frame { border: solid #868e96 1px; padding: 5px; } #source { display: block; } #rendered { display: none; }</style>
+<style> #markdown-frame { border: solid #868e96 1px; padding: 5px; margin-bottom: 25px; } #source { display: block; } #rendered { display: none; }</style>
 
 You can start writing [Markdown](https://daringfireball.net/projects/markdown/) in one minute!
 
-Check the demo below, then practice Markdown in your browser using [Dillinger](http://dillinger.io/), try the [Markdown Tutorial](http://www.markdowntutorial.com/), or read GitHub's [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)!
+Markdown is a simple syntax for writing content for the web.
+The plain text code below demonstrates all the basics--click the button to view what will look like rendered into HTML.
+Check the resources at the bottom to learn more!
 
 Toggle this Markdown: <button id="toggle" class="buttons">Markdown / Rendered</button> 
 
@@ -24,10 +26,11 @@ Toggle this Markdown: <button id="toggle" class="buttons">Markdown / Rendered</b
 
 Any text with no empty lines between will become a paragraph.
 Leave an empty line between headings and paragraphs.
+
 Font can be *Italic* or **Bold**.
 Code can be highlighted with `backticks`.
+Hyperlinks look like [GitHub Help](https://help.github.com/).
 
-Hyperlinks look like this [GitHub Help](https://help.github.com/).
 Images look similar:
 
 ![alt text here](https://upload.wikimedia.org/wikipedia/commons/4/4b/Focus_ubt.jpeg)
@@ -46,8 +49,11 @@ A numbered list is created using a number + `.`, like:
 2. four
 
 > Block quote.
+> Continuing the quote.
 
-----
+Horizontal rule:
+
+-------
 
 ```
 </div>
@@ -62,10 +68,11 @@ A numbered list is created using a number + `.`, like:
 
 Any text with no empty lines between will become a paragraph.
 Leave an empty line between headings and paragraphs.
+
 Font can be *Italic* or **Bold**.
 Code can be highlighted with `backticks`.
+Hyperlinks look like [GitHub Help](https://help.github.com/).
 
-Hyperlinks look like this [GitHub Help](https://help.github.com/).
 Images look similar:
 
 ![alt text here](https://upload.wikimedia.org/wikipedia/commons/4/4b/Focus_ubt.jpeg)
@@ -84,12 +91,21 @@ A numbered list is created using a number + `.`, like:
 2. four
 
 > Block quote.
+> Continuing the quote.
 
-----
+Horizontal rule:
+
+-------
+
 </div>
 </div>
 
-Check the tags page for my [other Markdown notes]({{ "/tags/index.html#md" | absolute_url }}).
+Reference:
+
+- GitHub [Mastering Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+- [Markdown Tutorial](http://www.markdowntutorial.com/)
+- [Markdown and Pandoc for Academic Writing](https://evanwill.github.io/write-md/)
+- More [_drafts notes]({{ "/tags/index.html#md" | absolute_url }})
 
 Online editors:
 
