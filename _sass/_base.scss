@@ -12,7 +12,7 @@ $code-background-color: #e1e6ea; /* $oc-gray-1; */
 $table-border-color: $oc-gray-2;
 $table-background-color: $oc-gray-1;
 
-$divider-color: $oc-gray-1;
+$divider-color: $oc-gray-5; 
 
 * { box-sizing: border-box; }
 html {
@@ -183,6 +183,7 @@ dd {
 }
 
 hr {
+
   border: 0;
   border-top: 1px solid $divider-color;
   margin: 1.5rem auto;

@@ -9,7 +9,7 @@ date: 2020-08-01
 You can start writing [Markdown](https://daringfireball.net/projects/markdown/) in one minute!
 
 Markdown is a simple syntax for writing content for the web.
-The plain text code below demonstrates all the basics--click the button to view what will look like rendered into HTML.
+The plain text code below demonstrates all the basics--click the button to view how it will look rendered into HTML.
 Check the resources at the bottom to learn more!
 
 Toggle this Markdown: <button id="toggle" class="buttons">Markdown / Rendered</button> 
