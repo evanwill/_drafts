@@ -13,14 +13,14 @@ But FFmpeg will help you deal with conversions pretty quickly.
 
 - Windows install with downloaded installer: <https://www.ffmpeg.org/>
 - Mac install using Homebrew: `brew install ffmpeg`
-- Ubuntu install from repository:`sudo apt install ffmpeg`
+- Ubuntu install from repository: `sudo apt install ffmpeg`
 
 FFmpeg is a command line application, so to use it: 
 
 - open your terminal and navigate to the directory containing your videos (or open the terminal in that folder!)
 - type your FFmpeg commands, starting with `ffmpeg`
 
-[FFmpeg docs](https://www.ffmpeg.org/ffmpeg.html)
+For full information check [FFmpeg docs](https://www.ffmpeg.org/ffmpeg.html).
 
 ## Convert AVI to MP4
 
@@ -42,7 +42,11 @@ This loop goes through all AVI files in the current folder (`*.avi`), copies eac
 
 If you get an error using the `copy` method, it probably means your AVI contains encodings that are not compatible with MP4. 
 To just get it to work with the default options, just remove the `-c` flags, using just:
-`ffmpeg -i input-video.avi -y output-video.mp4`.
+
+```
+ffmpeg -i input-video.avi -y output-video.mp4
+```
+
 This might not be the optimal conversion, but it should work!
 
 If you want to take more care, use `ffprobe -i input-video.avi` to learn more about the video and audio encodings embedded in your AVI. 
