@@ -47,6 +47,12 @@ To just get it to work with the default options, just remove the `-c` flags, usi
 ffmpeg -i input-video.avi -y output-video.mp4
 ```
 
+or
+
+```
+for f in *.avi; do ffmpeg -i "$f" -y "${f%.avi}".mp4; done
+```
+
 This might not be the optimal conversion, but it should work!
 
 If you want to take more care, use `ffprobe -i input-video.avi` to learn more about the video and audio encodings embedded in your AVI. 
