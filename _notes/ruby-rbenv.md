@@ -23,8 +23,8 @@ There are a few things to keep in mind:
 - After looking closer at these version managers I started to question if really I wanted/needed one at all. The official [Ruby snap package](https://snapcraft.io/ruby) now provides up-to-date Ruby and `bundler` can efficiently manage your dependencies--and my projects aren't that complicated to require multiple specific Ruby versions. The sketchy bash script hack nature of RVM and rbenv make me wonder if I really need one until my use case actually demands it... 
 
 **Note:** there is a new Ubuntu package to install, so you ca use `sudo apt install rbenv ruby-build`.
-Unfortunately `ruby-build` is out of date, so not sure if you will be able to install most up to date ruby versions using it.
-I haven't tried this method.
+Unfortunately `ruby-build` is *super* out of date, so it will only list very out-of-date versions of Ruby to install.
+As far as I can tell, this is a useless install method.
 
 ## Install rbenv and ruby-build
 
