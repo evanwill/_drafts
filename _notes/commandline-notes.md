@@ -35,6 +35,24 @@ If the "pattern" chunk starts with an extra `/`, then it replaces all matches (n
 This way you could remove all spaces from filenames in a directory and replace them with underscore like: 
 `for f in *\ *; do mv "$f" "${f// /_}"; done`
 
+## Change String Case
+
+Bash has a built in feature to convert the case of strings:
+
+- `^` convert 1st character to uppercase
+- `^^` convert whole string to uppercase
+- `,` convert 1st character to lowercase
+- `,,` convert whole string to lowercase
+
+This can be helpful for renaming all files with lowercase filenames and extensions, like:
+
+`for f in *; do mv "$f" "${f,,}"; done`
+
+(for any file that is already lowercase you will get an error message from mv)
+This could also be done using the older `tr` utility using a much more complicated command:
+
+`for f in *; do mv "$f" "$( tr '[:upper:]' '[:lower:]' <<<"$f" )"; done`
+
 ## Combine CSVs
 
 Remove headers and combine all files into one:
