@@ -44,14 +44,14 @@ Bash has a built in feature to convert the case of strings:
 - `,` convert 1st character to lowercase
 - `,,` convert whole string to lowercase
 
-This can be helpful for renaming all files with lowercase filenames and extensions, like:
+This can be helpful for renaming all files with lowercase filenames and extensions.
+To do the renaming by copying to a new folder "renamed":
 
-`for f in *; do mv "$f" "${f,,}"; done`
+`for f in *.*; do cp "$f" "renamed/${f,,}"; done`
 
-(for any file that is already lowercase you will get an error message from mv)
 This could also be done using the older `tr` utility using a much more complicated command:
 
-`for f in *; do mv "$f" "$( tr '[:upper:]' '[:lower:]' <<<"$f" )"; done`
+`for f in *.*; do cp "$f" "renamed/$( tr '[:upper:]' '[:lower:]' <<<"$f" )"; done`
 
 ## Combine CSVs
 
