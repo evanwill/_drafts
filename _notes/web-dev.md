@@ -11,6 +11,11 @@ Quick local server:
 - Ruby: `ruby -run -e httpd . -p 8080` then surf to `localhost:8080` (*note* in ruby 3.0+ webrick is removed from the standard library, so you will have to install `webrick` gem)
 - Node: install `npm install -g http-server`, run `http-server`
 
+Key shortcuts:
+
+- Paste plain text (get rid of weird formatting): `Ctrl + Shift + V`
+- Override a page's custom context menu (so you can access your normal one): `Shift + right click`
+
 Browser support:
 
 - [Can I Use](http://caniuse.com/)
