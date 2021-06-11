@@ -55,11 +55,14 @@ Accessibility:
 - [WAVE tool](http://wave.webaim.org/)
 - W3C [Easy Checks](https://www.w3.org/WAI/eval/preliminary) documentation
 - [Accessibility testing and tools (MDN web docs)](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility)
+- [captioning videos for free](https://www.washington.edu/accessibility/videos/free-captioning/)
 
 Stop using "click here":
 
 - [Writing Hyperlinks: Salient, Descriptive, Start with Keyword](https://www.nngroup.com/articles/writing-links/)
 - [Why Your Links Should Never Say "Click Here"](https://www.smashingmagazine.com/2012/06/links-should-never-say-click-here/)
+
+Also, [don't use link shorteners](https://gcs.civilservice.gov.uk/blog/link-shorteners-the-long-and-short-of-why-you-shouldnt-use-them/)
 
 Free images:
 
