@@ -9,7 +9,7 @@ Many libraries use [CONTENTdm](https://www.oclc.org/en/contentdm.html) to host t
 You may want to harvest metadata, text, and digital objects from these repositories.
 CDM is not the easiest to use, but there is a few handy ways to get stuff out via URLs.
 
-We can access the CDM data using the [CDM API](https://www.oclc.org/support/services/contentdm/help/customizing-website-help/other-customizations/contentdm-api-reference.en.html).
+We can access the CDM data using the [CDM API](https://help.oclc.org/Metadata_Services/CONTENTdm/Advanced_website_customization/API_Reference).
 This API is helpful because its possible to create a set of queries using [OpenRefine](https://openrefine.org/) or a language such as [Python](https://www.python.org/) to add the harvesting raw materials step directly to your data processing workflow.
 
 ## CDM Terminology
@@ -64,11 +64,19 @@ Following our example, to check which metadata fields exist for a collection wit
 
 `https://server12345.contentdm.oclc.org/dmwebservices/index.php?q=dmGetCollectionFieldInfo/example/xml`
 
-After choosing a field, for example "title", we can form a query to return all items for the "example" collection: 
+This list will provide the list of fields including `name` and `nick`, you have to use the nickname in API calls using the field value.
 
-`https://server12345.contentdm.oclc.org/dmwebservices/index.php?q=dmQuery/example/0/title/xml`
+After choosing a field, for example "title", we can form a query to return items for the "example" collection. 
+There are a bunch of options that must be included for the query to work, and if you don't want to use the option you usually replace it with `0` in the url string.
 
-The first XML element `<pager>` tells you how many `<total>` items there are in the collection. Each item in the collection is in a `<record>` element with a `<pointer>`. 
+`https://server12345.contentdm.oclc.org/dmwebservices/index.php?q=dmQuery/example/0/title/title/1024/0/0/0/0/0/xml`
+
+*Importantly, the API will only return a max of 1024 items.* 
+Note the `1024` in url above is the "maxrecs" value. 
+To get more than 1024 items, you will have to do multiple API calls, changing the value directly after "maxrecs" (e.g. `/1024/0/`, then `/1024/1024/`, etc).
+
+The first XML element `<pager>` tells you how many `<total>` items there are in the collection. 
+Each item in the collection is in a `<record>` element with a `<pointer>`. 
 Now that you have `pointer` for individual items, you can retrieve metadata or files for the items.
 
 ### Get full text
