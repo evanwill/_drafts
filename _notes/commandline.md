@@ -148,6 +148,11 @@ Classic games:
 - `sudo apt-get bsdgames`
 - `tetris-bsd` (see [full list](http://wiki.linuxquestions.org/wiki/BSD_games))
 
+Matrix:
+
+- `sudo apt install cmatrix`
+- `cmatrix` (try `-r`, `-b` or check options with `-h`)
+ 
 Watch Star Wars: `telnet towel.blinkenlights.nl`
 
 Read some [xkcd](https://uni.xkcd.com/) comics!
