@@ -40,15 +40,15 @@ These bots aren't quite like human users and pay a lot more attention to the cod
 You can only follow the best practices to present your site in the best possible way, so that crawlers can find and correctly understand the content.
 
 The best way to do this is to have a well organized site with well structured pages--which will also benefit your human users!
+While many of the technical details should be handled by your CMS, as a web designer and web writer you will still make many choices that impact your SEO.
 To learn more details check the [Google SEO Starter Guide](https://developers.google.com/search/docs/beginner/seo-starter-guide) and [Google Webmaster guidelines](https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines).
 
 Things Google cares about when crawling and indexing:
 
 - Mobile friendliness --> use [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to ensure Google considers your pages mobile friendly.
 - Page speed --> use [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to see what Google crawlers think about your site performance.
-- Well formed HTML with descriptive title and headings. 
-- Sensible link structures and good navigation links.
-- Sitemap XML.
+- Well formed HTML with descriptive title and headings --> remember those HTML fundamentals and view-source! 
+- Sensible link structures and good navigation links. Also sitemap XML can help.
 - Structured markup such as [Schema.org](https://schema.org/). Example, view source of pages and items in [Barnard-Stockbridge digital collection](https://www.lib.uidaho.edu/digital/barstock/).
 - Other sites link to your content.
 - People click on your pages in search results --> use [Google Search Console](https://search.google.com/search-console/about) to see how your site content looks to Google and understand what searchers are pointing people to your site.
