@@ -10,6 +10,8 @@ date: 2021-03-01
 
 Adding Google Analytics tracking code to your site has been standard practice for years to gather data about visitors.
 However, many people are more critically considering this practice--Analytics is "free" because you are giving your user's data/privacy away to Google in return.
+And with growing numbers of users blocking analytics, your data might not even be very accurate (see [Marko Saric 1](https://plausible.io/blog/google-analytics-adblockers-missing-data) and [Marko Saric 2](https://markosaric.com/google-analytics-blocking/)).
+
 Luckily, there are a growing number of alternative options out there. 
 
 One fairly easy to adopt option is [Matomo](https://matomo.org/), an open source analytics platform.
