@@ -5,6 +5,9 @@ tags: [rpi, workshop]
 date: 2019-10-07
 ---
 
+> Please see [newer version of this outline](https://evanwill.github.io/_drafts/notes/rpi-intro2.html).
+> Some content below is out of date.
+
 ## Arduino vs. Raspberry Pi
 
 Both are very flexible, with great documentation and community.
