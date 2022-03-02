@@ -116,6 +116,9 @@ Visit the [Raspberry Pi Software page](https://www.raspberrypi.com/software/), d
 
 For detailed instructions see [Pi Getting Started](https://www.raspberrypi.com/documentation/computers/getting-started.html), for the [official step-by-step guide](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) for a visual walk through.
 
+> Just keep in mind, once you burn an image, Windows won't be able to read or use the SD.
+> You can use Pi Imager to "Erase" the SD to restore it to normal.
+>
 > You don't have to use Imager!
 > The [official images](https://www.raspberrypi.com/software/operating-systems/) or other ISOs can be downloaded manually, then burnt the SD using any disk imaging software, such as [Etcher](https://www.balena.io/etcher/).
 > Check [burn ISO note](https://evanwill.github.io/_drafts/notes/burn-iso.html) for details.

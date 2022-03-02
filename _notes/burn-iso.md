@@ -7,6 +7,9 @@ date: 2017-01-27
 
 > MILL-Mini workshop:
 > This session will take you through the Why and How of burning ISO/IMG files to SD or USB for single board computers or installing Linux.
+>
+> If you are interested in Raspberry Pi, please see more recent [Pi intro workshop](https://evanwill.github.io/_drafts/notes/rpi-intro2.html).
+> I suggest burning images for Pi using [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
 ## Background
 
