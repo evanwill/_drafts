@@ -48,6 +48,8 @@ I choose the "pink" version, which is just cosmetic, a very light pink tint to t
 The gold wound string is smooth, seems very stiff and heavy when installing, but feels good and balanced with other strings when playing. 
 It seems to have a real strong, driving sound giving body to chords without overpowering.
 
+The tension *is* noticeably "hard" compared to other strings. 
+
 I really like the sound and feel of these strings. 
 They seem unique.
 
