@@ -5,6 +5,8 @@ tags: [tools, editor]
 date: 2020-05-27
 ---
 
+> Atom Editor project is no longer active, and is [being sunsetted by GitHub Dec 2022](https://techcrunch.com/2022/06/08/github-sunsets-atom-the-software-dev-environment-it-launched-in-2011/).
+
 [Atom](https://atom.io/) is an open source code editor built by GitHub in the [Electron](https://electronjs.org/) framework.
 In the past, I used it for quite awhile before switching to [VS Code](https://evanwill.github.io/_drafts/notes/vs-code.html), because I felt like Atom was too slow and clunky.
 However, in classic Microsoft style, VS Code is moving toward too much unnecessary/undesired functionality that gets in the way of the clean, quick, simple interface that attracted users to it in the first place.
