@@ -44,12 +44,14 @@ Open Tweaks:
 
 Open Firefox browser:
 
-- Preferences > Privacy & Security > check "Use a master password" and set.
-- Add [GNOME extensions](https://extensions.gnome.org/) plugin, [gnome-shell-integration](https://addons.mozilla.org/en/firefox/addon/gnome-shell-integration/)
+- Preferences > Privacy & Security > check "Use a primary password" and set. This ensures your saved passwords are encrypted on your device.
 - Add Firefox [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/?src=search), [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - Add adblocker such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search)
 
-Now you can add [GNOME extensions](https://extensions.gnome.org/), click the GNOME icon in the browser's upper right side.
+Next you want some GNOME extensions. 
+Earlier installations use [GNOME extensions](https://extensions.gnome.org/) plugin and [gnome-shell-integration](https://addons.mozilla.org/en/firefox/addon/gnome-shell-integration/) on Firefox to install and manage extensions. 
+However, in newer installations using the Firefox snap this option no longer works! 
+Install `gnome-shell-extension-manager` instead which gives you an app to find, install, and manage extensions.
 Try [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) (disable screen lock to watch movies or just not have your laptop locking all the time) or check some [other suggestions](https://evanwill.github.io/_drafts/notes/ubuntu-gnome.html#get-extensions).
 
 Enable firewall: `sudo ufw enable`

@@ -5,7 +5,7 @@ tags: [tips, make]
 date: 2020-09-14
 ---
 <style>
-.figures img { max-width: 100%; display: block; margin: 10px auto; }
+.figures img { margin: 12px auto; }
 </style>
 
 Record fire conditions in California, Oregon, and Washington in Sep 2020 plunged all of the Northwest in choking, hazardous levels of smokey haze.
@@ -17,6 +17,10 @@ What if you don't have a HVAC system, recirculate option, or air purifier?
 
 Basically its miserable... 
 but here is a viable DIY option to clean your indoor air made with a box fan, furnace filter, and duct tape.
+
+> p.s. more recently it has been discovered that running this type of filtration also helps protect from Covid in enclosed spaces!
+> If you have four air filters available, build a more advanced [Corsi-Rosenthal box](https://engineering.ucdavis.edu/news/science-action-how-build-corsi-rosenthal-box).
+> UC Davis has published some [research confirming the effectiveness of these DIY filters](https://energy.ucdavis.edu/wp-content/uploads/Case-Study_DIY-Portable-Air-Cleaners-083121.pdf).
 
 ## Step 1: Get Fan
 
@@ -53,6 +57,7 @@ Use a few pieces of duct tape to secure it directly to the fan.
 
 Obviously.
 The picture below shows a fresh filter next to one used for 24hr during horrible smokey conditions.
+
 **Another tip:**
 get a spray bottle with clean water and spritz the air around your house every so often. 
 Moisture particles help pull smoke pollution out of the air. 
