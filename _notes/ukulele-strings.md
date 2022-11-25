@@ -13,6 +13,8 @@ I enjoyed reading this ongoing strings journal ["Best Strings for Baritone Uke: 
 So thought I would do something similar for myself.
 As most of this blog, this is mainly notes to my future self!
 
+> p.s. I find this [west music how to replace strings](https://content.westmusic.com/blog-how-to-replace-ukulele-strings/) helpful for knot diagrams.
+
 ## Baritone Ukulele Context
 
 I'm a intermediate beginner, not particularly good. 
