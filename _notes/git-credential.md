@@ -32,7 +32,7 @@ Configure git to use the helper:
 
 `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret`
 
-The next time you need a credential (e.g. pushing), it will prompt for username and [password/token]({{ '/notes/git-tokens.html | relative_url }}) as normal, but it will be stored by libsecret and can be used for any future authentication to that site (e.g. github, bitbucket, etc). 
+The next time you need a credential (e.g. pushing), it will prompt for username and [password/token]({{ '/notes/git-tokens.html' | relative_url }}) as normal, but it will be stored by libsecret and can be used for any future authentication to that site (e.g. github, bitbucket, etc). 
 
 ## Update Credentials 
 

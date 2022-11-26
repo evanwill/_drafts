@@ -55,14 +55,30 @@ The tension *is* noticeably "hard" compared to other strings.
 I really like the sound and feel of these strings. 
 They seem unique.
 
-| String | Material | Diameter (in) |
-| E | Pink Fluorocarbon | 0.023" |
-| B | Pink Fluorocarbon | 0.028" |
-| G | Pink Fluorocarbon | 0.036" |
-| D | Gold smooth wound | 0.030" |
+| String | Material | Diameter (mm) |
+| E | Pink Fluorocarbon | 0.584 |
+| B | Pink Fluorocarbon | 0.711 |
+| G | Pink Fluorocarbon | 0.914 |
+| D | Gold smooth wound | 0.762 |
 
-There is an option for D Flourocarbon at 0.042".
+There is an option for D Flourocarbon at 1.06mm.
 This seemed too big for my nut, so I didn't try it.
+
+### Uke Logic Baritone "Soft Tension"
+
+On BK-70RB:
+
+Crisp and clear. 
+Pleasant medium tension, similar to PhD (no buzz on low action).
+The fluorocarbon D is a reasonable thickness and seems balanced with the other strings.
+
+After playing on the "hard" version, these seem light and airy strumming and finger picking.
+
+| String | Material | Diameter (mm) |
+| E | Pink Fluorocarbon | 0.508 |
+| B | Pink Fluorocarbon | 0.635 |
+| G | Pink Fluorocarbon | 0.813 |
+| D | Pink Fluorocarbon | 0.914 |
 
 ### PhD Strings - Premium High Density 
 
@@ -85,11 +101,11 @@ Seemed to make the KA-B's tone crisper and louder than Aquilas.
 They have an oddly low tension, or sort of stretchiness, that I didn't really like.
 They took forever to settle in and stay in tune.
 
-| String | Material | Diameter (in) |
-| E | Brown Fluorocarbon | .0244 |
-| B | Brown Fluorocarbon | .0291 |
-| G | Brown Fluorocarbon | .0319 |
-| D | Brown Fluorocarbon | .0358 |
+| String | Material | Diameter (mm) |
+| E | Brown Fluorocarbon | 0.620 |
+| B | Brown Fluorocarbon | 0.739 |
+| G | Brown Fluorocarbon | 0.810 |
+| D | Brown Fluorocarbon | 0.909 |
 
 Lots of people repeat that Worth brown and clear are the same--that doesn't seem true, Worth intends them to have different sound qualities, not just looks.
 
@@ -135,8 +151,43 @@ After playing these for two weeks I hated them.
 They felt sort of dead.
 Bad.
 
-| String | Material | Diameter (in) |
-| E | Fluorocarbon | .0244” |
-| B | Fluorocarbon | .0291” |
-| G | Fluorocarbon | .0315” |
-| D | Fluorocarbon | .0358” |
+| String | Material | Diameter (mm) |
+| E | Fluorocarbon | 0.620 |
+| B | Fluorocarbon | 0.739 |
+| G | Fluorocarbon | 0.800 |
+| D | Fluorocarbon | 0.909 |
+
+## String Diameter table
+
+<div id="archiveList" class="archive-list">
+<div class="browse">
+    <input class="search" placeholder=" Search" type="text" aria-label="Search strings">
+</div>
+<table>
+<thead>
+<tr>
+    <th><button class="buttons sort" data-sort="brand">Brand</button></th>
+    <th><button class="buttons sort" data-sort="string">String</button></th>
+    <th><button class="buttons sort" data-sort="material">Material</button></th>
+    <th><button class="buttons sort" data-sort="diameter">Diameter</button></th>
+</tr>
+</thead>
+<tbody class="listjs">
+    {% for r in site.data.ukulele-strings %}<tr>
+    <td class="brand">{{ r.brand }}</td>
+    <td class="string">{{ r.string }}</td>
+    <td class="material">{{ r.material }}</td>
+    <td class="diameter">{{ r.diameter_mm }}</td>
+    </tr>{% endfor %}
+</tbody>
+</table>
+</div>
+<!-- add list.js http://www.listjs.com/ @javve -->
+<script src="{{ '/js/list.min.js' | relative_url }}"></script>
+<script> 
+    var options = {
+        valueNames: [ 'brand', 'string', 'material', 'diameter' ],
+        listClass: 'listjs'
+    };
+    var userList = new List('archiveList', options);
+</script>
