@@ -22,8 +22,8 @@ I pick and strum, but really just like to strum out campfire jams.
 I play DGBE, low D.
 I have two cheaper end baritones:
 
-- Kala Satin Mahogany Baritone [KA-B](https://kalabrand.com/products/ka-b) ([archived](https://web.archive.org/web/20220519070825/https://kalabrand.com/products/ka-b))
-- Ohana Solid Spruce & Round Composite Back Baritone [BK-70RB](https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804) ([archived](https://web.archive.org/web/20220411072715/https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804))
+- Kala Satin Mahogany Baritone [KA-B](https://kalabrand.com/products/ka-b) ([archived](https://web.archive.org/web/20220519070825/https://kalabrand.com/products/ka-b)) - traditional, standard cheap baritone with a nice rich tone.
+- Ohana Solid Spruce & Round Composite Back Baritone [BK-70RB](https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804) ([archived](https://web.archive.org/web/20220411072715/https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804)) - slightly larger, slightly more guitar-y sound, crisp distinct tones. low action set up.  
 
 I have purchased most strings from [Strings by Mail](https://www.stringsbymail.com/ukulele-strings-684/baritone-ukulele-strings-3214/), except [Uke Logic on Etsy](https://www.etsy.com/shop/UkeLogic).
 
@@ -42,15 +42,17 @@ Organized from favorite to least favorite.
 On BK-70RB:
 
 Seemed to settle in quickly. 
-Good volume, lots of sustain.
+Good volume and sustain.
 Full, rich tone, mellower than other bright flourocarbon, but still has that crispness.
 
-I choose the "pink" version, which is just cosmetic, a very light pink tint to the clear flourocarbon strings--but looks nice, interesting at least.
+I choose the "pink" version, which is just cosmetic, a very light pink tint to the clear fluorocarbon strings--but looks nice, interesting at least.
 
 The gold wound string is smooth, seems very stiff and heavy when installing, but feels good and balanced with other strings when playing. 
 It seems to have a real strong, driving sound giving body to chords without overpowering.
+This wound string has *very* good durability--it was still sounding and looking good when I switched out the fluorocarbon strings for being a bit worn out.
 
 The tension *is* noticeably "hard" compared to other strings. 
+You can really play them hard, dig into the strumming--but I didn't realize until switching back to "soft" strings that it is a bit more work to actually play these.
 
 I really like the sound and feel of these strings. 
 They seem unique.
@@ -68,11 +70,13 @@ This seemed too big for my nut, so I didn't try it.
 
 On BK-70RB:
 
-Crisp and clear. 
+Crisp and clear, ring out beautifully with a rich sound.
 Pleasant medium tension, similar to PhD (no buzz on low action).
 The fluorocarbon D is a reasonable thickness and seems balanced with the other strings.
 
-After playing on the "hard" version, these seem light and airy strumming and finger picking.
+After playing on the "hard" version, these seem light and airy--buttery smooth and easy top play, the sound just seems to jump out.
+Compared to the "hard" they seem to have more sustain.
+The "hard" have a bit more unique sound, but I love the playability of these strings, and they sound great.
 
 | String | Material | Diameter (mm) |
 | E | Pink Fluorocarbon | 0.508 |
