@@ -97,6 +97,16 @@ Or the opposite, files without the phrase, using `-L` for filenames with no matc
 
 `grep -L "string" * > list.txt`
 
+## Copy a list of files
+
+I often have a folder of binary files, like images, where I need to sort out a small group to upload or move somewhere else. 
+Often the list of files that need to move comes from some other source, such as a spreadsheet. 
+To do it as a batch, I export a list of the filenames that need to move, one filename per line (just like if you did `ls > list.txt`), then use a bash loop like this:
+
+`for f in $(cat list.txt); do cp $f ../upload/; done`
+
+In this example, we use `cat list.txt` to print out the file contents to provide the variables for the loop to iterate over--this can be handy for a lot of pragmatic solutions!
+
 ## Don't store in history
 
 If you add a space at the beginning of the line, then the command won't be recorded in your history. 
