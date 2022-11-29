@@ -24,6 +24,7 @@ However, each of these tools are proprietary and server-based services.
 You need to send your data to their servers where the processing is done and your visualizations are hosted. 
 
 RAWGraphs is different --> it is a client-side JavaScript app, meaning that all the processing is done on your computer, in your browser. 
+It works on any computer without installing anything.
 You don't send any data to their server. 
 They also don't host your data or visualizations. 
 
@@ -37,9 +38,18 @@ However, D3 has a steep learning curve, and you can't just smoothly explore your
 
 As a code free alternative, RAWGraphs uses the power of JS to provide a simple-ish visual interface to create and configure data visualizations in the browser. 
 The goal is to get you to a solid SVG export that can then be tweaked for publication and sharing. 
-It is a great tool for prototyping, quick exploration, and teaching/learning.
 
-walkthrough [RAWGraphs app](https://app.rawgraphs.io/)
+It is a great tool for prototyping, quick exploration, and teaching/learning.
+For example, provide your students a link to RAWGraphs plus a link to a CSV, and have them learn about steps to a visualization--without installing anything or leaving the browser. 
+Each chart type has a description and related tutorial, so there is a ton of learning built directly into the interface.
+
+Walkthrough [RAWGraphs app](https://app.rawgraphs.io/):
+
+1. "Try our data samples" > Iris flowers. Check parsing options and [stacking transformation utility](https://www.rawgraphs.io/learning/how-to-stack-your-unstacked-data-or-meet-the-unpivoter).
+2. select "Convex hull" (check description and tutorial)
+3. map length to X, width to Y, Species to Groups
+4. customize
+5. Export as SVG
 
 ## Data on the web
 
@@ -56,8 +66,8 @@ Here is some good options:
 
 ## Other client-side apps
 
-- [Kepler.gl](https://kepler.gl/) (geospatial tool)
-- [Datasette-lite](https://lite.datasette.io/) ([Datasette](https://datasette.io/) running in locally in your browser using webassembly to explore data)
+- [Kepler.gl](https://kepler.gl/) (geospatial tool that can export a static web app)
+- [Datasette-lite](https://lite.datasette.io/) (data exploration tool [Datasette](https://datasette.io/) running in locally in your browser using webassembly)
 - [Koia](https://www.koia.io/intro/index.html) (more complicated viz tool)
 - [Vega](https://vega.github.io/) language ecosystem with online tools [Lyra](https://idl.cs.washington.edu/projects/lyra/app/) and [Voyager](https://vega.github.io/voyager) (steeper learning curve)
 - [Starboard](https://starboard.gg/) (beta in-browser static/server-less notebook. Can also run Python Jupyter notebooks using [Pyodide](https://github.com/pyodide/pyodide), demo [python REPL](https://pyodide.org/en/stable/console.html))
