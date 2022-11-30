@@ -61,7 +61,7 @@ Here is some good options:
 
 - Publish a Google Sheet as CSV --> On the Sheet, go to File > Publish to the Web. On the popup modal, use the dropdowns in "Link" tab to select the sheet name of your metadata (usually "Sheet 1") and "Comma-separated values (.csv)" options, then click "Publish" button. Copy the link that is provided.
 - Publish on GitHub --> put your data in a repository, then use the "raw" link provided. It follows the pattern: "https://raw.githubusercontent.com/username/repositoryname/branchname/filename"
-- Publish on GitHub Gist --> create a new Gist, paste or drag your data in, make sure you provide a correct filename. Use the "raw" link. It follows the pattern: "https://gist.githubusercontent.com/username/<hash>/raw/<hash>/filename"
+- Publish on GitHub Gist --> create a new Gist, paste or drag your data in, make sure you provide a correct filename. Use the "raw" link. It follows the pattern: "https://gist.githubusercontent.com/username/hash/raw/hash/filename"
 - Handy note: GitHub will preview render geojson on a map!
 
 ## Other client-side apps
