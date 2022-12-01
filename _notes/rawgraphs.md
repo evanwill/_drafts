@@ -5,7 +5,7 @@ tags: [workshop]
 date: 2022-11-29
 ---
 
-> RAWGraphs is a browser-based app for quick data visualization. With extensive help built in, this is a great tool for teaching, learning, and experimenting with charts. This sessions will introduce the tool, along with tips for working with data on the web and other browser-based apps.
+> Data Hub Tool Talk: RAWGraphs is a browser-based app for quick data visualization. With extensive help built in, this is a great tool for teaching, learning, and experimenting with charts. This session will introduce the tool, along with tips for working with data on the web and other browser-based apps. [talk recording](https://youtu.be/A1iQb00FjUU)
 
 ## RAWGraphs intro
 

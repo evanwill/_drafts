@@ -52,8 +52,8 @@ Or override the setting `"terminal.integrated.shell.windows": "C:\\Windows\\syst
 Code has a growing ecosystem of extensions.
 Click the Extensions icon on the left side and search in the box to find new ones.
 
-- Spell check: I have been using "Code Spell Checker".
-- CSV highlighter: "Rainbow CSV"
+- Spell check: I use ["Code Spell Checker"](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker), and it seems really good and avoids a lot of code-related false positives.
+- CSV highlighter: ["Rainbow CSV"](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), this is incredibly helpful for looking at CSVs.
 - Data viz: [SandDance for VSCode](https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance) (handy for looking at CSV contents)
 - Arduino: If you have Arduino IDE installed on your system, you can add similar functionality to Code. Search for "Arduino" from Microsoft. Now when you open a `.ino` sketch, you will have options at the bottom of the window to select your board and port. More info [vscode-arduino](https://github.com/Microsoft/vscode-arduino).
 - XML: "XML Language Support"
@@ -82,15 +82,14 @@ Get more themes from the Extensions shop.
 
 ```
 {
-    "terminal.integrated.shell.windows": "C:\\Users\\username\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
-    "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.wordWrap": "on",
+    "breadcrumbs.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "editor.autoSurround": "never",
+    "editor.codeLens": false,
     "editor.colorDecorators": false,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.dragAndDrop": false,
@@ -98,19 +97,76 @@ Get more themes from the Extensions shop.
     "editor.links": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestionsDelay": 100,
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
     "explorer.enableDragAndDrop": false,
     "outline.problems.badges": false,
     "outline.problems.enabled": false,
     "outline.problems.colors": false,
-    "extensions.showRecommendationsOnlyOnDemand": true,
     "extensions.ignoreRecommendations": true,
-    "problems.decorations.enabled": false,
     "problems.autoReveal": false,
-    "html.format.maxPreserveNewLines": 2,
     "html.autoClosingTags": false,
+    "html.format.maxPreserveNewLines": 2,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.rightClickBehavior": "default",
-    "html.format.wrapLineLength": 0
+    "html.format.wrapLineLength": 0,
+    "git.terminalAuthentication": false,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml",
+        "xml"
+    ],
+    //"terminal.integrated.sendKeybindingsToShell": true,
+    "problems.decorations.enabled": false,
+    "rainbow_csv.enable_tooltip": false,
+    "rainbow_csv.enable_tooltip_warnings": false,
+    "rainbow_csv.enable_tooltip_column_names": false,
+    "terminal.integrated.enableFileLinks": false,
+    "terminal.integrated.experimentalLinkProvider": false,
+    "terminal.integrated.altClickMovesCursor": false,
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.enablePersistentSessions": false,
+    "cSpell.enableFiletypes": [
+        "csv"
+    ],
+    "html.autoCreateQuotes": false,
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "workbench.editor.enablePreview": false
 }
 ```
 
