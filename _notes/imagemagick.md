@@ -41,7 +41,7 @@ First, use a built in pattern to create a test image:
 `magick -size 640x480 pattern:checkerboard checkerboard.png`
 
 Convert into a JPEG: 
-`magick checkerboard.png output.png`
+`magick checkerboard.png output.jpg`
 
 Resize:
 `magick checkerboard.png -resize 75% out2.png`
@@ -131,3 +131,13 @@ Then comment it out:
 ```
 
 And save.
+
+## Random helpful things
+
+Sometimes TIFF files have compression inside, which some other utilities can't read. 
+You can pass them through imagemagick to resave uncompressed:
+`magick compressed.tif out.tif` 
+
+Or as a batch: 
+
+`for f in *.tif; do magick "$f" -set filename:f '%t' 'magick-%[filename:f].tif'; done`
