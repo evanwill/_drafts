@@ -23,7 +23,7 @@ I play DGBE, low D.
 I have two cheaper end baritones:
 
 - Kala Satin Mahogany Baritone [KA-B](https://kalabrand.com/products/ka-b) ([archived](https://web.archive.org/web/20220519070825/https://kalabrand.com/products/ka-b)) - traditional, standard cheap baritone with a nice rich tone.
-- Ohana Solid Spruce & Round Composite Back Baritone [BK-70RB](https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804) ([archived](https://web.archive.org/web/20220411072715/https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804)) - slightly larger, slightly more guitar-y sound, crisp distinct tones. low action set up.  
+- Ohana Solid Spruce & Round Composite Back Baritone [BK-70RB](https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804) ([archived](https://web.archive.org/web/20220411072715/https://ohana-music.com/products/ohana-ukuleles-ck-70rb-solid-spruce-round-composite-back-concert?variant=31535720136804)) - slightly larger, slightly more guitar-y sound, crisp distinct tones. low action set up. I really like this weird, unique sounding uke!
 
 I have purchased most strings from [Strings by Mail](https://www.stringsbymail.com/ukulele-strings-684/baritone-ukulele-strings-3214/), except [Uke Logic on Etsy](https://www.etsy.com/shop/UkeLogic).
 
@@ -37,6 +37,37 @@ It is hard to characterize without an extensive music vocabulary, but these are 
 
 Organized from favorite to least favorite.
 
+### Uke Logic Baritone "Soft Tension"
+
+These are my current favorite strings! 
+They sound wonderful and seem extra playable. 
+
+I choose the "pink" version, which is just cosmetic, a very light pink tint to the clear fluorocarbon strings--but looks nice, interesting at least.
+For low D you have a choice of fluorocarbon or gold smooth wound--so far I have only used the fluorocarbon with this set (I did use the gold wound in the "Hard Tension" version, and it is a beautiful string!).
+The fluorocarbon D is a reasonable thickness and the feel seems reasonably balanced with the other strings.
+All strings easily fit standard nut.
+
+On BK-70RB:
+
+Crisp and clear, ring out beautifully with a rich sound.
+Pleasant medium tension, similar to PhD (no buzz on low action), but seem easier to play.
+
+After playing on the "hard" version, these seem light and airy--buttery smooth and easy to play, the sound just seems to jump out.
+Compared to the "hard" they seem to have more sustain.
+The "hard" have a bit more unique sound, but I love the playability of these strings, and they sound great.
+
+On K-B: 
+
+Immediately after restringing, the sound was a revelation! 
+They sound really good, feel really good.
+Seemed to settle in quickly. 
+
+| String | Material | Diameter (mm) |
+| E | Pink Fluorocarbon | 0.508 |
+| B | Pink Fluorocarbon | 0.635 |
+| G | Pink Fluorocarbon | 0.813 |
+| D | Pink Fluorocarbon | 0.914 |
+
 ### Uke Logic Baritone "Hard Tension"
 
 On BK-70RB:
@@ -45,14 +76,12 @@ Seemed to settle in quickly.
 Good volume and sustain.
 Full, rich tone, mellower than other bright flourocarbon, but still has that crispness.
 
-I choose the "pink" version, which is just cosmetic, a very light pink tint to the clear fluorocarbon strings--but looks nice, interesting at least.
-
 The gold wound string is smooth, seems very stiff and heavy when installing, but feels good and balanced with other strings when playing. 
 It seems to have a real strong, driving sound giving body to chords without overpowering.
 This wound string has *very* good durability--it was still sounding and looking good when I switched out the fluorocarbon strings for being a bit worn out.
 
 The tension *is* noticeably "hard" compared to other strings. 
-You can really play them hard, dig into the strumming--but I didn't realize until switching back to "soft" strings that it is a bit more work to actually play these.
+You can really play them hard, dig into the strumming--but I didn't realize until switching back to "soft" strings that it is more work to actually play these.
 
 I really like the sound and feel of these strings. 
 They seem unique.
@@ -66,24 +95,6 @@ They seem unique.
 There is an option for D Flourocarbon at 1.06mm.
 This seemed too big for my nut, so I didn't try it.
 
-### Uke Logic Baritone "Soft Tension"
-
-On BK-70RB:
-
-Crisp and clear, ring out beautifully with a rich sound.
-Pleasant medium tension, similar to PhD (no buzz on low action).
-The fluorocarbon D is a reasonable thickness and seems balanced with the other strings.
-
-After playing on the "hard" version, these seem light and airy--buttery smooth and easy top play, the sound just seems to jump out.
-Compared to the "hard" they seem to have more sustain.
-The "hard" have a bit more unique sound, but I love the playability of these strings, and they sound great.
-
-| String | Material | Diameter (mm) |
-| E | Pink Fluorocarbon | 0.508 |
-| B | Pink Fluorocarbon | 0.635 |
-| G | Pink Fluorocarbon | 0.813 |
-| D | Pink Fluorocarbon | 0.914 |
-
 ### PhD Strings - Premium High Density 
 
 On KA-B:
@@ -93,6 +104,8 @@ They seem to have a full bright tone, with strong sustain and volume.
 They feel good on fingers, smooth.
 
 PhD doesn't publish diameters anywhere I could find. 
+The G string seems thicker than other sets, enough to stick in the nut, requiring some extra attention to tune. 
+
 Material is "PVDF", some sort of fluorocarbon.
 
 ### Worth Brown
