@@ -8,10 +8,12 @@ date: 2019-10-01
 [Code](https://code.visualstudio.com) is a nice open source text editor from microsoft ([docs](https://code.visualstudio.com/Docs)).
 It is light weight compared to most traditional IDE, yet fully featured and efficient.
 I find it perfect for working on web projects (i.e. *Open Folder* not a file), such as using Jekyll, with Git nicely integrated.
-In the past I used [Atom](https://atom.io/), but Code seems quicker and less clunky.
 
-*Update:* unfortunately MS seems to be continuously adding more and more features (i.e. junk) all the time--taking it from a nice minimalist editor, to a getting-close-to bloated piece of software.
-I am still using it, but starting to get frustrated by more and more features that I don't want and actually get in the way of working.
+> The [VSCodium](https://vscodium.com/) project provides an alternative all open source + no tracking version of VS Code. 
+> VS Code is open source, however, the installers you download from MS include additional non-open-source components.
+>
+> *Update:* unfortunately MS seems to be continuously adding more and more features (i.e. junk) all the time--taking it from a nice minimalist editor, to a getting-close-to bloated piece of software.
+> I am still using it, but starting to get frustrated by more and more features that I don't want and actually get in the way of working.
 Typical MS...
 
 To configure the editor click the cog icon in the lower left and choose *Settings* (or go to *File* > *Preferences* > *Settings*, or `Ctrl + ,`). 
