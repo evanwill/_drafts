@@ -3,6 +3,7 @@ title: Atom Editor Notes
 layout: post
 tags: [tools, editor]
 date: 2020-05-27
+hide: true
 ---
 
 > **Atom Editor project is no longer active**, and was [sunsetted by GitHub Dec 2022](https://techcrunch.com/2022/06/08/github-sunsets-atom-the-software-dev-environment-it-launched-in-2011/).

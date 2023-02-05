@@ -5,8 +5,8 @@ tags: [fun,food]
 date: 2018-04-08
 ---
 
-Inspired by memories of cook book for kids from when I was a kid, 
-delicious, chocolaty, and very simple.
+> Inspired by memories of cook book for kids from when I was a kid, 
+> delicious, chocolaty, and very simple.
 
 Heat oven to 350 degrees.
 Grease a square baking pan (or small oval casserole, or double recipe for big rectangle baking pan). 
