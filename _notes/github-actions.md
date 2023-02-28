@@ -5,8 +5,8 @@ tags: [github,jekyll]
 date: 2020-08-05
 ---
 
-I have an [updated version of this action]({{ '/notes/github-actions2.html' | relative_url }}), which is a bit easier to set up. 
-I would suggest using it instead!
+**Note:** GitHub Actions has become much easier than when this post was written, please [see my most recent version Actions using Starter Workflow]({{ '/notes/github-actions2.html' | relative_url }})!
+I would strongly suggest using it instead!
 
 ---------------------------
 

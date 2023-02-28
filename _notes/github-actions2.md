@@ -77,7 +77,7 @@ permissions:
 
 jobs:
   jekyll:
-    runs-on: ubuntu-20.04 
+    runs-on: ubuntu-latest 
     steps:
       # checkout code
       - uses: actions/checkout@v3
