@@ -67,6 +67,7 @@ Here is some good options:
 ## Other client-side apps
 
 - [Kepler.gl](https://kepler.gl/) (geospatial tool that can export a static web app)
+- [mapshaper](https://mapshaper.org/) (utility for manipulating geospatial data, helpful for transforming geojason. [mapshaper source code](https://github.com/mbloch/mapshaper))
 - [Datasette-lite](https://lite.datasette.io/) (data exploration tool [Datasette](https://datasette.io/) running in locally in your browser using webassembly)
 - [Koia](https://www.koia.io/intro/index.html) (more complicated viz tool)
 - [Vega](https://vega.github.io/) language ecosystem with online tools [Lyra](https://idl.cs.washington.edu/projects/lyra/app/) and [Voyager](https://vega.github.io/voyager) (steeper learning curve)
