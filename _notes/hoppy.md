@@ -24,9 +24,11 @@ Drinks are rated 1 - 5 on these highly scientific qualities:
 
 ## {{ b.name }} ({{ b.brewer }})
 
-| Hoppyness | Aroma | Body | Beeriness | Deliciousness |
-| --- | --- | --- | --- | --- |
-| {{ b.hoppyness }} | {{ b.aroma }} | {{ b.body }} | {{ b.beeriness }} | {{ b.deliciousness }} |
+- Hoppyness: {{ b.hoppyness }}
+- Aroma: {{ b.aroma }}
+- Body: {{ b.body }}
+- Beeriness: {{ b.beeriness }}
+- Deliciousness: {{ b.deliciousness }}
 
 {{ b.description }}
 

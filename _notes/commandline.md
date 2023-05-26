@@ -157,6 +157,8 @@ Watch Star Wars: `telnet towel.blinkenlights.nl`
 
 Read some [xkcd](https://uni.xkcd.com/) comics!
 
+[Solve a mystery](https://github.com/veltman/clmystery)...
+
 ## Reference
 
 - [SS64 Command line reference](https://ss64.com/)
