@@ -10,6 +10,12 @@ title: browse
     <button class="buttons sort" data-sort="title">title</button>
     <button class="buttons sort" data-sort="date">date</button>
     <button class="buttons sort" data-sort="tags">tags</button>
+    <br>
+
+    Filter: 
+    <button class="buttons filter-buttons" onclick="filterByHandy()">Handy</button>
+    <button id="view-all" class="buttons filter-buttons">All</button>
+
   </div>
 
   <div class="listjs">
@@ -23,6 +29,7 @@ title: browse
         <time>{{ post.date | date: "%Y-%m-%d" }}</time> | 
       </span>
       <span class="tags">{{ post.tags | join: ', ' }}</span>
+      {% if post.handy == true %}<span class="handy d-none">true</span>{% endif %}
       </a>
     </div>
     {% endunless %}{% endfor %}
@@ -32,9 +39,24 @@ title: browse
 <!-- add list.js http://www.listjs.com/ @javve -->
 <script src="{{ '/js/list.min.js' | relative_url }}"></script>
 <script> 
+    // filter by handy function
+    function filterByHandy() {
+      userList.filter( function(item) {
+        var cat = item.values().handy;
+        if (cat.indexOf(true) != -1) {
+          return true;
+        } else {
+          return false;
+        }
+      })
+    };
     var options = {
-        valueNames: [ 'title', 'date', 'tags' ],
+        valueNames: [ 'title', 'date', 'tags', 'handy' ],
         listClass: 'listjs'
     };
     var userList = new List('archiveList', options);
+
+    // reset filter
+    document.getElementById('view-all').onclick = function() { userList.filter(); };
+
 </script>
