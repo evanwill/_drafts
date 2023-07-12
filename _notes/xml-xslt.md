@@ -11,6 +11,7 @@ XSLT has version 1, 2, and 3 (draft)--but only [Saxon](http://www.saxonica.com/w
 
 I don't work with XML a lot, so I don't want to pay for Oxygen nor learn how to use it, but occasionally I have to process some XML using XSLT.
 So here are some options...
+(p.s. my favorite is to avoid the XSLT by parsing the XML with Ruby, then just outputting using Ruby instead)
 
 ## xsltproc
 

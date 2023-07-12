@@ -3,6 +3,7 @@ title: Handy Jekyll Tips
 layout: post
 tags: [jekyll]
 date: 2019-04-19
+handy: true
 ---
 
 > random notes about Jekyll quirks

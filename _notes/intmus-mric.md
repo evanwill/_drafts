@@ -3,6 +3,7 @@ title: "MRIC: Adapting Technology for Teaching"
 layout: post
 tags: [workshop]
 date: 2018-09-18
+hide: true
 ---
 
 > Sean Butterfield and Evan Williamson, "Adapting Technology for Teaching: The Creation of an Open Educational Resource", 

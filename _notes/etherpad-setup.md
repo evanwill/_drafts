@@ -3,6 +3,7 @@ title: How to setup Etherpad on a cloud VM
 layout: post
 tags: [cloud]
 date: 2016-06-01
+hide: true
 ---
 
 Set up an Ubuntu server, then follow these directions to get an instance of Etherpad up and running!

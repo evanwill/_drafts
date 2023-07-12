@@ -3,6 +3,7 @@ title: Introduction to CDIL
 layout: post
 tags: [workshop]
 date: 2019-11-11
+hide: true
 ---
 
 > Notes and links for Honors visit to CDIL. 

@@ -5,6 +5,8 @@ tags: [shell, windows]
 date: 2017-05-06
 ---
 
+**Out of date! I haven't used this for a long time!**
+
 [Cmder](http://cmder.net/) is a fully featured terminal emulator for Windows that can host a variety of shells, including Git for Windows Git Bash (which comes bundled with the full version). 
 It is handy because it is full portable--simply unzip and start using it.
 Once you configure Cmder, you can even copy the directory to a USB and use/share your fully customized version.

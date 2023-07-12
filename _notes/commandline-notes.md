@@ -3,6 +3,7 @@ title: Commandline notes
 layout: post
 tags: [shell, linux]
 date: 2018-10-30
+handy: true
 ---
 
 Just some general notes to remember helpful things on the command line... 

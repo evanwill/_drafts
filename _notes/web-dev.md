@@ -3,6 +3,7 @@ title: Handy web dev tools
 layout: post
 tags: [web, tips]
 date: 2019-07-29
+handy: true
 ---
 
 Quick local server:

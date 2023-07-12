@@ -3,7 +3,9 @@ title: Git notes
 layout: post
 tags: [git, github]
 date: 2017-06-01
+handy: true
 ---
+
 ## Quick fix the last commit
 
 If you just made a commit, *and haven't pushed it yet*, but suddenly realize you forgot to add something, need to change the message, or tweak a file, use `git commit --amend`.

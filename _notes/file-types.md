@@ -5,7 +5,7 @@ tags: [text]
 date: 2019-01-06
 ---
 
-> notes clarifying plain text which is often mentions in other notes...
+> notes clarifying plain text which is often mentioned in other notes...
 
 # Bits and Bytes
 

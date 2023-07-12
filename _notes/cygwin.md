@@ -5,6 +5,8 @@ tags: [shell, windows]
 date: 2017-03-09
 ---
 
+**Out of date! I haven't used this for a long time!**
+
 [Cygwin](https://cygwin.com/index.html) is a project that adds Unix style terminal to Windows. 
 It includes hundreds of Unix command line utilities built and packaged to function natively on Windows. 
 It includes more functionality than Git Bash (included with [Git for Windows](https://git-for-windows.github.io/)), is open-source (unlike [MobaXterm](http://mobaxterm.mobatek.net/)), and has a package system to install utilities (unlike [Cmder](https://evanwill.github.io/_drafts/notes/cmdr.html)). 

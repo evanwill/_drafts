@@ -3,6 +3,7 @@ title: Use Jekyll Deploy command
 layout: post
 tags: [jekyll]
 date: 2016-11-05
+hide: true
 ---
 
 [`jekyll-deploy`](https://github.com/vwochnik/jekyll-deploy) adds a new jekyll command, accessed on the command line as `jekyll deploy`. 

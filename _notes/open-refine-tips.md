@@ -3,6 +3,7 @@ title: Handy OpenRefine Functions to Remember
 layout: post
 tags: [openrefine, data, tools]
 date: 2017-06-01
+handy: true
 ---
 
 This page lists some handy functions to use for data wrangling tasks.
