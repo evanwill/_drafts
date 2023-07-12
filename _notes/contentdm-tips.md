@@ -1,7 +1,7 @@
 ---
 title: CONTENTdm api tips
 layout: post
-tags: [libraries, workshop]
+tags: [library, workshop]
 date: 2017-04-04
 ---
 

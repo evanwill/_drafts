@@ -1,7 +1,7 @@
 ---
 title: Windows Subsystem for Linux
 layout: post
-tags: [shell, windows, wsl]
+tags: [shell, windows]
 date: 2020-04-28
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CONTENTdm metadata export tips
 layout: post
-tags: [libraries, workshop]
+tags: [library, workshop]
 date: 2020-04-04
 ---
 

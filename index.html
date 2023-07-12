@@ -13,7 +13,11 @@ title: browse
     <br>
 
     Filter: 
-    <button class="buttons filter-buttons" onclick="filterByHandy()">Handy</button>
+    <button class="buttons filter-buttons" onclick="filterByHandy()">Handy!</button>
+    {% assign categories = "workshop;web;dh;food;git;library;linux" | split: ";" %}
+    {% for c in categories %}
+    <button class="buttons filter-buttons" onclick="filterByCategory('{{ c }}')">{{ c }}</button>
+    {% endfor %}
     <button id="view-all" class="buttons filter-buttons">All</button>
 
   </div>
@@ -50,6 +54,19 @@ title: browse
         }
       })
     };
+
+    // filter by category function
+    function filterByCategory(filter_category) {
+      userList.filter( function(item) {
+        var cat = item.values().tags;
+        if (cat.indexOf(filter_category) != -1) {
+          return true;
+        } else {
+          return false;
+        }
+      })
+    };
+
     var options = {
         valueNames: [ 'title', 'date', 'tags', 'handy' ],
         listClass: 'listjs'

@@ -1,7 +1,7 @@
 ---
-title: Ruby / RVM Notes
+title: Ruby RVM Notes
 layout: post
-tags: [ruby, ubuntu]
+tags: [ruby, ubuntu, install]
 date: 2020-01-04
 ---
 
@@ -19,9 +19,9 @@ The snap will keep itself up-to-date, so may change versions on you.
 You may need to install additional build tools as well (at least ` build-essential zlib1g-dev`).
 
 However, you might want to use a Ruby version manager to keep your dependencies in order and separate from your system Ruby.
-I have been using [RVM](https://rvm.io/) (alternatively, check [rbenv notes](https://evanwill.github.io/_drafts/notes/ruby-rbenv.html)).
+I have used [RVM](https://rvm.io/) described below--however, more recently switched to using rbenv (see [rbenv notes](https://evanwill.github.io/_drafts/notes/ruby-rbenv.html)).
 
-However, there can be some barriers because the way RVM functions isn't compatible with the default set up of Gnome terminal--either you can reconfigure, or do a little workaround by setting up a second terminal. 
+When installing RVM on Ubuntu there can be some barriers because the way RVM functions isn't compatible with the default set up of Gnome terminal--either you can reconfigure, or do a little workaround by setting up a second terminal. 
 
 ## Set up RVM on Ubuntu
 

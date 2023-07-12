@@ -1,7 +1,7 @@
 ---
 title: How to setup Etherpad on a cloud VM
 layout: post
-tags: [cloud]
+tags: [install]
 date: 2016-06-01
 hide: true
 ---

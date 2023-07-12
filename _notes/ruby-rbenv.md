@@ -1,7 +1,7 @@
 ---
-title: rbenv on Ubuntu
+title: Ruby rbenv on Ubuntu
 layout: post
-tags: [ruby, ubuntu]
+tags: [ruby, ubuntu, install]
 date: 2021-01-05
 ---
 
