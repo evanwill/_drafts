@@ -3,7 +3,10 @@ title: Install OpenRefine on Mac
 layout: post
 tags: [openrefine]
 date: 2017-03-01
+hide: true
 ---
+
+**Out of Date!**
 
 Mac seems to have issues when trying to install OpenRefine--and each version of OS X / macOS has different problems!
 The official instructions are on the [OpenRefine wiki](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions#mac-osx), 

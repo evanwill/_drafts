@@ -3,6 +3,7 @@ title: Open Music Theory Intro
 layout: post
 tags: [workshop]
 date: 2017-08-15
+hide: true
 ---
 
 > Mini intro to working with OER "text book"
