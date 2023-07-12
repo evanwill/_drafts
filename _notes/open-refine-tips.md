@@ -7,7 +7,12 @@ date: 2017-06-01
 
 This page lists some handy functions to use for data wrangling tasks.
 
-## OpenRefine Cross function
+## Combining columns
+
+Combining columns can be tricky because merging a blank cell cell with another value results in an error. 
+To avoid issues, first facet by blank and combine only non-empty cells with a transform like: `value + " " + cells["col_2"].value`
+
+## Cross function
 
 Use `cross` to retrieve columns from other OpenRefine projects based on a common column. 
 
@@ -18,43 +23,34 @@ Use `cross` to retrieve columns from other OpenRefine projects based on a common
 
 You should have a new column that has the correct values from the other project.
 
-## Parse JSON
-
-It is common to get JSON data when fetching from APIs using Refine. It's easy to grab specific dictionary values out of JSON cells using the built in JSON parse function. From the column with JSON, create a new column and transform with `value.parseJson().get('key')`, where 'key' is the dictionary key you want to extract. 
-
-For example, if the cell contained
-`{ "type" : "dog", "color" : "brown", "size" : "large" }`, 
-and your transform was`value.parseJson().get('color')`, 
-you would get the value "brown" in your new column. (*note*: if your key does not have spaces, you can use the shorter version like `value.parseJson().color`)
-
-To get multiple values from the same key, combine with `forEach()`.
-For example, to extract all the keywords from a cell with the JSON
-`{'language': 'en', 'keywords': [{'text': 'dogs', 'relevance': 0.979292}, {'text': 'muffins', 'relevance': 0.977987}, {'text': 'cats', 'relevance': 0.969001}, {'text': 'idaho', 'relevance': 0.967973}] }`,
-transform with `forEach(value.parseJson().keywords,v,v.text).join("; ")`, resulting in the new cell value of `dogs; muffins; cats; idaho`.
-
 ## String + Array functions
 
-A powerful way to interact with large strings (such as the text of poems or web scrape) is to turn them into arrays, then use array functions to manipulate. 
+A powerful way to interact with multi-valued text fields (values with a separator in them, e.g. `dogs; muffins; cats; idaho`) or large strings (such as the text of poems or web scrape) is to turn them into arrays, then use array functions to manipulate. 
+You might be surprized by how useful it is to break text values into arrays!
+
 Create an array from any string by using the `split(value, expression)` function. 
 The expression is the character or pattern you want to split the string up on, often a new line or a deliminator in a list. 
-For example, split on a new line:
 
-`value.split(/\n/)`
+For example, split on semi-colon `value.split(";")` (a classic multi-valued cell list), split on spaces `value.split(" ")` (basic word array), or split on a new line `value.split(/\n/)` (lines of a text).
 
-Once the cell is an array, it can be rearranged and sliced in many ways with [array functions]((https://github.com/OpenRefine/OpenRefine/wiki/GREL-Array-Functions).
-Then reconstitute the string by using `join()` on the array. 
+Once the cell is an array, it can be rearranged and sliced in many ways with [array functions](https://openrefine.org/docs/manual/grelfunctions#array-functions).
+Finally, reconstitute the string by using `join()` on the array (usually using the same deliminator that you used to split!). 
 
-For example, if we had a list of tags like "dogs; cats; muffins" as a cell value we could put them in alphabetic order using:
+For example, if we had a column with lists of tags like "dogs;cats;muffins" as cell values, we could put each cell in alphabetic order using:
 
-`value.split("; ").sort().join("; ")`
+`value.split(";").sort().join(";")`
 
 Remove the first item in the list:
 
-`value.split("; ").slice(1).join("; ")`
+`value.split(";").slice(1).join(";")`
 
 Remove the last item in the list:
 
-`value.split("; ").slice(-1).join("; ")`
+`value.split(";").slice(-1).join(";")`
+
+Remove duplicate values in the list:
+
+`value.split(";").uniques().join(";")`
 
 Or trim the white space for each value:
 
@@ -69,17 +65,18 @@ Remove the last two lines:
 
 `value.split(/\n/).slice(-2).join("\n")`
 
-Or trim the white space for each value:
+Or trim the white space around each line:
 
 `forEach(value.split(/\n/),e,e.trim()).join("\n")`
 
-## De-dupe
+## De-dupe Rows
 
-On the key column, click "Sort", and choose sort method.
-Next to the show rows selection above the table, click on the "Sort" menu. 
-Select "Reorder row permanently" (if you do not do this step, sort is just visual and did not transform the data).
-On the key column, select "Edit cells" > "Blank down".
-Facet on blank, remove all matching rows.
+Deduplicate rows using the values in a key column: 
+
+- On the key column to deduplicate, click "Sort", and choose sort method.
+- Next to the show rows selection above the table, click on the "Sort" menu (this menu only shows up once you add a Sort). Select "Reorder row permanently" (if you do not do this step, sort is just visual and did not transform the data).
+- On the key column, select "Edit cells" > "Blank down".
+- On the key column, facet on blank, select true (the blank values), and remove all matching rows.
 
 ## Compare two columns
 
@@ -128,6 +125,20 @@ On the column you want a count for, Edit column > Add column based on this colum
 
 The result will be a number (same as the "count" given in facet pane), which you can then filter with a numeric facet.
 (note in this context facetCount seems a bit non-intuitive since you have provide "value" and the name of the column again--facetCount is set up with flexibility to do some more complicated operations by adding an expression to the value or matching values in a different column)
+
+## Parse JSON
+
+It is common to get JSON data when fetching from APIs using Refine. It's easy to grab specific dictionary values out of JSON cells using the built in JSON parse function. From the column with JSON, create a new column and transform with `value.parseJson().get('key')`, where 'key' is the dictionary key you want to extract. 
+
+For example, if the cell contained
+`{ "type" : "dog", "color" : "brown", "size" : "large" }`, 
+and your transform was`value.parseJson().get('color')`, 
+you would get the value "brown" in your new column. (*note*: if your key does not have spaces, you can use the shorter version like `value.parseJson().color`)
+
+To get multiple values from the same key, combine with `forEach()`.
+For example, to extract all the keywords from a cell with the JSON
+`{'language': 'en', 'keywords': [{'text': 'dogs', 'relevance': 0.979292}, {'text': 'muffins', 'relevance': 0.977987}, {'text': 'cats', 'relevance': 0.969001}, {'text': 'idaho', 'relevance': 0.967973}] }`,
+transform with `forEach(value.parseJson().keywords,v,v.text).join("; ")`, resulting in the new cell value of `dogs; muffins; cats; idaho`.
 
 ## Parsing CONTENTdm TSV export 
 

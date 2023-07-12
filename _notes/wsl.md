@@ -5,6 +5,8 @@ tags: [shell, windows, wsl]
 date: 2020-04-28
 ---
 
+**Probably out of date? I haven't used this for a long time!**
+
 On Windows I use Git Bash (from [Git for Windows](https://git-scm.com/)) for everyday commandline tasks.
 Occasionally I need something a bit more complete and have used [Cygwin](https://evanwill.github.io/_drafts/notes/cygwin.html) in the past.
 However, [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL) is now offering a great alternative that is easy to install. 
