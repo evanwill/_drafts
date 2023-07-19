@@ -19,7 +19,7 @@ Basically its miserable...
 but here is a viable DIY option to clean your indoor air made with a box fan, furnace filter, and duct tape.
 
 > p.s. more recently it has been discovered that running this type of filtration also helps protect from Covid in enclosed spaces!
-> If you have four air filters available, build a more advanced [Corsi-Rosenthal box](https://engineering.ucdavis.edu/news/science-action-how-build-corsi-rosenthal-box).
+> If you have four air filters available, build a more advanced [Corsi-Rosenthal box](https://engineering.ucdavis.edu/news/science-action-how-build-corsi-rosenthal-box) (or [collection of DIY resources from Clean Air Crew](https://cleanaircrew.org/box-fan-filters/)).
 > UC Davis has published some [research confirming the effectiveness of these DIY filters](https://energy.ucdavis.edu/wp-content/uploads/Case-Study_DIY-Portable-Air-Cleaners-083121.pdf).
 
 ## Step 1: Get Fan
