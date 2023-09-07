@@ -62,7 +62,7 @@ Resize all PNG in a folder, convert to JPEG, and sequentially number:
 `magick *.png -resize 200x200 thumb%d.jpg`
 
 Resize all PNG in a folder, convert to JPEG, but keep original file name: 
-`magick *.png -resize 200x200 -set filename:f '%t' '%[filename:f]-thumb.png'`
+`magick *.png -resize 300x300 -set filename:f '%t' '%[filename:f]-thumb.jpg'`
 
 Check the [commandline options](https://www.imagemagick.org/script/command-line-options.php) page for more details. 
 
