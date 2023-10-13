@@ -67,6 +67,14 @@ Or use a loop:
 
 `for f in *.txt; do cat $f; echo "separator"; done > combo.txt`
 
+## Count files of a specific type 
+
+Sometimes you need a count of how many files of a specific type are in a folder including sub-folders.
+A quick method is to use find and wc to get a count.
+In the directory you want to count:
+
+`find . -name "*.pdf" -type f | wc -l`
+
 ## Extract text from PDF
 
 Use `poppler-utils` package command `pdftotext` (which is probably already installed on linux, can be installed with [Xpdf tools](https://www.xpdfreader.com/download.html) on windows):
@@ -123,3 +131,5 @@ E.g. `JUPYTER=$(which jupyter) julia` (gives julia-lang location of Jupyter Note
 
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [SS64](https://ss64.com/bash/)
+- [mdn web docs Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
+- [Ubuntu commandline fore beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)

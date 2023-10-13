@@ -166,3 +166,5 @@ Read some [xkcd](https://uni.xkcd.com/) comics!
 - [The Linux Command Line](http://linuxcommand.org/tlcl.php) by William Shotts
 - [10 command-line tools for data analysis in Linux](https://opensource.com/article/17/2/command-line-tools-data-analysis-linux) by Jason Baker
 - [command line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/)
+- [mdn web docs Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
+- [Ubuntu commandline fore beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)

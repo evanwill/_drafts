@@ -65,6 +65,25 @@ This can lead to nasty Git errors if a Linux user commits files that would be th
 E.g. Linux user commits "README.md" and "readme.md" in the same directory, if Windows and Mac users pull the update they end up with fatal errors and a lot of confusion.
 It can't be gracefully fixed on Windows or Mac, so it is best to clean it up on GitHub or Linux, then do a fresh clone (see [xkcd git](https://xkcd.com/1597/)).
 
+## Git Merge Error Message
+
+Recent Git installations (late 2023+) do not have a default behavior set for git pull, so the first time you encounter a conflict and merge, you will get a big error message asking which approach you want to use (merge or rebase). 
+It looks like:
+
+```
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+```
+
+To avoid this error, you can set the old default behavior in your config, which is: 
+
+`git config --global pull.rebase false.`
+
 ## Helpful
 
 - [Rebase a Pull Request](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
