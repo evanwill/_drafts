@@ -27,19 +27,23 @@ Here are my notes-to-self about stuff:
 
 ## Config preferences
 
+A few highlights: 
+
 - Enable word wrap: `"editor.wordWrap": "on"`
 - Get rid of excessive stuff in file explorer: `"problems.decorations.enabled": false`
 - Hide minimap, sometimes I find the map annoyingly in the way: `"editor.minimap.enabled": false`
 - Disable clearing clipboard if you accidentally `Ctrl+C` on blank line: `"editor.emptySelectionClipboard": false`
 - Disable annoying drag and drop selection moving: `"editor.dragAndDrop": false`
 - Disable annoyingly unhelpful html tag closing: `"html.autoClosingTags": false`
+- Disable annoying persistent terminal sessions which cause endless errors: `"terminal.integrated.enablePersistentSessions": false,`
 
-Once you have everything set up nicely, copy your `settings.json` file to a git repo and reuse it on all your computers!
+There is an ever increasing number of "helpful" "smart" auto select and delete things (seemingly modelled after the utterly infuriating and worthless features of MS Word) regularly added, so I end up spending a lot of time trying to turn things off.
+But, once you have everything set up nicely, copy your `settings.json` file to a git repo and reuse it on all your computers!
 (example at the bottom of this note)
 
 ## Integrated terminal
 
-Access a nice terminal without leaving the editor by typing Ctrl + \` &nbsp; (control + backtick).
+Access a terminal without leaving the editor by typing Ctrl + \` &nbsp; (control + backtick).
 This is extremely handy when developing Jekyll projects, since you can `jekyll s` and have the output easily visible while you are editing.
 I also use it for any non-routine Git activity, since the built in GUI client is only good for basic `git add/commit/push` equivalents.
 
@@ -163,12 +167,15 @@ Get more themes from the Extensions shop.
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.enablePersistentSessions": false,
     "cSpell.enableFiletypes": [
-        "csv"
+        "csv",
+        "md"
     ],
     "html.autoCreateQuotes": false,
     "editor.autoClosingDelete": "never",
     "editor.autoClosingOvertype": "never",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "editor.smartSelect.selectSubwords": false
 }
 ```
 
