@@ -32,5 +32,6 @@ I first tried to reproduce these on my own while living in Scotland.
 I translated the american style measurements (cups, tea spoons, etc) into UK style metric, and found some delicious artisan marshmallows made with natural pork gelatin. 
 I soon discovered it was rather hard and far too tedious to reproduce the wreath shapes. 
 However, my research confirms that they are equally delicious no matter what they look like...
+(for example, in 2009 my efforts resulted in a large red blob, which I served to Scottish people claiming it was a famous american delicacy and received positive reviews.)
 
 I have converted the ingredients back to american style measurements--metric is provided in parenthesis in case you bring this heirloom recipe with you in your world travels.
