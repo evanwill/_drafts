@@ -7,7 +7,8 @@ date: 2024-07-05
 
 Tips about Firefox:
 
-- Preferences > Privacy & Security > check "Use a primary password" and set. This ensures your saved passwords are encrypted on your device.
+- Settings > Privacy & Security > check "Use a primary password" and set. This ensures your saved passwords are encrypted on your device.
+- Settings > Privacy & Security > Website Advertising Preferences, uncheck "Allow" option!
 - Add Firefox [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/?src=search), [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - Add adblocker such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search)
 
