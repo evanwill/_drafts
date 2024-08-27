@@ -5,22 +5,23 @@ tags: [tools, editor]
 date: 2019-10-01
 ---
 
-[Code](https://code.visualstudio.com) is a nice open source text editor from microsoft ([docs](https://code.visualstudio.com/Docs)).
-It is light weight compared to most traditional IDE, yet fully featured and efficient.
+[Code](https://code.visualstudio.com) is an open source text editor from microsoft ([docs](https://code.visualstudio.com/Docs)).
+It is (*was??*) light weight compared to most traditional IDE, yet fully featured and efficient.
 I find it perfect for working on web projects (i.e. *Open Folder* not a file), such as using Jekyll, with Git nicely integrated.
 
 > The [VSCodium](https://vscodium.com/) project provides an alternative all open source + no tracking version of VS Code. 
-> VS Code is open source, however, the installers you download from MS include additional non-open-source components.
+> VS Code is open source, however, the installers you download from MS include additional non-open-source components and extra MS tracking features.
 >
-> *Update:* unfortunately MS seems to be continuously adding more and more features (i.e. junk) all the time--taking it from a nice minimalist editor, to a getting-close-to bloated piece of software.
+> *Update:* unfortunately MS seems to be continuously adding more and more features (i.e. junk) all the time--taking it from a nice minimalist editor, to yet another bloated piece of software.
 > I am still using it, but starting to get frustrated by more and more features that I don't want and actually get in the way of working.
-Typical MS...
+> Almost every update I have to figure out how to turn off another feature.
+> Typical MS...
 
 To configure the editor click the cog icon in the lower left and choose *Settings* (or go to *File* > *Preferences* > *Settings*, or `Ctrl + ,`). 
 This will bring up the visual settings editor which can be searched to find options. 
 By clicking the file icon in the upper right of the Settings pane will switch to the `settings.json` view. 
 This allows you to view the key + value pairs representing your settings, or allow you to paste in new ones that will override the default settings. 
-This is *very* handy for sharing your set up--just copy the values and save in a text file, then paste the values on a different computer. 
+This is *very* handy for sharing your set up--just copy the values and save in a text file, then paste the values on a different computer (see my version pasted at the bottom). 
 The Settings are cross-platform, so they will work on any computer, with a few that are specific to each OS.
 
 Here are my notes-to-self about stuff:
@@ -88,7 +89,6 @@ Get more themes from the Extensions shop.
 
 ```
 {
-    "editor.minimap.enabled": false,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.wordWrap": "on",
     "breadcrumbs.enabled": false,
@@ -165,17 +165,23 @@ Get more themes from the Extensions shop.
     "terminal.integrated.gpuAcceleration": "off",
     "workbench.settings.enableNaturalLanguageSearch": false,
     "telemetry.telemetryLevel": "off",
-    "terminal.integrated.enablePersistentSessions": false,
     "cSpell.enableFiletypes": [
-        "csv",
-        "md"
+        "csv"
     ],
     "html.autoCreateQuotes": false,
     "editor.autoClosingDelete": "never",
     "editor.autoClosingOvertype": "never",
     "workbench.editor.enablePreview": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
     "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
-    "editor.smartSelect.selectSubwords": false
+    "editor.smartSelect.selectSubwords": false,
+    "editor.minimap.enabled": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.pasteAs.showPasteSelector": "never",
+    "markdown.editor.filePaste.enabled": "never",
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "never",
+    "scm.showHistoryGraph": false
 }
 ```
 
