@@ -36,7 +36,8 @@ A few highlights:
 - Disable clearing clipboard if you accidentally `Ctrl+C` on blank line: `"editor.emptySelectionClipboard": false`
 - Disable annoying drag and drop selection moving: `"editor.dragAndDrop": false`
 - Disable annoyingly unhelpful html tag closing: `"html.autoClosingTags": false`
-- Disable annoying persistent terminal sessions which cause endless errors: `"terminal.integrated.enablePersistentSessions": false,`
+- Disable annoying persistent terminal sessions which cause endless errors: `"terminal.integrated.enablePersistentSessions": false`
+- Disable weird git visualization that is super distracting in source control panel: `"scm.showHistoryGraph": false`
 
 There is an ever increasing number of "helpful" "smart" auto select and delete things (seemingly modelled after the utterly infuriating and worthless features of MS Word) regularly added, so I end up spending a lot of time trying to turn things off.
 But, once you have everything set up nicely, copy your `settings.json` file to a git repo and reuse it on all your computers!
