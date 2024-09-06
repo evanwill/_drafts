@@ -5,6 +5,8 @@ tags: [R, linux]
 date: 2018-04-03
 ---
 
+**Note: this is out of date and due to new licensing terms, I no longer suggest using Anaconda.**
+
 Installing RStudio is a surprisingly complex on Linux, or at least much more work than expected. 
 However, there is one easy way if you use Anaconda Python distribution. 
 This note describes both methods. 

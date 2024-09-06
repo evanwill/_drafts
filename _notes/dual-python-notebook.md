@@ -5,6 +5,8 @@ tags: [python, R]
 date: 2019-01-06
 ---
 
+**Note: this is out of date and due to new licensing terms, I no longer suggest using Anaconda.**
+
 [Jupyter](http://jupyter.org/) / Jupyter Notebook is a great tool for teaching code and exploratory, iterative coding.
 
 You can quickly demo it online at [Try Jupyter](https://jupyter.org/try)!
