@@ -5,7 +5,7 @@ tags: [git, github, linux]
 date: 2021-06-01
 ---
 
-Git for Windows comes with git credential manager installed and configured, which makes using git on command-line much easier (i.e. not having to type your password every time). 
+Git for Windows comes with git credential manager installed and configured, which makes using git on command-line much easier (i.e. not having to type your password every time). (*note:* [git credential manager is now useable on Linux too](https://evanwill.github.io/_drafts/notes/git-cred-manager.html))
 
 On Linux you can set up libsecret as a similar secure credential manager.
 
