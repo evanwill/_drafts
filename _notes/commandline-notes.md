@@ -106,6 +106,21 @@ Or the opposite, files without the phrase, using `-L` for filenames with no matc
 
 `grep -L "string" * > list.txt`
 
+## Compare two text files
+
+To compare two text files you can use `diff` or `comm`.
+I often use this to find the difference between two folders or lists of files (`ls > filelist.txt`).
+
+Diff will show a report something like a git diff:
+
+`diff list1.txt list2.txt`
+
+Comm will output a list comparing the lines in the two files, grouping them by lines only in file 1, only in file 2, and in both.
+Add the options `-1`, `-2`, or `-3` to not view one of those groupings.
+Generally, I just want the differences, so use `-3` to NOT see the lines that are the same in both. 
+
+`comm -3 list1.txt list2.txt > comparison.txt`
+
 ## Copy a list of files
 
 I often have a folder of binary files, like images, where I need to sort out a small group to upload or move somewhere else. 
