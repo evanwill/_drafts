@@ -1,7 +1,7 @@
 ---
 title: Hoppy Alternative Drinks
 layout: post
-tags: [fun,food]
+tags: [food]
 date: 2023-04-08
 ---
 

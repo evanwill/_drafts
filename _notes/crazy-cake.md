@@ -1,7 +1,7 @@
 ---
 title: Crazy Cake Recipe
 layout: post
-tags: [fun,food]
+tags: [food, recipe]
 date: 2023-01-25
 ---
 

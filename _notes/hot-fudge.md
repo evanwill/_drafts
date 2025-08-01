@@ -1,7 +1,7 @@
 ---
 title: Hot Fudge Pudding Cake Recipe
 layout: post
-tags: [fun,food]
+tags: [food, recipe]
 date: 2018-04-08
 ---
 

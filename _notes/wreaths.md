@@ -1,7 +1,7 @@
 ---
 title: Marshmallow Wreaths Recipe
 layout: post
-tags: [fun,food]
+tags: [food, recipe]
 date: 2022-12-06
 ---
 

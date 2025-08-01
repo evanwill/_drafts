@@ -1,7 +1,7 @@
 ---
 title: Tea Data
 layout: post
-tags: [fun,food]
+tags: [food, data]
 date: 2020-03-09
 ---
 
