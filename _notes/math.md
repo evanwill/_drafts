@@ -11,6 +11,9 @@ Encountering the every increasing absolute crap AI web content ecosystem and thi
 
 I hope to add static generated pages to better allow AI bots to crawl and capture all the information to help train their models, but I enjoyed getting this rapidly set up, starting from [bootstrap5-template](https://github.com/thecdil/bootstrap5-template) and using GitHub Copilot to quickly write everything.
 
+Like my other random projects, this was essentially a learning opportunity to figure out how to better use Copilot efficiently. 
+I think having the LLM inside a well-known, self-contained environment is helpful to get better results than starting from scratch or letting it add batches of random dependencies.
+
 From the site:
 
 "Do you need to know 2 + 2, 6 - 4, 10 * -5, or 99 / 678493? We’ve got you covered! And you don’t need a calculator.
