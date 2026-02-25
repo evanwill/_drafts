@@ -74,5 +74,6 @@ Suggestions:
 - VS Code (editor): `sudo snap install code --classic`
 - KeePassXC (password manager): `sudo snap install keepassxc`
 - Ruby: [rbenv](https://evanwill.github.io/_drafts/notes/ruby-rbenv.html)
+- [python](https://documentation.ubuntu.com/ubuntu-for-developers/howto/python-setup/), [venv](https://documentation.ubuntu.com/ubuntu-for-developers/tutorials/python-use/) or [uv](https://github.com/astral-sh/uv)
 
 Note: I don't think tlp / advanced laptop power management is necessary any more.
