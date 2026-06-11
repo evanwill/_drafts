@@ -75,5 +75,6 @@ Suggestions:
 - KeePassXC (password manager): `sudo snap install keepassxc`
 - Ruby: [rbenv](https://evanwill.github.io/_drafts/notes/ruby-rbenv.html)
 - [python](https://documentation.ubuntu.com/ubuntu-for-developers/howto/python-setup/), [venv](https://documentation.ubuntu.com/ubuntu-for-developers/tutorials/python-use/) or [uv](https://github.com/astral-sh/uv)
+- Node: [pnpm](https://pnpm.io/), install pnpm then use it to install a node version like `pnpm runtime set node lts -g`
 
 Note: I don't think tlp / advanced laptop power management is necessary any more.

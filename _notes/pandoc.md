@@ -90,3 +90,18 @@ colorlinks: true
 
 For my basic purposes, that is plenty of control, but of course you can go much further by learning more about LaTeX.
 Check [danstoner](https://github.com/danstoner/pandoc_samples) for samples of PDF creation, [Practical Typography](http://practicaltypography.com/system-fonts.html) for system font suggestions, and the [Pandoc User Guide](http://pandoc.org/MANUAL.html) for more info.
+
+## Pandoc Markdown Images
+
+If you have a standard Markdown file and convert to DOCX or ODT you might be surprised to see images with captions in the resulting document.
+Pandoc Markdown flavor treats image markup differently that most web-oriented markdown flavors.
+In CommonMark and GitHub Flavored Markdown image markup looks like `![alt text](image.jpg)`.
+Pandoc uses the [implicit_figures package](https://pandoc.org/MANUAL.html#extension-implicit_figures) which treats the alt text as an image caption.
+To add a different alt text (which is best practice in most cases) you would use following the syntax:
+
+`![figure caption](image.png){alt="description of image"}`
+
+To avoid captions (if you don't want them!), the best option is to specify the "from" format, such as the typical GitHub Flavor Markdown (GFM) `-f gfm`.
+For example: 
+
+`pandoc -f gfm markdown-demo.md -o markdown-demo.docx`
