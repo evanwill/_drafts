@@ -23,6 +23,8 @@ If you re-use some of my content, this jekyll theme, or use it in teaching, plea
 
 ## Workshops & Projects 
 
+[evanwill](https://evanwill.github.io/)
+
 Some of my workshops:
 
 - [Get Git (v2)](https://evanwill.github.io/go-go-ghpages-b/) (old version: [get git](https://evanwill.github.io/go-go-ghpages/))
